@@ -2,6 +2,7 @@
 
 ## Clean up any old docker containers with the same name
 docker rm covidrtestimates
+docker rmi covidrtestimates
 
 if ([ $1 = "build" ];); then
   ## Build the docker container
