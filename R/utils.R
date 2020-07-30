@@ -25,7 +25,9 @@ check_for_update <- function(cases, last_run) {
     if (current_max_date >= last_run) {
       stop("Data has not been updated since last run. 
       If wanting to run again then remove ", last_run)
-    }
+    }else{
+      saveRDS(current_max_date, last_run)
+     }
   }
   
   return(invisible(NULL))
