@@ -60,8 +60,9 @@ docker run --rm --user rstudio --mount type=bind,source=$(pwd)/results,target=/h
 6. Clean up estimates and remove the temporary folder.
 
 ```bash
-mv -r -f results/national national
-mv -r -f results/subnational subnational
+mv -f results/national national
+mv -f results/subnational subnational
+mv -f results/last-update last-update
 rm -r -f results
 ```
 
