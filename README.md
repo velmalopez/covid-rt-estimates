@@ -25,13 +25,13 @@ docker login docker.pkg.github.com
 3. (Optional - must be done at least once) Update the docker container (by default this pulls a built image passing `"build"` instead triggers a build based on local files).
 
 ```bash
-sudo bash update-docker.sh
+sudo bash bin/update-docker.sh
 ```
 
 3. Run the following in a bash terminal
 
 ```bash
-sudo bash update-via-docker.sh
+sudo bash bin/update-via-docker.sh
 ```
 
 #### Step by step
