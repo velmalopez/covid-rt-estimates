@@ -22,7 +22,7 @@ docker login docker.pkg.github.com
 #### Script approach
 
 
-3. (Optional - must be done at least once) Update the docker container.
+3. (Optional - must be done at least once) Update the docker container (by default this pulls a built image passing `"build"` instead triggers a build based on local files).
 
 ```bash
 sudo bash update-docker.sh
@@ -40,7 +40,7 @@ sudo bash update-via-docker.sh
 3. (Optional) Build the docker container locally.
 
 ```bash
-docker build . -t covid-rt-estimates
+docker build . -t covidrtestimates
 ```
 
 4. (Optional). Alternatively pull the built docker container
