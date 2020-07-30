@@ -28,7 +28,7 @@ docker login docker.pkg.github.com
 sudo bash bin/update-docker.sh
 ```
 
-3. Run the following in a bash terminal
+3. Run the following in a bash terminal (sensible to also run this with `nohup` in order to keep the process alive).
 
 ```bash
 sudo bash bin/update-via-docker.sh
@@ -43,14 +43,14 @@ sudo bash bin/update-via-docker.sh
 docker build . -t covidrtestimates
 ```
 
-4. (Optional). Alternatively pull the built docker container
+4. (Optional). Alternatively pull the built docker container.
 
 ```bash
 docker pull docker.pkg.github.com/epiforecasts/covid-rt-estimates/covidrtestimates:latest
 docker tag docker.pkg.github.com/epiforecasts/covid-rt-estimates/covidrtestimates:latest covidrtestimates
 ```
 
-5. Update the estimates (saving the results to a results folder)
+5. Update the estimates (again sensible to run this with `nohup`).
 
 ```bash
 sudo docker run --rm --user rstudio --mount type=bind,source=$(pwd),target=/home/rstudio/covid-rt-estimates --name covidrtestimates covidrtestimates /bin/bash bin/update-estimates.sh
@@ -65,7 +65,7 @@ sudo docker run --rm --user rstudio --mount type=bind,source=$(pwd),target=/home
 devtools::install_dev_deps()
 ```
 
-3. Update national estimates
+3. Update national estimates.
 
 ```r
 Rscript R/update-cases.R
