@@ -5,6 +5,10 @@ require(covidregionaldata)
 require(data.table)
 require(future)
 
+# Load utils --------------------------------------------------------------
+
+source(here::here("R", "utils.R"))
+
 # Update delays -----------------------------------------------------------
 
 generation_time <- readRDS(here::here("data", "generation_time.rds"))
@@ -21,22 +25,11 @@ deaths <- deaths[, .SD[date >= (max(date) - lubridate::weeks(8))], by = region]
 
 data.table::setorder(deaths, date)
 
-# # Set up cores -----------------------------------------------------
-setup_future <- function(jobs) {
-  if (!interactive()) {
-    ## If running as a script enable this
-    options(future.fork.enable = TRUE)
-  }
-  
-  
-  plan(tweak(multiprocess, workers = min(future::availableCores(), jobs)),
-       gc = TRUE, earlySignal = TRUE)
-  
-  
-  jobs <- max(1, ceiling(future::availableCores() / jobs))
-  return(jobs)
-}
+# Check to see if the data has been updated  ------------------------------
 
+check_for_update(deaths, last_run = here::here("last-update", "deaths.rds"))
+
+# Set up cores -----------------------------------------------------
 no_cores <- setup_future(length(unique(deaths$region)))
 
 # Run Rt estimation -------------------------------------------------------

@@ -3,7 +3,7 @@ require(EpiNow2)
 require(covidregionaldata)
 require(data.table)
 require(future)
-require(here)
+
 
 # Load utils --------------------------------------------------------------
 
@@ -17,30 +17,23 @@ reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
 
 # Get cases  ---------------------------------------------------------------
 
-cases <- data.table::setDT(covidregionaldata::get_national_data(source = "ecdc"))
+cases <- data.table::setDT(covidregionaldata::get_regional_data(country = "colombia"))
 
-cases <- cases[, .(region = country, date = as.Date(date), confirm = cases_new)]
-cases <- cases[, .SD[date >= (max(date) - lubridate::weeks(8))], by = region]
-data.table::setorder(cases, date)
-
+cases <- clean_regional_data(cases[, region := state])
 
 # Check to see if the data has been updated  ------------------------------
 
-check_for_update(cases, last_run = here::here("last-update", "cases.rds"))
+check_for_update(cases, last_run = here::here("last-update", "colombia.rds"))
 
 # # Set up cores -----------------------------------------------------
 
 no_cores <- setup_future(length(unique(cases$region)))
 
-
 # Run Rt estimation -------------------------------------------------------
 
-regional_epinow(reported_cases = cases,
+regional_epinow_with_settings(reported_cases = cases,
                 generation_time = generation_time,
                 delays = list(incubation_period, reporting_delay),
-                horizon = 14, burn_in = 7,
-                samples = 2000, warmup = 500,
-                cores = no_cores, chains = 2,
-                target_folder = "national/cases/national",
-                summary_dir = "national/cases/summary",
-                return_estimates = FALSE, verbose = FALSE)
+                no_cores = no_cores,
+                target_dir = "subnational/colombia/cases/national",
+                summary_dir = "subnational/colombia/cases/summary")
