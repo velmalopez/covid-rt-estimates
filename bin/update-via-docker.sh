@@ -10,5 +10,5 @@ docker run --rm --user rstudio --mount type=bind,source=$(pwd)/results,target=/h
 ## Move newly produced results and clean up
 mv -f results/national national
 mv -f results/subnational subnational
-mv -f results/last-update
+mv -f results/last-update last-update
 rm -r -f results
