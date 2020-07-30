@@ -53,18 +53,9 @@ docker tag docker.pkg.github.com/epiforecasts/covid-rt-estimates/covidrtestimate
 5. Update the estimates (saving the results to a results folder)
 
 ```bash
-mkdir results
-docker run --rm --user rstudio --mount type=bind,source=$(pwd)/results,target=/home/covid-rt-estimates covidrtestimates /bin/bash bin/update-estimates.sh
+sudo docker run --rm --user rstudio --mount type=bind,source=$(pwd),target=/home/rstudio/covid-rt-estimates --name covidrtestimates covidrtestimates /bin/bash bin/update-estimates.sh
 ```
 
-6. Clean up estimates and remove the temporary folder.
-
-```bash
-mv -f results/national national
-mv -f results/subnational subnational
-mv -f results/last-update last-update
-rm -r -f results
-```
 
 ### Using R
 
