@@ -4,6 +4,7 @@ require(covidregionaldata, quietly = TRUE)
 require(data.table, quietly = TRUE)
 require(future, quietly = TRUE)
 require(here, quietly = TRUE)
+require(lubridate, quietly = TRUE)
 
 # Load utils --------------------------------------------------------------
 
@@ -45,3 +46,5 @@ regional_epinow(reported_cases = cases,
                 target_folder = "national/cases/national",
                 summary_dir = "national/cases/summary",
                 return_estimates = FALSE, verbose = FALSE)
+
+future::plan("sequential")
