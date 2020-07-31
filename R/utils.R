@@ -6,8 +6,8 @@ setup_future <- function(jobs) {
   }
   
   
-  plan(tweak(multiprocess, workers = min(future::availableCores(), jobs)),
-       gc = TRUE, earlySignal = TRUE)
+  future::plan("multiprocess", workers = min(future::availableCores(), jobs),
+               gc = TRUE, earlySignal = TRUE)
   
   
   jobs <- max(1, ceiling(future::availableCores() / jobs))
@@ -56,5 +56,6 @@ regional_epinow_with_settings <- function(reported_cases, generation_time, delay
                   summary_dir = summary_dir,
                   return_estimates = FALSE, verbose = FALSE)
   
+  future::plan("sequential")
   return(invisible(NULL))
 }
