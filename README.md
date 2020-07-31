@@ -53,7 +53,7 @@ docker tag docker.pkg.github.com/epiforecasts/covid-rt-estimates/covidrtestimate
 5. Update the estimates (see `docker logs covidrtestimates` for runtime information).
 
 ```bash
-sudo docker run -d --rm --user rstudio --mount type=bind,source=$(pwd),target=/home/rstudio/covid-rt-estimates --name covidrtestimates covidrtestimates /bin/bash bin/update-estimates.sh
+sudo docker run -d --user rstudio --mount type=bind,source=$(pwd),target=/home/rstudio/covid-rt-estimates --name covidrtestimates covidrtestimates /bin/bash bin/update-estimates.sh
 ```
 
 
