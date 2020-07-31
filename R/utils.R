@@ -17,11 +17,12 @@ setup_future <- function(jobs) {
 
 #' Check data to see if updated since last run
 check_for_update <- function(cases, last_run) {
+  
+  current_max_date <- max(cases$date, na.rm = TRUE)
+    
   if (file.exists(last_run)){
     last_run <- readRDS(last_run)
-    
-    current_max_date <- max(cases$date, na.rm = TRUE)
-    
+   
     if (current_max_date >= last_run) {
       stop("Data has not been updated since last run. 
       If wanting to run again then remove ", last_run)
@@ -49,7 +50,7 @@ regional_epinow_with_settings <- function(reported_cases, generation_time, delay
                   delays = delays,
                   horizon = 14, burn_in = 7,
                   samples = 2000, warmup = 500,
-                  cores = no_cores, chains = 2,
+                  cores = no_cores, chains = ifelse(no_cores <= 2, 2, no_cores),
                   target_folder = target_dir,
                   summary_dir = summary_dir,
                   return_estimates = FALSE, verbose = FALSE)
