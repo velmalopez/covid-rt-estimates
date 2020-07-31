@@ -1,9 +1,9 @@
 # Packages -----------------------------------------------------------------
-require(EpiNow2)
-require(covidregionaldata)
-require(data.table)
-require(future)
-require(lubridate)
+require(EpiNow2, quietly = TRUE)
+require(covidregionaldata, quietly = TRUE)
+require(data.table, quietly = TRUE)
+require(future, quietly = TRUE)
+require(lubridate, quietly = TRUE)
 
 # Load utils --------------------------------------------------------------
 

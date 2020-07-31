@@ -1,9 +1,9 @@
 # Packages -----------------------------------------------------------------
-require(EpiNow2)
-require(covidregionaldata)
-require(data.table)
-require(future)
-require(here)
+require(EpiNow2, quietly = TRUE)
+require(covidregionaldata, quietly = TRUE)
+require(data.table, quietly = TRUE)
+require(future, quietly = TRUE)
+require(here, quietly = TRUE)
 
 # Load utils --------------------------------------------------------------
 
@@ -20,6 +20,7 @@ reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
 cases <- data.table::setDT(covidregionaldata::get_national_data(source = "ecdc"))
 
 cases <- cases[, .(region = country, date = as.Date(date), confirm = cases_new)]
+cases <- cases[, .SD[date <= (max(date) - lubridate::days(3))], by = region]
 cases <- cases[, .SD[date >= (max(date) - lubridate::weeks(8))], by = region]
 data.table::setorder(cases, date)
 
