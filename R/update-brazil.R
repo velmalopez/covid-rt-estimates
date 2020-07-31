@@ -3,7 +3,7 @@ require(EpiNow2)
 require(covidregionaldata)
 require(data.table)
 require(future)
-
+require(lubridate)
 
 # Load utils --------------------------------------------------------------
 
