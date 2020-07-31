@@ -4,6 +4,7 @@ require(covidregionaldata)
 require(data.table)
 require(future)
 require(here)
+require(lubridate)
 
 # Load utils --------------------------------------------------------------
 
