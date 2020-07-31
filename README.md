@@ -53,7 +53,7 @@ docker tag docker.pkg.github.com/epiforecasts/covid-rt-estimates/covidrtestimate
 5. Update the estimates (again sensible to run this with `nohup`).
 
 ```bash
-sudo docker run --rm --user rstudio --mount type=bind,source=$(pwd),target=/home/rstudio/covid-rt-estimates --name covidrtestimates covidrtestimates /bin/bash bin/update-estimates.sh
+sudo docker run -d --rm --user rstudio --mount type=bind,source=$(pwd),target=/home/rstudio/covid-rt-estimates --name covidrtestimates covidrtestimates /bin/bash bin/update-estimates.sh
 ```
 
 
