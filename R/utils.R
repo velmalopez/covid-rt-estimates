@@ -25,7 +25,7 @@ check_for_update <- function(cases, last_run) {
    
     if (current_max_date <= last_run_date) {
       stop("Data has not been updated since last run. 
-      If wanting to run again then remove ", last_run_date)
+      If wanting to run again then remove ", last_run)
     }
   }
     
