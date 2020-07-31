@@ -2,6 +2,7 @@
 
 
 ## Remove old containers
+sudo docker stop covidrtestimates
 sudo docker rm covidrtestimates
 
 ## Update estimates in newly built docker container
