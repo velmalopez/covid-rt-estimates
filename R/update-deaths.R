@@ -4,6 +4,7 @@ require(EpiNow2)
 require(covidregionaldata)
 require(data.table)
 require(future)
+require(lubridate)
 
 # Load utils --------------------------------------------------------------
 
@@ -39,7 +40,7 @@ regional_epinow(reported_cases = deaths,
                 delays = list(incubation_period, reporting_delay),
                 horizon = 14, burn_in = 7,
                 samples = 2000, warmup = 500,
-                cores = no_cores, chains = 2,
+                cores = no_cores, chains = ifelse(no_cores <= 2, 2, no_cores),
                 target_folder = "national/deaths/national",
                 summary_dir = "national/deaths/summary",
                 return_estimates = FALSE, verbose = FALSE)
