@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ## Clean up any old docker containers with the same name
+docker stop covidrtestimates
 docker rm covidrtestimates
 docker rmi covidrtestimates
 
