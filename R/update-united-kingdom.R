@@ -5,6 +5,7 @@ require(data.table)
 require(future)
 require(here)
 require(lubridate)
+
 # Load utils --------------------------------------------------------------
 
 source(here::here("R", "utils.R"))
@@ -25,7 +26,7 @@ cases <- clean_regional_data(cases)
 
 check_for_update(cases, last_run = here::here("last-update", "united-kingdom.rds"))
 
-# # Set up cores -----------------------------------------------------
+# Set up cores -----------------------------------------------------
 
 no_cores <- setup_future(length(unique(cases$region)))
 
