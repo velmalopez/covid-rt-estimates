@@ -45,3 +45,5 @@ regional_epinow(reported_cases = deaths,
                 target_folder = "national/deaths/national",
                 summary_dir = "national/deaths/summary",
                 return_estimates = FALSE, verbose = FALSE)
+
+future::plan("sequential")
