@@ -3,7 +3,7 @@ require(EpiNow2)
 require(covidregionaldata)
 require(data.table)
 require(future)
-
+require(lubridate)
 
 # Load utils --------------------------------------------------------------
 
@@ -25,7 +25,7 @@ cases <- clean_regional_data(cases[, region := province])
 
 check_for_update(cases, last_run = here::here("last-update", "canada.rds"))
 
-# # Set up cores -----------------------------------------------------
+# Set up cores -----------------------------------------------------
 
 no_cores <- setup_future(length(unique(cases$region)))
 
