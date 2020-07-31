@@ -4,7 +4,7 @@ require(covidregionaldata)
 require(data.table)
 require(future)
 require(here)
-
+require(lubridate)
 # Load utils --------------------------------------------------------------
 
 source(here::here("R", "utils.R"))
