@@ -8,7 +8,7 @@ ssh -i $1 $2 GITHUB_USERNAME=$3 GITHUB_PASSWORD=$4
 ssh -i $1 $2 << EOF
   sudo apt-get update -y
   sudo apt-get install -y docker.io
-  echo "$GITHUB_PASSWORD" | docker login -username "$GITHUB_USERNAME" --password-stdin docker.pkg.github.com
+  sudo docker login -u $GITHUB_USERNAME -p $GITHUB_PASSWORD docker.pkg.github.com
   git clone https://github.com/epiforecasts/covid-rt-estimates.git
   cd covid-rt-estimates
   sudo bash bin/update-docker.sh "build"
