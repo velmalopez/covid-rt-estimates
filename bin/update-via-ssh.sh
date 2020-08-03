@@ -2,11 +2,13 @@
 
 ## Run using:
 ## curl --fail https://raw.githubusercontent.com/epiforecasts/covid-rt-estimates/master/bin/update-via-ssh.sh --output update-via-ssh.sh
-## sudo bash update-via-ssh.sh path-to-key username@public-ip-of-server
-ssh -i $1 $2 << EOF
+## sudo bash update-via-ssh.sh path-to-key username@public-ip-of-server github-username github-pat
+## Note this is not very secure and I assume there are better ways to do this
+scp -i $1 github_pat.txt $2
+ssh -i $1 $2 GITHUB_USERNAME=$3 GITHUB_PASSWORD=$4 << EOF
   sudo apt-get update -y
   sudo apt-get install -y docker.io
-  sudo docker login --password-stdin docker.pkg.github.com
+  echo "$GITHUB_PASSWORD" | docker login -u "$GITHUB_USERNAME" --password-stdin docker.pkg.github.com
   git clone https://github.com/epiforecasts/covid-rt-estimates.git
   cd covid-rt-estimates
   sudo bash bin/update-docker.sh "build"
