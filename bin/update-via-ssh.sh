@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Run using:
-## curl --fail https://raw.githubusercontent.com/epiforecasts/covid-rt-estimates/master/bin/update-via-ssh.sh --output update-via-ssh.sh
+## curl --fail https://raw.githubusercontent.com/epiforecasts/covid-rt-estimates/master/bin/update-via-ssh.sh > update-via-ssh.sh
 ## sudo bash update-via-ssh.sh path-to-key username@public-ip-of-server github-username github-pat
 ## Note this is not very secure and I assume there are better ways to do this
 scp -i $1 github_pat.txt $2
