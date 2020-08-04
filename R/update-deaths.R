@@ -39,7 +39,7 @@ no_cores <- setup_future(length(unique(deaths$region)))
 regional_epinow(reported_cases = deaths,
                 generation_time = generation_time,
                 delays = list(incubation_period, reporting_delay),
-                horizon = 14, burn_in = 7,
+                horizon = 14, burn_in = 14,
                 samples = 2000, warmup = 500,
                 cores = no_cores, chains = ifelse(no_cores <= 2, 2, no_cores),
                 target_folder = "national/deaths/national",
