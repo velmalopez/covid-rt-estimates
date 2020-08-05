@@ -36,6 +36,7 @@ check_for_update <- function(cases, last_run) {
 #' Clean regional data
 clean_regional_data <- function(cases) {
   cases <- cases[, .(region, date = as.Date(date), confirm = cases_new)]
+  cases <- cases[date <= Sys.Date()]
   cases <- cases[, .SD[date <= (max(date, na.rm = TRUE) - lubridate::days(3))], by = region]
   cases <- cases[, .SD[date >= (max(date) - lubridate::weeks(8))], by = region]
   cases <- cases[!is.na(confirm)]

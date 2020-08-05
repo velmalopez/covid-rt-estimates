@@ -21,6 +21,7 @@ reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
 cases <- data.table::setDT(covidregionaldata::get_national_data(source = "ecdc"))
 
 cases <- cases[, .(region = country, date = as.Date(date), confirm = cases_new)]
+cases <- cases[date <= Sys.Date()]
 cases <- cases[, .SD[date <= (max(date) - lubridate::days(3))], by = region]
 cases <- cases[, .SD[date >= (max(date) - lubridate::weeks(8))], by = region]
 data.table::setorder(cases, date)

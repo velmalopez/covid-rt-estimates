@@ -22,6 +22,7 @@ deaths <- data.table::setDT(covidregionaldata::get_national_data(source = "ecdc"
 
 deaths <- deaths[country != "Cases_on_an_international_conveyance_Japan"]
 deaths <- deaths[, .(region = country, date = as.Date(date), confirm = deaths_new)]
+deaths <- deaths[date <= Sys.Date()]
 deaths <- deaths[, .SD[date <= (max(date) - lubridate::days(3))], by = region]
 deaths <- deaths[, .SD[date >= (max(date) - lubridate::weeks(8))], by = region]
 
