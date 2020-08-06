@@ -46,6 +46,8 @@ regional_epinow(reported_cases = deaths,
                 cores = no_cores, chains = ifelse(no_cores <= 2, 2, no_cores),
                 target_folder = "national/deaths/national",
                 summary_dir = "national/deaths/summary",
+                all_regions_summary = FALSE,
+                region_scale = "Country",
                 return_estimates = FALSE, verbose = FALSE)
 
 future::plan("sequential")

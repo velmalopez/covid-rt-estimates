@@ -35,7 +35,6 @@ check_for_update(cases, last_run = here::here("last-update", "cases.rds"))
 
 no_cores <- setup_future(length(unique(cases$region)))
 
-
 # Run Rt estimation -------------------------------------------------------
 
 regional_epinow(reported_cases = cases,
@@ -47,6 +46,8 @@ regional_epinow(reported_cases = cases,
                 cores = no_cores, chains = 2,
                 target_folder = "national/cases/national",
                 summary_dir = "national/cases/summary",
+                all_regions_summary = FALSE,
+                region_scale = "Country",
                 return_estimates = FALSE, verbose = FALSE)
 
 future::plan("sequential")

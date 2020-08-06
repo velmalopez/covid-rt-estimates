@@ -45,7 +45,8 @@ clean_regional_data <- function(cases) {
 
 #' Regional EpiNow with settings
 regional_epinow_with_settings <- function(reported_cases, generation_time, delays, 
-                                          target_dir, summary_dir, no_cores) {
+                                          target_dir, summary_dir, no_cores,
+                                          region_scale = "Region") {
   
   regional_epinow(reported_cases = reported_cases,
                   generation_time = generation_time,
@@ -55,6 +56,7 @@ regional_epinow_with_settings <- function(reported_cases, generation_time, delay
                   cores = no_cores, chains = ifelse(no_cores <= 2, 2, no_cores),
                   target_folder = target_dir,
                   summary_dir = summary_dir,
+                  region_scale = region_scale,
                   return_estimates = FALSE, verbose = FALSE)
   
   future::plan("sequential")

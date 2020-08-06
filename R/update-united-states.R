@@ -36,4 +36,5 @@ regional_epinow_with_settings(reported_cases = cases,
                 delays = list(incubation_period, reporting_delay),
                 no_cores = no_cores,
                 target_dir = "subnational/united-states/cases/national",
-                summary_dir = "subnational/united-states/cases/summary")
+                summary_dir = "subnational/united-states/cases/summary",
+                region_scale = "State")
