@@ -11,6 +11,17 @@ This repository contains estimates of the time-varying reproduction number for e
 git clone https://github.com/epiforecasts/covid-rt-estimates.git
 ```
 
+### Using a remote server
+
+Run the following on the command line replacing `path-to-key`, `username@public-ip-of-server`, `github-username`, and `github-pat` with your information. *Note this is not a secure way of transferring your GitHub PAT.*
+
+```bash
+curl --fail https://raw.githubusercontent.com/epiforecasts/covid-rt-estimates/master/bin/update-via-ssh.sh > update-via-ssh.sh
+sudo bash update-via-ssh.sh path-to-key username@public-ip-of-server github-username github-pat
+```
+
+See `bin/update-via-ssh.sh` for details on what this script is doing and the more detailed step by step instructions below.
+
 ### Using Docker
 
 2. Log in to GitHub Docker package repository.
