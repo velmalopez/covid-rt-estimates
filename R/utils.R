@@ -50,7 +50,7 @@ regional_epinow_with_settings <- function(reported_cases, generation_time, delay
   
   regional_epinow(reported_cases = reported_cases,
                   generation_time = generation_time,
-                  delays = delays, non_zero_points = 7,
+                  delays = delays, non_zero_points = 14,
                   horizon = 14, burn_in = 14,
                   samples = 2000, warmup = 500,
                   cores = no_cores, chains = ifelse(no_cores <= 2, 2, no_cores),
