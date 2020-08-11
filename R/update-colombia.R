@@ -19,7 +19,7 @@ reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
 
 cases <- data.table::setDT(covidregionaldata::get_regional_data(country = "colombia"))
 
-cases <- clean_regional_data(cases[, region := state])
+cases <- clean_regional_data(cases[, region := departamento])
 
 # Check to see if the data has been updated  ------------------------------
 
