@@ -20,7 +20,7 @@ reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
 cases <- data.table::setDT(covidregionaldata::get_regional_data(country = "afghanistan"))
 
 cases <- cases[!is.na(iso_3166_2)]
-cases <- clean_regional_data(cases[, region := state])
+cases <- clean_regional_data(cases[, region := province])
 
 # Check to see if the data has been updated  ------------------------------
 
