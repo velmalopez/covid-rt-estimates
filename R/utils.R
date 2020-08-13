@@ -28,13 +28,13 @@ check_for_update <- function(cases, last_run) {
 
     if (current_max_date <= last_run_date) {
       futile.logger::flog.info("Data has not been updated since last run. If wanting to run again then remove %s", last_run)
-      futile.logger::flog.debug("max date in data - %s, last run date from file - %s",
+      futile.logger::flog.debug("Max date in data - %s, last run date from file - %s",
                                 format(current_max_date, "%Y-%m-%d"),
                                 format(last_run_date, "%Y-%m-%d"))
       return(invisible(FALSE))
     }
   }
-
+  futile.logger::flog.debug("New data to process")
   saveRDS(current_max_date, last_run)
 
   return(invisible(TRUE))

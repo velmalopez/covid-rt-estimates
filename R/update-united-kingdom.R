@@ -22,7 +22,7 @@ reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
 
 futile.logger::flog.trace("Getting regional data")
 cases <- data.table::setDT(covidregionaldata::get_regional_data(country = "UK"))
-futile.logger::flog.debug("%s cases returned", length(cases))
+futile.logger::flog.debug("%s regions returned", length(cases))
 
 cases <- clean_regional_data(cases)
 
