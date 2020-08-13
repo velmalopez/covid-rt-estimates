@@ -29,7 +29,8 @@ cases <- clean_regional_data(cases[, region := state])
 
 # Check to see if the data has been updated  ------------------------------
 
-check_for_update(cases, last_run = here::here("last-update", "india.rds"))
+check_for_update(cases, last_run = here::here("last-update", "india.rds"),
+                 data = "India")
 
 # Set up cores -----------------------------------------------------
 

@@ -35,7 +35,8 @@ data.table::setorder(deaths, date)
 
 # Check to see if the data has been updated  ------------------------------
 
-check_for_update(deaths, last_run = here::here("last-update", "deaths.rds"))
+check_for_update(deaths, last_run = here::here("last-update", "deaths.rds"),
+                 data = "deaths")
 
 # Set up cores -----------------------------------------------------
 no_cores <- setup_future(length(unique(deaths$region)))

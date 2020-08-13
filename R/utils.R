@@ -29,7 +29,7 @@ setup_future <- function(jobs) {
 
 
 #' Check data to see if updated since last run
-check_for_update <- function(cases, last_run) {
+check_for_update <- function(cases, last_run, data) {
   
   current_max_date <- max(cases$date, na.rm = TRUE)
     
@@ -37,15 +37,22 @@ check_for_update <- function(cases, last_run) {
     last_run_date <- readRDS(last_run)
    
     if (current_max_date <= last_run_date) {
+      futile.logger::flog.info("Skipping estimation for %s as the data is unchanged from the %s",
+                               data, as.character(last_run_date))
       stop("Data has not been updated since last run. 
       If wanting to run again then remove ", last_run)
     }
+    
+    futile.logger::flog.info("Initialising estimates for: %s", region)
+    
+    return(invisible(NULL))
   }
     
   saveRDS(current_max_date, last_run)
   
   return(invisible(NULL))
 }
+
 #' Clean regional data
 clean_regional_data <- function(cases) {
   cases <- cases[, .(region, date = as.Date(date), confirm = cases_new)]

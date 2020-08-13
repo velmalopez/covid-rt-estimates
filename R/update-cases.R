@@ -34,7 +34,8 @@ data.table::setorder(cases, date)
 
 # Check to see if the data has been updated  ------------------------------
 
-check_for_update(cases, last_run = here::here("last-update", "cases.rds"))
+check_for_update(cases, last_run = here::here("last-update", "cases.rds"),
+                 data = "cases")
 
 # # Set up cores -----------------------------------------------------
 
