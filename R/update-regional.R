@@ -26,13 +26,13 @@ update.regional <- function(region_name, region_identifier, case_modifier_functi
 
   # Update delays -----------------------------------------------------------
 
-  if (!generation_time) {
+  if (generation_time == NULL) {
     generation_time <- readRDS(here::here("data", "generation_time.rds"))
   }
-  if (!incubation_period) {
+  if (incubation_period == NULL) {
     incubation_period <- readRDS(here::here("data", "incubation_period.rds"))
   }
-  if (!reporting_delay) {
+  if (reporting_delay == NULL) {
     reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
   }
 
