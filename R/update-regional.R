@@ -19,7 +19,7 @@ source(here::here("R", "utils.R"))
 #' @param generation_time optional overrides for the loaded rds file. If present won't be reloaded from disk.
 #' @param incubation_period optional overrides for the loaded rds file. If present won't be reloaded from disk.
 #' @param reporting_delay optional overrides for the loaded rds file. If present won't be reloaded from disk.
-update.regional <- function(region_name, region_identifier, case_modifier_function, generation_time = NULL, incubation_period = NULL, reporting_delay = NULL) {
+update.regional <- function(region_name, region_identifier, case_modifier_function = NULL, generation_time = NULL, incubation_period = NULL, reporting_delay = NULL) {
   futile.logger::flog.info("Processing regional dataset for %s", region_name)
   # setting debug level to trace whilst still in beta. #ToDo: remove this line once production ready
   futile.logger::flog.threshold(futile.logger::TRACE)
@@ -40,8 +40,10 @@ update.regional <- function(region_name, region_identifier, case_modifier_functi
 
   futile.logger::flog.trace("Getting regional data")
   cases <- data.table::setDT(covidregionaldata::get_regional_data(country = region_identifier))
-  futile.logger::flog.trace("Modifying regional data")
-  cases <- case_modifier_function(cases)
+  if (case_modifier_function) {
+    futile.logger::flog.trace("Modifying regional data")
+    cases <- case_modifier_function(cases)
+  }
   futile.logger::flog.trace("Cleaning regional data")
   cases <- clean_regional_data(cases)
 
