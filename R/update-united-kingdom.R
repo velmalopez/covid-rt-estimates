@@ -28,19 +28,18 @@ cases <- clean_regional_data(cases)
 
 # Check to see if the data has been updated  ------------------------------
 
-if (!check_for_update(cases, last_run = here::here("last-update", "united-kingdom.rds"))) {
-  break
+if (check_for_update(cases, last_run = here::here("last-update", "united-kingdom.rds"))) {
+
+  # Set up cores -----------------------------------------------------
+
+  no_cores <- setup_future(length(unique(cases$region)))
+
+  # Run Rt estimation -------------------------------------------------------
+
+  regional_epinow_with_settings(reported_cases = cases,
+                                generation_time = generation_time,
+                                delays = list(incubation_period, reporting_delay),
+                                no_cores = no_cores,
+                                target_dir = "subnational/united-kingdom/cases/national",
+                                summary_dir = "subnational/united-kingdom/cases/summary")
 }
-
-# Set up cores -----------------------------------------------------
-
-no_cores <- setup_future(length(unique(cases$region)))
-
-# Run Rt estimation -------------------------------------------------------
-
-regional_epinow_with_settings(reported_cases = cases,
-                              generation_time = generation_time,
-                              delays = list(incubation_period, reporting_delay),
-                              no_cores = no_cores,
-                              target_dir = "subnational/united-kingdom/cases/national",
-                              summary_dir = "subnational/united-kingdom/cases/summary")
