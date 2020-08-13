@@ -43,7 +43,7 @@ check_for_update <- function(cases, last_run, data) {
       If wanting to run again then remove ", last_run)
     }
     
-    futile.logger::flog.info("Initialising estimates for: %s", region)
+    futile.logger::flog.info("Initialising estimates for: %s", data)
     
     return(invisible(NULL))
   }
