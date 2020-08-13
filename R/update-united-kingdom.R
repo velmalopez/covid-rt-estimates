@@ -10,6 +10,8 @@ require(lubridate, quietly = TRUE)
 
 source(here::here("R", "utils.R"))
 
+futile.logger::flog.info("Processing regional dataset for United Kingdom")
+
 # Update delays -----------------------------------------------------------
 
 generation_time <- readRDS(here::here("data", "generation_time.rds"))
@@ -18,13 +20,17 @@ reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
 
 # Get cases  ---------------------------------------------------------------
 
+futile.logger::flog.trace("Getting regional data")
 cases <- data.table::setDT(covidregionaldata::get_regional_data(country = "UK"))
+futile.logger::flog.debug("%s cases returned", length(cases))
 
 cases <- clean_regional_data(cases)
 
 # Check to see if the data has been updated  ------------------------------
 
-check_for_update(cases, last_run = here::here("last-update", "united-kingdom.rds"))
+if (!check_for_update(cases, last_run = here::here("last-update", "united-kingdom.rds"))) {
+  break
+}
 
 # Set up cores -----------------------------------------------------
 
@@ -33,8 +39,8 @@ no_cores <- setup_future(length(unique(cases$region)))
 # Run Rt estimation -------------------------------------------------------
 
 regional_epinow_with_settings(reported_cases = cases,
-                generation_time = generation_time,
-                delays = list(incubation_period, reporting_delay),
-                no_cores = no_cores,
-                target_dir = "subnational/united-kingdom/cases/national",
-                summary_dir = "subnational/united-kingdom/cases/summary")
+                              generation_time = generation_time,
+                              delays = list(incubation_period, reporting_delay),
+                              no_cores = no_cores,
+                              target_dir = "subnational/united-kingdom/cases/national",
+                              summary_dir = "subnational/united-kingdom/cases/summary")

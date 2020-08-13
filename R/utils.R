@@ -4,12 +4,14 @@ setup_future <- function(jobs) {
     ## If running as a script enable this
     options(future.fork.enable = TRUE)
   }
-  
-  
+
+
   future::plan("multiprocess", workers = min(future::availableCores(), jobs),
                gc = TRUE, earlySignal = TRUE)
-  
-  
+  futile.logger::flog.debug("Checking the cors available - %s cores and %s jobs. using %s workers",
+                            future::availableCores(),
+                            jobs)
+
   jobs <- max(1, ceiling(future::availableCores() / jobs))
   return(jobs)
 }
@@ -17,21 +19,25 @@ setup_future <- function(jobs) {
 
 #' Check data to see if updated since last run
 check_for_update <- function(cases, last_run) {
-  
+
   current_max_date <- max(cases$date, na.rm = TRUE)
-    
-  if (file.exists(last_run)){
+
+  if (file.exists(last_run)) {
+    futile.logger::flog.trace("last_run file (%s) exists, loading.", last_run)
     last_run_date <- readRDS(last_run)
-   
+
     if (current_max_date <= last_run_date) {
-      stop("Data has not been updated since last run. 
-      If wanting to run again then remove ", last_run)
+      futile.logger::flog.info("Data has not been updated since last run.
+      If wanting to run again then remove %s", last_run)
+      futile.logger::flog.debug("max date in data - %s, last run date from file - %s",
+                                last_run_date, current_max_date)
+      return(invisible(FALSE))
     }
   }
-    
+
   saveRDS(current_max_date, last_run)
-  
-  return(invisible(NULL))
+
+  return(invisible(TRUE))
 }
 #' Clean regional data
 clean_regional_data <- function(cases) {
@@ -44,10 +50,10 @@ clean_regional_data <- function(cases) {
 }
 
 #' Regional EpiNow with settings
-regional_epinow_with_settings <- function(reported_cases, generation_time, delays, 
+regional_epinow_with_settings <- function(reported_cases, generation_time, delays,
                                           target_dir, summary_dir, no_cores,
                                           region_scale = "Region") {
-  
+
   regional_epinow(reported_cases = reported_cases,
                   generation_time = generation_time,
                   delays = delays, non_zero_points = 14,
@@ -58,7 +64,7 @@ regional_epinow_with_settings <- function(reported_cases, generation_time, delay
                   summary_dir = summary_dir,
                   region_scale = region_scale,
                   return_estimates = FALSE, verbose = FALSE)
-  
+
   future::plan("sequential")
   return(invisible(NULL))
 }
