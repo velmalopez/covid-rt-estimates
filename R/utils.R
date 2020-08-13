@@ -1,3 +1,13 @@
+#' Set up logging to file
+setup_log <- function(threshold = "INFO", file = "info.log") {
+  futile.logger::flog.threshold(threshold)
+  
+  futile.logger::flog.appender(appender.tee(file))
+  
+  return(invisible(NULL))
+}
+
+
 #' Set up parallel processing on all available cores
 setup_future <- function(jobs) {
   if (!interactive()) {
@@ -8,8 +18,8 @@ setup_future <- function(jobs) {
   workers <- min(future::availableCores(), jobs)
   cores_per_worker <- max(1, round(future::availableCores() / workers, 0))
   
-  futile.logger::flog.info("Using ", workers, " with ", cores_per_worker, " cores per worker")
-  
+  futile.logger::flog.info("Using %s workers with %s cores per worker", 
+                           workers, cores_per_worker)
   future::plan("multiprocess", workers = workers,
                gc = TRUE, earlySignal = TRUE)
   

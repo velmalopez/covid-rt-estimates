@@ -4,7 +4,7 @@ require(covidregionaldata, quietly = TRUE)
 require(data.table, quietly = TRUE)
 require(future, quietly = TRUE)
 require(lubridate, quietly = TRUE)
-
+require(futile.logger, quietly = TRUE)
 
 # Load utils --------------------------------------------------------------
 
@@ -15,6 +15,10 @@ source(here::here("R", "utils.R"))
 generation_time <- readRDS(here::here("data", "generation_time.rds"))
 incubation_period <- readRDS(here::here("data", "incubation_period.rds"))
 reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
+
+# Set up logging ----------------------------------------------------------
+
+setup_log()
 
 # Get cases  ---------------------------------------------------------------
 
