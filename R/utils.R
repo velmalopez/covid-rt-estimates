@@ -53,7 +53,7 @@ clean_regional_data <- function(cases) {
 regional_epinow_with_settings <- function(reported_cases, generation_time, delays,
                                           target_dir, summary_dir, no_cores,
                                           region_scale = "Region") {
-
+  futile.logger::flog.trace("calling regional_epinow")
   regional_epinow(reported_cases = reported_cases,
                   generation_time = generation_time,
                   delays = delays, non_zero_points = 14,
@@ -64,7 +64,7 @@ regional_epinow_with_settings <- function(reported_cases, generation_time, delay
                   summary_dir = summary_dir,
                   region_scale = region_scale,
                   return_estimates = FALSE, verbose = FALSE)
-
+  futile.logger::flog.debug("resetting future plan to sequential")
   future::plan("sequential")
   return(invisible(NULL))
 }
