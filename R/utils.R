@@ -5,13 +5,16 @@ setup_future <- function(jobs) {
     options(future.fork.enable = TRUE)
   }
   
+  workers <- min(future::availableCores(), jobs)
+  cores_per_worker <- max(1, round(future::availableCores() / workers, 0))
   
-  future::plan("multiprocess", workers = min(future::availableCores(), jobs),
+  futile.logger::flog.info("Using ", workers, " with ", cores_per_worker, " cores per worker")
+  
+  future::plan("multiprocess", workers = workers,
                gc = TRUE, earlySignal = TRUE)
   
   
-  jobs <- max(1, ceiling(future::availableCores() / jobs))
-  return(jobs)
+  return(cores_per_worker)
 }
 
 
