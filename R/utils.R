@@ -31,16 +31,17 @@ check_for_update <- function(cases, last_run) {
       futile.logger::flog.debug("Max date in data - %s, last run date from file - %s",
                                 format(current_max_date, "%Y-%m-%d"),
                                 format(last_run_date, "%Y-%m-%d"))
-      return(invisible(FALSE))
+      return(FALSE)
     }
   }
   futile.logger::flog.debug("New data to process")
   saveRDS(current_max_date, last_run)
 
-  return(invisible(TRUE))
+  return(TRUE)
 }
 #' Clean regional data
 clean_regional_data <- function(cases) {
+  futile.logger::flog.trace("starting to clean the cases")
   cases <- cases[, .(region, date = as.Date(date), confirm = cases_new)]
   cases <- cases[date <= Sys.Date()]
   cases <- cases[, .SD[date <= (max(date, na.rm = TRUE) - lubridate::days(3))], by = region]
