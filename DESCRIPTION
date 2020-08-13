@@ -18,6 +18,7 @@ Imports:
   EpiNow2,
   covidregionaldata,
   data.table,
+  futile.logging (>=1.4),
   future,
   here,
   lubridate
