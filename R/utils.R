@@ -10,7 +10,8 @@ setup_future <- function(jobs) {
                gc = TRUE, earlySignal = TRUE)
   futile.logger::flog.debug("Checking the cors available - %s cores and %s jobs. using %s workers",
                             future::availableCores(),
-                            jobs)
+                            jobs,
+                            min(future::availableCores(), jobs))
 
   jobs <- max(1, ceiling(future::availableCores() / jobs))
   return(jobs)
