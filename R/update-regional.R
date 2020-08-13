@@ -40,7 +40,7 @@ update.regional <- function(region_name, region_identifier, case_modifier_functi
 
   futile.logger::flog.trace("Getting regional data")
   cases <- data.table::setDT(covidregionaldata::get_regional_data(country = region_identifier))
-  if (case_modifier_function) {
+  if (typeof(case_modifier_function)=="closure") {
     futile.logger::flog.trace("Modifying regional data")
     cases <- case_modifier_function(cases)
   }
