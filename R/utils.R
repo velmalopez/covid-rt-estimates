@@ -9,13 +9,13 @@ setup_log <- function(threshold = "INFO", file = "info.log") {
 
 
 #' Set up parallel processing on all available cores
-setup_future <- function(jobs) {
+setup_future <- function(jobs, min_cores_per_worker = 2) {
   if (!interactive()) {
     ## If running as a script enable this
     options(future.fork.enable = TRUE)
   }
   
-  workers <- min(future::availableCores(), jobs)
+  workers <- min(ceiling(future::availableCores() / min_cores_per_worker), jobs)
   cores_per_worker <- max(1, round(future::availableCores() / workers, 0))
   
   futile.logger::flog.info("Using %s workers with %s cores per worker", 
