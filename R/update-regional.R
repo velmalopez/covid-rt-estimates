@@ -19,7 +19,7 @@ source(here::here("R", "utils.R"))
 #' @param generation_time optional overrides for the loaded rds file. If present won't be reloaded from disk.
 #' @param incubation_period optional overrides for the loaded rds file. If present won't be reloaded from disk.
 #' @param reporting_delay optional overrides for the loaded rds file. If present won't be reloaded from disk.
-#' @param cases_region_source optional specification of where to get the list of regions from the cases dataset
+#' @param cases_region_source string, optional specification of where to get the list of regions from the cases dataset
 update.regional <- function(region_name, region_identifier, case_modifier_function = NULL, generation_time = NULL, incubation_period = NULL, reporting_delay = NULL, cases_region_source = NULL) {
   futile.logger::flog.info("Processing regional dataset for %s", region_name)
   # setting debug level to trace whilst still in beta. #ToDo: remove this line once production ready
@@ -41,15 +41,16 @@ update.regional <- function(region_name, region_identifier, case_modifier_functi
 
   futile.logger::flog.trace("Getting regional data")
   cases <- data.table::setDT(covidregionaldata::get_regional_data(country = region_identifier))
-  if (typeof(case_modifier_function)=="closure") {
+  if (typeof(case_modifier_function) == "closure") {
     futile.logger::flog.trace("Modifying regional data")
     cases <- case_modifier_function(cases)
   }
-  futile.logger::flog.trace("Cleaning regional data")
-  if(is.null(cases_region_source)){
+  if (is.null(cases_region_source)) {
+    futile.logger::flog.trace("Cleaning regional data")
     cases <- clean_regional_data(cases)
-  }else{
-    cases <- clean_regional_data(cases[,region := {cases_region_source}])
+  }else {
+    futile.logger::flog.trace("Cleaning regional data with %s as region source", cases_region_source)
+    cases <- clean_regional_data(cases[, region := !!cases_region_source])
   }
   # Check to see if the data has been updated  ------------------------------
 
