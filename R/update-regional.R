@@ -21,7 +21,7 @@ source(here::here("R", "utils.R"))
 #' @param reporting_delay optional overrides for the loaded rds file. If present won't be reloaded from disk.
 #' @param cases_subregion_source string, optional specification of where to get the list of regions from the cases dataset
 #' @param region_scale string, specify the region scale to epinow
-update.regional <- function(region_name, covid_regional_data_identifier, case_modifier_function = NULL, generation_time = NULL, incubation_period = NULL, reporting_delay = NULL, cases_subregion_source = NULL, region_scale = NULL) {
+update_regional <- function(region_name, covid_regional_data_identifier, case_modifier_function = NULL, generation_time = NULL, incubation_period = NULL, reporting_delay = NULL, cases_subregion_source = NULL, region_scale = NULL) {
   futile.logger::flog.info("Processing regional dataset for %s", region_name)
   # setting debug level to trace whilst still in beta. #ToDo: remove this line once production ready
   futile.logger::flog.threshold(futile.logger::TRACE)

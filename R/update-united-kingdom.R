@@ -1,5 +1,5 @@
 source(here::here("R", "update-regional.R"))
 
-update.regional("united-kingdom",
+update_regional("united-kingdom",
                 "UK"
 )

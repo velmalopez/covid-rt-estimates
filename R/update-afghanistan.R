@@ -1,6 +1,6 @@
 source(here::here("R", "update-regional.R"))
 
-update.regional(region_name = "afghanistan",
+update_regional(region_name = "afghanistan",
                 covid_regional_data_identifier = "afghanistan",
                 cases_region_source =  "province",
                 case_modifier_function = function(cases){
