@@ -30,7 +30,6 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
   setup_log(threshold = futile.logger::TRACE)
 
   # Update delays -----------------------------------------------------------
-
   if (missing(generation_time)) {
     generation_time <- readRDS(here::here("data", "generation_time.rds"))
   }
@@ -42,7 +41,6 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
   }
 
   # Get cases  ---------------------------------------------------------------
-
   futile.logger::flog.info("Getting regional data")
   
   cases <- data.table::setDT(covidregionaldata::get_regional_data(country = covid_regional_data_identifier))
@@ -61,9 +59,10 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
   }
   futile.logger::flog.trace("Cleaning regional data")
   cases <- clean_regional_data(cases)
+  
   # Check to see if the data has been updated  ------------------------------
-
   if (check_for_update(cases, last_run = here::here("last-update", paste0(region_name, ".rds")))) {
+    
     # Set up cores -----------------------------------------------------
     no_cores <- setup_future(length(unique(cases$region)))
 
