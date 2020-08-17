@@ -34,27 +34,27 @@ data.table::setorder(cases, date)
 
 # Check to see if the data has been updated  ------------------------------
 
-check_for_update(cases, last_run = here::here("last-update", "cases.rds"),
-                 data = "cases")
+if (check_for_update(cases, last_run = here::here("last-update", "cases.rds"))) {
 
-# # Set up cores -----------------------------------------------------
+  # # Set up cores -----------------------------------------------------
 
-no_cores <- setup_future(length(unique(cases$region)))
+  no_cores <- setup_future(length(unique(cases$region)))
 
-# Run Rt estimation -------------------------------------------------------
+  # Run Rt estimation -------------------------------------------------------
 
-regional_epinow(reported_cases = cases,
-                generation_time = generation_time,
-                delays = list(incubation_period, reporting_delay),
-                horizon = 14, burn_in = 14,
-                non_zero_points = 14,
-                samples = 2000, warmup = 500,
-                fixed_future_rt = TRUE,
-                cores = no_cores, chains = 2,
-                target_folder = "national/cases/national",
-                summary_dir = "national/cases/summary",
-                all_regions_summary = FALSE,
-                region_scale = "Country",
-                return_estimates = FALSE, verbose = FALSE)
+  regional_epinow(reported_cases = cases,
+                  generation_time = generation_time,
+                  delays = list(incubation_period, reporting_delay),
+                  horizon = 14, burn_in = 14,
+                  non_zero_points = 14,
+                  samples = 2000, warmup = 500,
+                  fixed_future_rt = TRUE,
+                  cores = no_cores, chains = 2,
+                  target_folder = "national/cases/national",
+                  summary_dir = "national/cases/summary",
+                  all_regions_summary = FALSE,
+                  region_scale = "Country",
+                  return_estimates = FALSE, verbose = FALSE)
 
-future::plan("sequential")
+  future::plan("sequential")
+}

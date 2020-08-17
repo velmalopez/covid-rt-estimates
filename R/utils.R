@@ -1,9 +1,9 @@
 #' Set up logging to file
 setup_log <- function(threshold = "INFO", file = "info.log") {
   futile.logger::flog.threshold(threshold)
-  
-  futile.logger::flog.appender(appender.tee(file))
-  
+
+  futile.logger::flog.appender(futile.logger::appender.tee(file))
+
   return(invisible(NULL))
 }
 
@@ -14,47 +14,50 @@ setup_future <- function(jobs, min_cores_per_worker = 1) {
     ## If running as a script enable this
     options(future.fork.enable = TRUE)
   }
-  
+
   workers <- min(ceiling(future::availableCores() / min_cores_per_worker), jobs)
   cores_per_worker <- max(1, round(future::availableCores() / workers, 0))
-  
-  futile.logger::flog.info("Using %s workers with %s cores per worker", 
+
+  futile.logger::flog.info("Using %s workers with %s cores per worker",
                            workers, cores_per_worker)
   future::plan("multiprocess", workers = workers,
                gc = TRUE, earlySignal = TRUE)
-  
-  
+  futile.logger::flog.debug("Checking the cores available - %s cores and %s jobs. using %s workers",
+                            future::availableCores(),
+                            jobs,
+                            min(future::availableCores(), jobs))
+
   return(cores_per_worker)
 }
 
 
 #' Check data to see if updated since last run
-check_for_update <- function(cases, last_run, data) {
-  
+check_for_update <- function(cases, last_run) {
   current_max_date <- max(cases$date, na.rm = TRUE)
-    
-  if (file.exists(last_run)){
+
+  if (file.exists(last_run)) {
+    futile.logger::flog.trace("last_run file (%s) exists, loading.", last_run)
     last_run_date <- readRDS(last_run)
-   
+
     if (current_max_date <= last_run_date) {
-      futile.logger::flog.info("Skipping estimation for %s as the data is unchanged from the %s",
-                               data, as.character(last_run_date))
-      stop("Data has not been updated since last run. 
-      If wanting to run again then remove ", last_run)
+      futile.logger::flog.info("Data has not been updated since last run. If wanting to run again then remove %s", last_run)
+      futile.logger::flog.debug("Max date in data - %s, last run date from file - %s",
+                                format(current_max_date, "%Y-%m-%d"),
+                                format(last_run_date, "%Y-%m-%d"))
+      return(FALSE)
     }
-    
-    futile.logger::flog.info("Initialising estimates for: %s", data)
-    
+
     return(invisible(NULL))
   }
-    
+  futile.logger::flog.debug("New data to process")
   saveRDS(current_max_date, last_run)
-  
-  return(invisible(NULL))
+
+  return(TRUE)
 }
 
 #' Clean regional data
 clean_regional_data <- function(cases) {
+  futile.logger::flog.trace("starting to clean the cases")
   cases <- cases[, .(region, date = as.Date(date), confirm = cases_new)]
   cases <- cases[date <= Sys.Date()]
   cases <- cases[, .SD[date <= (max(date, na.rm = TRUE) - lubridate::days(3))], by = region]
@@ -64,10 +67,10 @@ clean_regional_data <- function(cases) {
 }
 
 #' Regional EpiNow with settings
-regional_epinow_with_settings <- function(reported_cases, generation_time, delays, 
+regional_epinow_with_settings <- function(reported_cases, generation_time, delays,
                                           target_dir, summary_dir, no_cores,
                                           region_scale = "Region") {
-  
+  futile.logger::flog.trace("calling regional_epinow")
   regional_epinow(reported_cases = reported_cases,
                   generation_time = generation_time,
                   delays = delays, non_zero_points = 14,
@@ -79,7 +82,7 @@ regional_epinow_with_settings <- function(reported_cases, generation_time, delay
                   summary_dir = summary_dir,
                   region_scale = region_scale,
                   return_estimates = FALSE, verbose = FALSE)
-  
+  futile.logger::flog.debug("resetting future plan to sequential")
   future::plan("sequential")
   return(invisible(NULL))
 }
