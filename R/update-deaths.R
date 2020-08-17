@@ -5,6 +5,7 @@ require(covidregionaldata, quietly = TRUE)
 require(data.table, quietly = TRUE)
 require(future, quietly = TRUE)
 require(lubridate, quietly = TRUE)
+require(futile.logger, quietly = TRUE)
 
 # Load utils --------------------------------------------------------------
 
@@ -15,6 +16,10 @@ source(here::here("R", "utils.R"))
 generation_time <- readRDS(here::here("data", "generation_time.rds"))
 incubation_period <- readRDS(here::here("data", "incubation_period.rds"))
 reporting_delay <- readRDS(here::here("data", "onset_to_death_delay.rds"))
+
+# Set up logging ----------------------------------------------------------
+
+setup_log()
 
 # Get cases  ---------------------------------------------------------------
 
@@ -30,7 +35,8 @@ data.table::setorder(deaths, date)
 
 # Check to see if the data has been updated  ------------------------------
 
-check_for_update(deaths, last_run = here::here("last-update", "deaths.rds"))
+check_for_update(deaths, last_run = here::here("last-update", "deaths.rds"),
+                 data = "deaths")
 
 # Set up cores -----------------------------------------------------
 no_cores <- setup_future(length(unique(deaths$region)))
@@ -43,6 +49,7 @@ regional_epinow(reported_cases = deaths,
                 horizon = 14, burn_in = 14,
                 non_zero_points = 14,
                 samples = 2000, warmup = 500,
+                fixed_future_rt = TRUE,
                 cores = no_cores, chains = ifelse(no_cores <= 2, 2, no_cores),
                 target_folder = "national/deaths/national",
                 summary_dir = "national/deaths/summary",

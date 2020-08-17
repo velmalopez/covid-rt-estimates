@@ -6,8 +6,6 @@ require(data.table)
 require(future)
 require(lubridate)
 
-
-
 # Save incubation period and generation time ------------------------------
 
 generation_time <- list(mean = EpiNow2::covid_generation_times[1, ]$mean,
