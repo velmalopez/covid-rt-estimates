@@ -10,7 +10,7 @@ require(lubridate, quietly = TRUE)
 source(here::here("R", "utils.R"))
 
 
-#' update.regional
+#' Update Regional
 #'
 #' @description Processes regional data in an abstract fashion to reduce code duplication
 #' @param region_name String, name of region, used for filepaths and filenames
