@@ -21,7 +21,10 @@ source(here::here("R", "utils.R"))
 #' @param reporting_delay optional overrides for the loaded rds file. If present won't be reloaded from disk.
 #' @param cases_subregion_source string, optional specification of where to get the list of regions from the cases dataset
 #' @param region_scale string, specify the region scale to epinow
-update_regional <- function(region_name, covid_regional_data_identifier, case_modifier_function, generation_time, incubation_period, reporting_delay, cases_subregion_source, region_scale = "Region") {
+update_regional <- function(region_name, covid_regional_data_identifier, case_modifier_function, 
+                            generation_time, incubation_period, reporting_delay, cases_subregion_source, 
+                            region_scale = "Region") {
+  
   futile.logger::flog.info("Processing regional dataset for %s", region_name)
   # setting debug level to trace whilst still in beta. #ToDo: change this line once production ready
   setup_log(threshold = futile.logger::TRACE)
@@ -41,6 +44,7 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
   # Get cases  ---------------------------------------------------------------
 
   futile.logger::flog.info("Getting regional data")
+  
   cases <- data.table::setDT(covidregionaldata::get_regional_data(country = covid_regional_data_identifier))
   if (!missing(case_modifier_function) && typeof(case_modifier_function) == "closure") {
     futile.logger::flog.trace("Modifying regional data")
@@ -60,18 +64,16 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
   # Check to see if the data has been updated  ------------------------------
 
   if (check_for_update(cases, last_run = here::here("last-update", paste0(region_name, ".rds")))) {
-
     # Set up cores -----------------------------------------------------
-
     no_cores <- setup_future(length(unique(cases$region)))
 
     # Run Rt estimation -------------------------------------------------------
     regional_epinow_with_settings(reported_cases = cases,
-                                    generation_time = generation_time,
-                                    delays = list(incubation_period, reporting_delay),
-                                    no_cores = no_cores,
-                                    target_dir = paste0("subnational/", region_name, "/cases/national"),
-                                    summary_dir = paste0("subnational/", region_name, "/cases/summary"),
-                                    region_scale = region_scale)
+                                  generation_time = generation_time,
+                                  delays = list(incubation_period, reporting_delay),
+                                  no_cores = no_cores,
+                                  target_dir = paste0("subnational/", region_name, "/cases/national"),
+                                  summary_dir = paste0("subnational/", region_name, "/cases/summary"),
+                                  region_scale = region_scale)
   }
 }
