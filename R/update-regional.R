@@ -4,8 +4,6 @@ require(covidregionaldata, quietly = TRUE)
 require(data.table, quietly = TRUE)
 require(future, quietly = TRUE)
 require(lubridate, quietly = TRUE)
-require(splus2R, quietly = TRUE)
-require(futile.logger, quietly = TRUE)
 
 # Load utils --------------------------------------------------------------
 
@@ -30,13 +28,13 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
 
   # Update delays -----------------------------------------------------------
 
-  if (is.missing(generation_time)) {
+  if (missing(generation_time)) {
     generation_time <- readRDS(here::here("data", "generation_time.rds"))
   }
-  if (is.missing(incubation_period)) {
+  if (missing(incubation_period)) {
     incubation_period <- readRDS(here::here("data", "incubation_period.rds"))
   }
-  if (is.missing(reporting_delay)) {
+  if (missing(reporting_delay)) {
     reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
   }
 
@@ -44,11 +42,11 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
 
   futile.logger::flog.info("Getting regional data")
   cases <- data.table::setDT(covidregionaldata::get_regional_data(country = covid_regional_data_identifier))
-  if (!is.missing(case_modifier_function) && typeof(case_modifier_function) == "closure") {
+  if (!missing(case_modifier_function) && typeof(case_modifier_function) == "closure") {
     futile.logger::flog.trace("Modifying regional data")
     cases <- case_modifier_function(cases)
   }
-  if (!is.missing(cases_subregion_source)) {
+  if (!missing(cases_subregion_source)) {
     if (!cases_subregion_source %in% colnames(cases)) {
       futile.logger::flog.error("invalid source column name %s - only the following are valid",cases_subregion_source)
       futile.logger::flog.error(colnames(cases))
