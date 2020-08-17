@@ -50,7 +50,7 @@ update.regional <- function(region_name, region_identifier, case_modifier_functi
     cases <- clean_regional_data(cases)
   }else {
     futile.logger::flog.trace("Cleaning regional data with %s as region source", cases_region_source)
-    cases <- clean_regional_data(cases[, region := !!cases_region_source])
+    cases <- clean_regional_data(cases[, region := eval(parse(text=cases_region_source))])
   }
   # Check to see if the data has been updated  ------------------------------
 
