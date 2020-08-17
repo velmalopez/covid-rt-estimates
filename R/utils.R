@@ -2,7 +2,7 @@
 setup_log <- function(threshold = "INFO", file = "info.log") {
   futile.logger::flog.threshold(threshold)
 
-  futile.logger::flog.appender(appender.tee(file))
+  futile.logger::flog.appender(futile.logger::appender.tee(file))
 
   return(invisible(NULL))
 }
