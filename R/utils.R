@@ -32,7 +32,7 @@ setup_future <- function(jobs, min_cores_per_worker = 1) {
 
 
 #' Check data to see if updated since last run
-check_for_update <- function(cases, last_run, data) {
+check_for_update <- function(cases, last_run) {
   current_max_date <- max(cases$date, na.rm = TRUE)
 
   if (file.exists(last_run)) {
@@ -46,8 +46,6 @@ check_for_update <- function(cases, last_run, data) {
                                 format(last_run_date, "%Y-%m-%d"))
       return(FALSE)
     }
-
-    futile.logger::flog.info("Initialising estimates for: %s", data)
 
     return(invisible(NULL))
   }
