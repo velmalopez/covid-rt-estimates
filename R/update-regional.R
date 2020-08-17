@@ -14,12 +14,13 @@ source(here::here("R", "utils.R"))
 #'
 #' @description Processes regional data in an abstract fashion to reduce code duplication
 #' @param region_name String, name of region, used for filepaths
-#' @param region_identifier String, region identifier used by covidregionaldata to get the data
+#' @param region_identifier String, region identifier used by covidregionaldata to get the data #todo audit which countries this differs from name and standardise
 #' @param case_modifier_function Function, passed the cases, should return the cases. Method of modifying the returned data for a specific region if needed
 #' @param generation_time optional overrides for the loaded rds file. If present won't be reloaded from disk.
 #' @param incubation_period optional overrides for the loaded rds file. If present won't be reloaded from disk.
 #' @param reporting_delay optional overrides for the loaded rds file. If present won't be reloaded from disk.
-update.regional <- function(region_name, region_identifier, case_modifier_function = NULL, generation_time = NULL, incubation_period = NULL, reporting_delay = NULL) {
+#' @param cases_region_source optional specification of where to get the list of regions from the cases dataset
+update.regional <- function(region_name, region_identifier, case_modifier_function = NULL, generation_time = NULL, incubation_period = NULL, reporting_delay = NULL, cases_region_source = NULL) {
   futile.logger::flog.info("Processing regional dataset for %s", region_name)
   # setting debug level to trace whilst still in beta. #ToDo: remove this line once production ready
   futile.logger::flog.threshold(futile.logger::TRACE)
@@ -45,8 +46,11 @@ update.regional <- function(region_name, region_identifier, case_modifier_functi
     cases <- case_modifier_function(cases)
   }
   futile.logger::flog.trace("Cleaning regional data")
-  cases <- clean_regional_data(cases)
-
+  if(is.null(cases_region_source)){
+    cases <- clean_regional_data(cases)
+  }else{
+    cases <- clean_regional_data(cases[,region := {cases_region_source}])
+  }
   # Check to see if the data has been updated  ------------------------------
 
   if (check_for_update(cases, last_run = here::here("last-update", paste0(region_name, ".rds")))) {

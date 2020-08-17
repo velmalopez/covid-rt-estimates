@@ -1,8 +1,9 @@
 source(here::here("R", "update-regional.R"))
 
-update.regional("afghanistan",
-                "afghanistan",
-                function(cases){
+update.regional(region_name = "afghanistan",
+                region_identifier = "afghanistan",
+                cases_region_source =  province,
+                case_modifier_function = function(cases){
                   cases <- cases[!is.na(iso_3166_2)]
                   return(cases)
                 }
