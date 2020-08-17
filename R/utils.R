@@ -46,8 +46,6 @@ check_for_update <- function(cases, last_run) {
                                 format(last_run_date, "%Y-%m-%d"))
       return(FALSE)
     }
-
-    return(invisible(NULL))
   }
   futile.logger::flog.debug("New data to process")
   saveRDS(current_max_date, last_run)
