@@ -5,6 +5,7 @@ require(data.table, quietly = TRUE)
 require(future, quietly = TRUE)
 require(lubridate, quietly = TRUE)
 require(splus2R, quietly = TRUE)
+require(futile.logger, quietly = TRUE)
 
 # Load utils --------------------------------------------------------------
 
