@@ -14,7 +14,8 @@ source(here::here("R", "utils.R"))
 #'
 #' @description Processes regional data in an abstract fashion to reduce code duplication
 #' @param region_name String, name of region, used for filepaths and filenames
-#' @param covid_regional_data_identifier String, region identifier used by covidregionaldata to get the data #todo audit which countries this differs from name and standardise
+#' @param covid_regional_data_identifier String, region identifier used by covidregionaldata to get the data. If not supplied
+#' then defaults to `region_name`.
 #' @param case_modifier_function Function, passed the cases, should return the cases. Method of modifying the returned data for a specific region if needed
 #' @param generation_time optional overrides for the loaded rds file. If present won't be reloaded from disk.
 #' @param incubation_period optional overrides for the loaded rds file. If present won't be reloaded from disk.
@@ -44,6 +45,10 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
 
   # Get cases  ---------------------------------------------------------------
   futile.logger::flog.info("Getting regional data")
+  
+  if (missing(covid_regional_data_identifier)) {
+    covid_regional_data_identifier <- region_name
+  }
   
   cases <- data.table::setDT(covidregionaldata::get_regional_data(country = covid_regional_data_identifier, 
                                                                   localise_regions = FALSE))
