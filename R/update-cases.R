@@ -21,6 +21,8 @@ reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
 
 setup_log()
 
+futile.logger::flog.info("Processing national dataset for: cases")
+
 # Get cases  ---------------------------------------------------------------
 
 cases <- data.table::setDT(covidregionaldata::get_national_data(source = "ecdc"))
