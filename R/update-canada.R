@@ -2,5 +2,5 @@ source(here::here("R", "update-regional.R"))
 
 update_regional(region_name = "canada",
                 covid_regional_data_identifier = "Canada",
-                cases_region_source =  "province"
+                cases_subregion_source =  "province"
 )

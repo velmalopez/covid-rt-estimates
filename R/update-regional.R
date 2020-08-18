@@ -55,7 +55,7 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
       stop("Invalid column name")
     }
     futile.logger::flog.trace("Remapping case data with %s as region source", cases_subregion_source)
-    cases <- cases[, region := eval(parse(text = cases_region_source))]
+    cases <- cases[, region := eval(parse(text = cases_subregion_source))]
   }
   futile.logger::flog.trace("Cleaning regional data")
   cases <- clean_regional_data(cases)
