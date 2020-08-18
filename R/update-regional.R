@@ -25,9 +25,10 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
                             generation_time, incubation_period, reporting_delay, cases_subregion_source, 
                             region_scale = "Region") {
   
-  futile.logger::flog.info("Processing regional dataset for %s", region_name)
   # setting debug level to trace whilst still in beta. #ToDo: change this line once production ready
   setup_log(threshold = futile.logger::TRACE)
+  
+  futile.logger::flog.info("Processing regional dataset for %s", region_name)
 
   # Update delays -----------------------------------------------------------
   if (missing(generation_time)) {
