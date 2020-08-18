@@ -22,7 +22,8 @@ source(here::here("R", "utils.R"))
 #' @param cases_subregion_source string, optional specification of where to get the list of regions from the cases dataset
 #' @param region_scale string, specify the region scale to epinow
 update_regional <- function(region_name, covid_regional_data_identifier, case_modifier_function, 
-                            generation_time, incubation_period, reporting_delay, cases_subregion_source, 
+                            generation_time, incubation_period, reporting_delay, 
+                            cases_subregion_source = "region_level_1", 
                             region_scale = "Region") {
   
   # setting debug level to trace whilst still in beta. #ToDo: change this line once production ready
@@ -44,7 +45,8 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
   # Get cases  ---------------------------------------------------------------
   futile.logger::flog.info("Getting regional data")
   
-  cases <- data.table::setDT(covidregionaldata::get_regional_data(country = covid_regional_data_identifier))
+  cases <- data.table::setDT(covidregionaldata::get_regional_data(country = covid_regional_data_identifier, 
+                                                                  localise_regions = FALSE))
   if (!missing(case_modifier_function) && typeof(case_modifier_function) == "closure") {
     futile.logger::flog.trace("Modifying regional data")
     cases <- case_modifier_function(cases)
