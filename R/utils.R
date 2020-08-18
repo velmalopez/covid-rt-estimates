@@ -22,7 +22,7 @@ setup_future <- function(jobs, min_cores_per_worker = 1) {
                            workers, cores_per_worker)
   future::plan("multiprocess", workers = workers,
                gc = TRUE, earlySignal = TRUE)
-  futile.logger::flog.debug("Checking the cores available - %s cores and %s jobs. using %s workers",
+  futile.logger::flog.debug("Checking the cores available - %s cores and %s jobs. Using %s workers",
                             future::availableCores(),
                             jobs,
                             min(future::availableCores(), jobs))
