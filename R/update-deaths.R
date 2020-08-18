@@ -20,6 +20,8 @@ reporting_delay <- readRDS(here::here("data", "onset_to_death_delay.rds"))
 
 setup_log()
 
+futile.logger::flog.info("Processing national dataset for: deaths")
+
 # Get cases  ---------------------------------------------------------------
 
 deaths <- data.table::setDT(covidregionaldata::get_national_data(source = "ecdc"))
