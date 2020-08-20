@@ -26,7 +26,7 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
                             generation_time, incubation_period, reporting_delay, 
                             cases_subregion_source = "region_level_1", 
                             region_scale = "Region") {
-  
+   
   # setting debug level to trace whilst still in beta. #ToDo: change this line once production ready
   setup_log(threshold = futile.logger::TRACE)
   
@@ -42,7 +42,7 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
   if (missing(reporting_delay)) {
     reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
   }
-
+ 
   # Get cases  ---------------------------------------------------------------
   futile.logger::flog.info("Getting regional data")
   
@@ -63,7 +63,7 @@ update_regional <- function(region_name, covid_regional_data_identifier, case_mo
       stop("Invalid column name")
     }
     futile.logger::flog.trace("Remapping case data with %s as region source", cases_subregion_source)
-    cases <- cases[, region := eval(parse(text = cases_subregion_source))]
+    data.table::setnames(cases, cases_subregion_source, "region")
   }
   futile.logger::flog.trace("Cleaning regional data")
   cases <- clean_regional_data(cases)

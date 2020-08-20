@@ -62,6 +62,8 @@ clean_regional_data <- function(cases) {
   cases <- cases[, .SD[date >= (max(date) - lubridate::weeks(12))], by = region]
   cases <- cases[!is.na(confirm)]
   data.table::setorder(cases, date)
+
+  return(cases)
 }
 
 #' Regional EpiNow with settings
