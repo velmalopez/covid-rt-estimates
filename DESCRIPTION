@@ -18,10 +18,13 @@ Imports:
   EpiNow2,
   covidregionaldata,
   data.table,
+  dplyr (>= 1.0.0),
   futile.logger (>= 1.4),
   future,
   here,
-  lubridate
+  lubridate,
+  optparse,
+  R6 (>= 2.4)
 Remotes:
   epiforecasts/EpiNow2,
   epiforecasts/covidregionaldata

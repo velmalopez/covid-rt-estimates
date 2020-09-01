@@ -85,7 +85,11 @@ Rscript R/update-cases.R
 Rscript R/update-deaths.R
 ```
 
-4. Run each `R/update-country.R` script in turn.
+4. Run `Rscript R/run-region-updates.R`. 
+
+   Adding `--help` will show documentation and the command options. This can run all or some regions and subregions, control logging and exclude unstable regions. 
+   
+   Note: Currently regions are all country level but the region/subregion pattern could be reused on any level of parent/child geographic dataset.
 
 ## Development environment
 
@@ -129,3 +133,4 @@ To access the command line run the following:
 ``` bash
 docker exec -ti covidrtestimates bash
 ```
+To add another country see [SMG.md](./SMG.md)
