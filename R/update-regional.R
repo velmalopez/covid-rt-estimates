@@ -81,9 +81,11 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
                                   summary_dir = paste0("subnational/", location$name, "/cases/summary"),
                                   region_scale = location$region_scale,
                                   max_execution_time = max_execution_time)
-  } else if (cases[, .N] == 0) {
-    futile.logger::flog.warning("no cases left for region so not processing!")
+  } else {
     out <- list()
+  }
+  if (cases[, .N] == 0) {
+    futile.logger::flog.warning("no cases left for region so not processing!")
   }
   return(out)
 }
