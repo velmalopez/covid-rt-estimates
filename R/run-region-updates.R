@@ -102,15 +102,15 @@ rru_log_outcome <- function(outcome) {
                       colClasses = c("dataset" = "character",
                                      "subregion" = "character",
                                      "start_date" = "character",
-                                     "runtime" = "integer",
+                                     "runtime" = "double",
                                      "start_date_1" = "character",
-                                     "runtime_1" = "integer",
+                                     "runtime_1" = "double",
                                      "start_date_2" = "character",
-                                     "runtime_2" = "integer",
+                                     "runtime_2" = "double",
                                      "start_date_3" = "character",
-                                     "runtime_3" = "integer",
+                                     "runtime_3" = "double",
                                      "start_date_4" = "character",
-                                     "runtime_4" = "integer"))
+                                     "runtime_4" = "double"))
     futile.logger::flog.trace("reformatting the dates back to being dates")
     stats$start_date <- strptime(stats$start_date, "%Y-%m-%d %H:%M:%OS")
     stats$start_date_1 <- strptime(stats$start_date_1, "%Y-%m-%d %H:%M:%OS")
@@ -123,15 +123,15 @@ rru_log_outcome <- function(outcome) {
       dataset = character(),
       subregion = character(),
       start_date = POSIXct(),
-      runtime = integer(),
+      runtime = double(),
       start_date_1 = POSIXct(),
-      runtime_1 = integer(),
+      runtime_1 = double(),
       start_date_2 = POSIXct(),
-      runtime_2 = integer(),
+      runtime_2 = double(),
       start_date_3 = POSIXct(),
-      runtime_3 = integer(),
+      runtime_3 = double(),
       start_date_4 = POSIXct(),
-      runtime_4 = integer()
+      runtime_4 = double()
     )
   }
 
