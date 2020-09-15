@@ -99,7 +99,8 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
                            region_scale = location$region_scale,
                            return_estimates = FALSE,
                            verbose = FALSE,
-                           all_regions = "Region" %in% class(location),
+                           all_regions_summary = "Region" %in% class(location),
+                           return_timings = TRUE,
                            max_execution_time = max_execution_time)
     futile.logger::flog.debug("resetting future plan to sequential")
     future::plan("sequential")
