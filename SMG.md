@@ -12,7 +12,9 @@
 
 ## Region - additional control
 
-The region object allows for a range of values to be specified.
+The region object allows for a range of values to be specified. There are slight differences between superregion and region - check entities.R for fine details. 
+
+It is possible to nest multiple different datasets for the same location - check the folder_name and dataset_folder_name options below for examples.
 
 | Property | Mandatory | Default | Purpose | Example |
 | -------- |:---------:|:-------:| ------- | ------- |
@@ -25,3 +27,5 @@ The region object allows for a range of values to be specified.
 |cases_subregion_source | No | "Region" | If the columns returned by covidregionaldata are not using the standard naming this can be reused to map the correct column for region | `cases_subregion_source = ...` |
 |region_scale | No | "Region" | Used to refer to the region in report. E.g. "State" for USA | `region_scale = "State"` |
 |stable | No | TRUE | Controls if it is eligible for inclusion in a full run. Regions under development (or suffering from data issues) can be flagged as `stable=FALSE` and excluded by default| `stable = FALSE` |
+|folder_name | No | NA | if specified it replaces the dataset name in the folder structure | `folder_name="USA"` |
+|dataset_folder_name| No | "cases" | allows for specifying the dataset is something other than cases. Typically used as a pair with the folder_name flag to co-locate to datasets sensible | `name="uk-hospital-admissions", folder_name="united-kingdom", dataset_folder_name="hospital-admissions"` with another dataset of `name="united-kingdom"` - this will produce data in `subnational/united-kingdom/<cases or hospital-admissions>/...`|
