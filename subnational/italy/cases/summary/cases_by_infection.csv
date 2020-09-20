@@ -1,759 +1,845 @@
 region,date,type,median,mean,sd,lower_20,upper_20,lower_50,upper_50,lower_90,upper_90
 Abruzzo,2020-07-08,estimate,5,5,1,4,5,4,5,3,6
 Abruzzo,2020-07-09,estimate,5,5,1,5,5,4,5,3,6
-Abruzzo,2020-07-10,estimate,5,5,1,5,5,4,5,4,6
+Abruzzo,2020-07-10,estimate,5,5,1,5,5,4,5,4,7
 Abruzzo,2020-07-11,estimate,5,5,1,5,5,5,6,4,7
 Abruzzo,2020-07-12,estimate,5,5,1,5,6,5,6,4,7
 Abruzzo,2020-07-13,estimate,6,6,1,5,6,5,6,4,7
-Abruzzo,2020-07-14,estimate,6,6,1,6,6,5,6,4,8
+Abruzzo,2020-07-14,estimate,6,6,1,5,6,5,6,4,8
 Abruzzo,2020-07-15,estimate,6,6,1,6,6,5,7,4,8
 Abruzzo,2020-07-16,estimate,6,6,1,6,6,6,7,4,8
 Abruzzo,2020-07-17,estimate,7,7,1,6,7,6,7,5,9
 Abruzzo,2020-07-18,estimate,7,7,1,6,7,6,8,5,9
-Abruzzo,2020-07-19,estimate,7,7,1,7,8,7,8,5,10
-Abruzzo,2020-07-20,estimate,8,8,1,7,8,7,8,6,10
-Abruzzo,2020-07-21,estimate,8,8,1,8,8,7,9,6,10
+Abruzzo,2020-07-19,estimate,7,7,1,6,7,6,8,5,9
+Abruzzo,2020-07-20,estimate,8,8,1,7,7,7,8,6,10
+Abruzzo,2020-07-21,estimate,8,8,1,7,8,7,9,6,10
 Abruzzo,2020-07-22,estimate,8,9,1,8,9,7,9,6,11
-Abruzzo,2020-07-23,estimate,9,9,2,8,9,8,9,7,11
+Abruzzo,2020-07-23,estimate,9,9,1,8,9,7,9,7,11
 Abruzzo,2020-07-24,estimate,9,9,2,9,9,8,10,7,12
-Abruzzo,2020-07-25,estimate,10,10,2,9,10,9,10,7,12
+Abruzzo,2020-07-25,estimate,10,10,2,9,10,8,10,8,13
 Abruzzo,2020-07-26,estimate,10,10,2,9,10,9,11,8,13
-Abruzzo,2020-07-27,estimate,10,11,2,10,10,9,11,8,13
+Abruzzo,2020-07-27,estimate,11,11,2,10,10,9,11,8,14
 Abruzzo,2020-07-28,estimate,11,11,2,10,11,10,12,9,14
-Abruzzo,2020-07-29,estimate,11,12,2,10,11,10,12,9,15
+Abruzzo,2020-07-29,estimate,11,12,2,11,11,10,12,9,15
 Abruzzo,2020-07-30,estimate,12,12,2,11,12,10,13,9,16
-Abruzzo,2020-07-31,estimate,12,13,2,11,12,11,13,9,16
-Abruzzo,2020-08-01,estimate,13,13,2,11,12,11,14,10,17
-Abruzzo,2020-08-02,estimate,13,14,3,13,14,12,14,10,18
-Abruzzo,2020-08-03,estimate,14,14,3,13,14,12,15,11,18
+Abruzzo,2020-07-31,estimate,12,13,2,11,12,11,13,10,16
+Abruzzo,2020-08-01,estimate,13,13,2,12,13,11,14,10,17
+Abruzzo,2020-08-02,estimate,13,14,3,12,13,12,15,10,18
+Abruzzo,2020-08-03,estimate,14,14,3,12,13,12,15,11,18
 Abruzzo,2020-08-04,estimate,14,15,3,13,14,12,15,11,19
-Abruzzo,2020-08-05,estimate,15,15,3,14,15,13,16,11,19
-Abruzzo,2020-08-06,estimate,15,16,3,14,15,13,16,11,20
-Abruzzo,2020-08-07,estimate,16,16,3,15,16,14,17,12,21
-Abruzzo,2020-08-08,estimate,16,17,3,15,16,14,17,12,21
-Abruzzo,2020-08-09,estimate,17,17,3,15,17,15,18,13,22
-Abruzzo,2020-08-10,estimate,17,18,3,16,17,15,19,13,22
-Abruzzo,2020-08-11,estimate,18,18,3,17,18,15,19,13,23
-Abruzzo,2020-08-12,estimate,18,19,3,17,18,16,20,14,23
-Abruzzo,2020-08-13,estimate,19,19,3,17,18,16,20,14,24
-Abruzzo,2020-08-14,estimate,19,20,3,18,20,17,20,15,24
-Abruzzo,2020-08-15,estimate,20,20,3,18,20,17,21,15,25
-Abruzzo,2020-08-16,estimate,20,21,3,19,20,18,21,15,25
-Abruzzo,2020-08-17,estimate,21,21,3,20,21,18,22,16,26
-Abruzzo,2020-08-18,estimate,21,22,3,20,22,19,23,17,27
-Abruzzo,2020-08-19,estimate,22,22,3,21,22,20,24,17,28
-Abruzzo,2020-08-20,estimate,22,23,4,21,23,20,24,17,28
-Abruzzo,2020-08-21,estimate,23,23,4,22,24,20,24,18,29
-Abruzzo,2020-08-22,estimate,23,24,4,23,25,20,25,18,29
-Abruzzo,2020-08-23,estimate,24,24,4,23,25,21,26,18,31
-Abruzzo,2020-08-24,estimate,25,25,4,24,26,22,26,19,32
-Abruzzo,2020-08-25,estimate,25,25,4,24,26,22,27,19,33
+Abruzzo,2020-08-05,estimate,15,15,3,13,15,13,16,11,20
+Abruzzo,2020-08-06,estimate,15,16,3,13,15,13,16,11,20
+Abruzzo,2020-08-07,estimate,16,16,3,14,15,13,17,12,21
+Abruzzo,2020-08-08,estimate,16,17,3,14,16,14,17,12,21
+Abruzzo,2020-08-09,estimate,17,17,3,15,16,14,18,12,21
+Abruzzo,2020-08-10,estimate,17,18,3,15,17,15,18,13,22
+Abruzzo,2020-08-11,estimate,18,18,3,16,17,15,19,14,23
+Abruzzo,2020-08-12,estimate,18,19,3,16,17,16,20,14,23
+Abruzzo,2020-08-13,estimate,19,19,3,17,18,17,20,14,24
+Abruzzo,2020-08-14,estimate,19,20,3,18,19,17,21,15,24
+Abruzzo,2020-08-15,estimate,20,20,3,18,19,18,21,15,25
+Abruzzo,2020-08-16,estimate,20,21,3,18,20,18,22,15,25
+Abruzzo,2020-08-17,estimate,21,21,3,19,20,18,22,16,26
+Abruzzo,2020-08-18,estimate,21,22,3,19,21,18,22,16,27
+Abruzzo,2020-08-19,estimate,22,22,3,20,21,19,23,17,27
+Abruzzo,2020-08-20,estimate,22,23,3,21,22,19,23,17,28
+Abruzzo,2020-08-21,estimate,23,23,4,22,23,20,24,17,29
+Abruzzo,2020-08-22,estimate,23,24,4,22,24,20,25,18,30
+Abruzzo,2020-08-23,estimate,24,24,4,23,24,21,26,18,30
+Abruzzo,2020-08-24,estimate,24,25,4,22,24,22,26,18,31
+Abruzzo,2020-08-25,estimate,25,25,4,23,25,22,27,19,32
 Abruzzo,2020-08-26,estimate,26,26,4,24,26,23,28,19,33
-Abruzzo,2020-08-27,estimate,26,27,4,25,27,23,28,20,34
-Abruzzo,2020-08-28,estimate,27,27,5,25,27,23,29,20,35
-Abruzzo,2020-08-29,estimate,27,28,5,26,28,23,29,20,36
-Abruzzo,2020-08-30,estimate,28,28,5,26,28,24,30,20,37
-Abruzzo,2020-08-31,estimate,28,29,6,26,28,25,32,20,38
-Abruzzo,2020-09-01,estimate,29,30,6,26,29,24,32,20,39
-Abruzzo,2020-09-02,estimate,30,30,7,26,29,25,34,20,40
-Abruzzo,2020-09-03,estimate based on partial data,30,31,7,26,29,24,33,20,42
-Abruzzo,2020-09-04,estimate based on partial data,31,32,8,28,31,25,34,19,43
-Abruzzo,2020-09-05,estimate based on partial data,32,32,8,29,33,25,35,18,45
-Abruzzo,2020-09-06,estimate based on partial data,32,33,9,30,34,24,36,18,47
-Abruzzo,2020-09-07,estimate based on partial data,33,34,10,31,35,24,37,18,49
-Abruzzo,2020-09-08,estimate based on partial data,34,35,11,32,36,24,38,17,51
-Abruzzo,2020-09-09,estimate based on partial data,35,36,12,32,37,25,40,16,53
-Abruzzo,2020-09-10,estimate based on partial data,36,37,13,33,39,25,41,15,55
-Abruzzo,2020-09-11,estimate based on partial data,36,38,14,35,42,24,41,14,58
-Abruzzo,2020-09-12,estimate based on partial data,37,39,16,36,43,23,42,13,59
-Abruzzo,2020-09-13,estimate based on partial data,38,40,17,37,44,24,44,13,63
-Abruzzo,2020-09-14,estimate based on partial data,40,42,20,34,42,26,48,12,66
-Abruzzo,2020-09-15,estimate based on partial data,41,43,22,36,45,24,48,11,69
-Abruzzo,2020-09-16,forecast,42,45,25,36,46,25,51,11,73
-Abruzzo,2020-09-17,forecast,43,47,29,38,49,25,53,10,77
-Abruzzo,2020-09-18,forecast,44,49,33,39,50,25,54,7,80
-Abruzzo,2020-09-19,forecast,45,51,39,42,54,25,56,6,84
-Abruzzo,2020-09-20,forecast,46,53,46,42,55,26,59,6,89
-Abruzzo,2020-09-21,forecast,47,56,54,27,40,24,60,5,93
-Abruzzo,2020-09-22,forecast,49,58,65,25,39,24,61,3,96
-Abruzzo,2020-09-23,forecast,50,61,78,24,40,23,63,4,101
-Abruzzo,2020-09-24,forecast,51,65,95,26,42,24,66,3,106
-Abruzzo,2020-09-25,forecast,52,69,117,26,43,17,61,2,111
-Abruzzo,2020-09-26,forecast,54,73,144,23,41,16,62,2,117
-Abruzzo,2020-09-27,forecast,55,79,180,23,42,14,63,2,124
-Abruzzo,2020-09-28,forecast,56,84,225,24,43,14,65,2,129
-Abruzzo,2020-09-29,forecast,58,91,283,24,43,14,67,2,137
+Abruzzo,2020-08-27,estimate,26,27,4,24,26,23,29,19,33
+Abruzzo,2020-08-28,estimate,27,27,5,25,27,24,30,19,34
+Abruzzo,2020-08-29,estimate,27,28,5,26,28,24,30,20,35
+Abruzzo,2020-08-30,estimate,28,28,5,26,28,24,30,20,36
+Abruzzo,2020-08-31,estimate,28,29,5,27,29,24,31,20,37
+Abruzzo,2020-09-01,estimate,29,29,6,28,30,24,31,20,38
+Abruzzo,2020-09-02,estimate,29,30,6,28,31,25,32,20,40
+Abruzzo,2020-09-03,estimate,30,31,7,28,31,25,33,21,42
+Abruzzo,2020-09-04,estimate based on partial data,31,31,7,28,31,24,33,20,43
+Abruzzo,2020-09-05,estimate based on partial data,31,32,8,29,32,24,34,20,44
+Abruzzo,2020-09-06,estimate based on partial data,32,33,8,28,32,24,35,20,45
+Abruzzo,2020-09-07,estimate based on partial data,33,34,9,31,35,24,35,20,48
+Abruzzo,2020-09-08,estimate based on partial data,33,34,10,29,34,25,37,20,49
+Abruzzo,2020-09-09,estimate based on partial data,34,35,10,33,38,25,38,19,51
+Abruzzo,2020-09-10,estimate based on partial data,35,36,11,30,36,25,40,18,52
+Abruzzo,2020-09-11,estimate based on partial data,36,37,13,27,33,25,41,18,55
+Abruzzo,2020-09-12,estimate based on partial data,37,38,14,30,37,25,42,18,58
+Abruzzo,2020-09-13,estimate based on partial data,38,39,16,31,38,24,43,15,60
+Abruzzo,2020-09-14,estimate based on partial data,39,41,18,32,39,25,45,14,62
+Abruzzo,2020-09-15,estimate based on partial data,40,42,21,28,36,25,47,14,66
+Abruzzo,2020-09-16,estimate based on partial data,41,44,25,28,37,24,49,12,69
+Abruzzo,2020-09-17,forecast,42,45,31,27,37,24,50,11,72
+Abruzzo,2020-09-18,forecast,43,47,41,28,38,24,52,10,76
+Abruzzo,2020-09-19,forecast,44,50,56,28,39,20,50,9,79
+Abruzzo,2020-09-20,forecast,45,52,78,27,39,20,52,8,83
+Abruzzo,2020-09-21,forecast,46,55,111,28,40,19,52,10,89
+Abruzzo,2020-09-22,forecast,47,59,160,27,40,19,55,8,92
+Abruzzo,2020-09-23,forecast,48,64,232,27,40,19,57,7,97
+Abruzzo,2020-09-24,forecast,50,70,340,27,41,19,58,5,100
+Abruzzo,2020-09-25,forecast,51,78,499,27,41,16,58,3,104
+Abruzzo,2020-09-26,forecast,52,88,733,25,40,16,59,4,111
+Abruzzo,2020-09-27,forecast,53,102,1078,25,41,15,61,3,115
+Abruzzo,2020-09-28,forecast,54,122,1588,24,41,11,59,1,120
+Abruzzo,2020-09-29,forecast,56,149,2339,26,43,10,60,1,126
+Abruzzo,2020-09-30,forecast,57,188,3447,25,43,10,62,2,135
 Basilicata,2020-07-13,estimate,2,2,1,1,2,1,2,1,3
 Basilicata,2020-07-14,estimate,2,2,1,2,2,1,2,1,4
-Basilicata,2020-07-15,estimate,2,2,1,1,2,1,3,1,4
+Basilicata,2020-07-15,estimate,2,2,1,2,2,1,3,1,4
 Basilicata,2020-07-16,estimate,2,3,1,2,2,2,3,1,4
-Basilicata,2020-07-17,estimate,2,3,1,2,2,2,3,1,4
-Basilicata,2020-07-18,estimate,3,3,1,2,2,2,3,1,4
+Basilicata,2020-07-17,estimate,3,3,1,2,2,2,3,1,4
+Basilicata,2020-07-18,estimate,3,3,1,2,3,2,3,1,5
 Basilicata,2020-07-19,estimate,3,3,1,2,3,2,3,1,5
 Basilicata,2020-07-20,estimate,3,3,1,2,3,2,3,1,5
 Basilicata,2020-07-21,estimate,3,3,1,2,3,2,3,1,5
 Basilicata,2020-07-22,estimate,3,3,1,2,3,2,3,2,5
-Basilicata,2020-07-23,estimate,3,3,1,3,3,2,3,2,5
-Basilicata,2020-07-24,estimate,3,3,1,3,3,2,4,2,5
-Basilicata,2020-07-25,estimate,3,4,1,3,3,2,4,2,5
-Basilicata,2020-07-26,estimate,3,4,1,3,3,2,4,2,5
-Basilicata,2020-07-27,estimate,3,4,1,3,3,2,4,2,6
-Basilicata,2020-07-28,estimate,3,4,1,3,3,2,4,2,6
+Basilicata,2020-07-23,estimate,3,3,1,2,3,2,4,2,5
+Basilicata,2020-07-24,estimate,3,4,1,2,3,2,4,2,5
+Basilicata,2020-07-25,estimate,3,4,1,2,3,2,4,2,5
+Basilicata,2020-07-26,estimate,3,4,1,3,3,2,4,2,6
+Basilicata,2020-07-27,estimate,3,4,1,3,4,2,4,2,6
+Basilicata,2020-07-28,estimate,3,4,1,3,3,3,4,2,6
 Basilicata,2020-07-29,estimate,3,4,1,3,3,2,4,2,6
-Basilicata,2020-07-30,estimate,4,4,1,3,4,2,4,2,6
-Basilicata,2020-07-31,estimate,4,4,1,3,4,2,4,2,6
-Basilicata,2020-08-01,estimate,4,4,1,3,4,2,4,2,6
-Basilicata,2020-08-02,estimate,4,4,1,3,4,3,4,2,6
-Basilicata,2020-08-03,estimate,4,4,2,3,4,3,4,2,6
-Basilicata,2020-08-04,estimate,4,4,2,3,4,3,5,2,7
-Basilicata,2020-08-05,estimate,4,4,2,3,4,3,5,2,7
+Basilicata,2020-07-30,estimate,4,4,1,3,3,2,4,2,6
+Basilicata,2020-07-31,estimate,4,4,1,3,3,3,4,1,6
+Basilicata,2020-08-01,estimate,4,4,1,3,3,3,4,2,6
+Basilicata,2020-08-02,estimate,4,4,1,3,3,3,4,1,6
+Basilicata,2020-08-03,estimate,4,4,2,3,4,3,4,1,6
+Basilicata,2020-08-04,estimate,4,4,2,3,4,3,4,2,6
+Basilicata,2020-08-05,estimate,4,4,2,3,4,3,5,1,6
 Basilicata,2020-08-06,estimate,4,4,2,3,4,3,5,2,7
-Basilicata,2020-08-07,estimate,4,5,2,4,4,3,5,2,7
-Basilicata,2020-08-08,estimate,4,5,2,4,5,3,5,2,7
-Basilicata,2020-08-09,estimate,5,5,2,4,5,3,5,2,7
+Basilicata,2020-08-07,estimate,4,4,2,4,4,3,5,2,7
+Basilicata,2020-08-08,estimate,4,5,2,4,4,3,5,2,7
+Basilicata,2020-08-09,estimate,4,5,2,4,5,3,5,2,7
 Basilicata,2020-08-10,estimate,5,5,2,4,5,3,5,2,8
-Basilicata,2020-08-11,estimate,5,5,2,4,5,3,6,2,8
-Basilicata,2020-08-12,estimate,5,5,2,4,5,4,6,2,8
-Basilicata,2020-08-13,estimate,5,6,2,4,5,4,6,2,9
-Basilicata,2020-08-14,estimate,6,6,2,5,6,4,6,2,9
-Basilicata,2020-08-15,estimate,6,6,3,5,6,4,7,2,9
-Basilicata,2020-08-16,estimate,6,6,3,5,6,4,7,2,10
-Basilicata,2020-08-17,estimate,6,7,3,5,6,4,7,2,10
-Basilicata,2020-08-18,estimate,7,7,3,6,7,5,8,3,11
-Basilicata,2020-08-19,estimate,7,7,3,6,7,5,8,3,11
-Basilicata,2020-08-20,estimate,7,8,3,6,7,5,8,3,12
-Basilicata,2020-08-21,estimate,7,8,3,7,8,5,8,3,12
-Basilicata,2020-08-22,estimate,8,8,3,7,8,5,9,3,13
-Basilicata,2020-08-23,estimate,8,9,4,7,8,5,9,4,14
-Basilicata,2020-08-24,estimate,8,9,4,7,8,6,10,4,14
-Basilicata,2020-08-25,estimate,9,9,4,7,9,6,10,4,15
-Basilicata,2020-08-26,estimate,9,10,4,8,9,7,11,4,15
-Basilicata,2020-08-27,estimate,9,10,4,8,9,6,11,4,16
-Basilicata,2020-08-28,estimate,10,11,4,8,9,6,11,5,17
-Basilicata,2020-08-29,estimate,10,11,4,8,10,7,11,5,17
-Basilicata,2020-08-30,estimate,10,11,5,9,10,7,12,5,18
-Basilicata,2020-08-31,estimate,11,12,5,8,10,7,13,5,19
-Basilicata,2020-09-01,estimate,11,12,6,8,10,8,13,5,20
-Basilicata,2020-09-02,estimate,12,13,6,9,11,7,13,5,21
-Basilicata,2020-09-03,estimate based on partial data,12,13,7,9,11,8,14,5,22
-Basilicata,2020-09-04,estimate based on partial data,12,14,7,9,12,7,14,4,23
-Basilicata,2020-09-05,estimate based on partial data,13,15,8,8,11,7,15,5,26
-Basilicata,2020-09-06,estimate based on partial data,13,15,10,9,11,7,15,4,27
-Basilicata,2020-09-07,estimate based on partial data,14,16,11,7,10,6,15,3,29
-Basilicata,2020-09-08,estimate based on partial data,14,17,13,8,11,6,15,3,31
-Basilicata,2020-09-09,estimate based on partial data,14,18,15,8,11,6,16,3,34
-Basilicata,2020-09-10,estimate based on partial data,15,19,18,8,11,5,17,2,36
-Basilicata,2020-09-11,estimate based on partial data,15,21,22,8,11,4,17,2,40
-Basilicata,2020-09-12,estimate based on partial data,16,23,27,7,11,4,18,1,43
-Basilicata,2020-09-13,estimate based on partial data,16,25,33,7,12,2,16,1,49
-Basilicata,2020-09-14,estimate based on partial data,17,27,42,5,10,2,17,0,53
-Basilicata,2020-09-15,estimate based on partial data,17,31,55,4,9,2,18,1,60
-Basilicata,2020-09-16,forecast,18,35,75,4,9,1,18,0,68
-Basilicata,2020-09-17,forecast,18,40,104,3,9,1,18,0,76
-Basilicata,2020-09-18,forecast,19,47,150,3,9,1,19,0,86
-Basilicata,2020-09-19,forecast,19,57,224,3,9,1,20,0,94
-Basilicata,2020-09-20,forecast,20,70,346,2,8,0,20,0,106
-Basilicata,2020-09-21,forecast,21,89,553,0,7,0,21,0,119
-Basilicata,2020-09-22,forecast,21,118,910,0,6,0,21,0,132
-Basilicata,2020-09-23,forecast,22,161,1536,0,6,0,22,0,150
-Basilicata,2020-09-24,forecast,23,227,2648,0,6,0,23,0,167
-Basilicata,2020-09-25,forecast,23,333,4642,0,6,0,23,0,188
-Basilicata,2020-09-26,forecast,24,505,8241,0,6,0,24,0,213
-Basilicata,2020-09-27,forecast,24,790,14771,0,5,0,24,0,239
-Basilicata,2020-09-28,forecast,25,1270,26670,0,5,0,25,0,277
-Basilicata,2020-09-29,forecast,26,2088,48410,0,5,0,26,0,313
-Calabria,2020-07-07,estimate,4,5,2,3,4,3,5,2,7
-Calabria,2020-07-08,estimate,5,5,2,4,4,3,5,2,7
-Calabria,2020-07-09,estimate,5,5,2,4,5,3,5,3,7
-Calabria,2020-07-10,estimate,5,5,2,4,5,4,5,3,7
-Calabria,2020-07-11,estimate,5,5,1,4,4,4,5,3,7
-Calabria,2020-07-12,estimate,5,5,1,4,5,4,6,3,7
-Calabria,2020-07-13,estimate,5,5,1,4,5,4,5,3,7
-Calabria,2020-07-14,estimate,5,5,1,4,5,3,5,3,7
-Calabria,2020-07-15,estimate,5,5,1,4,5,3,5,3,7
-Calabria,2020-07-16,estimate,4,5,1,4,5,3,5,3,7
-Calabria,2020-07-17,estimate,4,5,1,4,5,3,5,2,7
-Calabria,2020-07-18,estimate,4,4,1,4,5,3,5,2,6
-Calabria,2020-07-19,estimate,4,4,1,4,5,3,5,2,6
-Calabria,2020-07-20,estimate,4,4,1,3,4,3,5,2,6
-Calabria,2020-07-21,estimate,4,4,1,4,4,3,5,2,7
-Calabria,2020-07-22,estimate,4,4,2,4,4,3,5,2,7
-Calabria,2020-07-23,estimate,4,4,2,4,4,3,5,2,7
-Calabria,2020-07-24,estimate,4,5,2,4,4,3,5,2,7
-Calabria,2020-07-25,estimate,5,5,2,3,4,3,5,2,7
-Calabria,2020-07-26,estimate,5,5,2,4,5,3,6,2,7
-Calabria,2020-07-27,estimate,5,5,2,4,5,3,6,2,8
-Calabria,2020-07-28,estimate,5,5,2,4,5,4,6,2,8
-Calabria,2020-07-29,estimate,5,6,2,4,5,4,6,3,8
-Calabria,2020-07-30,estimate,6,6,2,5,6,4,7,3,9
-Calabria,2020-07-31,estimate,6,6,2,5,6,4,7,3,9
-Calabria,2020-08-01,estimate,7,7,2,6,7,5,8,3,10
-Calabria,2020-08-02,estimate,7,7,2,7,8,5,8,4,10
-Calabria,2020-08-03,estimate,8,8,2,7,8,6,9,4,11
-Calabria,2020-08-04,estimate,8,8,2,8,9,6,9,5,12
-Calabria,2020-08-05,estimate,9,9,2,8,9,7,10,5,12
-Calabria,2020-08-06,estimate,9,10,2,9,10,8,11,6,13
-Calabria,2020-08-07,estimate,10,10,3,9,10,8,11,6,14
-Calabria,2020-08-08,estimate,11,11,3,9,11,9,12,6,15
-Calabria,2020-08-09,estimate,11,12,3,10,11,9,12,7,16
-Calabria,2020-08-10,estimate,12,12,3,11,13,10,14,8,17
-Calabria,2020-08-11,estimate,13,13,3,12,13,10,14,8,18
-Calabria,2020-08-12,estimate,13,14,3,13,14,10,14,8,19
-Calabria,2020-08-13,estimate,14,14,4,13,15,11,16,9,20
-Calabria,2020-08-14,estimate,15,15,4,14,15,12,17,9,21
-Calabria,2020-08-15,estimate,16,16,4,15,17,12,18,9,23
-Calabria,2020-08-16,estimate,17,17,5,15,17,13,19,9,24
-Calabria,2020-08-17,estimate,17,18,5,15,17,14,20,11,26
-Calabria,2020-08-18,estimate,18,19,5,16,18,14,21,11,27
-Calabria,2020-08-19,estimate,19,20,5,16,19,15,22,12,28
-Calabria,2020-08-20,estimate,20,21,6,18,21,16,22,12,29
-Calabria,2020-08-21,estimate,21,22,6,19,22,17,24,13,31
-Calabria,2020-08-22,estimate,22,23,6,19,22,18,25,14,32
-Calabria,2020-08-23,estimate,23,24,6,21,23,18,25,15,33
-Calabria,2020-08-24,estimate,24,25,6,22,25,19,27,15,35
-Calabria,2020-08-25,estimate,25,26,7,23,26,20,28,16,36
-Calabria,2020-08-26,estimate,26,27,7,23,26,21,29,16,37
-Calabria,2020-08-27,estimate,26,27,7,23,26,20,29,16,38
-Calabria,2020-08-28,estimate,27,28,8,24,27,22,30,17,40
-Calabria,2020-08-29,estimate,27,28,8,22,25,20,29,16,39
-Calabria,2020-08-30,estimate,26,28,8,23,26,20,29,16,39
-Calabria,2020-08-31,estimate,26,27,8,23,26,20,28,16,39
-Calabria,2020-09-01,estimate,25,26,8,23,26,18,27,15,39
-Calabria,2020-09-02,estimate,24,25,8,22,25,17,27,13,37
-Calabria,2020-09-03,estimate based on partial data,23,24,8,20,24,16,25,12,37
-Calabria,2020-09-04,estimate based on partial data,22,23,9,18,21,15,25,10,36
-Calabria,2020-09-05,estimate based on partial data,21,22,9,15,19,13,24,7,35
-Calabria,2020-09-06,estimate based on partial data,19,21,10,12,16,11,23,6,35
-Calabria,2020-09-07,estimate based on partial data,18,20,11,9,14,9,22,3,34
-Calabria,2020-09-08,estimate based on partial data,17,19,12,8,13,8,21,3,35
-Calabria,2020-09-09,estimate based on partial data,16,18,13,7,12,6,19,2,36
-Calabria,2020-09-10,estimate based on partial data,14,18,14,5,10,2,15,1,36
-Calabria,2020-09-11,estimate based on partial data,13,17,15,4,9,2,14,0,36
-Calabria,2020-09-12,estimate based on partial data,12,17,17,3,7,1,13,0,37
-Calabria,2020-09-13,estimate based on partial data,11,17,19,1,5,0,12,0,38
-Calabria,2020-09-14,estimate based on partial data,11,17,21,1,4,0,11,0,39
-Calabria,2020-09-15,estimate based on partial data,10,18,27,0,3,0,10,0,41
-Calabria,2020-09-16,forecast,9,18,38,0,3,0,9,0,43
-Calabria,2020-09-17,forecast,9,19,59,0,2,0,9,0,44
-Calabria,2020-09-18,forecast,8,21,102,0,2,0,8,0,46
-Calabria,2020-09-19,forecast,8,23,185,0,2,0,8,0,48
-Calabria,2020-09-20,forecast,7,28,343,0,1,0,7,0,50
-Calabria,2020-09-21,forecast,7,36,640,0,1,0,7,0,52
-Calabria,2020-09-22,forecast,6,51,1201,0,1,0,6,0,54
-Calabria,2020-09-23,forecast,6,77,2256,0,1,0,6,0,56
-Calabria,2020-09-24,forecast,6,125,4240,0,1,0,6,0,58
-Calabria,2020-09-25,forecast,5,213,7973,0,1,0,5,0,59
-Calabria,2020-09-26,forecast,5,377,14993,0,1,0,5,0,61
-Calabria,2020-09-27,forecast,5,683,28198,0,0,0,5,0,63
-Calabria,2020-09-28,forecast,4,1252,53032,0,0,0,4,0,66
-Calabria,2020-09-29,forecast,4,2318,99740,0,0,0,4,0,69
-Campania,2020-07-07,estimate,12,13,3,11,12,10,14,9,17
-Campania,2020-07-08,estimate,13,13,3,12,13,11,15,9,18
-Campania,2020-07-09,estimate,13,14,3,12,13,11,15,9,18
-Campania,2020-07-10,estimate,14,14,3,12,13,12,15,9,19
-Campania,2020-07-11,estimate,14,14,3,13,14,11,15,9,19
-Campania,2020-07-12,estimate,15,15,3,13,15,12,16,10,20
-Campania,2020-07-13,estimate,15,15,3,14,15,12,16,10,20
-Campania,2020-07-14,estimate,16,16,3,15,16,13,17,11,21
-Campania,2020-07-15,estimate,16,16,3,15,17,14,18,11,21
-Campania,2020-07-16,estimate,16,17,3,14,16,13,18,12,22
-Campania,2020-07-17,estimate,17,17,3,15,16,14,18,12,22
-Campania,2020-07-18,estimate,17,17,3,16,17,15,19,12,22
-Campania,2020-07-19,estimate,17,17,3,16,18,14,19,12,23
-Campania,2020-07-20,estimate,17,18,4,16,18,14,19,12,23
-Campania,2020-07-21,estimate,17,18,4,15,17,15,19,12,23
+Basilicata,2020-08-11,estimate,5,5,2,4,5,3,5,2,8
+Basilicata,2020-08-12,estimate,5,5,2,4,5,3,5,2,8
+Basilicata,2020-08-13,estimate,5,5,2,4,5,3,6,2,8
+Basilicata,2020-08-14,estimate,5,6,2,5,6,3,6,2,9
+Basilicata,2020-08-15,estimate,6,6,2,5,6,4,6,2,9
+Basilicata,2020-08-16,estimate,6,6,2,5,6,4,6,2,9
+Basilicata,2020-08-17,estimate,6,6,3,5,6,4,7,3,10
+Basilicata,2020-08-18,estimate,6,7,3,6,7,4,7,3,11
+Basilicata,2020-08-19,estimate,7,7,3,6,7,4,7,3,11
+Basilicata,2020-08-20,estimate,7,7,3,6,7,5,8,3,11
+Basilicata,2020-08-21,estimate,7,8,3,6,7,5,8,3,12
+Basilicata,2020-08-22,estimate,7,8,3,6,7,5,8,4,12
+Basilicata,2020-08-23,estimate,8,8,3,6,8,6,9,4,13
+Basilicata,2020-08-24,estimate,8,9,3,6,8,6,10,4,13
+Basilicata,2020-08-25,estimate,8,9,3,6,8,6,10,4,14
+Basilicata,2020-08-26,estimate,8,9,4,7,9,6,10,4,15
+Basilicata,2020-08-27,estimate,9,10,4,7,9,6,10,4,15
+Basilicata,2020-08-28,estimate,9,10,4,7,8,6,10,4,15
+Basilicata,2020-08-29,estimate,9,10,4,7,9,6,10,5,16
+Basilicata,2020-08-30,estimate,10,10,4,7,9,7,11,5,17
+Basilicata,2020-08-31,estimate,10,11,5,7,9,7,12,4,17
+Basilicata,2020-09-01,estimate,10,11,5,8,9,6,11,5,18
+Basilicata,2020-09-02,estimate,10,11,5,8,9,6,11,5,18
+Basilicata,2020-09-03,estimate,11,12,6,8,10,7,12,5,20
+Basilicata,2020-09-04,estimate based on partial data,11,12,6,7,9,7,13,4,20
+Basilicata,2020-09-05,estimate based on partial data,11,12,7,7,9,6,12,4,21
+Basilicata,2020-09-06,estimate based on partial data,11,13,7,7,9,6,13,3,22
+Basilicata,2020-09-07,estimate based on partial data,11,13,8,7,10,6,13,3,23
+Basilicata,2020-09-08,estimate based on partial data,12,14,9,7,10,6,13,2,25
+Basilicata,2020-09-09,estimate based on partial data,12,14,11,7,10,6,15,2,27
+Basilicata,2020-09-10,estimate based on partial data,12,15,12,7,10,5,14,2,29
+Basilicata,2020-09-11,estimate based on partial data,12,16,14,7,10,4,14,2,31
+Basilicata,2020-09-12,estimate based on partial data,12,17,18,7,10,3,14,1,34
+Basilicata,2020-09-13,estimate based on partial data,12,18,22,7,10,3,14,0,35
+Basilicata,2020-09-14,estimate based on partial data,13,19,29,6,10,2,13,0,39
+Basilicata,2020-09-15,estimate based on partial data,13,21,42,6,10,1,13,0,41
+Basilicata,2020-09-16,estimate based on partial data,13,24,67,5,9,1,14,0,45
+Basilicata,2020-09-17,forecast,13,28,109,4,9,1,14,0,49
+Basilicata,2020-09-18,forecast,13,33,180,4,9,0,13,0,55
+Basilicata,2020-09-19,forecast,14,40,305,1,6,0,14,0,60
+Basilicata,2020-09-20,forecast,14,51,523,1,5,0,14,0,66
+Basilicata,2020-09-21,forecast,14,67,901,0,5,0,14,0,73
+Basilicata,2020-09-22,forecast,14,93,1558,0,4,0,14,0,81
+Basilicata,2020-09-23,forecast,14,135,2703,0,4,0,14,0,90
+Basilicata,2020-09-24,forecast,15,203,4696,0,4,0,15,0,100
+Basilicata,2020-09-25,forecast,15,316,8168,0,4,0,15,0,110
+Basilicata,2020-09-26,forecast,15,507,14217,0,4,0,15,0,121
+Basilicata,2020-09-27,forecast,15,829,24757,0,3,0,15,0,133
+Basilicata,2020-09-28,forecast,16,1378,43129,0,3,0,16,0,147
+Basilicata,2020-09-29,forecast,16,2320,75152,0,3,0,16,0,164
+Basilicata,2020-09-30,forecast,16,3941,130981,0,3,0,16,0,180
+Calabria,2020-07-10,estimate,5,6,2,5,5,4,6,3,8
+Calabria,2020-07-11,estimate,5,6,2,4,5,4,6,3,8
+Calabria,2020-07-12,estimate,5,5,2,4,5,4,6,3,8
+Calabria,2020-07-13,estimate,5,5,2,5,5,4,6,3,8
+Calabria,2020-07-14,estimate,5,5,1,4,5,4,5,3,7
+Calabria,2020-07-15,estimate,5,5,1,4,5,4,5,3,7
+Calabria,2020-07-16,estimate,5,5,1,4,4,4,5,3,7
+Calabria,2020-07-17,estimate,4,5,1,4,4,3,5,2,7
+Calabria,2020-07-18,estimate,4,4,1,4,4,3,5,2,7
+Calabria,2020-07-19,estimate,4,4,1,4,4,3,5,2,7
+Calabria,2020-07-20,estimate,4,4,1,4,4,3,5,2,7
+Calabria,2020-07-21,estimate,4,4,1,4,4,3,5,2,6
+Calabria,2020-07-22,estimate,4,4,2,3,4,3,5,2,6
+Calabria,2020-07-23,estimate,4,4,2,3,4,3,5,2,6
+Calabria,2020-07-24,estimate,4,4,2,3,4,3,5,2,7
+Calabria,2020-07-25,estimate,4,4,2,3,4,3,5,2,7
+Calabria,2020-07-26,estimate,4,4,2,3,4,3,5,2,7
+Calabria,2020-07-27,estimate,4,5,2,4,4,3,5,2,7
+Calabria,2020-07-28,estimate,5,5,2,4,4,4,6,2,8
+Calabria,2020-07-29,estimate,5,5,2,4,5,4,6,2,8
+Calabria,2020-07-30,estimate,5,6,2,4,5,4,6,3,8
+Calabria,2020-07-31,estimate,6,6,2,5,6,4,6,3,9
+Calabria,2020-08-01,estimate,6,6,2,6,6,4,7,3,9
+Calabria,2020-08-02,estimate,7,7,2,6,7,5,7,4,10
+Calabria,2020-08-03,estimate,7,8,2,7,8,6,8,4,11
+Calabria,2020-08-04,estimate,8,8,2,7,8,6,9,4,12
+Calabria,2020-08-05,estimate,9,9,3,8,9,7,10,5,13
+Calabria,2020-08-06,estimate,9,10,3,8,9,7,10,6,14
+Calabria,2020-08-07,estimate,10,10,3,8,9,8,11,6,15
+Calabria,2020-08-08,estimate,11,11,3,9,10,8,12,7,16
+Calabria,2020-08-09,estimate,11,12,3,9,11,9,13,7,17
+Calabria,2020-08-10,estimate,12,13,3,10,11,9,14,7,18
+Calabria,2020-08-11,estimate,13,13,4,12,14,10,14,8,19
+Calabria,2020-08-12,estimate,13,14,4,12,14,10,15,8,20
+Calabria,2020-08-13,estimate,14,15,4,13,15,11,16,8,21
+Calabria,2020-08-14,estimate,15,16,4,12,14,11,17,9,22
+Calabria,2020-08-15,estimate,16,16,5,13,15,12,18,9,23
+Calabria,2020-08-16,estimate,17,17,5,14,16,13,19,9,24
+Calabria,2020-08-17,estimate,17,18,5,15,17,14,20,10,26
+Calabria,2020-08-18,estimate,18,19,5,15,18,14,21,10,27
+Calabria,2020-08-19,estimate,19,20,6,16,18,16,22,11,28
+Calabria,2020-08-20,estimate,20,21,6,18,21,16,23,12,30
+Calabria,2020-08-21,estimate,21,22,6,19,22,16,23,13,31
+Calabria,2020-08-22,estimate,22,23,6,20,23,18,25,14,32
+Calabria,2020-08-23,estimate,23,24,6,19,22,19,26,14,33
+Calabria,2020-08-24,estimate,25,25,7,20,23,19,27,15,35
+Calabria,2020-08-25,estimate,26,26,7,21,24,19,27,16,37
+Calabria,2020-08-26,estimate,26,27,7,22,25,21,29,15,37
+Calabria,2020-08-27,estimate,27,28,8,23,27,20,30,16,39
+Calabria,2020-08-28,estimate,28,29,8,22,26,20,29,17,40
+Calabria,2020-08-29,estimate,28,29,8,22,25,22,31,17,41
+Calabria,2020-08-30,estimate,28,29,8,22,26,22,31,17,41
+Calabria,2020-08-31,estimate,27,29,8,23,27,21,31,16,40
+Calabria,2020-09-01,estimate,27,28,8,23,26,21,31,15,39
+Calabria,2020-09-02,estimate,26,27,8,23,26,21,30,15,38
+Calabria,2020-09-03,estimate,25,26,8,21,25,19,28,15,38
+Calabria,2020-09-04,estimate based on partial data,23,24,8,19,23,18,27,13,37
+Calabria,2020-09-05,estimate based on partial data,22,23,8,18,22,16,26,10,34
+Calabria,2020-09-06,estimate based on partial data,20,21,9,17,20,14,24,8,34
+Calabria,2020-09-07,estimate based on partial data,19,20,9,14,18,12,23,7,34
+Calabria,2020-09-08,estimate based on partial data,17,19,10,13,16,10,22,5,33
+Calabria,2020-09-09,estimate based on partial data,16,18,10,12,16,8,20,3,32
+Calabria,2020-09-10,estimate based on partial data,15,17,11,10,15,5,17,2,32
+Calabria,2020-09-11,estimate based on partial data,14,16,12,7,12,3,15,0,31
+Calabria,2020-09-12,estimate based on partial data,13,16,13,5,9,2,14,0,32
+Calabria,2020-09-13,estimate based on partial data,12,16,15,3,7,1,12,0,33
+Calabria,2020-09-14,estimate based on partial data,11,16,17,2,6,0,11,0,33
+Calabria,2020-09-15,estimate based on partial data,10,16,21,1,5,0,11,0,35
+Calabria,2020-09-16,estimate based on partial data,9,17,26,0,3,0,9,0,38
+Calabria,2020-09-17,forecast,9,18,35,0,3,0,9,0,39
+Calabria,2020-09-18,forecast,8,19,48,0,2,0,8,0,41
+Calabria,2020-09-19,forecast,8,21,69,0,2,0,8,0,43
+Calabria,2020-09-20,forecast,7,23,103,0,2,0,7,0,44
+Calabria,2020-09-21,forecast,7,26,158,0,1,0,7,0,46
+Calabria,2020-09-22,forecast,6,31,245,0,1,0,6,0,48
+Calabria,2020-09-23,forecast,6,37,385,0,1,0,6,0,51
+Calabria,2020-09-24,forecast,5,47,609,0,1,0,5,0,53
+Calabria,2020-09-25,forecast,5,61,968,0,1,0,5,0,56
+Calabria,2020-09-26,forecast,5,82,1542,0,1,0,5,0,61
+Calabria,2020-09-27,forecast,4,114,2464,0,0,0,4,0,64
+Calabria,2020-09-28,forecast,4,162,3942,0,0,0,4,0,67
+Calabria,2020-09-29,forecast,4,236,6313,0,0,0,4,0,70
+Calabria,2020-09-30,forecast,3,350,10118,0,0,0,3,0,73
+Campania,2020-07-08,estimate,13,13,3,12,13,11,14,9,17
+Campania,2020-07-09,estimate,13,13,3,12,14,11,15,9,18
+Campania,2020-07-10,estimate,13,14,3,12,14,12,15,9,18
+Campania,2020-07-11,estimate,14,14,3,13,14,12,15,10,19
+Campania,2020-07-12,estimate,14,15,3,13,14,12,16,10,19
+Campania,2020-07-13,estimate,15,15,3,13,15,13,16,11,20
+Campania,2020-07-14,estimate,15,16,3,14,16,13,17,11,20
+Campania,2020-07-15,estimate,16,16,3,15,17,14,17,11,20
+Campania,2020-07-16,estimate,16,17,3,15,17,14,18,12,21
+Campania,2020-07-17,estimate,17,17,3,15,17,14,18,12,22
+Campania,2020-07-18,estimate,17,17,3,14,16,14,18,12,22
+Campania,2020-07-19,estimate,17,17,3,15,17,14,18,12,23
+Campania,2020-07-20,estimate,17,18,4,16,17,15,19,12,23
+Campania,2020-07-21,estimate,17,18,4,15,17,14,19,12,23
 Campania,2020-07-22,estimate,17,18,4,15,17,15,19,12,23
-Campania,2020-07-23,estimate,17,18,4,15,17,14,19,12,23
+Campania,2020-07-23,estimate,17,18,4,15,16,15,19,12,23
 Campania,2020-07-24,estimate,17,18,4,16,18,14,19,11,23
-Campania,2020-07-25,estimate,17,18,4,16,18,15,20,12,23
-Campania,2020-07-26,estimate,18,18,4,16,18,14,19,12,24
-Campania,2020-07-27,estimate,18,18,4,17,18,15,20,11,23
-Campania,2020-07-28,estimate,18,18,4,17,19,15,20,12,24
-Campania,2020-07-29,estimate,18,19,4,17,19,15,20,12,25
-Campania,2020-07-30,estimate,19,19,4,17,19,15,20,12,26
-Campania,2020-07-31,estimate,19,20,5,17,19,16,22,12,27
-Campania,2020-08-01,estimate,20,21,5,19,21,17,23,13,28
-Campania,2020-08-02,estimate,22,22,5,20,22,18,24,14,30
-Campania,2020-08-03,estimate,23,24,6,21,23,19,26,14,32
+Campania,2020-07-25,estimate,17,18,4,16,18,14,18,12,24
+Campania,2020-07-26,estimate,17,18,4,16,18,14,18,12,24
+Campania,2020-07-27,estimate,17,18,4,14,16,14,19,12,24
+Campania,2020-07-28,estimate,18,18,4,17,19,14,19,12,25
+Campania,2020-07-29,estimate,18,18,4,17,19,15,20,13,26
+Campania,2020-07-30,estimate,18,19,4,16,18,15,20,12,26
+Campania,2020-07-31,estimate,19,20,5,18,20,16,22,12,26
+Campania,2020-08-01,estimate,20,21,5,18,20,16,22,13,28
+Campania,2020-08-02,estimate,21,22,5,20,22,17,23,14,30
+Campania,2020-08-03,estimate,23,24,6,22,24,19,25,15,32
 Campania,2020-08-04,estimate,25,26,6,23,26,20,28,16,35
-Campania,2020-08-05,estimate,28,29,7,25,28,23,31,18,39
-Campania,2020-08-06,estimate,31,32,7,28,32,26,35,20,43
-Campania,2020-08-07,estimate,35,36,8,31,35,29,39,24,49
-Campania,2020-08-08,estimate,40,41,9,36,40,33,44,27,55
-Campania,2020-08-09,estimate,47,48,10,40,45,39,52,32,63
-Campania,2020-08-10,estimate,54,55,11,48,53,45,58,38,72
-Campania,2020-08-11,estimate,63,64,13,59,65,52,68,46,85
-Campania,2020-08-12,estimate,74,76,14,67,74,63,81,55,99
-Campania,2020-08-13,estimate,87,89,17,84,91,74,95,64,115
-Campania,2020-08-14,estimate,102,104,19,98,107,85,109,76,135
-Campania,2020-08-15,estimate,119,122,23,112,122,103,131,86,155
-Campania,2020-08-16,estimate,139,141,26,126,138,117,151,99,180
-Campania,2020-08-17,estimate,159,162,31,145,160,135,174,116,211
-Campania,2020-08-18,estimate,181,185,35,166,182,154,199,128,236
-Campania,2020-08-19,estimate,203,207,40,183,202,174,225,143,266
-Campania,2020-08-20,estimate,224,229,45,203,223,198,254,161,298
-Campania,2020-08-21,estimate,244,249,49,232,254,207,267,175,326
-Campania,2020-08-22,estimate,262,266,52,241,264,226,290,186,347
-Campania,2020-08-23,estimate,275,281,54,252,276,242,308,193,365
-Campania,2020-08-24,estimate,285,291,56,266,291,247,316,202,379
-Campania,2020-08-25,estimate,292,297,56,274,299,250,319,213,389
-Campania,2020-08-26,estimate,293,300,56,285,310,252,320,205,381
-Campania,2020-08-27,estimate,292,298,55,263,288,247,315,210,381
-Campania,2020-08-28,estimate,288,294,54,266,290,237,305,212,377
-Campania,2020-08-29,estimate,281,287,52,258,281,244,310,202,364
-Campania,2020-08-30,estimate,274,278,51,266,290,230,294,196,355
-Campania,2020-08-31,estimate,263,268,51,252,276,227,290,189,346
-Campania,2020-09-01,estimate,252,257,51,230,254,212,275,175,331
-Campania,2020-09-02,estimate,241,246,52,209,232,205,269,163,322
-Campania,2020-09-03,estimate based on partial data,229,235,53,192,216,191,256,150,313
-Campania,2020-09-04,estimate based on partial data,217,224,56,194,219,173,241,134,306
-Campania,2020-09-05,estimate based on partial data,207,214,59,192,218,160,231,123,306
-Campania,2020-09-06,estimate based on partial data,197,205,63,186,213,142,218,103,296
-Campania,2020-09-07,estimate based on partial data,188,196,68,170,200,133,213,86,293
-Campania,2020-09-08,estimate based on partial data,178,189,74,169,201,116,201,74,294
-Campania,2020-09-09,estimate based on partial data,170,183,81,120,155,113,204,58,294
-Campania,2020-09-10,estimate based on partial data,162,177,88,117,152,97,194,47,298
-Campania,2020-09-11,estimate based on partial data,154,173,97,107,145,83,184,35,299
-Campania,2020-09-12,estimate based on partial data,145,170,109,100,138,70,174,31,310
-Campania,2020-09-13,estimate based on partial data,137,169,123,67,107,49,157,22,321
-Campania,2020-09-14,estimate based on partial data,130,169,143,68,108,31,140,15,336
-Campania,2020-09-15,estimate based on partial data,124,171,171,59,98,24,133,12,356
-Campania,2020-09-16,forecast,118,174,206,35,72,16,123,8,368
-Campania,2020-09-17,forecast,112,178,254,29,65,14,119,3,379
-Campania,2020-09-18,forecast,105,185,321,26,60,7,108,1,391
-Campania,2020-09-19,forecast,100,194,415,23,55,4,102,1,409
-Campania,2020-09-20,forecast,96,206,547,7,37,4,98,1,431
-Campania,2020-09-21,forecast,92,221,733,6,34,3,93,1,445
-Campania,2020-09-22,forecast,87,242,993,5,30,2,88,0,463
-Campania,2020-09-23,forecast,83,268,1356,4,27,0,83,0,484
-Campania,2020-09-24,forecast,79,303,1865,3,24,0,79,0,508
-Campania,2020-09-25,forecast,75,348,2577,1,20,0,75,0,538
-Campania,2020-09-26,forecast,71,408,3574,1,18,0,71,0,567
-Campania,2020-09-27,forecast,67,487,4969,1,16,0,67,0,595
-Campania,2020-09-28,forecast,64,593,6922,0,14,0,64,0,627
-Campania,2020-09-29,forecast,61,734,9658,0,12,0,61,0,651
-Emilia-Romagna,2020-07-07,estimate,57,58,7,55,58,52,60,46,68
-Emilia-Romagna,2020-07-08,estimate,57,58,7,55,58,53,61,46,69
-Emilia-Romagna,2020-07-09,estimate,58,58,7,56,59,53,61,47,70
-Emilia-Romagna,2020-07-10,estimate,58,59,7,57,60,53,62,47,70
-Emilia-Romagna,2020-07-11,estimate,58,59,7,57,60,54,62,48,71
-Emilia-Romagna,2020-07-12,estimate,59,59,7,57,60,54,63,49,72
-Emilia-Romagna,2020-07-13,estimate,59,59,7,57,60,53,62,48,71
-Emilia-Romagna,2020-07-14,estimate,59,59,7,58,61,55,63,49,71
-Emilia-Romagna,2020-07-15,estimate,59,60,7,57,60,54,63,48,70
-Emilia-Romagna,2020-07-16,estimate,59,60,7,58,61,54,63,49,71
-Emilia-Romagna,2020-07-17,estimate,59,60,7,57,60,54,63,48,71
-Emilia-Romagna,2020-07-18,estimate,59,60,7,57,60,55,63,49,71
-Emilia-Romagna,2020-07-19,estimate,59,60,7,57,60,54,63,49,71
-Emilia-Romagna,2020-07-20,estimate,59,60,7,57,61,55,63,48,71
-Emilia-Romagna,2020-07-21,estimate,59,60,7,58,61,54,62,48,71
-Emilia-Romagna,2020-07-22,estimate,59,60,7,57,60,54,63,49,72
-Emilia-Romagna,2020-07-23,estimate,59,59,7,57,60,55,63,48,72
-Emilia-Romagna,2020-07-24,estimate,59,59,7,56,59,54,63,48,71
-Emilia-Romagna,2020-07-25,estimate,59,59,7,57,60,54,63,47,70
-Emilia-Romagna,2020-07-26,estimate,58,59,7,57,60,54,63,47,70
-Emilia-Romagna,2020-07-27,estimate,58,59,7,57,60,52,61,48,71
-Emilia-Romagna,2020-07-28,estimate,58,59,7,57,60,52,62,47,71
-Emilia-Romagna,2020-07-29,estimate,58,59,7,56,60,53,62,47,71
-Emilia-Romagna,2020-07-30,estimate,59,59,8,57,60,53,62,47,71
-Emilia-Romagna,2020-07-31,estimate,59,59,8,57,60,54,64,47,72
-Emilia-Romagna,2020-08-01,estimate,60,60,8,57,61,54,64,46,73
-Emilia-Romagna,2020-08-02,estimate,61,61,9,58,62,55,66,47,75
-Emilia-Romagna,2020-08-03,estimate,62,62,9,60,64,56,67,48,77
-Emilia-Romagna,2020-08-04,estimate,64,64,9,60,64,58,71,50,80
-Emilia-Romagna,2020-08-05,estimate,66,66,10,63,68,59,72,50,81
-Emilia-Romagna,2020-08-06,estimate,68,69,10,66,71,62,76,53,86
-Emilia-Romagna,2020-08-07,estimate,71,72,10,69,74,65,78,54,87
-Emilia-Romagna,2020-08-08,estimate,75,75,11,73,78,69,83,58,92
-Emilia-Romagna,2020-08-09,estimate,79,79,11,77,82,73,87,61,97
-Emilia-Romagna,2020-08-10,estimate,84,84,11,83,89,77,91,65,101
-Emilia-Romagna,2020-08-11,estimate,89,89,11,86,91,80,95,71,107
-Emilia-Romagna,2020-08-12,estimate,95,95,12,92,98,87,102,76,112
-Emilia-Romagna,2020-08-13,estimate,101,101,12,99,104,93,108,81,120
-Emilia-Romagna,2020-08-14,estimate,108,108,12,103,108,99,115,89,129
-Emilia-Romagna,2020-08-15,estimate,115,116,13,108,114,107,124,95,138
-Emilia-Romagna,2020-08-16,estimate,123,124,14,116,123,114,132,102,147
-Emilia-Romagna,2020-08-17,estimate,131,132,15,126,133,121,140,107,155
-Emilia-Romagna,2020-08-18,estimate,139,141,16,131,139,126,147,114,166
-Emilia-Romagna,2020-08-19,estimate,148,149,18,137,146,133,156,124,180
-Emilia-Romagna,2020-08-20,estimate,156,157,19,146,155,140,165,127,188
-Emilia-Romagna,2020-08-21,estimate,162,165,20,154,163,151,176,133,196
-Emilia-Romagna,2020-08-22,estimate,170,172,21,161,170,157,185,138,205
-Emilia-Romagna,2020-08-23,estimate,176,178,22,167,177,158,187,143,212
-Emilia-Romagna,2020-08-24,estimate,181,183,23,176,186,162,191,144,216
-Emilia-Romagna,2020-08-25,estimate,185,188,23,177,188,168,198,150,223
-Emilia-Romagna,2020-08-26,estimate,188,191,24,181,191,170,201,152,228
-Emilia-Romagna,2020-08-27,estimate,191,193,24,182,193,173,203,154,229
-Emilia-Romagna,2020-08-28,estimate,193,195,24,184,195,174,205,157,233
-Emilia-Romagna,2020-08-29,estimate,193,196,24,182,192,175,205,159,235
-Emilia-Romagna,2020-08-30,estimate,195,196,24,180,191,172,202,158,236
-Emilia-Romagna,2020-08-31,estimate,195,197,24,179,191,177,207,156,234
-Emilia-Romagna,2020-09-01,estimate,195,196,25,182,193,179,209,153,232
-Emilia-Romagna,2020-09-02,estimate,195,196,25,188,200,177,209,154,234
-Emilia-Romagna,2020-09-03,estimate based on partial data,195,196,26,188,200,175,208,154,236
-Emilia-Romagna,2020-09-04,estimate based on partial data,195,196,27,184,197,179,214,154,238
-Emilia-Romagna,2020-09-05,estimate based on partial data,195,197,29,181,196,175,214,150,241
-Emilia-Romagna,2020-09-06,estimate based on partial data,196,198,31,181,196,166,209,144,243
-Emilia-Romagna,2020-09-07,estimate based on partial data,198,200,35,188,205,167,214,145,256
-Emilia-Romagna,2020-09-08,estimate based on partial data,201,203,39,184,204,165,217,140,264
-Emilia-Romagna,2020-09-09,estimate based on partial data,202,206,45,178,200,165,224,135,277
-Emilia-Romagna,2020-09-10,estimate based on partial data,205,211,53,177,202,161,228,127,294
-Emilia-Romagna,2020-09-11,estimate based on partial data,209,217,63,170,198,162,240,117,310
-Emilia-Romagna,2020-09-12,estimate based on partial data,212,224,77,180,212,155,245,110,334
-Emilia-Romagna,2020-09-13,estimate based on partial data,217,233,95,166,201,150,252,101,362
-Emilia-Romagna,2020-09-14,estimate based on partial data,223,245,119,159,199,152,267,86,389
-Emilia-Romagna,2020-09-15,estimate based on partial data,227,259,153,155,201,136,265,81,431
-Emilia-Romagna,2020-09-16,forecast,232,274,193,154,204,128,271,69,465
-Emilia-Romagna,2020-09-17,forecast,236,291,245,143,197,116,271,64,512
-Emilia-Romagna,2020-09-18,forecast,239,311,316,139,196,111,277,50,556
-Emilia-Romagna,2020-09-19,forecast,244,335,411,139,201,98,275,50,613
-Emilia-Romagna,2020-09-20,forecast,249,364,542,133,200,94,282,42,672
-Emilia-Romagna,2020-09-21,forecast,253,398,725,113,184,87,287,43,750
-Emilia-Romagna,2020-09-22,forecast,257,440,980,116,190,84,295,23,804
-Emilia-Romagna,2020-09-23,forecast,261,492,1340,114,190,66,287,20,883
-Emilia-Romagna,2020-09-24,forecast,266,556,1851,94,174,64,296,13,967
-Emilia-Romagna,2020-09-25,forecast,268,636,2580,92,173,30,272,10,1063
-Emilia-Romagna,2020-09-26,forecast,272,738,3625,88,172,31,280,9,1169
-Emilia-Romagna,2020-09-27,forecast,275,868,5128,62,148,29,285,7,1279
-Emilia-Romagna,2020-09-28,forecast,280,1037,7296,55,142,25,287,5,1408
-Emilia-Romagna,2020-09-29,forecast,285,1258,10433,52,139,22,291,5,1569
+Campania,2020-08-05,estimate,28,28,7,25,28,23,31,18,38
+Campania,2020-08-06,estimate,31,32,7,29,33,25,34,20,42
+Campania,2020-08-07,estimate,35,36,8,34,37,29,39,23,48
+Campania,2020-08-08,estimate,40,41,9,37,41,33,44,27,55
+Campania,2020-08-09,estimate,46,47,10,44,48,39,51,31,62
+Campania,2020-08-10,estimate,54,55,11,50,55,46,59,37,71
+Campania,2020-08-11,estimate,62,64,13,58,63,53,69,42,82
+Campania,2020-08-12,estimate,73,75,14,69,76,63,81,50,96
+Campania,2020-08-13,estimate,86,88,17,83,91,74,94,61,113
+Campania,2020-08-14,estimate,101,103,19,97,106,85,108,71,131
+Campania,2020-08-15,estimate,118,121,23,110,120,99,126,86,157
+Campania,2020-08-16,estimate,138,140,26,131,143,115,148,97,179
+Campania,2020-08-17,estimate,158,162,31,146,160,135,173,111,206
+Campania,2020-08-18,estimate,180,184,35,164,181,156,200,122,232
+Campania,2020-08-19,estimate,203,207,40,192,210,171,221,141,268
+Campania,2020-08-20,estimate,225,228,44,212,233,195,250,154,295
+Campania,2020-08-21,estimate,245,249,48,228,250,206,266,169,324
+Campania,2020-08-22,estimate,263,266,51,247,272,222,286,179,344
+Campania,2020-08-23,estimate,277,281,54,275,301,234,302,188,360
+Campania,2020-08-24,estimate,287,292,55,275,302,244,312,206,381
+Campania,2020-08-25,estimate,294,298,56,274,301,253,324,209,386
+Campania,2020-08-26,estimate,296,301,56,256,283,253,324,213,388
+Campania,2020-08-27,estimate,295,301,56,257,283,247,317,215,389
+Campania,2020-08-28,estimate,291,297,55,266,290,249,315,212,382
+Campania,2020-08-29,estimate,285,291,53,262,285,240,305,205,372
+Campania,2020-08-30,estimate,278,283,52,260,283,232,295,202,365
+Campania,2020-08-31,estimate,268,273,50,247,270,234,296,196,354
+Campania,2020-09-01,estimate,259,263,49,234,257,221,282,183,340
+Campania,2020-09-02,estimate,248,253,49,228,252,209,270,175,328
+Campania,2020-09-03,estimate,237,242,50,208,231,207,269,162,316
+Campania,2020-09-04,estimate based on partial data,227,232,52,210,234,192,256,152,309
+Campania,2020-09-05,estimate based on partial data,217,223,54,208,233,178,243,139,304
+Campania,2020-09-06,estimate based on partial data,207,214,58,171,197,171,239,129,305
+Campania,2020-09-07,estimate based on partial data,198,206,62,173,200,149,223,109,295
+Campania,2020-09-08,estimate based on partial data,189,199,68,161,190,135,213,92,294
+Campania,2020-09-09,estimate based on partial data,182,192,74,150,180,133,217,77,294
+Campania,2020-09-10,estimate based on partial data,175,187,81,146,179,113,201,63,296
+Campania,2020-09-11,estimate based on partial data,169,183,90,161,197,101,194,53,303
+Campania,2020-09-12,estimate based on partial data,161,180,100,102,141,94,194,37,309
+Campania,2020-09-13,estimate based on partial data,156,178,112,93,133,79,187,23,318
+Campania,2020-09-14,estimate based on partial data,149,178,128,82,123,48,163,16,327
+Campania,2020-09-15,estimate based on partial data,142,180,150,87,129,41,158,14,346
+Campania,2020-09-16,estimate based on partial data,136,183,183,70,113,31,151,8,366
+Campania,2020-09-17,forecast,130,188,225,47,89,19,138,4,378
+Campania,2020-09-18,forecast,125,195,287,41,82,15,133,3,397
+Campania,2020-09-19,forecast,120,205,381,23,63,15,131,1,420
+Campania,2020-09-20,forecast,114,218,525,21,58,3,115,0,443
+Campania,2020-09-21,forecast,109,235,746,18,54,3,110,0,468
+Campania,2020-09-22,forecast,104,258,1087,9,42,1,104,0,491
+Campania,2020-09-23,forecast,100,289,1612,8,38,0,100,0,519
+Campania,2020-09-24,forecast,96,332,2417,3,31,0,96,0,542
+Campania,2020-09-25,forecast,93,391,3656,0,26,0,93,0,576
+Campania,2020-09-26,forecast,89,473,5558,0,23,0,89,0,611
+Campania,2020-09-27,forecast,85,589,8481,0,21,0,85,0,643
+Campania,2020-09-28,forecast,81,755,12974,0,19,0,81,0,675
+Campania,2020-09-29,forecast,78,994,19882,0,17,0,78,0,722
+Campania,2020-09-30,forecast,75,1342,30508,0,15,0,75,0,749
+Emilia-Romagna,2020-07-08,estimate,59,59,7,56,60,52,62,47,70
+Emilia-Romagna,2020-07-09,estimate,59,59,7,59,62,54,63,47,71
+Emilia-Romagna,2020-07-10,estimate,59,60,7,55,59,55,64,47,71
+Emilia-Romagna,2020-07-11,estimate,59,60,7,58,61,55,64,48,72
+Emilia-Romagna,2020-07-12,estimate,60,60,7,59,63,54,63,48,72
+Emilia-Romagna,2020-07-13,estimate,60,60,7,59,62,53,63,49,72
+Emilia-Romagna,2020-07-14,estimate,60,60,7,59,62,55,64,48,71
+Emilia-Romagna,2020-07-15,estimate,60,60,7,57,60,55,64,48,71
+Emilia-Romagna,2020-07-16,estimate,60,60,7,58,61,55,64,48,71
+Emilia-Romagna,2020-07-17,estimate,60,60,7,57,60,54,63,47,70
+Emilia-Romagna,2020-07-18,estimate,60,60,7,57,60,55,64,47,71
+Emilia-Romagna,2020-07-19,estimate,60,60,7,58,61,55,64,48,71
+Emilia-Romagna,2020-07-20,estimate,59,60,7,57,60,54,63,47,71
+Emilia-Romagna,2020-07-21,estimate,59,60,7,56,59,53,63,47,70
+Emilia-Romagna,2020-07-22,estimate,59,60,7,56,59,54,63,47,71
+Emilia-Romagna,2020-07-23,estimate,59,60,7,56,60,54,63,48,72
+Emilia-Romagna,2020-07-24,estimate,59,59,7,56,60,53,63,47,71
+Emilia-Romagna,2020-07-25,estimate,59,59,7,56,59,54,63,47,71
+Emilia-Romagna,2020-07-26,estimate,59,59,8,56,60,54,63,47,71
+Emilia-Romagna,2020-07-27,estimate,59,59,8,58,61,53,62,47,71
+Emilia-Romagna,2020-07-28,estimate,59,59,8,56,59,53,62,47,71
+Emilia-Romagna,2020-07-29,estimate,59,59,8,57,60,53,63,47,71
+Emilia-Romagna,2020-07-30,estimate,59,60,8,57,61,52,62,47,72
+Emilia-Romagna,2020-07-31,estimate,60,60,8,59,62,53,64,47,73
+Emilia-Romagna,2020-08-01,estimate,60,61,8,58,62,53,64,48,75
+Emilia-Romagna,2020-08-02,estimate,61,62,9,58,62,54,66,48,76
+Emilia-Romagna,2020-08-03,estimate,63,63,9,59,63,56,68,49,78
+Emilia-Romagna,2020-08-04,estimate,64,65,10,60,65,57,70,50,81
+Emilia-Romagna,2020-08-05,estimate,67,67,10,63,68,57,71,52,84
+Emilia-Romagna,2020-08-06,estimate,69,70,10,65,70,61,75,54,87
+Emilia-Romagna,2020-08-07,estimate,72,73,11,68,73,64,78,55,89
+Emilia-Romagna,2020-08-08,estimate,75,76,11,71,76,66,81,56,91
+Emilia-Romagna,2020-08-09,estimate,79,80,11,74,79,70,85,60,96
+Emilia-Romagna,2020-08-10,estimate,84,85,12,81,87,76,91,66,103
+Emilia-Romagna,2020-08-11,estimate,90,90,12,90,95,80,95,71,109
+Emilia-Romagna,2020-08-12,estimate,95,96,12,95,101,86,101,77,116
+Emilia-Romagna,2020-08-13,estimate,101,102,12,99,105,92,108,81,122
+Emilia-Romagna,2020-08-14,estimate,108,109,13,103,109,100,116,90,131
+Emilia-Romagna,2020-08-15,estimate,115,116,13,107,113,106,123,94,137
+Emilia-Romagna,2020-08-16,estimate,123,124,14,116,122,113,131,102,147
+Emilia-Romagna,2020-08-17,estimate,131,133,15,123,130,120,140,107,156
+Emilia-Romagna,2020-08-18,estimate,140,141,17,134,142,130,151,115,168
+Emilia-Romagna,2020-08-19,estimate,148,150,18,141,149,132,155,121,179
+Emilia-Romagna,2020-08-20,estimate,156,158,20,147,155,143,168,126,189
+Emilia-Romagna,2020-08-21,estimate,163,166,21,157,166,150,176,129,196
+Emilia-Romagna,2020-08-22,estimate,170,173,23,161,171,154,182,133,205
+Emilia-Romagna,2020-08-23,estimate,177,179,24,165,176,158,189,140,215
+Emilia-Romagna,2020-08-24,estimate,183,185,24,173,185,164,196,144,221
+Emilia-Romagna,2020-08-25,estimate,187,189,25,173,184,163,195,146,224
+Emilia-Romagna,2020-08-26,estimate,190,193,25,178,190,167,200,149,228
+Emilia-Romagna,2020-08-27,estimate,193,195,25,182,194,173,206,154,232
+Emilia-Romagna,2020-08-28,estimate,195,197,25,179,190,178,210,158,236
+Emilia-Romagna,2020-08-29,estimate,195,197,24,182,194,177,208,159,236
+Emilia-Romagna,2020-08-30,estimate,196,197,24,189,201,179,209,160,236
+Emilia-Romagna,2020-08-31,estimate,195,197,24,191,202,178,208,160,236
+Emilia-Romagna,2020-09-01,estimate,195,196,24,187,198,176,207,158,235
+Emilia-Romagna,2020-09-02,estimate,193,195,24,185,196,177,208,159,236
+Emilia-Romagna,2020-09-03,estimate,193,194,25,185,197,175,207,154,233
+Emilia-Romagna,2020-09-04,estimate based on partial data,192,193,26,191,203,172,205,151,232
+Emilia-Romagna,2020-09-05,estimate based on partial data,190,193,27,179,191,173,207,148,235
+Emilia-Romagna,2020-09-06,estimate based on partial data,190,192,29,183,196,171,207,146,240
+Emilia-Romagna,2020-09-07,estimate based on partial data,190,192,32,185,198,163,203,146,249
+Emilia-Romagna,2020-09-08,estimate based on partial data,189,193,36,178,193,162,207,134,250
+Emilia-Romagna,2020-09-09,estimate based on partial data,190,194,41,175,193,164,214,131,261
+Emilia-Romagna,2020-09-10,estimate based on partial data,191,196,46,163,184,158,214,120,267
+Emilia-Romagna,2020-09-11,estimate based on partial data,193,199,53,165,190,152,217,114,281
+Emilia-Romagna,2020-09-12,estimate based on partial data,195,202,62,160,187,147,222,100,293
+Emilia-Romagna,2020-09-13,estimate based on partial data,196,207,72,155,186,141,226,89,308
+Emilia-Romagna,2020-09-14,estimate based on partial data,199,213,86,159,193,137,232,80,331
+Emilia-Romagna,2020-09-15,estimate based on partial data,201,220,105,154,192,131,238,75,360
+Emilia-Romagna,2020-09-16,estimate based on partial data,204,229,131,153,196,122,240,58,377
+Emilia-Romagna,2020-09-17,forecast,206,239,161,150,195,118,245,57,408
+Emilia-Romagna,2020-09-18,forecast,207,250,199,150,199,112,250,41,423
+Emilia-Romagna,2020-09-19,forecast,209,263,249,141,193,88,234,35,451
+Emilia-Romagna,2020-09-20,forecast,209,279,315,141,195,82,237,29,484
+Emilia-Romagna,2020-09-21,forecast,211,297,403,132,190,76,240,16,510
+Emilia-Romagna,2020-09-22,forecast,213,319,520,140,201,65,237,13,550
+Emilia-Romagna,2020-09-23,forecast,214,345,678,137,201,59,239,16,603
+Emilia-Romagna,2020-09-24,forecast,214,377,893,136,202,51,239,7,637
+Emilia-Romagna,2020-09-25,forecast,216,416,1186,98,167,47,241,6,685
+Emilia-Romagna,2020-09-26,forecast,219,463,1589,95,166,43,244,3,720
+Emilia-Romagna,2020-09-27,forecast,220,522,2143,93,166,25,232,2,778
+Emilia-Romagna,2020-09-28,forecast,221,596,2909,45,120,23,234,2,840
+Emilia-Romagna,2020-09-29,forecast,224,688,3970,43,117,16,231,2,899
+Emilia-Romagna,2020-09-30,forecast,226,805,5445,40,116,10,228,1,951
 Friuli Venezia Giulia,2020-07-10,estimate,4,4,1,4,4,4,5,3,5
 Friuli Venezia Giulia,2020-07-11,estimate,4,4,1,4,4,4,5,3,5
-Friuli Venezia Giulia,2020-07-12,estimate,4,4,1,4,4,4,5,3,5
-Friuli Venezia Giulia,2020-07-13,estimate,5,4,1,4,5,4,5,3,6
-Friuli Venezia Giulia,2020-07-14,estimate,5,5,1,5,5,4,5,3,6
+Friuli Venezia Giulia,2020-07-12,estimate,4,4,1,4,5,4,5,3,5
+Friuli Venezia Giulia,2020-07-13,estimate,4,4,1,4,5,4,5,3,6
+Friuli Venezia Giulia,2020-07-14,estimate,5,5,1,4,5,4,5,3,6
 Friuli Venezia Giulia,2020-07-15,estimate,5,5,1,5,5,4,5,4,6
-Friuli Venezia Giulia,2020-07-16,estimate,5,5,1,5,5,5,6,4,6
-Friuli Venezia Giulia,2020-07-17,estimate,5,5,1,5,6,5,6,4,6
-Friuli Venezia Giulia,2020-07-18,estimate,5,5,1,5,6,5,6,4,7
+Friuli Venezia Giulia,2020-07-16,estimate,5,5,1,5,5,4,5,4,6
+Friuli Venezia Giulia,2020-07-17,estimate,5,5,1,5,5,4,6,4,7
+Friuli Venezia Giulia,2020-07-18,estimate,5,5,1,5,5,5,6,4,7
 Friuli Venezia Giulia,2020-07-19,estimate,6,6,1,5,6,5,6,4,7
 Friuli Venezia Giulia,2020-07-20,estimate,6,6,1,6,6,5,7,4,7
-Friuli Venezia Giulia,2020-07-21,estimate,6,6,1,6,6,6,7,5,8
-Friuli Venezia Giulia,2020-07-22,estimate,6,6,1,6,7,6,7,5,8
+Friuli Venezia Giulia,2020-07-21,estimate,6,6,1,6,6,5,7,5,8
+Friuli Venezia Giulia,2020-07-22,estimate,6,6,1,6,6,6,7,5,8
 Friuli Venezia Giulia,2020-07-23,estimate,7,7,1,6,7,6,8,5,8
-Friuli Venezia Giulia,2020-07-24,estimate,7,7,1,7,7,6,8,5,9
-Friuli Venezia Giulia,2020-07-25,estimate,7,7,1,7,7,6,8,6,9
-Friuli Venezia Giulia,2020-07-26,estimate,8,8,1,7,8,7,8,6,10
-Friuli Venezia Giulia,2020-07-27,estimate,8,8,1,7,8,7,9,6,10
-Friuli Venezia Giulia,2020-07-28,estimate,8,8,1,8,8,7,9,7,10
-Friuli Venezia Giulia,2020-07-29,estimate,9,9,1,8,9,8,10,7,11
-Friuli Venezia Giulia,2020-07-30,estimate,9,9,1,9,10,8,10,7,11
-Friuli Venezia Giulia,2020-07-31,estimate,10,10,1,9,10,9,11,8,12
-Friuli Venezia Giulia,2020-08-01,estimate,10,10,1,10,11,10,11,8,13
+Friuli Venezia Giulia,2020-07-24,estimate,7,7,1,6,7,6,8,5,9
+Friuli Venezia Giulia,2020-07-25,estimate,7,7,1,7,7,7,8,6,9
+Friuli Venezia Giulia,2020-07-26,estimate,8,8,1,7,8,7,9,6,10
+Friuli Venezia Giulia,2020-07-27,estimate,8,8,1,8,8,7,9,6,10
+Friuli Venezia Giulia,2020-07-28,estimate,9,9,1,8,9,8,9,6,10
+Friuli Venezia Giulia,2020-07-29,estimate,9,9,1,9,9,8,10,7,11
+Friuli Venezia Giulia,2020-07-30,estimate,9,9,1,9,10,9,10,7,11
+Friuli Venezia Giulia,2020-07-31,estimate,10,10,1,10,10,9,11,8,12
+Friuli Venezia Giulia,2020-08-01,estimate,10,10,1,10,11,9,11,8,13
 Friuli Venezia Giulia,2020-08-02,estimate,11,11,1,11,11,10,12,9,13
-Friuli Venezia Giulia,2020-08-03,estimate,12,12,1,11,12,10,12,9,14
-Friuli Venezia Giulia,2020-08-04,estimate,12,12,1,12,13,11,13,10,15
-Friuli Venezia Giulia,2020-08-05,estimate,13,13,2,13,13,12,14,10,15
-Friuli Venezia Giulia,2020-08-06,estimate,13,14,2,13,14,12,15,11,16
-Friuli Venezia Giulia,2020-08-07,estimate,14,14,2,14,15,13,15,12,17
-Friuli Venezia Giulia,2020-08-08,estimate,15,15,2,15,15,14,16,12,18
+Friuli Venezia Giulia,2020-08-03,estimate,12,12,1,11,12,11,12,9,14
+Friuli Venezia Giulia,2020-08-04,estimate,12,12,1,12,12,11,13,10,14
+Friuli Venezia Giulia,2020-08-05,estimate,13,13,2,12,13,12,14,10,15
+Friuli Venezia Giulia,2020-08-06,estimate,13,14,2,13,14,12,14,11,16
+Friuli Venezia Giulia,2020-08-07,estimate,14,14,2,13,14,13,15,12,17
+Friuli Venezia Giulia,2020-08-08,estimate,15,15,2,14,15,14,16,12,18
 Friuli Venezia Giulia,2020-08-09,estimate,16,16,2,15,16,14,17,13,19
-Friuli Venezia Giulia,2020-08-10,estimate,17,17,2,16,17,15,17,14,20
-Friuli Venezia Giulia,2020-08-11,estimate,17,18,2,17,18,16,18,15,21
-Friuli Venezia Giulia,2020-08-12,estimate,18,19,2,18,19,17,19,15,22
-Friuli Venezia Giulia,2020-08-13,estimate,19,20,2,18,19,17,20,16,23
+Friuli Venezia Giulia,2020-08-10,estimate,17,17,2,16,17,15,18,14,20
+Friuli Venezia Giulia,2020-08-11,estimate,17,18,2,16,17,16,19,14,21
+Friuli Venezia Giulia,2020-08-12,estimate,18,19,2,17,18,17,19,15,22
+Friuli Venezia Giulia,2020-08-13,estimate,19,20,3,18,19,18,20,16,24
 Friuli Venezia Giulia,2020-08-14,estimate,20,21,3,19,20,18,21,17,25
-Friuli Venezia Giulia,2020-08-15,estimate,21,22,3,20,21,19,22,18,26
-Friuli Venezia Giulia,2020-08-16,estimate,22,23,3,21,22,20,24,18,27
-Friuli Venezia Giulia,2020-08-17,estimate,23,24,3,22,23,21,25,19,28
-Friuli Venezia Giulia,2020-08-18,estimate,24,25,3,23,25,22,26,20,30
-Friuli Venezia Giulia,2020-08-19,estimate,26,26,3,24,25,23,27,21,31
-Friuli Venezia Giulia,2020-08-20,estimate,27,27,3,25,27,24,28,22,32
-Friuli Venezia Giulia,2020-08-21,estimate,28,28,4,26,28,25,29,23,34
-Friuli Venezia Giulia,2020-08-22,estimate,29,30,4,27,29,26,31,24,35
-Friuli Venezia Giulia,2020-08-23,estimate,30,31,4,29,30,28,32,25,36
-Friuli Venezia Giulia,2020-08-24,estimate,32,32,4,30,32,29,33,26,38
-Friuli Venezia Giulia,2020-08-25,estimate,33,33,4,31,33,30,35,27,39
-Friuli Venezia Giulia,2020-08-26,estimate,34,34,4,32,34,31,36,28,41
-Friuli Venezia Giulia,2020-08-27,estimate,35,36,4,34,36,33,38,29,43
-Friuli Venezia Giulia,2020-08-28,estimate,37,37,4,34,36,34,39,30,44
-Friuli Venezia Giulia,2020-08-29,estimate,38,38,5,37,39,34,40,31,46
-Friuli Venezia Giulia,2020-08-30,estimate,40,40,5,37,39,36,42,32,47
-Friuli Venezia Giulia,2020-08-31,estimate,41,41,5,38,41,37,44,34,49
-Friuli Venezia Giulia,2020-09-01,estimate,42,43,5,39,41,38,45,35,52
-Friuli Venezia Giulia,2020-09-02,estimate,44,44,6,41,44,40,47,36,54
-Friuli Venezia Giulia,2020-09-03,estimate based on partial data,46,46,6,46,49,40,48,36,56
-Friuli Venezia Giulia,2020-09-04,estimate based on partial data,47,48,7,48,51,43,52,37,60
-Friuli Venezia Giulia,2020-09-05,estimate based on partial data,49,50,8,49,53,44,54,38,63
-Friuli Venezia Giulia,2020-09-06,estimate based on partial data,51,52,9,50,54,46,57,38,66
-Friuli Venezia Giulia,2020-09-07,estimate based on partial data,53,54,10,53,57,45,58,37,68
-Friuli Venezia Giulia,2020-09-08,estimate based on partial data,55,56,11,54,59,46,60,38,73
-Friuli Venezia Giulia,2020-09-09,estimate based on partial data,58,58,12,56,62,49,64,38,78
-Friuli Venezia Giulia,2020-09-10,estimate based on partial data,60,60,14,58,64,50,67,36,80
-Friuli Venezia Giulia,2020-09-11,estimate based on partial data,62,63,16,58,65,52,70,34,84
-Friuli Venezia Giulia,2020-09-12,estimate based on partial data,64,65,18,61,69,53,74,35,89
-Friuli Venezia Giulia,2020-09-13,estimate based on partial data,67,68,20,62,71,56,79,34,96
-Friuli Venezia Giulia,2020-09-14,estimate based on partial data,70,71,22,66,75,55,81,36,105
-Friuli Venezia Giulia,2020-09-15,estimate based on partial data,73,74,25,67,77,59,87,36,113
-Friuli Venezia Giulia,2020-09-16,forecast,76,78,29,72,83,60,91,35,119
-Friuli Venezia Giulia,2020-09-17,forecast,79,81,32,77,89,64,98,36,130
-Friuli Venezia Giulia,2020-09-18,forecast,82,85,37,79,92,62,99,35,138
-Friuli Venezia Giulia,2020-09-19,forecast,85,89,42,80,95,57,98,28,141
-Friuli Venezia Giulia,2020-09-20,forecast,88,94,47,83,99,62,107,29,153
-Friuli Venezia Giulia,2020-09-21,forecast,92,98,54,86,103,64,112,23,158
-Friuli Venezia Giulia,2020-09-22,forecast,96,103,61,82,100,64,116,22,169
-Friuli Venezia Giulia,2020-09-23,forecast,99,109,70,87,107,65,123,20,178
-Friuli Venezia Giulia,2020-09-24,forecast,103,115,81,89,110,59,121,16,188
-Friuli Venezia Giulia,2020-09-25,forecast,107,121,93,91,114,67,133,16,200
-Friuli Venezia Giulia,2020-09-26,forecast,112,128,107,93,118,62,133,16,215
-Friuli Venezia Giulia,2020-09-27,forecast,116,135,124,97,124,62,138,15,229
-Friuli Venezia Giulia,2020-09-28,forecast,121,143,143,103,132,64,146,7,236
-Friuli Venezia Giulia,2020-09-29,forecast,126,151,167,107,137,65,152,12,257
-Liguria,2020-07-07,estimate,9,10,1,9,9,8,10,7,12
-Liguria,2020-07-08,estimate,10,10,2,9,10,9,10,8,12
-Liguria,2020-07-09,estimate,10,10,2,10,10,9,11,8,13
-Liguria,2020-07-10,estimate,10,11,2,10,10,9,11,8,13
-Liguria,2020-07-11,estimate,11,11,2,10,11,10,11,9,13
-Liguria,2020-07-12,estimate,11,12,2,11,11,10,12,9,14
-Liguria,2020-07-13,estimate,12,12,2,11,12,10,12,9,14
-Liguria,2020-07-14,estimate,12,12,2,12,12,11,13,10,15
-Liguria,2020-07-15,estimate,12,13,2,12,13,11,13,10,15
-Liguria,2020-07-16,estimate,13,13,2,13,13,12,13,10,16
-Liguria,2020-07-17,estimate,13,14,2,13,14,12,14,11,16
-Liguria,2020-07-18,estimate,14,14,2,13,14,13,15,11,17
+Friuli Venezia Giulia,2020-08-15,estimate,21,22,3,20,21,19,22,17,26
+Friuli Venezia Giulia,2020-08-16,estimate,22,23,3,21,22,20,23,18,28
+Friuli Venezia Giulia,2020-08-17,estimate,23,24,3,21,23,21,25,19,29
+Friuli Venezia Giulia,2020-08-18,estimate,24,25,3,23,24,22,26,20,30
+Friuli Venezia Giulia,2020-08-19,estimate,25,26,4,24,26,23,27,21,32
+Friuli Venezia Giulia,2020-08-20,estimate,27,27,4,25,27,24,28,21,33
+Friuli Venezia Giulia,2020-08-21,estimate,28,28,4,27,28,25,29,23,35
+Friuli Venezia Giulia,2020-08-22,estimate,29,29,4,28,29,26,30,23,35
+Friuli Venezia Giulia,2020-08-23,estimate,30,31,4,29,30,27,32,24,37
+Friuli Venezia Giulia,2020-08-24,estimate,31,32,4,29,31,28,33,25,38
+Friuli Venezia Giulia,2020-08-25,estimate,32,33,4,30,32,29,34,26,39
+Friuli Venezia Giulia,2020-08-26,estimate,34,34,4,32,34,30,35,28,41
+Friuli Venezia Giulia,2020-08-27,estimate,35,35,4,33,35,31,37,28,42
+Friuli Venezia Giulia,2020-08-28,estimate,36,36,4,33,35,33,39,29,43
+Friuli Venezia Giulia,2020-08-29,estimate,37,38,5,35,37,35,40,30,45
+Friuli Venezia Giulia,2020-08-30,estimate,39,39,5,36,39,36,42,32,47
+Friuli Venezia Giulia,2020-08-31,estimate,40,40,5,39,41,36,42,32,48
+Friuli Venezia Giulia,2020-09-01,estimate,41,41,5,40,43,37,44,33,49
+Friuli Venezia Giulia,2020-09-02,estimate,42,43,6,39,41,39,45,34,51
+Friuli Venezia Giulia,2020-09-03,estimate,44,44,6,41,44,40,47,35,54
+Friuli Venezia Giulia,2020-09-04,estimate based on partial data,45,45,6,42,45,40,48,36,57
+Friuli Venezia Giulia,2020-09-05,estimate based on partial data,47,47,7,45,48,41,50,36,59
+Friuli Venezia Giulia,2020-09-06,estimate based on partial data,48,48,8,46,49,42,52,36,62
+Friuli Venezia Giulia,2020-09-07,estimate based on partial data,50,50,9,47,51,44,54,36,64
+Friuli Venezia Giulia,2020-09-08,estimate based on partial data,51,52,10,49,54,44,56,35,66
+Friuli Venezia Giulia,2020-09-09,estimate based on partial data,53,53,11,52,57,46,59,36,70
+Friuli Venezia Giulia,2020-09-10,estimate based on partial data,55,55,12,54,59,47,62,35,73
+Friuli Venezia Giulia,2020-09-11,estimate based on partial data,57,57,13,56,62,47,64,34,77
+Friuli Venezia Giulia,2020-09-12,estimate based on partial data,59,59,15,57,64,48,67,33,82
+Friuli Venezia Giulia,2020-09-13,estimate based on partial data,61,61,17,58,66,51,71,34,87
+Friuli Venezia Giulia,2020-09-14,estimate based on partial data,63,63,19,59,66,50,72,33,92
+Friuli Venezia Giulia,2020-09-15,estimate based on partial data,65,66,21,61,70,52,76,33,99
+Friuli Venezia Giulia,2020-09-16,estimate based on partial data,67,68,24,64,73,53,80,29,102
+Friuli Venezia Giulia,2020-09-17,forecast,70,71,27,69,79,54,84,27,106
+Friuli Venezia Giulia,2020-09-18,forecast,72,74,30,68,79,55,88,26,112
+Friuli Venezia Giulia,2020-09-19,forecast,75,77,34,71,83,57,93,25,119
+Friuli Venezia Giulia,2020-09-20,forecast,78,80,39,74,87,57,96,24,126
+Friuli Venezia Giulia,2020-09-21,forecast,81,83,44,77,92,59,101,23,134
+Friuli Venezia Giulia,2020-09-22,forecast,83,87,50,81,96,52,99,23,143
+Friuli Venezia Giulia,2020-09-23,forecast,87,91,57,85,102,53,103,22,151
+Friuli Venezia Giulia,2020-09-24,forecast,89,95,65,87,105,52,106,10,148
+Friuli Venezia Giulia,2020-09-25,forecast,93,99,75,91,111,53,111,10,158
+Friuli Venezia Giulia,2020-09-26,forecast,96,104,87,92,114,54,117,9,165
+Friuli Venezia Giulia,2020-09-27,forecast,99,109,101,96,119,56,122,8,175
+Friuli Venezia Giulia,2020-09-28,forecast,103,114,118,98,123,56,128,5,183
+Friuli Venezia Giulia,2020-09-29,forecast,106,120,138,101,127,58,134,5,193
+Friuli Venezia Giulia,2020-09-30,forecast,110,127,163,104,133,58,140,4,204
+Lazio,2020-07-08,estimate,27,27,3,25,27,24,29,22,32
+Lazio,2020-07-09,estimate,27,27,3,25,27,24,29,21,32
+Lazio,2020-07-10,estimate,26,26,3,25,26,24,28,21,31
+Lazio,2020-07-11,estimate,26,26,3,25,26,23,27,21,31
+Lazio,2020-07-12,estimate,25,25,3,24,26,22,27,20,30
+Lazio,2020-07-13,estimate,25,25,3,24,25,22,27,20,30
+Lazio,2020-07-14,estimate,24,24,3,23,25,22,26,19,30
+Lazio,2020-07-15,estimate,24,24,3,23,24,21,25,19,29
+Lazio,2020-07-16,estimate,23,24,3,22,23,21,25,18,28
+Lazio,2020-07-17,estimate,23,23,3,22,23,21,25,18,28
+Lazio,2020-07-18,estimate,23,23,3,22,23,21,25,18,28
+Lazio,2020-07-19,estimate,22,23,3,21,22,20,24,18,28
+Lazio,2020-07-20,estimate,22,22,3,21,22,20,24,17,27
+Lazio,2020-07-21,estimate,22,22,3,21,22,20,24,17,27
+Lazio,2020-07-22,estimate,22,22,3,21,22,20,24,17,27
+Lazio,2020-07-23,estimate,22,22,3,21,22,20,24,17,27
+Lazio,2020-07-24,estimate,22,22,3,21,23,20,25,18,27
+Lazio,2020-07-25,estimate,22,22,3,21,23,20,25,17,27
+Lazio,2020-07-26,estimate,23,23,3,22,23,21,26,18,28
+Lazio,2020-07-27,estimate,23,23,3,22,24,21,25,18,28
+Lazio,2020-07-28,estimate,24,24,3,23,24,22,26,19,29
+Lazio,2020-07-29,estimate,25,25,3,24,25,23,27,20,31
+Lazio,2020-07-30,estimate,26,27,4,26,27,24,29,21,32
+Lazio,2020-07-31,estimate,28,28,4,28,29,25,30,23,35
+Lazio,2020-08-01,estimate,30,31,4,30,31,27,33,24,37
+Lazio,2020-08-02,estimate,33,33,4,32,34,30,35,26,40
+Lazio,2020-08-03,estimate,37,37,5,35,37,33,39,29,44
+Lazio,2020-08-04,estimate,41,41,5,39,41,38,45,33,50
+Lazio,2020-08-05,estimate,46,47,6,44,47,43,50,38,56
+Lazio,2020-08-06,estimate,53,53,7,49,53,48,57,42,63
+Lazio,2020-08-07,estimate,61,61,7,60,64,54,64,48,72
+Lazio,2020-08-08,estimate,70,70,8,67,71,63,74,57,83
+Lazio,2020-08-09,estimate,81,82,9,78,83,74,86,66,96
+Lazio,2020-08-10,estimate,94,95,11,88,93,87,101,78,112
+Lazio,2020-08-11,estimate,109,110,12,105,111,101,116,89,128
+Lazio,2020-08-12,estimate,127,127,13,122,129,118,136,103,147
+Lazio,2020-08-13,estimate,145,146,15,136,143,135,155,120,170
+Lazio,2020-08-14,estimate,165,166,17,157,165,154,177,138,194
+Lazio,2020-08-15,estimate,185,187,19,178,186,169,195,154,218
+Lazio,2020-08-16,estimate,206,207,22,198,208,185,214,170,240
+Lazio,2020-08-17,estimate,225,226,24,215,226,205,237,183,261
+Lazio,2020-08-18,estimate,242,243,25,230,242,226,260,198,281
+Lazio,2020-08-19,estimate,256,256,27,251,264,236,271,213,299
+Lazio,2020-08-20,estimate,265,266,27,263,275,244,280,221,309
+Lazio,2020-08-21,estimate,271,272,28,263,276,252,287,225,315
+Lazio,2020-08-22,estimate,273,274,28,261,274,254,289,227,318
+Lazio,2020-08-23,estimate,271,273,28,265,278,250,286,225,315
+Lazio,2020-08-24,estimate,267,268,27,260,273,248,284,224,311
+Lazio,2020-08-25,estimate,261,261,27,260,273,241,276,218,306
+Lazio,2020-08-26,estimate,253,253,27,250,264,236,272,207,297
+Lazio,2020-08-27,estimate,244,245,27,244,258,227,263,199,289
+Lazio,2020-08-28,estimate,234,236,28,230,243,216,252,190,280
+Lazio,2020-08-29,estimate,226,227,28,216,230,204,240,179,270
+Lazio,2020-08-30,estimate,218,220,28,206,218,200,236,173,264
+Lazio,2020-08-31,estimate,211,213,28,200,212,192,228,168,259
+Lazio,2020-09-01,estimate,206,208,28,194,207,186,222,165,255
+Lazio,2020-09-02,estimate,202,204,27,190,202,182,218,161,248
+Lazio,2020-09-03,estimate,200,202,27,188,201,175,211,158,245
+Lazio,2020-09-04,estimate based on partial data,199,202,27,190,203,177,212,158,244
+Lazio,2020-09-05,estimate based on partial data,201,203,27,182,196,179,215,161,248
+Lazio,2020-09-06,estimate based on partial data,202,205,28,183,197,183,220,162,249
+Lazio,2020-09-07,estimate based on partial data,207,210,30,189,203,183,222,165,259
+Lazio,2020-09-08,estimate based on partial data,213,216,34,192,207,186,228,164,272
+Lazio,2020-09-09,estimate based on partial data,220,224,40,195,213,195,244,163,290
+Lazio,2020-09-10,estimate based on partial data,230,234,49,220,242,193,252,149,305
+Lazio,2020-09-11,estimate based on partial data,240,247,62,225,252,188,262,148,344
+Lazio,2020-09-12,estimate based on partial data,251,262,81,215,251,187,282,134,379
+Lazio,2020-09-13,estimate based on partial data,262,281,106,227,272,172,292,127,433
+Lazio,2020-09-14,estimate based on partial data,273,303,140,191,245,148,294,116,505
+Lazio,2020-09-15,estimate based on partial data,285,331,187,178,242,137,309,83,570
+Lazio,2020-09-16,estimate based on partial data,297,366,253,149,220,126,323,72,684
+Lazio,2020-09-17,forecast,306,405,331,147,225,111,332,66,801
+Lazio,2020-09-18,forecast,319,453,433,145,228,99,342,58,933
+Lazio,2020-09-19,forecast,332,510,569,134,221,89,356,31,1061
+Lazio,2020-09-20,forecast,344,581,752,138,229,80,369,38,1242
+Lazio,2020-09-21,forecast,356,667,1000,130,227,67,379,20,1427
+Lazio,2020-09-22,forecast,370,774,1341,115,217,64,398,17,1649
+Lazio,2020-09-23,forecast,384,907,1814,108,216,51,406,15,1915
+Lazio,2020-09-24,forecast,400,1074,2477,105,216,46,423,22,2244
+Lazio,2020-09-25,forecast,416,1284,3415,96,213,21,418,10,2621
+Lazio,2020-09-26,forecast,434,1552,4756,46,165,22,440,9,3080
+Lazio,2020-09-27,forecast,449,1895,6689,43,163,18,455,7,3589
+Lazio,2020-09-28,forecast,467,2339,9497,36,157,14,468,6,4178
+Lazio,2020-09-29,forecast,484,2917,13607,32,153,12,487,5,4853
+Lazio,2020-09-30,forecast,502,3678,19661,28,150,11,507,4,5658
+Liguria,2020-07-08,estimate,9,10,1,9,9,8,10,8,12
+Liguria,2020-07-09,estimate,10,10,1,9,10,9,10,8,12
+Liguria,2020-07-10,estimate,10,10,2,9,10,9,11,8,13
+Liguria,2020-07-11,estimate,11,11,2,10,10,9,11,9,13
+Liguria,2020-07-12,estimate,11,11,2,10,11,10,11,9,14
+Liguria,2020-07-13,estimate,11,12,2,11,11,10,12,9,14
+Liguria,2020-07-14,estimate,12,12,2,11,12,11,12,10,15
+Liguria,2020-07-15,estimate,12,12,2,11,12,11,13,10,15
+Liguria,2020-07-16,estimate,13,13,2,12,13,12,14,10,15
+Liguria,2020-07-17,estimate,13,13,2,13,13,12,14,11,16
+Liguria,2020-07-18,estimate,14,14,2,13,14,13,14,11,16
 Liguria,2020-07-19,estimate,14,14,2,14,15,13,15,11,17
-Liguria,2020-07-20,estimate,15,15,2,15,15,13,16,12,18
+Liguria,2020-07-20,estimate,15,15,2,14,15,14,16,12,17
 Liguria,2020-07-21,estimate,15,15,2,15,16,14,16,12,18
-Liguria,2020-07-22,estimate,16,16,2,15,16,14,17,13,19
-Liguria,2020-07-23,estimate,16,16,2,16,17,15,18,13,20
-Liguria,2020-07-24,estimate,17,17,2,16,17,15,18,13,20
+Liguria,2020-07-22,estimate,16,16,2,15,16,14,17,12,18
+Liguria,2020-07-23,estimate,16,16,2,16,17,15,18,13,19
+Liguria,2020-07-24,estimate,17,17,2,17,18,16,18,13,20
 Liguria,2020-07-25,estimate,17,17,2,17,18,16,19,13,21
-Liguria,2020-07-26,estimate,18,18,3,17,19,16,20,14,22
-Liguria,2020-07-27,estimate,18,18,3,18,19,17,21,14,23
-Liguria,2020-07-28,estimate,19,19,3,19,20,18,21,14,23
-Liguria,2020-07-29,estimate,20,20,3,20,21,18,22,15,24
-Liguria,2020-07-30,estimate,21,20,3,20,22,19,23,15,25
-Liguria,2020-07-31,estimate,21,21,3,21,22,20,24,16,27
-Liguria,2020-08-01,estimate,22,22,4,22,23,21,25,17,28
-Liguria,2020-08-02,estimate,23,23,4,23,25,20,25,17,29
-Liguria,2020-08-03,estimate,24,24,4,24,26,22,27,18,30
-Liguria,2020-08-04,estimate,25,25,4,25,27,23,28,19,32
-Liguria,2020-08-05,estimate,27,26,4,27,29,24,29,20,33
-Liguria,2020-08-06,estimate,28,28,4,27,29,25,31,22,35
-Liguria,2020-08-07,estimate,29,29,4,28,30,27,32,23,36
-Liguria,2020-08-08,estimate,31,31,4,29,32,28,33,24,38
-Liguria,2020-08-09,estimate,32,32,4,32,34,30,35,25,39
-Liguria,2020-08-10,estimate,34,34,4,34,36,31,37,27,41
-Liguria,2020-08-11,estimate,36,36,4,35,38,32,38,28,43
-Liguria,2020-08-12,estimate,37,38,5,37,39,34,40,30,45
-Liguria,2020-08-13,estimate,39,40,5,38,41,36,43,32,48
-Liguria,2020-08-14,estimate,41,42,5,40,42,37,44,33,50
-Liguria,2020-08-15,estimate,43,44,6,42,44,40,47,34,53
-Liguria,2020-08-16,estimate,46,46,6,45,47,42,49,36,55
-Liguria,2020-08-17,estimate,48,49,7,45,48,44,51,38,58
-Liguria,2020-08-18,estimate,50,51,7,48,51,47,55,40,60
-Liguria,2020-08-19,estimate,53,54,8,51,54,49,57,42,63
-Liguria,2020-08-20,estimate,56,56,8,53,56,51,60,43,66
-Liguria,2020-08-21,estimate,58,59,8,55,58,54,63,47,70
-Liguria,2020-08-22,estimate,61,62,8,58,61,58,67,50,74
-Liguria,2020-08-23,estimate,65,65,8,61,64,59,69,52,77
-Liguria,2020-08-24,estimate,68,69,9,63,67,62,73,56,83
-Liguria,2020-08-25,estimate,71,72,9,66,69,66,76,59,87
-Liguria,2020-08-26,estimate,75,76,9,70,74,69,81,63,93
-Liguria,2020-08-27,estimate,79,80,10,75,79,72,84,65,96
-Liguria,2020-08-28,estimate,83,84,11,79,84,76,89,67,101
-Liguria,2020-08-29,estimate,88,89,11,82,87,78,92,71,107
-Liguria,2020-08-30,estimate,93,94,12,86,92,83,99,75,114
-Liguria,2020-08-31,estimate,98,99,13,90,96,86,103,78,122
-Liguria,2020-09-01,estimate,104,105,15,100,107,91,110,84,131
-Liguria,2020-09-02,estimate,109,111,16,107,114,95,117,87,140
-Liguria,2020-09-03,estimate based on partial data,116,118,18,110,119,99,123,91,150
-Liguria,2020-09-04,estimate based on partial data,122,125,21,112,122,104,131,92,158
-Liguria,2020-09-05,estimate based on partial data,129,132,24,115,126,113,143,98,172
-Liguria,2020-09-06,estimate based on partial data,137,140,27,122,133,118,151,98,182
-Liguria,2020-09-07,estimate based on partial data,145,149,31,127,139,122,160,102,197
-Liguria,2020-09-08,estimate based on partial data,153,159,36,133,148,127,171,104,212
-Liguria,2020-09-09,estimate based on partial data,163,169,42,141,159,132,180,109,233
-Liguria,2020-09-10,estimate based on partial data,172,180,49,139,159,134,190,109,252
-Liguria,2020-09-11,estimate based on partial data,181,192,57,146,168,132,193,110,272
-Liguria,2020-09-12,estimate based on partial data,192,205,68,147,171,142,210,110,298
-Liguria,2020-09-13,estimate based on partial data,202,219,80,158,185,139,214,112,326
-Liguria,2020-09-14,estimate based on partial data,213,235,95,165,195,151,234,100,345
-Liguria,2020-09-15,estimate based on partial data,225,252,113,168,200,154,246,112,391
-Liguria,2020-09-16,forecast,236,270,134,168,203,158,258,113,432
-Liguria,2020-09-17,forecast,250,291,159,175,212,165,275,118,476
-Liguria,2020-09-18,forecast,263,313,189,175,216,171,292,114,520
-Liguria,2020-09-19,forecast,277,337,225,181,225,178,309,115,575
-Liguria,2020-09-20,forecast,293,364,268,195,244,185,330,113,630
-Liguria,2020-09-21,forecast,309,394,320,218,271,193,352,86,665
-Liguria,2020-09-22,forecast,326,427,384,225,282,198,373,92,732
-Liguria,2020-09-23,forecast,344,464,460,219,281,195,384,83,803
-Liguria,2020-09-24,forecast,364,504,554,248,314,200,406,82,880
-Liguria,2020-09-25,forecast,383,550,667,234,306,204,430,86,971
-Liguria,2020-09-26,forecast,405,600,806,260,336,217,463,85,1076
-Liguria,2020-09-27,forecast,427,657,977,250,331,227,494,95,1197
-Liguria,2020-09-28,forecast,450,721,1186,261,347,239,529,87,1311
-Liguria,2020-09-29,forecast,475,793,1444,272,365,247,561,80,1435
-Lombardia,2020-07-07,estimate,97,98,15,93,100,88,108,75,122
-Lombardia,2020-07-08,estimate,91,91,14,83,90,83,102,67,113
-Lombardia,2020-07-09,estimate,85,86,14,79,85,77,96,62,107
-Lombardia,2020-07-10,estimate,81,81,14,77,84,71,89,60,103
-Lombardia,2020-07-11,estimate,77,78,13,71,77,66,83,56,98
-Lombardia,2020-07-12,estimate,74,75,13,69,75,64,80,54,95
-Lombardia,2020-07-13,estimate,72,73,12,68,74,63,78,52,91
-Lombardia,2020-07-14,estimate,70,71,12,67,73,60,75,52,90
-Lombardia,2020-07-15,estimate,70,70,11,67,72,61,75,51,87
-Lombardia,2020-07-16,estimate,70,70,11,64,69,61,75,52,87
-Lombardia,2020-07-17,estimate,70,71,11,67,72,63,76,52,86
-Lombardia,2020-07-18,estimate,71,72,10,65,70,63,77,55,87
-Lombardia,2020-07-19,estimate,72,73,10,68,72,64,77,56,89
-Lombardia,2020-07-20,estimate,74,75,11,68,73,65,79,57,91
-Lombardia,2020-07-21,estimate,76,76,11,73,78,66,80,60,95
-Lombardia,2020-07-22,estimate,77,79,11,73,78,68,82,60,96
-Lombardia,2020-07-23,estimate,80,81,12,76,81,70,85,63,100
-Lombardia,2020-07-24,estimate,82,83,12,79,84,72,87,63,102
-Lombardia,2020-07-25,estimate,84,85,12,82,88,73,89,65,104
-Lombardia,2020-07-26,estimate,86,87,12,82,88,76,92,67,106
-Lombardia,2020-07-27,estimate,87,88,12,82,87,79,95,68,107
-Lombardia,2020-07-28,estimate,89,90,12,84,90,78,94,69,108
-Lombardia,2020-07-29,estimate,90,91,12,88,94,80,96,71,109
-Lombardia,2020-07-30,estimate,92,92,12,89,95,84,100,73,111
-Lombardia,2020-07-31,estimate,93,93,12,93,99,85,101,75,114
-Lombardia,2020-08-01,estimate,94,95,12,93,99,84,100,76,115
-Lombardia,2020-08-02,estimate,95,96,13,89,95,88,104,77,117
-Lombardia,2020-08-03,estimate,97,98,13,90,97,85,102,75,118
-Lombardia,2020-08-04,estimate,99,100,14,94,100,89,107,77,122
-Lombardia,2020-08-05,estimate,102,103,14,94,101,92,110,82,128
-Lombardia,2020-08-06,estimate,106,107,15,102,109,96,115,83,131
-Lombardia,2020-08-07,estimate,111,111,16,105,113,98,118,86,137
-Lombardia,2020-08-08,estimate,116,117,17,111,119,102,123,90,144
-Lombardia,2020-08-09,estimate,123,124,18,122,130,112,134,95,153
-Lombardia,2020-08-10,estimate,132,133,19,130,138,120,143,102,163
-Lombardia,2020-08-11,estimate,142,143,20,137,146,128,152,110,174
-Lombardia,2020-08-12,estimate,154,155,21,146,155,138,163,120,189
-Lombardia,2020-08-13,estimate,168,169,22,162,172,149,177,137,209
-Lombardia,2020-08-14,estimate,184,185,24,180,191,168,198,145,222
-Lombardia,2020-08-15,estimate,203,204,25,196,207,183,216,163,247
-Lombardia,2020-08-16,estimate,223,225,27,216,228,208,243,179,269
-Lombardia,2020-08-17,estimate,246,248,30,238,252,226,263,202,299
-Lombardia,2020-08-18,estimate,271,272,33,260,276,250,291,222,327
-Lombardia,2020-08-19,estimate,296,297,36,287,303,272,319,240,354
-Lombardia,2020-08-20,estimate,321,323,39,319,338,289,340,259,386
-Lombardia,2020-08-21,estimate,345,347,43,341,362,309,365,283,420
-Lombardia,2020-08-22,estimate,367,370,46,353,375,333,391,296,443
-Lombardia,2020-08-23,estimate,385,390,49,363,385,349,413,315,473
-Lombardia,2020-08-24,estimate,401,406,52,394,418,365,429,323,488
-Lombardia,2020-08-25,estimate,412,417,54,397,421,371,439,331,502
-Lombardia,2020-08-26,estimate,418,423,55,404,429,373,441,344,519
-Lombardia,2020-08-27,estimate,420,425,55,411,436,384,454,333,510
-Lombardia,2020-08-28,estimate,417,422,55,400,425,376,444,330,504
-Lombardia,2020-08-29,estimate,412,414,54,399,425,375,442,319,491
-Lombardia,2020-08-30,estimate,402,404,53,382,407,366,432,314,483
-Lombardia,2020-08-31,estimate,389,391,51,386,409,357,421,308,472
-Lombardia,2020-09-01,estimate,377,377,50,373,397,341,404,296,457
-Lombardia,2020-09-02,estimate,361,363,49,354,378,330,395,289,449
-Lombardia,2020-09-03,estimate based on partial data,346,348,49,333,356,306,371,269,429
-Lombardia,2020-09-04,estimate based on partial data,330,334,50,300,324,291,356,255,418
-Lombardia,2020-09-05,estimate based on partial data,316,321,52,286,310,280,346,234,405
-Lombardia,2020-09-06,estimate based on partial data,304,309,55,287,313,264,334,224,403
-Lombardia,2020-09-07,estimate based on partial data,293,299,60,272,299,252,329,204,397
-Lombardia,2020-09-08,estimate based on partial data,284,291,67,256,285,230,314,179,395
-Lombardia,2020-09-09,estimate based on partial data,278,285,77,246,281,227,322,160,401
-Lombardia,2020-09-10,estimate based on partial data,271,282,90,234,272,206,314,136,412
-Lombardia,2020-09-11,estimate based on partial data,266,281,107,224,268,198,320,117,436
-Lombardia,2020-09-12,estimate based on partial data,263,284,131,201,251,168,307,96,466
-Lombardia,2020-09-13,estimate based on partial data,259,292,166,192,247,155,310,79,505
-Lombardia,2020-09-14,estimate based on partial data,254,305,225,182,243,126,297,45,545
-Lombardia,2020-09-15,estimate based on partial data,253,327,338,164,230,119,305,36,598
-Lombardia,2020-09-16,forecast,247,352,508,152,222,105,302,30,659
-Lombardia,2020-09-17,forecast,243,388,810,141,214,64,267,7,702
-Lombardia,2020-09-18,forecast,239,441,1351,86,161,52,259,10,765
-Lombardia,2020-09-19,forecast,235,520,2321,85,160,37,247,8,831
-Lombardia,2020-09-20,forecast,229,642,4067,67,143,32,243,6,914
-Lombardia,2020-09-21,forecast,226,834,7221,39,113,23,235,2,985
-Lombardia,2020-09-22,forecast,222,1145,12933,35,106,19,227,2,1080
-Lombardia,2020-09-23,forecast,217,1660,23308,24,93,16,223,1,1184
-Lombardia,2020-09-24,forecast,213,2531,42207,19,85,9,215,2,1302
-Lombardia,2020-09-25,forecast,208,4024,76728,17,81,8,212,1,1433
-Lombardia,2020-09-26,forecast,205,6618,139943,8,68,7,208,1,1583
-Lombardia,2020-09-27,forecast,201,11169,255972,6,62,3,202,0,1748
-Lombardia,2020-09-28,forecast,196,19220,469390,5,58,1,197,0,1931
-Lombardia,2020-09-29,forecast,193,33557,862700,1,50,2,194,0,2134
-Marche,2020-07-07,estimate,3,3,1,2,3,2,3,2,4
+Liguria,2020-07-26,estimate,18,18,2,18,19,17,20,14,22
+Liguria,2020-07-27,estimate,19,19,2,18,20,18,21,14,22
+Liguria,2020-07-28,estimate,19,19,3,20,21,18,21,15,23
+Liguria,2020-07-29,estimate,20,20,3,21,22,19,22,16,24
+Liguria,2020-07-30,estimate,21,21,3,22,23,19,23,16,25
+Liguria,2020-07-31,estimate,22,22,3,21,23,20,24,17,27
+Liguria,2020-08-01,estimate,23,23,3,21,23,21,25,17,27
+Liguria,2020-08-02,estimate,24,24,3,23,24,21,26,18,29
+Liguria,2020-08-03,estimate,25,25,3,23,25,22,27,19,30
+Liguria,2020-08-04,estimate,26,26,3,25,26,23,28,20,31
+Liguria,2020-08-05,estimate,27,27,4,25,27,25,30,21,33
+Liguria,2020-08-06,estimate,28,28,4,26,28,26,31,22,34
+Liguria,2020-08-07,estimate,30,30,4,28,30,27,32,23,36
+Liguria,2020-08-08,estimate,31,31,4,29,31,29,34,25,38
+Liguria,2020-08-09,estimate,33,33,4,31,33,30,36,25,39
+Liguria,2020-08-10,estimate,34,34,4,32,34,31,37,27,41
+Liguria,2020-08-11,estimate,36,36,5,35,37,33,39,28,43
+Liguria,2020-08-12,estimate,38,38,5,37,39,34,41,30,46
+Liguria,2020-08-13,estimate,40,40,5,38,41,36,42,32,48
+Liguria,2020-08-14,estimate,42,42,5,40,42,37,44,33,50
+Liguria,2020-08-15,estimate,44,44,5,41,44,40,46,35,53
+Liguria,2020-08-16,estimate,46,46,6,44,46,42,49,37,55
+Liguria,2020-08-17,estimate,48,48,6,45,48,44,51,39,57
+Liguria,2020-08-18,estimate,51,51,6,49,51,46,54,40,60
+Liguria,2020-08-19,estimate,53,53,6,52,55,49,57,42,63
+Liguria,2020-08-20,estimate,56,56,7,55,58,51,59,44,65
+Liguria,2020-08-21,estimate,59,59,7,59,62,53,62,48,70
+Liguria,2020-08-22,estimate,62,62,7,60,63,57,66,51,74
+Liguria,2020-08-23,estimate,65,65,7,63,67,59,69,54,78
+Liguria,2020-08-24,estimate,68,68,8,66,70,63,73,55,81
+Liguria,2020-08-25,estimate,72,72,8,70,73,66,77,59,86
+Liguria,2020-08-26,estimate,76,76,9,74,78,70,81,62,90
+Liguria,2020-08-27,estimate,80,80,9,79,83,74,86,65,95
+Liguria,2020-08-28,estimate,84,84,10,82,87,77,91,68,101
+Liguria,2020-08-29,estimate,88,89,11,87,92,81,95,71,107
+Liguria,2020-08-30,estimate,93,94,12,87,93,85,100,74,112
+Liguria,2020-08-31,estimate,98,99,13,92,98,88,105,78,119
+Liguria,2020-09-01,estimate,103,104,14,100,106,92,110,82,126
+Liguria,2020-09-02,estimate,109,110,15,104,111,98,117,85,134
+Liguria,2020-09-03,estimate,115,116,17,109,117,102,123,90,144
+Liguria,2020-09-04,estimate based on partial data,121,123,19,117,125,108,131,92,152
+Liguria,2020-09-05,estimate based on partial data,128,130,21,122,131,113,138,98,165
+Liguria,2020-09-06,estimate based on partial data,134,138,24,128,138,114,143,100,175
+Liguria,2020-09-07,estimate based on partial data,142,146,27,135,147,123,155,103,188
+Liguria,2020-09-08,estimate based on partial data,149,154,31,143,155,124,160,112,209
+Liguria,2020-09-09,estimate based on partial data,157,163,35,141,155,128,168,109,219
+Liguria,2020-09-10,estimate based on partial data,165,173,41,150,166,135,180,111,235
+Liguria,2020-09-11,estimate based on partial data,173,184,47,156,173,140,189,113,254
+Liguria,2020-09-12,estimate based on partial data,183,195,55,154,173,140,194,117,278
+Liguria,2020-09-13,estimate based on partial data,192,207,65,162,183,152,213,116,298
+Liguria,2020-09-14,estimate based on partial data,202,220,76,167,191,154,220,123,331
+Liguria,2020-09-15,estimate based on partial data,213,234,91,174,200,160,233,118,355
+Liguria,2020-09-16,estimate based on partial data,224,250,109,180,208,165,245,118,387
+Liguria,2020-09-17,forecast,236,267,131,186,216,172,260,121,422
+Liguria,2020-09-18,forecast,248,286,158,203,236,180,277,113,450
+Liguria,2020-09-19,forecast,261,306,191,212,247,186,293,111,488
+Liguria,2020-09-20,forecast,273,328,233,208,247,193,310,112,534
+Liguria,2020-09-21,forecast,287,353,287,214,256,205,333,117,591
+Liguria,2020-09-22,forecast,301,381,354,223,268,214,354,118,646
+Liguria,2020-09-23,forecast,316,411,441,236,284,203,355,118,707
+Liguria,2020-09-24,forecast,332,446,552,246,297,225,390,115,770
+Liguria,2020-09-25,forecast,349,484,695,257,313,232,412,78,804
+Liguria,2020-09-26,forecast,367,528,879,278,340,236,431,88,888
+Liguria,2020-09-27,forecast,385,577,1118,285,350,238,449,82,968
+Liguria,2020-09-28,forecast,402,634,1429,299,369,247,476,69,1053
+Liguria,2020-09-29,forecast,422,700,1833,312,387,255,503,50,1139
+Liguria,2020-09-30,forecast,443,776,2358,322,402,265,532,26,1222
+Lombardia,2020-07-08,estimate,94,95,14,90,96,84,102,72,118
+Lombardia,2020-07-09,estimate,88,89,14,83,90,77,94,66,111
+Lombardia,2020-07-10,estimate,83,84,14,80,87,72,90,61,106
+Lombardia,2020-07-11,estimate,80,80,13,78,84,70,87,57,100
+Lombardia,2020-07-12,estimate,77,77,13,75,81,68,85,56,98
+Lombardia,2020-07-13,estimate,74,74,13,71,77,66,82,52,93
+Lombardia,2020-07-14,estimate,72,73,12,69,74,65,81,51,91
+Lombardia,2020-07-15,estimate,71,72,12,67,72,63,78,52,90
+Lombardia,2020-07-16,estimate,71,71,11,68,73,64,79,52,89
+Lombardia,2020-07-17,estimate,71,71,11,67,72,64,79,53,88
+Lombardia,2020-07-18,estimate,71,72,11,67,72,64,79,54,88
+Lombardia,2020-07-19,estimate,72,73,11,68,74,63,77,57,90
+Lombardia,2020-07-20,estimate,74,74,11,72,77,64,78,57,90
+Lombardia,2020-07-21,estimate,75,76,11,74,79,67,81,60,94
+Lombardia,2020-07-22,estimate,77,78,11,72,77,68,83,61,95
+Lombardia,2020-07-23,estimate,79,80,11,74,79,71,86,62,97
+Lombardia,2020-07-24,estimate,81,82,12,78,84,72,87,63,100
+Lombardia,2020-07-25,estimate,83,84,12,78,84,74,89,66,104
+Lombardia,2020-07-26,estimate,85,86,12,79,85,77,92,65,105
+Lombardia,2020-07-27,estimate,87,88,12,82,87,78,94,67,107
+Lombardia,2020-07-28,estimate,89,90,12,86,92,77,93,71,110
+Lombardia,2020-07-29,estimate,90,91,12,86,92,82,98,71,110
+Lombardia,2020-07-30,estimate,92,93,12,85,91,83,99,74,113
+Lombardia,2020-07-31,estimate,93,94,12,87,93,83,99,74,113
+Lombardia,2020-08-01,estimate,95,95,12,91,97,85,101,76,116
+Lombardia,2020-08-02,estimate,96,97,13,93,99,87,104,76,118
+Lombardia,2020-08-03,estimate,98,99,13,94,100,89,106,78,121
+Lombardia,2020-08-04,estimate,100,101,14,96,102,92,110,80,125
+Lombardia,2020-08-05,estimate,104,104,15,100,107,92,111,84,131
+Lombardia,2020-08-06,estimate,107,108,15,106,113,93,114,85,136
+Lombardia,2020-08-07,estimate,112,112,16,104,112,98,119,88,141
+Lombardia,2020-08-08,estimate,117,118,17,115,124,102,125,91,147
+Lombardia,2020-08-09,estimate,124,125,18,112,122,108,133,94,153
+Lombardia,2020-08-10,estimate,132,133,20,122,132,120,146,101,163
+Lombardia,2020-08-11,estimate,142,143,21,133,143,130,157,110,177
+Lombardia,2020-08-12,estimate,154,155,22,145,155,140,168,116,187
+Lombardia,2020-08-13,estimate,168,169,23,160,171,154,184,133,208
+Lombardia,2020-08-14,estimate,184,185,24,180,192,166,198,147,226
+Lombardia,2020-08-15,estimate,203,203,26,197,209,182,214,159,243
+Lombardia,2020-08-16,estimate,223,224,28,219,231,202,237,178,270
+Lombardia,2020-08-17,estimate,245,246,30,240,254,221,259,200,300
+Lombardia,2020-08-18,estimate,269,271,33,257,273,239,281,216,322
+Lombardia,2020-08-19,estimate,294,296,36,274,292,263,311,240,357
+Lombardia,2020-08-20,estimate,319,322,40,296,316,285,338,256,385
+Lombardia,2020-08-21,estimate,344,347,44,328,349,305,364,280,420
+Lombardia,2020-08-22,estimate,367,371,48,347,370,328,391,294,445
+Lombardia,2020-08-23,estimate,388,392,52,378,403,345,413,308,472
+Lombardia,2020-08-24,estimate,405,409,55,392,417,355,426,323,498
+Lombardia,2020-08-25,estimate,416,421,57,397,423,372,447,333,514
+Lombardia,2020-08-26,estimate,422,428,58,392,418,377,452,334,518
+Lombardia,2020-08-27,estimate,424,430,58,401,426,371,444,336,521
+Lombardia,2020-08-28,estimate,419,426,57,396,420,373,445,332,514
+Lombardia,2020-08-29,estimate,412,419,56,392,415,376,444,327,505
+Lombardia,2020-08-30,estimate,402,407,54,375,399,364,431,320,490
+Lombardia,2020-08-31,estimate,389,393,52,378,403,352,419,308,473
+Lombardia,2020-09-01,estimate,374,377,50,358,381,334,398,294,453
+Lombardia,2020-09-02,estimate,357,360,49,342,364,320,381,283,439
+Lombardia,2020-09-03,estimate,340,343,48,320,342,308,368,267,423
+Lombardia,2020-09-04,estimate based on partial data,324,326,49,315,337,292,352,245,401
+Lombardia,2020-09-05,estimate based on partial data,307,310,50,286,310,271,334,223,386
+Lombardia,2020-09-06,estimate based on partial data,290,294,52,282,307,254,322,207,377
+Lombardia,2020-09-07,estimate based on partial data,277,281,55,256,282,233,303,195,374
+Lombardia,2020-09-08,estimate based on partial data,265,269,59,250,278,211,288,170,360
+Lombardia,2020-09-09,estimate based on partial data,254,258,65,246,277,204,287,154,362
+Lombardia,2020-09-10,estimate based on partial data,244,250,72,216,248,190,282,136,365
+Lombardia,2020-09-11,estimate based on partial data,234,243,81,200,236,172,274,118,372
+Lombardia,2020-09-12,estimate based on partial data,224,239,93,194,234,159,272,101,385
+Lombardia,2020-09-13,estimate based on partial data,217,236,108,159,204,114,237,76,399
+Lombardia,2020-09-14,estimate based on partial data,209,237,128,127,175,109,239,57,414
+Lombardia,2020-09-15,estimate based on partial data,200,240,155,150,200,91,228,40,441
+Lombardia,2020-09-16,estimate based on partial data,192,248,193,97,151,68,214,29,482
+Lombardia,2020-09-17,forecast,186,255,232,88,142,60,209,21,510
+Lombardia,2020-09-18,forecast,179,264,282,77,131,40,190,13,536
+Lombardia,2020-09-19,forecast,173,276,346,57,110,32,181,11,567
+Lombardia,2020-09-20,forecast,166,292,428,46,98,30,178,8,604
+Lombardia,2020-09-21,forecast,160,312,535,31,81,21,168,6,646
+Lombardia,2020-09-22,forecast,155,336,674,27,74,15,160,1,686
+Lombardia,2020-09-23,forecast,149,367,859,24,69,12,154,4,741
+Lombardia,2020-09-24,forecast,143,405,1105,21,63,10,149,3,794
+Lombardia,2020-09-25,forecast,138,452,1434,19,60,3,138,1,854
+Lombardia,2020-09-26,forecast,133,511,1877,17,55,2,133,2,922
+Lombardia,2020-09-27,forecast,129,585,2476,6,42,3,131,0,983
+Lombardia,2020-09-28,forecast,124,677,3289,5,38,1,124,0,1060
+Lombardia,2020-09-29,forecast,119,793,4397,3,33,1,119,0,1139
+Lombardia,2020-09-30,forecast,115,941,5911,3,31,1,115,0,1231
 Marche,2020-07-08,estimate,3,3,1,3,3,2,3,2,4
-Marche,2020-07-09,estimate,3,3,1,3,3,2,3,2,4
+Marche,2020-07-09,estimate,3,3,1,3,3,3,3,2,4
 Marche,2020-07-10,estimate,3,3,1,3,3,3,4,2,4
-Marche,2020-07-11,estimate,3,4,1,3,3,3,4,2,5
-Marche,2020-07-12,estimate,4,4,1,4,4,3,4,2,5
-Marche,2020-07-13,estimate,4,4,1,4,4,3,4,3,5
-Marche,2020-07-14,estimate,4,4,1,4,5,4,5,3,6
-Marche,2020-07-15,estimate,5,5,1,5,5,4,5,3,6
-Marche,2020-07-16,estimate,5,5,1,5,5,4,6,4,7
-Marche,2020-07-17,estimate,5,6,1,5,6,5,6,4,7
-Marche,2020-07-18,estimate,6,6,1,6,6,5,7,4,8
-Marche,2020-07-19,estimate,6,6,1,6,6,6,7,5,8
+Marche,2020-07-11,estimate,3,4,1,3,4,3,4,2,5
+Marche,2020-07-12,estimate,4,4,1,3,4,3,4,3,5
+Marche,2020-07-13,estimate,4,4,1,4,4,3,5,3,5
+Marche,2020-07-14,estimate,4,4,1,4,4,4,5,3,6
+Marche,2020-07-15,estimate,5,5,1,4,5,4,5,3,6
+Marche,2020-07-16,estimate,5,5,1,5,5,4,5,4,7
+Marche,2020-07-17,estimate,5,6,1,5,5,5,6,4,7
+Marche,2020-07-18,estimate,6,6,1,5,6,5,6,4,8
+Marche,2020-07-19,estimate,6,7,1,6,7,6,7,5,8
 Marche,2020-07-20,estimate,7,7,1,6,7,6,7,5,9
-Marche,2020-07-21,estimate,7,7,1,7,7,6,8,5,9
-Marche,2020-07-22,estimate,8,8,1,7,8,7,8,6,10
-Marche,2020-07-23,estimate,8,9,2,8,9,7,9,6,11
-Marche,2020-07-24,estimate,9,9,2,8,9,8,10,7,12
+Marche,2020-07-21,estimate,7,8,1,7,7,6,8,5,10
+Marche,2020-07-22,estimate,8,8,1,8,8,7,9,6,10
+Marche,2020-07-23,estimate,9,9,2,8,9,7,9,6,11
+Marche,2020-07-24,estimate,9,9,2,9,10,8,10,7,12
 Marche,2020-07-25,estimate,10,10,2,9,10,8,10,7,13
-Marche,2020-07-26,estimate,10,10,2,9,10,9,11,7,14
+Marche,2020-07-26,estimate,10,11,2,9,10,9,11,8,14
 Marche,2020-07-27,estimate,11,11,2,10,11,9,12,8,14
-Marche,2020-07-28,estimate,11,12,2,10,11,10,12,8,15
+Marche,2020-07-28,estimate,12,12,2,10,11,10,12,8,15
 Marche,2020-07-29,estimate,12,12,2,11,12,10,13,9,16
-Marche,2020-07-30,estimate,13,13,2,11,12,11,14,9,17
-Marche,2020-07-31,estimate,13,14,3,12,13,11,14,10,17
-Marche,2020-08-01,estimate,14,14,3,12,13,12,15,10,18
-Marche,2020-08-02,estimate,14,15,3,13,14,13,16,10,18
-Marche,2020-08-03,estimate,15,15,3,13,15,13,16,11,19
-Marche,2020-08-04,estimate,15,16,3,14,15,13,16,11,19
-Marche,2020-08-05,estimate,16,16,3,15,16,14,17,12,20
-Marche,2020-08-06,estimate,16,16,3,15,17,14,18,12,20
-Marche,2020-08-07,estimate,17,17,3,15,17,15,18,13,21
+Marche,2020-07-30,estimate,13,13,2,12,13,11,14,9,16
+Marche,2020-07-31,estimate,13,14,2,12,13,11,14,10,17
+Marche,2020-08-01,estimate,14,14,2,13,14,12,15,10,18
+Marche,2020-08-02,estimate,14,15,3,13,15,13,15,11,18
+Marche,2020-08-03,estimate,15,15,3,14,15,13,16,11,19
+Marche,2020-08-04,estimate,15,16,3,14,15,14,17,11,19
+Marche,2020-08-05,estimate,16,16,3,14,15,14,17,12,20
+Marche,2020-08-06,estimate,16,16,3,15,16,14,17,12,20
+Marche,2020-08-07,estimate,17,17,3,16,17,15,18,13,21
 Marche,2020-08-08,estimate,17,17,3,16,17,15,18,13,21
-Marche,2020-08-09,estimate,17,18,3,17,18,15,19,14,22
-Marche,2020-08-10,estimate,18,18,3,17,18,16,19,14,22
+Marche,2020-08-09,estimate,18,18,3,17,18,15,19,14,22
+Marche,2020-08-10,estimate,18,18,3,18,19,16,19,14,22
 Marche,2020-08-11,estimate,18,19,3,18,19,16,20,14,23
-Marche,2020-08-12,estimate,19,19,3,18,20,17,20,14,23
-Marche,2020-08-13,estimate,19,19,3,18,20,17,21,14,24
-Marche,2020-08-14,estimate,20,20,3,19,20,18,22,15,24
-Marche,2020-08-15,estimate,20,20,3,19,20,18,22,15,25
-Marche,2020-08-16,estimate,21,21,3,20,22,19,23,16,26
-Marche,2020-08-17,estimate,21,22,3,21,23,19,23,16,27
-Marche,2020-08-18,estimate,22,22,3,22,23,19,23,16,27
-Marche,2020-08-19,estimate,23,23,4,22,23,19,24,17,28
-Marche,2020-08-20,estimate,23,23,4,22,24,21,25,17,29
-Marche,2020-08-21,estimate,24,24,4,22,24,22,27,18,30
-Marche,2020-08-22,estimate,25,25,4,24,26,22,27,18,31
-Marche,2020-08-23,estimate,26,26,4,24,26,22,27,19,32
-Marche,2020-08-24,estimate,26,27,4,26,28,23,28,20,33
-Marche,2020-08-25,estimate,27,28,4,26,28,24,29,20,34
-Marche,2020-08-26,estimate,28,28,5,27,30,24,30,20,35
-Marche,2020-08-27,estimate,29,29,5,27,29,26,32,21,36
-Marche,2020-08-28,estimate,30,30,5,27,30,27,33,22,38
-Marche,2020-08-29,estimate,31,32,5,28,30,28,35,23,40
-Marche,2020-08-30,estimate,32,33,6,31,34,29,36,23,41
-Marche,2020-08-31,estimate,34,34,6,33,35,29,37,25,43
-Marche,2020-09-01,estimate,35,35,6,33,35,30,38,26,45
-Marche,2020-09-02,estimate,36,37,7,34,37,30,39,27,48
-Marche,2020-09-03,estimate based on partial data,37,38,7,35,38,32,41,27,50
-Marche,2020-09-04,estimate based on partial data,39,40,8,36,39,34,43,28,53
-Marche,2020-09-05,estimate based on partial data,40,41,9,37,41,34,45,28,55
-Marche,2020-09-06,estimate based on partial data,42,43,10,39,43,35,46,29,59
-Marche,2020-09-07,estimate based on partial data,44,45,11,39,43,35,49,28,62
-Marche,2020-09-08,estimate based on partial data,45,47,12,40,45,37,52,28,66
-Marche,2020-09-09,estimate based on partial data,47,49,14,40,47,36,53,28,71
-Marche,2020-09-10,estimate based on partial data,49,52,16,39,46,36,55,26,75
-Marche,2020-09-11,estimate based on partial data,51,54,19,41,49,37,57,25,82
-Marche,2020-09-12,estimate based on partial data,53,57,23,42,51,36,60,27,93
-Marche,2020-09-13,estimate based on partial data,55,60,27,44,53,39,64,22,97
-Marche,2020-09-14,estimate based on partial data,57,64,33,45,55,38,66,21,104
-Marche,2020-09-15,estimate based on partial data,59,68,40,46,57,39,71,22,114
-Marche,2020-09-16,forecast,61,72,49,47,59,36,70,21,124
-Marche,2020-09-17,forecast,64,77,62,47,60,36,74,18,134
-Marche,2020-09-18,forecast,66,83,78,47,61,36,77,20,149
-Marche,2020-09-19,forecast,68,89,100,48,63,37,81,16,161
-Marche,2020-09-20,forecast,71,97,130,48,65,36,84,11,172
-Marche,2020-09-21,forecast,73,105,171,49,67,29,81,9,188
-Marche,2020-09-22,forecast,76,115,228,47,66,30,86,8,206
-Marche,2020-09-23,forecast,79,127,307,48,69,29,89,3,221
-Marche,2020-09-24,forecast,81,141,416,48,70,26,90,2,245
-Marche,2020-09-25,forecast,85,157,567,48,72,26,94,4,270
-Marche,2020-09-26,forecast,87,177,778,51,76,26,98,2,292
-Marche,2020-09-27,forecast,90,202,1072,50,76,25,103,2,322
-Marche,2020-09-28,forecast,94,233,1481,54,82,24,107,1,352
-Marche,2020-09-29,forecast,97,271,2052,56,85,18,105,1,386
+Marche,2020-08-12,estimate,19,19,3,18,20,17,21,15,24
+Marche,2020-08-13,estimate,19,20,3,19,20,17,21,15,24
+Marche,2020-08-14,estimate,20,20,3,19,20,18,21,16,25
+Marche,2020-08-15,estimate,20,21,3,19,21,19,23,16,25
+Marche,2020-08-16,estimate,21,21,3,19,21,19,23,16,26
+Marche,2020-08-17,estimate,21,22,3,20,22,19,24,17,27
+Marche,2020-08-18,estimate,22,22,3,21,22,20,24,17,28
+Marche,2020-08-19,estimate,23,23,4,21,23,20,24,17,29
+Marche,2020-08-20,estimate,23,23,4,22,23,21,25,18,30
+Marche,2020-08-21,estimate,24,24,4,23,24,21,26,18,30
+Marche,2020-08-22,estimate,25,25,4,23,25,23,27,19,31
+Marche,2020-08-23,estimate,25,26,4,24,26,23,28,19,33
+Marche,2020-08-24,estimate,26,27,4,24,26,23,28,20,34
+Marche,2020-08-25,estimate,27,27,4,25,27,24,29,21,35
+Marche,2020-08-26,estimate,28,28,5,26,28,25,31,21,36
+Marche,2020-08-27,estimate,29,29,5,27,29,26,32,21,37
+Marche,2020-08-28,estimate,30,30,5,28,30,27,33,22,38
+Marche,2020-08-29,estimate,31,31,5,28,31,28,34,23,40
+Marche,2020-08-30,estimate,32,33,5,29,31,28,35,24,41
+Marche,2020-08-31,estimate,33,34,6,30,32,30,37,25,43
+Marche,2020-09-01,estimate,34,35,6,31,34,30,37,25,44
+Marche,2020-09-02,estimate,36,36,6,33,35,31,39,27,47
+Marche,2020-09-03,estimate,37,38,7,34,37,32,40,27,49
+Marche,2020-09-04,estimate based on partial data,38,39,7,35,38,33,42,28,51
+Marche,2020-09-05,estimate based on partial data,40,41,8,36,39,34,43,29,53
+Marche,2020-09-06,estimate based on partial data,42,43,9,37,40,34,45,29,55
+Marche,2020-09-07,estimate based on partial data,43,44,10,41,45,35,47,29,58
+Marche,2020-09-08,estimate based on partial data,45,46,11,42,47,36,49,29,62
+Marche,2020-09-09,estimate based on partial data,47,49,12,40,46,37,51,30,67
+Marche,2020-09-10,estimate based on partial data,49,51,14,41,47,38,54,31,73
+Marche,2020-09-11,estimate based on partial data,51,53,16,40,47,39,57,30,78
+Marche,2020-09-12,estimate based on partial data,53,56,19,41,48,40,60,29,84
+Marche,2020-09-13,estimate based on partial data,55,59,22,42,50,40,63,26,88
+Marche,2020-09-14,estimate based on partial data,57,62,27,42,51,40,66,24,95
+Marche,2020-09-15,estimate based on partial data,59,66,32,43,53,42,70,24,103
+Marche,2020-09-16,estimate based on partial data,62,70,39,46,57,38,70,22,112
+Marche,2020-09-17,forecast,64,75,46,47,59,38,72,20,122
+Marche,2020-09-18,forecast,66,80,56,46,59,42,81,17,132
+Marche,2020-09-19,forecast,69,85,68,49,63,41,82,16,145
+Marche,2020-09-20,forecast,72,91,83,45,60,40,86,19,163
+Marche,2020-09-21,forecast,75,98,101,45,61,39,88,18,179
+Marche,2020-09-22,forecast,78,106,125,48,66,40,93,13,192
+Marche,2020-09-23,forecast,80,116,154,50,70,39,97,12,209
+Marche,2020-09-24,forecast,83,126,192,52,73,38,100,8,224
+Marche,2020-09-25,forecast,87,138,240,43,66,39,106,8,246
+Marche,2020-09-26,forecast,90,152,301,49,72,39,110,7,268
+Marche,2020-09-27,forecast,94,168,380,49,74,31,107,6,296
+Marche,2020-09-28,forecast,97,186,482,50,76,30,111,1,322
+Marche,2020-09-29,forecast,101,208,614,51,79,30,115,5,358
+Marche,2020-09-30,forecast,105,234,787,52,81,27,118,1,387
 Molise,2020-07-10,estimate,1,1,0,0,1,0,1,0,1
 Molise,2020-07-11,estimate,1,1,0,1,1,0,1,0,1
 Molise,2020-07-12,estimate,1,1,1,1,1,1,1,0,2
@@ -761,840 +847,843 @@ Molise,2020-07-13,estimate,1,1,1,1,1,1,1,0,2
 Molise,2020-07-14,estimate,1,1,1,1,1,1,2,1,2
 Molise,2020-07-15,estimate,2,2,1,1,1,1,2,1,3
 Molise,2020-07-16,estimate,2,2,1,1,2,1,2,1,3
-Molise,2020-07-17,estimate,2,2,1,2,2,1,2,1,3
+Molise,2020-07-17,estimate,2,2,1,1,2,1,2,1,3
 Molise,2020-07-18,estimate,2,2,1,2,2,1,2,1,4
 Molise,2020-07-19,estimate,2,3,1,2,2,2,3,1,4
 Molise,2020-07-20,estimate,2,3,1,2,2,2,3,1,4
-Molise,2020-07-21,estimate,3,3,1,2,3,2,3,1,4
-Molise,2020-07-22,estimate,3,3,1,2,2,2,3,1,4
+Molise,2020-07-21,estimate,3,3,1,2,2,2,3,1,4
+Molise,2020-07-22,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-07-23,estimate,3,3,1,2,3,2,3,1,4
-Molise,2020-07-24,estimate,3,3,1,2,2,2,3,1,4
+Molise,2020-07-24,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-07-25,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-07-26,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-07-27,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-07-28,estimate,3,3,1,2,3,2,3,1,4
-Molise,2020-07-29,estimate,3,3,1,2,2,2,3,1,4
-Molise,2020-07-30,estimate,3,3,1,2,2,2,3,1,5
-Molise,2020-07-31,estimate,3,3,1,2,2,2,3,1,4
-Molise,2020-08-01,estimate,3,3,1,2,2,2,3,1,4
+Molise,2020-07-29,estimate,3,3,1,2,3,2,3,1,4
+Molise,2020-07-30,estimate,3,3,1,2,3,2,3,1,5
+Molise,2020-07-31,estimate,3,3,1,2,3,2,3,1,4
+Molise,2020-08-01,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-08-02,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-08-03,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-08-04,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-08-05,estimate,3,3,1,2,3,2,3,1,4
-Molise,2020-08-06,estimate,3,3,1,2,3,2,3,1,4
+Molise,2020-08-06,estimate,3,3,1,2,2,2,3,1,4
 Molise,2020-08-07,estimate,3,3,1,2,3,2,3,1,4
 Molise,2020-08-08,estimate,3,3,1,2,3,2,3,1,4
-Molise,2020-08-09,estimate,3,3,1,2,3,2,3,1,4
+Molise,2020-08-09,estimate,3,3,1,2,3,2,3,1,5
 Molise,2020-08-10,estimate,3,3,1,2,3,2,3,1,5
-Molise,2020-08-11,estimate,3,3,1,3,3,2,3,1,5
+Molise,2020-08-11,estimate,3,3,1,2,3,2,4,1,5
 Molise,2020-08-12,estimate,3,3,1,3,3,2,3,1,5
-Molise,2020-08-13,estimate,3,3,1,2,3,2,4,1,5
-Molise,2020-08-14,estimate,3,3,1,3,3,2,4,2,5
-Molise,2020-08-15,estimate,3,3,1,3,3,2,4,2,5
-Molise,2020-08-16,estimate,3,4,1,3,3,2,4,2,5
-Molise,2020-08-17,estimate,3,4,1,3,3,2,4,1,5
-Molise,2020-08-18,estimate,4,4,1,3,4,2,4,2,6
-Molise,2020-08-19,estimate,4,4,1,3,4,2,4,2,6
+Molise,2020-08-13,estimate,3,3,1,3,3,2,4,1,5
+Molise,2020-08-14,estimate,3,3,1,3,4,2,4,1,5
+Molise,2020-08-15,estimate,3,4,1,3,3,2,4,1,5
+Molise,2020-08-16,estimate,3,4,1,3,3,3,4,2,6
+Molise,2020-08-17,estimate,3,4,1,3,3,2,4,2,6
+Molise,2020-08-18,estimate,4,4,2,3,3,2,4,1,6
+Molise,2020-08-19,estimate,4,4,2,3,3,2,4,2,6
 Molise,2020-08-20,estimate,4,4,2,3,3,2,4,2,6
-Molise,2020-08-21,estimate,4,4,2,3,3,2,4,2,6
-Molise,2020-08-22,estimate,4,4,2,3,3,3,4,2,6
-Molise,2020-08-23,estimate,4,4,2,3,4,3,4,2,6
-Molise,2020-08-24,estimate,4,4,2,3,4,3,4,2,6
+Molise,2020-08-21,estimate,4,4,2,3,3,3,4,2,7
+Molise,2020-08-22,estimate,4,4,2,3,4,3,4,2,7
+Molise,2020-08-23,estimate,4,4,2,3,4,3,4,2,7
+Molise,2020-08-24,estimate,4,4,2,3,4,3,5,2,7
 Molise,2020-08-25,estimate,4,4,2,3,4,3,5,2,7
-Molise,2020-08-26,estimate,4,4,2,3,4,3,4,2,7
+Molise,2020-08-26,estimate,4,4,2,3,4,3,5,2,7
 Molise,2020-08-27,estimate,4,4,2,3,4,3,5,2,7
-Molise,2020-08-28,estimate,4,4,2,3,4,3,5,2,7
-Molise,2020-08-29,estimate,4,4,2,3,4,3,5,2,7
-Molise,2020-08-30,estimate,4,5,2,3,4,3,5,2,7
-Molise,2020-08-31,estimate,4,5,2,4,4,3,5,2,7
-Molise,2020-09-01,estimate,5,5,2,4,5,3,5,2,8
+Molise,2020-08-28,estimate,4,5,2,3,4,3,5,2,7
+Molise,2020-08-29,estimate,4,5,2,4,4,3,5,2,7
+Molise,2020-08-30,estimate,4,5,2,4,4,3,5,2,7
+Molise,2020-08-31,estimate,5,5,2,4,4,3,5,2,8
+Molise,2020-09-01,estimate,5,5,2,4,4,3,5,2,8
 Molise,2020-09-02,estimate,5,5,2,4,5,3,5,2,8
-Molise,2020-09-03,estimate based on partial data,5,5,2,4,5,3,6,2,9
-Molise,2020-09-04,estimate based on partial data,5,6,3,3,4,3,6,2,9
-Molise,2020-09-05,estimate based on partial data,5,6,3,4,5,3,6,2,10
-Molise,2020-09-06,estimate based on partial data,5,6,3,4,5,3,6,1,10
-Molise,2020-09-07,estimate based on partial data,6,7,4,4,5,3,6,1,11
-Molise,2020-09-08,estimate based on partial data,6,7,5,4,5,2,7,1,13
-Molise,2020-09-09,estimate based on partial data,6,8,6,3,5,2,7,1,14
-Molise,2020-09-10,estimate based on partial data,6,8,8,4,5,2,7,1,16
-Molise,2020-09-11,estimate based on partial data,7,9,10,2,4,1,7,1,18
-Molise,2020-09-12,estimate based on partial data,7,10,13,2,4,1,7,0,21
-Molise,2020-09-13,estimate based on partial data,7,12,18,2,4,1,7,0,24
-Molise,2020-09-14,estimate based on partial data,7,13,25,1,4,1,7,0,28
-Molise,2020-09-15,estimate based on partial data,7,16,37,0,3,0,7,0,33
-Molise,2020-09-16,forecast,7,20,58,0,3,0,8,0,39
-Molise,2020-09-17,forecast,8,26,102,0,2,0,8,0,47
-Molise,2020-09-18,forecast,8,36,199,0,2,0,8,0,55
-Molise,2020-09-19,forecast,8,53,423,0,2,0,8,0,66
-Molise,2020-09-20,forecast,8,84,950,0,2,0,8,0,79
-Molise,2020-09-21,forecast,8,144,2214,0,2,0,8,0,93
-Molise,2020-09-22,forecast,8,268,5268,0,2,0,8,0,110
-Molise,2020-09-23,forecast,9,533,12699,0,2,0,9,0,130
-Molise,2020-09-24,forecast,9,1119,30855,0,2,0,9,0,157
-Molise,2020-09-25,forecast,9,2450,75333,0,2,0,9,0,184
-Molise,2020-09-26,forecast,9,5528,184491,0,1,0,9,0,226
-Molise,2020-09-27,forecast,9,12754,452710,0,1,0,9,0,266
-Molise,2020-09-28,forecast,9,29893,1112306,0,1,0,9,0,317
-Molise,2020-09-29,forecast,10,70881,2735257,0,1,0,10,0,378
-Piemonte,2020-07-07,estimate,11,11,2,10,11,9,12,8,14
-Piemonte,2020-07-08,estimate,10,10,2,9,10,9,12,7,14
-Piemonte,2020-07-09,estimate,10,10,2,9,10,8,11,6,13
-Piemonte,2020-07-10,estimate,10,10,2,8,9,8,11,6,13
-Piemonte,2020-07-11,estimate,9,10,2,8,9,8,11,6,13
-Piemonte,2020-07-12,estimate,9,10,2,9,10,8,11,6,13
-Piemonte,2020-07-13,estimate,9,10,2,9,10,8,11,6,13
-Piemonte,2020-07-14,estimate,10,10,2,9,10,8,11,6,13
-Piemonte,2020-07-15,estimate,10,10,2,9,10,8,11,7,14
-Piemonte,2020-07-16,estimate,10,11,2,10,11,8,11,7,14
-Piemonte,2020-07-17,estimate,11,11,2,11,11,9,12,7,15
-Piemonte,2020-07-18,estimate,12,12,2,11,12,10,13,8,15
+Molise,2020-09-03,estimate,5,5,2,4,5,3,6,2,8
+Molise,2020-09-04,estimate based on partial data,5,6,2,4,5,3,6,2,9
+Molise,2020-09-05,estimate based on partial data,5,6,3,4,5,3,6,2,9
+Molise,2020-09-06,estimate based on partial data,5,6,3,4,5,3,6,2,10
+Molise,2020-09-07,estimate based on partial data,6,6,3,4,5,4,7,2,11
+Molise,2020-09-08,estimate based on partial data,6,7,4,4,5,3,7,2,12
+Molise,2020-09-09,estimate based on partial data,6,7,5,4,5,3,7,1,13
+Molise,2020-09-10,estimate based on partial data,6,8,6,4,6,3,8,1,15
+Molise,2020-09-11,estimate based on partial data,6,8,7,3,5,2,7,1,17
+Molise,2020-09-12,estimate based on partial data,7,9,9,3,5,2,8,0,19
+Molise,2020-09-13,estimate based on partial data,7,10,12,2,4,2,8,0,22
+Molise,2020-09-14,estimate based on partial data,7,12,17,2,4,1,8,0,25
+Molise,2020-09-15,estimate based on partial data,7,13,26,1,4,1,8,0,29
+Molise,2020-09-16,estimate based on partial data,7,16,45,1,3,0,8,0,35
+Molise,2020-09-17,forecast,8,21,82,1,3,0,8,0,41
+Molise,2020-09-18,forecast,8,28,159,1,3,0,8,0,47
+Molise,2020-09-19,forecast,8,40,324,0,2,0,8,0,54
+Molise,2020-09-20,forecast,8,61,681,0,2,0,8,0,63
+Molise,2020-09-21,forecast,8,102,1458,0,2,0,8,0,75
+Molise,2020-09-22,forecast,9,182,3171,0,2,0,9,0,89
+Molise,2020-09-23,forecast,9,345,6988,0,2,0,9,0,104
+Molise,2020-09-24,forecast,9,689,15588,0,2,0,9,0,121
+Molise,2020-09-25,forecast,9,1429,35158,0,2,0,9,0,142
+Molise,2020-09-26,forecast,9,3044,80103,0,2,0,9,0,172
+Molise,2020-09-27,forecast,10,6620,184167,0,2,0,10,0,204
+Molise,2020-09-28,forecast,10,14621,426813,0,2,0,10,0,241
+Molise,2020-09-29,forecast,10,32687,995928,0,1,0,10,0,280
+Molise,2020-09-30,forecast,11,73784,2337209,0,1,0,11,0,330
+Piemonte,2020-07-08,estimate,11,11,2,11,11,9,12,7,14
+Piemonte,2020-07-09,estimate,10,10,2,10,11,9,12,7,14
+Piemonte,2020-07-10,estimate,10,10,2,10,11,9,12,7,14
+Piemonte,2020-07-11,estimate,10,10,2,10,11,9,12,6,14
+Piemonte,2020-07-12,estimate,10,10,2,10,11,8,11,6,14
+Piemonte,2020-07-13,estimate,10,10,2,10,11,8,11,6,14
+Piemonte,2020-07-14,estimate,10,10,2,10,11,8,12,6,14
+Piemonte,2020-07-15,estimate,11,11,2,10,11,9,12,7,14
+Piemonte,2020-07-16,estimate,11,11,2,10,11,10,13,7,15
+Piemonte,2020-07-17,estimate,12,12,2,11,12,10,13,8,15
+Piemonte,2020-07-18,estimate,12,12,2,12,13,10,13,9,16
 Piemonte,2020-07-19,estimate,13,13,2,12,13,11,14,9,17
-Piemonte,2020-07-20,estimate,14,14,2,13,14,12,15,11,18
-Piemonte,2020-07-21,estimate,15,15,2,14,15,13,16,12,19
+Piemonte,2020-07-20,estimate,14,14,2,14,15,12,15,10,18
+Piemonte,2020-07-21,estimate,15,15,2,15,16,14,17,12,20
 Piemonte,2020-07-22,estimate,17,17,3,16,17,15,18,13,21
-Piemonte,2020-07-23,estimate,18,18,3,17,18,16,20,14,23
-Piemonte,2020-07-24,estimate,20,20,3,19,20,18,22,15,25
-Piemonte,2020-07-25,estimate,22,22,3,21,23,19,23,17,27
-Piemonte,2020-07-26,estimate,24,24,4,21,23,21,26,18,30
-Piemonte,2020-07-27,estimate,26,26,4,23,25,23,28,20,32
-Piemonte,2020-07-28,estimate,28,29,4,25,27,25,31,21,35
-Piemonte,2020-07-29,estimate,30,31,5,27,29,27,33,24,38
-Piemonte,2020-07-30,estimate,32,33,5,30,32,29,36,25,40
-Piemonte,2020-07-31,estimate,35,35,5,32,34,31,37,27,43
-Piemonte,2020-08-01,estimate,37,37,5,35,37,32,39,29,45
-Piemonte,2020-08-02,estimate,39,39,5,35,37,34,41,30,47
-Piemonte,2020-08-03,estimate,41,41,5,38,40,37,43,32,50
-Piemonte,2020-08-04,estimate,43,43,6,40,43,38,46,34,52
-Piemonte,2020-08-05,estimate,45,45,6,42,45,41,49,35,53
-Piemonte,2020-08-06,estimate,47,47,6,44,47,43,50,37,57
-Piemonte,2020-08-07,estimate,49,49,6,47,50,44,52,38,59
-Piemonte,2020-08-08,estimate,51,51,7,48,51,47,56,40,62
-Piemonte,2020-08-09,estimate,53,54,7,50,53,50,59,42,64
-Piemonte,2020-08-10,estimate,56,56,7,52,56,50,60,45,68
-Piemonte,2020-08-11,estimate,58,59,8,56,60,53,63,46,71
-Piemonte,2020-08-12,estimate,61,62,8,59,63,57,67,49,74
-Piemonte,2020-08-13,estimate,64,65,8,63,66,59,69,51,77
-Piemonte,2020-08-14,estimate,68,68,9,63,67,62,72,54,81
-Piemonte,2020-08-15,estimate,71,72,9,68,72,64,75,57,85
-Piemonte,2020-08-16,estimate,74,75,9,70,74,68,80,60,90
-Piemonte,2020-08-17,estimate,78,79,10,73,77,72,85,64,95
-Piemonte,2020-08-18,estimate,82,82,10,78,83,75,88,67,100
-Piemonte,2020-08-19,estimate,85,86,11,81,86,76,90,68,102
-Piemonte,2020-08-20,estimate,88,89,11,86,91,79,93,69,106
-Piemonte,2020-08-21,estimate,91,92,12,87,93,82,97,73,111
-Piemonte,2020-08-22,estimate,93,94,12,89,94,85,100,74,113
-Piemonte,2020-08-23,estimate,95,96,12,92,98,86,102,76,116
-Piemonte,2020-08-24,estimate,97,98,13,95,100,87,103,77,118
-Piemonte,2020-08-25,estimate,98,99,13,92,98,89,105,79,121
-Piemonte,2020-08-26,estimate,99,100,13,91,97,91,107,79,122
-Piemonte,2020-08-27,estimate,99,100,14,94,101,89,105,80,124
-Piemonte,2020-08-28,estimate,99,100,14,93,100,88,105,79,123
-Piemonte,2020-08-29,estimate,99,100,14,92,99,88,105,77,123
-Piemonte,2020-08-30,estimate,99,100,14,90,97,88,105,76,122
-Piemonte,2020-08-31,estimate,99,99,14,94,101,89,107,77,123
-Piemonte,2020-09-01,estimate,98,99,14,91,97,87,105,75,123
-Piemonte,2020-09-02,estimate,98,99,15,92,98,88,106,76,125
-Piemonte,2020-09-03,estimate based on partial data,98,99,15,94,101,90,109,76,124
-Piemonte,2020-09-04,estimate based on partial data,98,99,15,96,103,88,107,74,122
-Piemonte,2020-09-05,estimate based on partial data,99,100,16,94,102,87,107,72,123
-Piemonte,2020-09-06,estimate based on partial data,100,101,17,97,105,87,110,73,127
-Piemonte,2020-09-07,estimate based on partial data,101,102,19,96,105,87,112,71,131
-Piemonte,2020-09-08,estimate based on partial data,102,104,22,96,106,87,115,70,139
-Piemonte,2020-09-09,estimate based on partial data,105,107,26,97,108,88,122,64,147
-Piemonte,2020-09-10,estimate based on partial data,107,111,32,94,108,81,120,59,158
-Piemonte,2020-09-11,estimate based on partial data,109,116,40,90,106,77,123,57,177
-Piemonte,2020-09-12,estimate based on partial data,112,122,51,86,105,75,130,45,192
-Piemonte,2020-09-13,estimate based on partial data,114,131,67,88,110,62,125,37,219
-Piemonte,2020-09-14,estimate based on partial data,117,142,90,75,100,59,131,26,249
-Piemonte,2020-09-15,estimate based on partial data,121,156,125,75,104,55,137,21,292
-Piemonte,2020-09-16,forecast,124,172,169,73,104,53,143,19,339
-Piemonte,2020-09-17,forecast,127,193,232,69,102,44,142,14,387
-Piemonte,2020-09-18,forecast,129,219,324,67,102,40,144,14,446
-Piemonte,2020-09-19,forecast,132,252,459,63,101,38,150,10,513
-Piemonte,2020-09-20,forecast,135,294,662,64,104,30,148,4,584
-Piemonte,2020-09-21,forecast,138,350,968,46,88,28,154,3,667
-Piemonte,2020-09-22,forecast,142,425,1438,43,87,21,153,6,766
-Piemonte,2020-09-23,forecast,145,526,2164,33,78,19,156,2,876
-Piemonte,2020-09-24,forecast,147,664,3296,31,77,6,150,2,1001
-Piemonte,2020-09-25,forecast,150,855,5073,30,77,4,151,1,1138
-Piemonte,2020-09-26,forecast,153,1125,7876,29,77,4,154,1,1295
-Piemonte,2020-09-27,forecast,156,1509,12322,27,75,4,157,1,1495
-Piemonte,2020-09-28,forecast,160,2064,19400,19,68,3,160,1,1727
-Piemonte,2020-09-29,forecast,163,2874,30707,12,61,3,164,1,1977
-Puglia,2020-07-07,estimate,3,3,0,3,3,2,3,2,3
-Puglia,2020-07-08,estimate,3,3,0,3,3,2,3,2,4
+Piemonte,2020-07-23,estimate,18,18,3,17,19,16,20,14,23
+Piemonte,2020-07-24,estimate,20,20,3,19,20,18,21,16,25
+Piemonte,2020-07-25,estimate,22,22,3,20,21,19,23,17,27
+Piemonte,2020-07-26,estimate,23,24,4,22,23,21,25,18,29
+Piemonte,2020-07-27,estimate,26,26,4,24,26,22,27,19,32
+Piemonte,2020-07-28,estimate,28,28,4,27,29,25,30,21,34
+Piemonte,2020-07-29,estimate,30,30,4,28,30,27,32,23,37
+Piemonte,2020-07-30,estimate,32,32,5,30,32,29,35,25,40
+Piemonte,2020-07-31,estimate,34,34,5,32,35,31,37,27,42
+Piemonte,2020-08-01,estimate,36,37,5,33,35,33,39,29,45
+Piemonte,2020-08-02,estimate,38,39,5,36,39,34,41,31,47
+Piemonte,2020-08-03,estimate,40,41,5,38,41,37,43,33,49
+Piemonte,2020-08-04,estimate,42,43,5,41,43,38,45,34,51
+Piemonte,2020-08-05,estimate,45,45,6,41,44,40,47,35,53
+Piemonte,2020-08-06,estimate,47,47,6,44,47,42,50,38,56
+Piemonte,2020-08-07,estimate,49,49,6,47,50,44,53,39,59
+Piemonte,2020-08-08,estimate,51,51,7,51,55,47,56,41,62
+Piemonte,2020-08-09,estimate,54,54,7,53,57,48,57,42,64
+Piemonte,2020-08-10,estimate,56,56,7,51,54,51,60,45,68
+Piemonte,2020-08-11,estimate,59,59,8,57,61,54,64,47,72
+Piemonte,2020-08-12,estimate,62,62,8,61,64,56,66,48,74
+Piemonte,2020-08-13,estimate,65,65,8,62,66,60,70,51,78
+Piemonte,2020-08-14,estimate,68,68,8,65,69,62,72,55,83
+Piemonte,2020-08-15,estimate,71,72,9,68,72,66,77,58,86
+Piemonte,2020-08-16,estimate,74,75,9,70,74,67,79,60,89
+Piemonte,2020-08-17,estimate,77,78,9,73,78,71,82,63,93
+Piemonte,2020-08-18,estimate,81,82,10,76,80,75,87,65,97
+Piemonte,2020-08-19,estimate,84,85,10,79,84,75,88,68,101
+Piemonte,2020-08-20,estimate,87,88,11,83,87,79,93,71,106
+Piemonte,2020-08-21,estimate,90,91,11,85,90,82,96,73,109
+Piemonte,2020-08-22,estimate,92,94,12,88,93,84,98,75,113
+Piemonte,2020-08-23,estimate,94,96,12,90,95,86,101,77,116
+Piemonte,2020-08-24,estimate,96,97,12,91,96,86,102,76,116
+Piemonte,2020-08-25,estimate,97,99,13,93,98,88,104,79,120
+Piemonte,2020-08-26,estimate,98,100,13,93,98,90,107,78,119
+Piemonte,2020-08-27,estimate,99,100,13,94,100,91,107,78,121
+Piemonte,2020-08-28,estimate,99,100,13,95,102,90,106,80,123
+Piemonte,2020-08-29,estimate,100,100,13,92,99,89,106,78,122
+Piemonte,2020-08-30,estimate,100,100,14,97,103,89,106,77,121
+Piemonte,2020-08-31,estimate,100,100,14,100,107,91,109,77,121
+Piemonte,2020-09-01,estimate,100,100,14,97,104,91,109,78,122
+Piemonte,2020-09-02,estimate,100,100,14,97,104,92,110,78,123
+Piemonte,2020-09-03,estimate,101,101,14,100,107,91,109,78,123
+Piemonte,2020-09-04,estimate based on partial data,101,101,14,99,106,91,109,78,125
+Piemonte,2020-09-05,estimate based on partial data,102,102,15,98,104,91,110,78,125
+Piemonte,2020-09-06,estimate based on partial data,103,103,16,97,105,93,112,77,128
+Piemonte,2020-09-07,estimate based on partial data,104,105,17,99,107,92,113,77,131
+Piemonte,2020-09-08,estimate based on partial data,106,107,19,102,111,90,115,76,136
+Piemonte,2020-09-09,estimate based on partial data,109,110,22,102,112,96,124,73,143
+Piemonte,2020-09-10,estimate based on partial data,112,114,26,105,117,91,125,71,154
+Piemonte,2020-09-11,estimate based on partial data,115,119,32,100,114,92,132,70,169
+Piemonte,2020-09-12,estimate based on partial data,119,125,41,102,119,89,137,63,186
+Piemonte,2020-09-13,estimate based on partial data,122,132,52,91,111,87,144,54,206
+Piemonte,2020-09-14,estimate based on partial data,125,142,68,102,125,82,149,48,235
+Piemonte,2020-09-15,estimate based on partial data,128,153,92,100,126,76,155,42,271
+Piemonte,2020-09-16,estimate based on partial data,132,169,128,85,115,60,147,38,319
+Piemonte,2020-09-17,forecast,136,186,176,85,117,59,155,24,355
+Piemonte,2020-09-18,forecast,140,208,247,82,118,44,149,12,401
+Piemonte,2020-09-19,forecast,145,235,355,80,118,40,154,17,466
+Piemonte,2020-09-20,forecast,148,271,520,82,122,38,160,16,539
+Piemonte,2020-09-21,forecast,152,316,779,78,121,31,162,13,614
+Piemonte,2020-09-22,forecast,156,377,1184,84,130,28,165,2,683
+Piemonte,2020-09-23,forecast,159,460,1825,82,131,26,171,1,785
+Piemonte,2020-09-24,forecast,164,574,2841,47,98,24,177,4,903
+Piemonte,2020-09-25,forecast,168,733,4460,42,95,22,182,1,1036
+Piemonte,2020-09-26,forecast,172,961,7046,40,94,14,180,1,1191
+Piemonte,2020-09-27,forecast,176,1291,11185,38,94,9,181,0,1375
+Piemonte,2020-09-28,forecast,180,1777,17827,37,94,6,183,0,1577
+Piemonte,2020-09-29,forecast,185,2501,28502,35,93,5,188,0,1831
+Piemonte,2020-09-30,forecast,190,3592,45688,17,76,3,192,0,2114
 Puglia,2020-07-09,estimate,3,3,1,3,3,3,3,2,4
 Puglia,2020-07-10,estimate,3,3,1,3,3,3,4,2,4
 Puglia,2020-07-11,estimate,4,4,1,3,4,3,4,3,5
 Puglia,2020-07-12,estimate,4,4,1,4,4,4,4,3,5
-Puglia,2020-07-13,estimate,4,4,1,4,4,4,5,3,5
-Puglia,2020-07-14,estimate,5,5,1,5,5,4,5,4,6
-Puglia,2020-07-15,estimate,5,5,1,5,5,5,6,4,6
+Puglia,2020-07-13,estimate,4,4,1,4,4,4,5,3,6
+Puglia,2020-07-14,estimate,5,5,1,4,5,4,5,4,6
+Puglia,2020-07-15,estimate,5,5,1,5,5,5,6,4,7
 Puglia,2020-07-16,estimate,6,6,1,5,6,5,6,4,7
-Puglia,2020-07-17,estimate,6,6,1,6,7,6,7,5,8
-Puglia,2020-07-18,estimate,7,7,1,7,7,6,7,5,8
-Puglia,2020-07-19,estimate,7,7,1,7,8,6,8,6,9
+Puglia,2020-07-17,estimate,6,6,1,6,6,6,7,5,8
+Puglia,2020-07-18,estimate,7,7,1,6,7,6,7,5,9
+Puglia,2020-07-19,estimate,7,8,1,7,7,6,8,6,9
 Puglia,2020-07-20,estimate,8,8,1,8,8,7,9,6,10
 Puglia,2020-07-21,estimate,9,9,1,8,9,8,9,7,11
-Puglia,2020-07-22,estimate,10,10,1,9,10,8,10,8,12
-Puglia,2020-07-23,estimate,10,11,2,10,11,9,11,8,13
-Puglia,2020-07-24,estimate,11,11,2,10,11,10,12,9,14
-Puglia,2020-07-25,estimate,12,12,2,11,12,11,13,9,15
-Puglia,2020-07-26,estimate,13,13,2,12,13,11,14,10,16
-Puglia,2020-07-27,estimate,14,14,2,13,14,13,15,11,17
-Puglia,2020-07-28,estimate,15,15,2,14,15,14,16,12,19
-Puglia,2020-07-29,estimate,16,17,2,15,16,15,18,13,20
-Puglia,2020-07-30,estimate,17,18,2,16,17,16,19,14,21
-Puglia,2020-07-31,estimate,19,19,3,17,19,16,20,15,23
-Puglia,2020-08-01,estimate,20,20,3,20,21,18,21,16,25
-Puglia,2020-08-02,estimate,22,22,3,20,22,19,23,17,27
-Puglia,2020-08-03,estimate,23,23,3,22,24,20,24,18,28
-Puglia,2020-08-04,estimate,25,25,3,23,25,22,26,20,30
-Puglia,2020-08-05,estimate,26,27,3,25,26,23,28,21,32
-Puglia,2020-08-06,estimate,28,28,4,27,28,25,29,22,34
-Puglia,2020-08-07,estimate,30,30,4,29,31,27,32,24,36
-Puglia,2020-08-08,estimate,32,32,4,31,33,29,34,26,39
-Puglia,2020-08-09,estimate,34,34,4,34,36,31,37,27,41
-Puglia,2020-08-10,estimate,36,37,5,35,37,33,39,29,44
-Puglia,2020-08-11,estimate,39,39,5,37,39,35,42,31,47
-Puglia,2020-08-12,estimate,41,41,5,40,42,37,44,34,50
-Puglia,2020-08-13,estimate,44,44,6,42,44,39,46,35,53
-Puglia,2020-08-14,estimate,46,47,6,45,47,42,49,38,56
-Puglia,2020-08-15,estimate,49,50,6,47,50,45,52,40,59
-Puglia,2020-08-16,estimate,53,53,7,50,53,48,56,43,63
-Puglia,2020-08-17,estimate,56,57,7,53,56,50,59,46,68
-Puglia,2020-08-18,estimate,59,60,7,56,59,54,63,50,73
-Puglia,2020-08-19,estimate,63,64,8,59,62,57,66,52,77
-Puglia,2020-08-20,estimate,67,68,8,62,66,60,71,55,81
-Puglia,2020-08-21,estimate,71,72,9,65,70,63,74,58,86
-Puglia,2020-08-22,estimate,75,76,9,72,77,68,80,62,92
-Puglia,2020-08-23,estimate,80,81,10,76,81,72,84,65,97
-Puglia,2020-08-24,estimate,84,85,11,77,82,77,90,67,101
-Puglia,2020-08-25,estimate,88,89,11,82,87,81,95,72,108
-Puglia,2020-08-26,estimate,93,94,12,87,93,86,100,75,113
-Puglia,2020-08-27,estimate,98,99,13,93,98,91,106,79,120
-Puglia,2020-08-28,estimate,102,104,13,99,105,92,108,80,123
-Puglia,2020-08-29,estimate,107,108,14,103,109,97,115,85,130
-Puglia,2020-08-30,estimate,112,113,15,108,115,103,121,87,135
-Puglia,2020-08-31,estimate,117,118,16,113,120,105,125,91,143
-Puglia,2020-09-01,estimate,122,123,17,115,123,109,131,96,152
-Puglia,2020-09-02,estimate,126,128,19,116,124,115,139,97,157
-Puglia,2020-09-03,estimate based on partial data,132,134,21,121,131,117,144,99,166
-Puglia,2020-09-04,estimate based on partial data,137,139,24,128,139,118,149,100,174
-Puglia,2020-09-05,estimate based on partial data,142,145,27,130,142,120,155,105,189
-Puglia,2020-09-06,estimate based on partial data,148,151,30,134,148,126,165,102,197
-Puglia,2020-09-07,estimate based on partial data,154,157,34,138,155,129,173,102,211
-Puglia,2020-09-08,estimate based on partial data,161,163,39,150,168,130,180,97,222
-Puglia,2020-09-09,estimate based on partial data,167,170,45,160,181,132,189,102,244
-Puglia,2020-09-10,estimate based on partial data,174,178,51,163,187,136,201,100,261
-Puglia,2020-09-11,estimate based on partial data,182,186,58,172,199,136,210,100,282
-Puglia,2020-09-12,estimate based on partial data,189,194,66,177,208,127,211,94,302
-Puglia,2020-09-13,estimate based on partial data,198,204,74,186,221,133,227,90,322
-Puglia,2020-09-14,estimate based on partial data,205,214,84,177,215,139,243,87,345
-Puglia,2020-09-15,estimate based on partial data,215,225,96,183,226,145,263,88,379
-Puglia,2020-09-16,forecast,224,237,108,195,243,147,276,78,403
-Puglia,2020-09-17,forecast,234,250,122,176,229,149,293,72,431
-Puglia,2020-09-18,forecast,244,264,138,177,235,148,306,54,450
-Puglia,2020-09-19,forecast,255,278,156,187,251,139,314,40,473
-Puglia,2020-09-20,forecast,265,294,176,189,258,137,328,46,517
-Puglia,2020-09-21,forecast,277,311,200,195,271,137,344,37,552
-Puglia,2020-09-22,forecast,290,330,226,200,282,139,363,33,594
-Puglia,2020-09-23,forecast,302,350,256,203,292,132,376,26,638
-Puglia,2020-09-24,forecast,314,372,291,203,300,90,353,21,681
-Puglia,2020-09-25,forecast,328,395,331,212,318,89,370,15,727
-Puglia,2020-09-26,forecast,342,421,377,216,330,89,390,14,784
-Puglia,2020-09-27,forecast,357,449,431,216,339,86,408,13,846
-Puglia,2020-09-28,forecast,372,479,493,121,251,85,428,17,919
-Puglia,2020-09-29,forecast,389,512,565,65,201,66,429,10,985
+Puglia,2020-07-22,estimate,10,10,1,9,9,9,10,7,12
+Puglia,2020-07-23,estimate,10,11,2,10,10,9,11,8,13
+Puglia,2020-07-24,estimate,11,11,2,11,11,10,12,9,14
+Puglia,2020-07-25,estimate,12,12,2,11,12,11,13,10,15
+Puglia,2020-07-26,estimate,13,13,2,13,14,12,14,10,16
+Puglia,2020-07-27,estimate,14,14,2,14,15,13,15,11,18
+Puglia,2020-07-28,estimate,15,16,2,15,16,14,17,12,19
+Puglia,2020-07-29,estimate,17,17,2,16,17,15,18,13,20
+Puglia,2020-07-30,estimate,18,18,3,17,18,16,19,14,22
+Puglia,2020-07-31,estimate,19,19,3,18,19,17,20,15,23
+Puglia,2020-08-01,estimate,20,21,3,20,21,18,22,16,25
+Puglia,2020-08-02,estimate,22,22,3,21,23,20,23,17,26
+Puglia,2020-08-03,estimate,23,23,3,22,24,21,25,18,28
+Puglia,2020-08-04,estimate,25,25,3,23,25,23,27,19,30
+Puglia,2020-08-05,estimate,26,27,4,25,27,24,28,21,32
+Puglia,2020-08-06,estimate,28,28,4,26,28,26,31,22,34
+Puglia,2020-08-07,estimate,30,30,4,29,31,27,32,24,37
+Puglia,2020-08-08,estimate,32,32,4,31,33,29,34,25,39
+Puglia,2020-08-09,estimate,34,34,5,34,35,31,36,28,42
+Puglia,2020-08-10,estimate,36,37,5,35,38,32,38,29,44
+Puglia,2020-08-11,estimate,39,39,5,38,40,34,41,31,48
+Puglia,2020-08-12,estimate,41,42,5,40,42,38,45,33,50
+Puglia,2020-08-13,estimate,44,44,6,42,45,40,47,35,53
+Puglia,2020-08-14,estimate,47,47,6,44,47,42,50,38,57
+Puglia,2020-08-15,estimate,50,50,6,48,51,45,53,40,60
+Puglia,2020-08-16,estimate,53,54,7,51,54,49,57,42,64
+Puglia,2020-08-17,estimate,56,57,7,53,56,51,60,45,68
+Puglia,2020-08-18,estimate,60,61,8,58,61,54,64,49,73
+Puglia,2020-08-19,estimate,64,64,8,61,64,57,67,52,78
+Puglia,2020-08-20,estimate,67,68,9,65,69,61,71,55,82
+Puglia,2020-08-21,estimate,71,72,9,69,73,65,76,58,86
+Puglia,2020-08-22,estimate,76,76,10,73,78,68,80,60,91
+Puglia,2020-08-23,estimate,80,81,11,79,84,72,85,65,98
+Puglia,2020-08-24,estimate,84,85,11,83,88,77,90,68,103
+Puglia,2020-08-25,estimate,88,90,12,85,91,79,94,71,108
+Puglia,2020-08-26,estimate,93,94,13,90,95,84,99,74,113
+Puglia,2020-08-27,estimate,97,99,13,94,99,87,103,77,118
+Puglia,2020-08-28,estimate,102,103,14,98,104,90,108,82,125
+Puglia,2020-08-29,estimate,106,108,15,101,107,95,113,86,131
+Puglia,2020-08-30,estimate,111,112,16,103,110,100,119,88,135
+Puglia,2020-08-31,estimate,116,117,16,107,114,105,125,91,142
+Puglia,2020-09-01,estimate,120,122,17,114,122,108,130,94,148
+Puglia,2020-09-02,estimate,124,126,18,116,124,111,134,98,156
+Puglia,2020-09-03,estimate,129,131,20,121,130,114,139,102,163
+Puglia,2020-09-04,estimate based on partial data,134,136,21,123,133,116,143,100,168
+Puglia,2020-09-05,estimate based on partial data,138,141,24,132,142,121,151,99,175
+Puglia,2020-09-06,estimate based on partial data,143,146,27,134,146,122,155,101,184
+Puglia,2020-09-07,estimate based on partial data,148,151,30,137,150,127,163,99,194
+Puglia,2020-09-08,estimate based on partial data,153,157,34,141,156,129,169,100,208
+Puglia,2020-09-09,estimate based on partial data,159,162,38,142,159,131,177,98,222
+Puglia,2020-09-10,estimate based on partial data,164,169,43,155,174,135,186,94,234
+Puglia,2020-09-11,estimate based on partial data,170,175,49,149,171,134,192,91,249
+Puglia,2020-09-12,estimate based on partial data,175,182,55,152,175,136,202,87,264
+Puglia,2020-09-13,estimate based on partial data,181,190,63,155,181,142,215,87,284
+Puglia,2020-09-14,estimate based on partial data,189,198,71,166,195,143,226,84,304
+Puglia,2020-09-15,estimate based on partial data,195,207,80,167,199,147,241,80,326
+Puglia,2020-09-16,estimate based on partial data,203,216,91,173,209,148,254,75,348
+Puglia,2020-09-17,forecast,210,226,103,175,215,151,267,73,376
+Puglia,2020-09-18,forecast,219,237,116,176,220,152,279,68,400
+Puglia,2020-09-19,forecast,228,249,132,187,236,144,282,65,429
+Puglia,2020-09-20,forecast,238,261,150,188,241,144,294,57,453
+Puglia,2020-09-21,forecast,247,275,171,187,245,143,306,53,487
+Puglia,2020-09-22,forecast,256,289,196,191,255,143,321,50,523
+Puglia,2020-09-23,forecast,267,305,226,190,259,153,346,45,558
+Puglia,2020-09-24,forecast,277,322,263,194,269,142,352,37,594
+Puglia,2020-09-25,forecast,285,340,307,191,272,143,369,38,639
+Puglia,2020-09-26,forecast,297,360,362,197,284,104,347,37,686
+Puglia,2020-09-27,forecast,309,382,430,200,292,94,353,27,726
+Puglia,2020-09-28,forecast,322,406,514,200,300,95,370,23,776
+Puglia,2020-09-29,forecast,334,431,620,204,310,95,387,22,829
+Puglia,2020-09-30,forecast,346,460,753,205,318,88,399,16,885
 Sardegna,2020-07-08,estimate,1,1,0,1,1,1,1,0,2
 Sardegna,2020-07-09,estimate,1,1,0,1,1,1,1,1,2
 Sardegna,2020-07-10,estimate,1,1,0,1,1,1,1,1,2
 Sardegna,2020-07-11,estimate,1,1,0,1,1,1,2,1,2
 Sardegna,2020-07-12,estimate,1,1,0,1,1,1,2,1,2
 Sardegna,2020-07-13,estimate,2,2,1,1,2,1,2,1,2
-Sardegna,2020-07-14,estimate,2,2,1,1,2,1,2,1,3
+Sardegna,2020-07-14,estimate,2,2,1,2,2,1,2,1,3
 Sardegna,2020-07-15,estimate,2,2,1,2,2,1,2,1,3
 Sardegna,2020-07-16,estimate,2,2,1,2,2,2,2,1,3
 Sardegna,2020-07-17,estimate,2,2,1,2,2,2,3,1,3
-Sardegna,2020-07-18,estimate,3,3,1,2,3,2,3,1,4
-Sardegna,2020-07-19,estimate,3,3,1,3,3,2,3,2,4
+Sardegna,2020-07-18,estimate,3,3,1,2,2,2,3,1,4
+Sardegna,2020-07-19,estimate,3,3,1,2,3,2,3,2,4
 Sardegna,2020-07-20,estimate,3,3,1,3,3,2,3,2,5
 Sardegna,2020-07-21,estimate,3,4,1,3,3,3,4,2,5
 Sardegna,2020-07-22,estimate,4,4,1,3,4,3,4,2,5
-Sardegna,2020-07-23,estimate,4,4,1,4,4,3,4,3,6
-Sardegna,2020-07-24,estimate,4,5,1,4,5,3,5,3,6
+Sardegna,2020-07-23,estimate,4,4,1,3,4,3,5,3,6
+Sardegna,2020-07-24,estimate,4,5,1,4,4,4,5,3,6
 Sardegna,2020-07-25,estimate,5,5,1,4,5,4,5,3,7
-Sardegna,2020-07-26,estimate,5,5,1,4,5,4,6,3,7
-Sardegna,2020-07-27,estimate,5,6,1,5,5,4,6,3,7
-Sardegna,2020-07-28,estimate,6,6,1,5,6,5,7,4,8
-Sardegna,2020-07-29,estimate,6,6,1,6,6,5,7,4,9
-Sardegna,2020-07-30,estimate,7,7,2,6,7,5,7,5,9
+Sardegna,2020-07-26,estimate,5,5,1,5,5,4,6,3,7
+Sardegna,2020-07-27,estimate,5,6,1,5,6,4,6,3,8
+Sardegna,2020-07-28,estimate,6,6,1,5,6,5,6,4,8
+Sardegna,2020-07-29,estimate,6,6,1,5,6,5,7,4,9
+Sardegna,2020-07-30,estimate,7,7,2,6,7,5,7,4,9
 Sardegna,2020-07-31,estimate,7,7,2,7,7,6,8,5,10
 Sardegna,2020-08-01,estimate,8,8,2,7,8,6,9,5,11
-Sardegna,2020-08-02,estimate,9,9,2,7,8,7,10,5,12
-Sardegna,2020-08-03,estimate,9,10,2,8,9,7,10,6,13
-Sardegna,2020-08-04,estimate,10,11,3,9,10,8,12,6,15
-Sardegna,2020-08-05,estimate,12,12,3,9,11,9,13,7,17
-Sardegna,2020-08-06,estimate,13,14,3,11,12,11,15,8,19
+Sardegna,2020-08-02,estimate,8,9,2,7,8,7,10,5,12
+Sardegna,2020-08-03,estimate,9,9,2,8,9,7,10,6,13
+Sardegna,2020-08-04,estimate,10,10,3,9,10,8,11,6,14
+Sardegna,2020-08-05,estimate,11,12,3,10,11,9,13,7,16
+Sardegna,2020-08-06,estimate,13,13,3,12,13,10,15,8,18
 Sardegna,2020-08-07,estimate,15,15,4,12,14,12,17,9,21
-Sardegna,2020-08-08,estimate,17,18,4,14,16,14,20,11,25
-Sardegna,2020-08-09,estimate,20,21,5,17,19,16,22,13,29
-Sardegna,2020-08-10,estimate,23,24,5,21,24,19,26,15,32
-Sardegna,2020-08-11,estimate,27,28,6,25,28,22,30,18,37
-Sardegna,2020-08-12,estimate,32,33,7,29,32,27,35,21,43
-Sardegna,2020-08-13,estimate,37,38,8,34,37,32,41,25,49
-Sardegna,2020-08-14,estimate,44,45,9,40,44,38,49,32,59
-Sardegna,2020-08-15,estimate,51,52,10,46,51,44,56,35,65
-Sardegna,2020-08-16,estimate,58,60,12,54,59,49,63,40,75
-Sardegna,2020-08-17,estimate,66,68,13,60,66,54,70,48,89
-Sardegna,2020-08-18,estimate,75,76,16,71,78,64,82,52,100
-Sardegna,2020-08-19,estimate,82,85,18,72,80,70,91,58,112
-Sardegna,2020-08-20,estimate,90,92,20,80,88,72,96,63,124
-Sardegna,2020-08-21,estimate,96,98,21,85,94,79,104,65,131
-Sardegna,2020-08-22,estimate,100,103,22,90,100,84,111,68,137
-Sardegna,2020-08-23,estimate,103,106,23,92,102,86,113,75,145
-Sardegna,2020-08-24,estimate,105,108,23,96,107,89,117,73,142
-Sardegna,2020-08-25,estimate,105,108,22,100,110,86,113,72,141
-Sardegna,2020-08-26,estimate,104,106,21,101,110,87,112,70,136
-Sardegna,2020-08-27,estimate,102,103,20,97,105,86,111,71,134
-Sardegna,2020-08-28,estimate,98,100,20,91,100,84,108,69,130
-Sardegna,2020-08-29,estimate,94,96,19,86,95,79,103,64,122
-Sardegna,2020-08-30,estimate,89,91,19,81,89,74,97,61,117
-Sardegna,2020-08-31,estimate,84,87,18,75,83,71,94,59,116
-Sardegna,2020-09-01,estimate,80,82,18,72,81,68,91,54,110
-Sardegna,2020-09-02,estimate,76,78,19,69,78,64,87,49,105
-Sardegna,2020-09-03,estimate based on partial data,72,75,19,64,73,60,83,45,103
-Sardegna,2020-09-04,estimate based on partial data,69,71,20,62,71,54,77,40,99
-Sardegna,2020-09-05,estimate based on partial data,66,68,20,59,68,51,74,38,100
-Sardegna,2020-09-06,estimate based on partial data,63,66,21,50,59,47,72,34,100
-Sardegna,2020-09-07,estimate based on partial data,61,64,23,48,57,44,69,31,101
-Sardegna,2020-09-08,estimate based on partial data,58,62,25,45,55,41,68,25,100
-Sardegna,2020-09-09,estimate based on partial data,56,61,27,44,54,36,66,20,102
-Sardegna,2020-09-10,estimate based on partial data,54,61,30,41,52,33,65,20,108
-Sardegna,2020-09-11,estimate based on partial data,53,61,35,39,51,32,66,13,110
-Sardegna,2020-09-12,estimate based on partial data,52,62,41,36,48,24,61,12,117
-Sardegna,2020-09-13,estimate based on partial data,50,64,52,33,46,18,56,9,125
-Sardegna,2020-09-14,estimate based on partial data,49,67,70,25,39,13,53,3,128
-Sardegna,2020-09-15,estimate based on partial data,48,72,103,19,33,12,53,3,141
-Sardegna,2020-09-16,forecast,47,78,153,17,32,9,51,2,151
-Sardegna,2020-09-17,forecast,45,87,239,16,30,7,49,0,161
-Sardegna,2020-09-18,forecast,44,100,384,14,28,6,47,1,177
-Sardegna,2020-09-19,forecast,42,118,630,12,26,3,44,0,192
-Sardegna,2020-09-20,forecast,41,146,1046,6,19,1,41,0,206
-Sardegna,2020-09-21,forecast,40,188,1755,5,17,1,40,0,223
-Sardegna,2020-09-22,forecast,39,253,2963,4,16,0,39,0,243
-Sardegna,2020-09-23,forecast,37,354,5025,3,14,0,37,0,262
-Sardegna,2020-09-24,forecast,36,514,8549,3,13,0,36,0,284
-Sardegna,2020-09-25,forecast,35,773,14577,1,10,0,35,0,303
-Sardegna,2020-09-26,forecast,34,1193,24898,0,9,0,34,0,325
-Sardegna,2020-09-27,forecast,33,1882,42577,0,8,0,33,0,353
-Sardegna,2020-09-28,forecast,32,3022,72882,0,7,0,32,0,387
-Sardegna,2020-09-29,forecast,31,4920,124846,0,7,0,31,0,415
-Sicilia,2020-07-07,estimate,5,5,1,5,6,5,6,4,7
+Sardegna,2020-08-08,estimate,17,17,4,14,16,13,19,11,24
+Sardegna,2020-08-09,estimate,20,20,5,17,19,16,22,13,28
+Sardegna,2020-08-10,estimate,23,23,5,19,22,19,26,15,32
+Sardegna,2020-08-11,estimate,27,27,6,25,28,23,30,18,37
+Sardegna,2020-08-12,estimate,32,32,7,31,34,27,35,21,42
+Sardegna,2020-08-13,estimate,37,38,7,33,37,31,41,26,50
+Sardegna,2020-08-14,estimate,44,44,8,40,44,36,47,31,58
+Sardegna,2020-08-15,estimate,51,52,10,47,51,45,57,37,67
+Sardegna,2020-08-16,estimate,59,60,11,54,59,51,64,42,78
+Sardegna,2020-08-17,estimate,68,69,13,59,65,57,73,48,89
+Sardegna,2020-08-18,estimate,76,78,15,67,74,64,83,52,100
+Sardegna,2020-08-19,estimate,84,86,17,76,83,71,92,57,112
+Sardegna,2020-08-20,estimate,92,94,20,81,89,77,100,64,126
+Sardegna,2020-08-21,estimate,99,101,22,89,98,83,109,65,132
+Sardegna,2020-08-22,estimate,104,107,23,90,100,85,112,70,140
+Sardegna,2020-08-23,estimate,107,110,24,94,105,91,120,72,143
+Sardegna,2020-08-24,estimate,108,111,24,96,107,90,120,76,147
+Sardegna,2020-08-25,estimate,108,111,23,99,109,91,121,77,147
+Sardegna,2020-08-26,estimate,106,109,22,95,105,89,117,75,142
+Sardegna,2020-08-27,estimate,103,105,21,97,106,88,114,71,136
+Sardegna,2020-08-28,estimate,98,101,19,89,98,83,108,70,131
+Sardegna,2020-08-29,estimate,94,96,18,88,96,82,106,68,126
+Sardegna,2020-08-30,estimate,89,91,17,84,92,72,94,63,118
+Sardegna,2020-08-31,estimate,84,85,17,80,87,70,91,57,110
+Sardegna,2020-09-01,estimate,79,80,17,74,81,65,85,56,107
+Sardegna,2020-09-02,estimate,73,75,17,69,76,60,80,49,99
+Sardegna,2020-09-03,estimate,69,71,17,65,73,56,76,44,94
+Sardegna,2020-09-04,estimate based on partial data,65,66,17,58,66,52,72,39,92
+Sardegna,2020-09-05,estimate based on partial data,61,63,18,53,60,47,69,34,88
+Sardegna,2020-09-06,estimate based on partial data,57,60,19,49,57,45,67,31,87
+Sardegna,2020-09-07,estimate based on partial data,54,57,20,48,56,42,65,26,84
+Sardegna,2020-09-08,estimate based on partial data,51,55,21,44,52,38,63,22,85
+Sardegna,2020-09-09,estimate based on partial data,49,53,23,41,50,32,57,20,87
+Sardegna,2020-09-10,estimate based on partial data,47,51,25,36,46,29,56,17,89
+Sardegna,2020-09-11,estimate based on partial data,45,50,28,30,40,29,57,11,89
+Sardegna,2020-09-12,estimate based on partial data,43,50,32,28,39,18,48,7,90
+Sardegna,2020-09-13,estimate based on partial data,41,50,37,23,34,14,45,5,93
+Sardegna,2020-09-14,estimate based on partial data,39,50,44,20,31,12,43,3,96
+Sardegna,2020-09-15,estimate based on partial data,37,51,54,17,28,11,43,2,103
+Sardegna,2020-09-16,estimate based on partial data,35,54,69,15,26,9,42,1,109
+Sardegna,2020-09-17,forecast,34,56,88,12,23,4,36,1,115
+Sardegna,2020-09-18,forecast,32,60,114,10,21,2,33,1,122
+Sardegna,2020-09-19,forecast,31,64,151,9,19,2,31,0,128
+Sardegna,2020-09-20,forecast,29,71,201,5,15,1,29,0,136
+Sardegna,2020-09-21,forecast,28,79,271,3,12,1,28,0,145
+Sardegna,2020-09-22,forecast,27,90,368,1,9,0,27,0,155
+Sardegna,2020-09-23,forecast,25,105,505,1,8,0,25,0,165
+Sardegna,2020-09-24,forecast,24,124,697,1,7,0,24,0,177
+Sardegna,2020-09-25,forecast,23,150,968,0,6,0,23,0,186
+Sardegna,2020-09-26,forecast,22,185,1351,0,6,0,22,0,202
+Sardegna,2020-09-27,forecast,21,231,1894,0,5,0,21,0,218
+Sardegna,2020-09-28,forecast,20,294,2667,0,5,0,20,0,232
+Sardegna,2020-09-29,forecast,19,380,3771,0,4,0,19,0,244
+Sardegna,2020-09-30,forecast,18,498,5351,0,4,0,18,0,261
 Sicilia,2020-07-08,estimate,6,6,1,6,6,5,7,4,8
-Sicilia,2020-07-09,estimate,6,6,1,6,7,6,7,4,8
-Sicilia,2020-07-10,estimate,7,7,1,7,7,6,8,5,9
-Sicilia,2020-07-11,estimate,7,7,1,7,8,6,8,5,9
-Sicilia,2020-07-12,estimate,8,8,1,8,8,7,9,6,10
-Sicilia,2020-07-13,estimate,9,9,2,8,9,8,10,6,11
-Sicilia,2020-07-14,estimate,10,10,2,9,10,9,11,7,12
-Sicilia,2020-07-15,estimate,10,11,2,10,10,9,11,8,13
-Sicilia,2020-07-16,estimate,11,11,2,10,11,10,13,9,14
-Sicilia,2020-07-17,estimate,12,13,2,11,12,11,13,9,16
+Sicilia,2020-07-09,estimate,6,6,1,6,6,6,7,4,8
+Sicilia,2020-07-10,estimate,7,7,1,6,7,6,8,5,9
+Sicilia,2020-07-11,estimate,7,8,1,7,8,6,8,5,10
+Sicilia,2020-07-12,estimate,8,8,1,8,9,7,9,6,10
+Sicilia,2020-07-13,estimate,9,9,1,9,9,8,10,6,11
+Sicilia,2020-07-14,estimate,10,10,2,9,10,8,10,7,12
+Sicilia,2020-07-15,estimate,10,11,2,10,11,9,11,8,13
+Sicilia,2020-07-16,estimate,11,11,2,11,12,10,12,9,14
+Sicilia,2020-07-17,estimate,12,12,2,12,13,11,13,9,16
 Sicilia,2020-07-18,estimate,14,14,2,13,14,12,15,10,17
-Sicilia,2020-07-19,estimate,15,15,2,15,16,13,16,11,19
-Sicilia,2020-07-20,estimate,16,16,2,16,17,14,18,12,20
-Sicilia,2020-07-21,estimate,17,18,3,17,18,16,19,13,22
-Sicilia,2020-07-22,estimate,19,19,3,18,19,17,21,15,24
-Sicilia,2020-07-23,estimate,21,21,3,20,21,18,22,16,26
-Sicilia,2020-07-24,estimate,22,23,4,21,22,20,24,17,28
-Sicilia,2020-07-25,estimate,24,25,4,22,24,21,26,19,31
+Sicilia,2020-07-19,estimate,15,15,2,14,15,13,16,11,18
+Sicilia,2020-07-20,estimate,16,16,2,15,16,14,17,12,20
+Sicilia,2020-07-21,estimate,17,18,3,16,18,16,19,13,22
+Sicilia,2020-07-22,estimate,19,19,3,17,19,17,21,15,24
+Sicilia,2020-07-23,estimate,21,21,3,19,20,19,23,16,26
+Sicilia,2020-07-24,estimate,22,23,3,21,22,20,24,17,28
+Sicilia,2020-07-25,estimate,24,25,4,22,23,22,27,19,31
 Sicilia,2020-07-26,estimate,26,27,4,24,26,23,28,20,33
-Sicilia,2020-07-27,estimate,28,29,5,26,28,25,31,22,36
-Sicilia,2020-07-28,estimate,30,31,5,28,30,27,32,23,38
-Sicilia,2020-07-29,estimate,33,33,5,30,32,29,35,25,41
-Sicilia,2020-07-30,estimate,35,36,6,32,35,30,37,27,44
-Sicilia,2020-07-31,estimate,37,38,6,35,37,33,41,28,46
-Sicilia,2020-08-01,estimate,39,40,6,36,39,36,43,31,50
-Sicilia,2020-08-02,estimate,42,43,7,38,41,38,46,32,53
-Sicilia,2020-08-03,estimate,44,45,7,40,43,39,48,34,56
-Sicilia,2020-08-04,estimate,46,47,7,42,45,41,50,36,59
-Sicilia,2020-08-05,estimate,49,49,7,45,48,43,52,39,62
-Sicilia,2020-08-06,estimate,51,52,8,46,50,45,54,40,64
-Sicilia,2020-08-07,estimate,53,54,8,48,52,48,58,40,65
-Sicilia,2020-08-08,estimate,55,56,8,51,55,50,60,44,70
-Sicilia,2020-08-09,estimate,57,58,8,54,57,52,62,45,70
-Sicilia,2020-08-10,estimate,59,59,8,54,58,53,63,47,73
-Sicilia,2020-08-11,estimate,60,61,9,56,60,55,66,47,74
-Sicilia,2020-08-12,estimate,62,63,9,57,61,57,68,48,77
-Sicilia,2020-08-13,estimate,64,65,9,59,63,58,69,50,79
-Sicilia,2020-08-14,estimate,65,66,9,61,65,60,72,52,82
-Sicilia,2020-08-15,estimate,67,68,10,63,67,59,71,53,85
-Sicilia,2020-08-16,estimate,69,69,10,63,68,61,74,54,87
-Sicilia,2020-08-17,estimate,70,71,11,64,69,62,75,54,88
-Sicilia,2020-08-18,estimate,72,73,11,67,72,64,78,55,91
-Sicilia,2020-08-19,estimate,73,74,11,68,73,64,79,55,92
-Sicilia,2020-08-20,estimate,75,76,12,71,76,65,80,57,95
-Sicilia,2020-08-21,estimate,77,78,12,73,78,68,83,57,96
-Sicilia,2020-08-22,estimate,79,80,13,73,79,70,86,59,99
-Sicilia,2020-08-23,estimate,81,82,13,75,81,71,88,61,103
-Sicilia,2020-08-24,estimate,83,84,13,76,82,76,93,64,107
-Sicilia,2020-08-25,estimate,85,86,14,79,85,76,93,64,108
-Sicilia,2020-08-26,estimate,88,89,14,82,89,77,95,65,110
-Sicilia,2020-08-27,estimate,90,91,14,84,91,80,98,67,113
-Sicilia,2020-08-28,estimate,93,94,15,89,96,83,102,68,116
-Sicilia,2020-08-29,estimate,95,97,15,89,95,84,103,72,121
-Sicilia,2020-08-30,estimate,98,100,16,93,100,88,108,74,124
-Sicilia,2020-08-31,estimate,101,103,16,96,104,91,112,77,129
-Sicilia,2020-09-01,estimate,104,106,17,104,112,91,112,79,134
-Sicilia,2020-09-02,estimate,107,109,18,106,115,94,117,78,136
-Sicilia,2020-09-03,estimate based on partial data,111,112,20,109,118,97,121,82,143
-Sicilia,2020-09-04,estimate based on partial data,114,116,21,112,122,97,123,83,150
-Sicilia,2020-09-05,estimate based on partial data,118,120,23,111,122,102,131,82,156
-Sicilia,2020-09-06,estimate based on partial data,121,123,26,114,126,100,133,82,165
-Sicilia,2020-09-07,estimate based on partial data,124,128,30,117,130,102,137,81,173
-Sicilia,2020-09-08,estimate based on partial data,127,132,34,112,127,100,139,78,182
-Sicilia,2020-09-09,estimate based on partial data,131,136,38,116,131,101,145,81,199
-Sicilia,2020-09-10,estimate based on partial data,135,141,44,113,131,103,152,73,207
-Sicilia,2020-09-11,estimate based on partial data,138,147,51,116,136,103,158,69,220
-Sicilia,2020-09-12,estimate based on partial data,142,153,60,126,148,105,166,63,232
-Sicilia,2020-09-13,estimate based on partial data,147,159,70,125,149,105,173,60,249
-Sicilia,2020-09-14,estimate based on partial data,151,166,83,127,153,99,173,56,266
-Sicilia,2020-09-15,estimate based on partial data,154,175,101,127,156,98,180,54,289
-Sicilia,2020-09-16,forecast,158,184,122,134,166,96,185,51,309
-Sicilia,2020-09-17,forecast,163,194,148,137,171,92,190,47,335
-Sicilia,2020-09-18,forecast,168,205,183,138,176,91,197,38,355
-Sicilia,2020-09-19,forecast,172,218,228,139,180,80,195,31,381
-Sicilia,2020-09-20,forecast,177,233,288,140,185,78,200,30,411
-Sicilia,2020-09-21,forecast,181,250,369,128,178,79,210,22,441
-Sicilia,2020-09-22,forecast,186,269,477,131,183,75,215,19,476
-Sicilia,2020-09-23,forecast,191,292,622,92,147,75,224,14,510
-Sicilia,2020-09-24,forecast,197,318,820,91,149,70,228,13,550
-Sicilia,2020-09-25,forecast,203,349,1088,92,152,69,237,7,587
-Sicilia,2020-09-26,forecast,209,386,1453,90,154,54,230,8,637
-Sicilia,2020-09-27,forecast,214,431,1951,89,156,55,240,6,689
-Sicilia,2020-09-28,forecast,219,486,2631,68,138,49,244,5,746
-Sicilia,2020-09-29,forecast,226,553,3559,66,140,51,254,5,813
-Toscana,2020-07-07,estimate,10,10,2,9,10,8,10,7,12
-Toscana,2020-07-08,estimate,10,10,2,10,10,8,10,7,12
-Toscana,2020-07-09,estimate,10,10,2,10,10,8,10,7,12
-Toscana,2020-07-10,estimate,10,10,2,9,10,9,11,7,12
+Sicilia,2020-07-27,estimate,28,29,4,27,29,24,30,22,35
+Sicilia,2020-07-28,estimate,30,31,5,29,31,26,32,23,38
+Sicilia,2020-07-29,estimate,33,33,5,30,33,29,35,25,41
+Sicilia,2020-07-30,estimate,35,36,6,31,34,30,37,27,44
+Sicilia,2020-07-31,estimate,37,38,6,36,39,32,40,28,47
+Sicilia,2020-08-01,estimate,40,40,6,38,41,34,42,30,50
+Sicilia,2020-08-02,estimate,42,43,7,41,44,35,44,32,53
+Sicilia,2020-08-03,estimate,44,45,7,43,46,39,48,33,55
+Sicilia,2020-08-04,estimate,47,47,7,45,49,41,50,36,58
+Sicilia,2020-08-05,estimate,49,49,8,45,49,43,52,38,61
+Sicilia,2020-08-06,estimate,51,52,8,48,51,46,55,39,64
+Sicilia,2020-08-07,estimate,53,54,8,49,52,47,57,41,66
+Sicilia,2020-08-08,estimate,55,56,8,52,56,48,59,43,68
+Sicilia,2020-08-09,estimate,57,58,9,54,58,50,61,45,71
+Sicilia,2020-08-10,estimate,59,59,9,56,60,52,63,46,72
+Sicilia,2020-08-11,estimate,61,61,9,58,62,54,65,48,75
+Sicilia,2020-08-12,estimate,62,63,9,59,64,56,67,49,78
+Sicilia,2020-08-13,estimate,64,64,9,62,66,57,69,50,79
+Sicilia,2020-08-14,estimate,65,66,10,62,66,58,71,51,81
+Sicilia,2020-08-15,estimate,67,68,10,62,67,60,73,53,84
+Sicilia,2020-08-16,estimate,68,69,10,66,70,61,73,53,85
+Sicilia,2020-08-17,estimate,70,71,10,67,71,62,75,54,87
+Sicilia,2020-08-18,estimate,72,72,11,69,73,65,78,56,90
+Sicilia,2020-08-19,estimate,73,74,11,70,75,66,79,58,92
+Sicilia,2020-08-20,estimate,75,76,11,72,77,68,83,58,93
+Sicilia,2020-08-21,estimate,77,78,12,74,79,70,84,59,95
+Sicilia,2020-08-22,estimate,79,79,12,75,80,71,86,60,97
+Sicilia,2020-08-23,estimate,81,81,12,77,82,73,88,61,100
+Sicilia,2020-08-24,estimate,83,84,12,79,84,73,89,64,104
+Sicilia,2020-08-25,estimate,85,86,13,80,86,76,92,65,106
+Sicilia,2020-08-26,estimate,87,88,13,82,88,78,95,68,110
+Sicilia,2020-08-27,estimate,90,91,13,87,93,80,97,68,112
+Sicilia,2020-08-28,estimate,92,93,14,89,96,83,100,71,115
+Sicilia,2020-08-29,estimate,95,96,14,93,100,84,102,74,119
+Sicilia,2020-08-30,estimate,98,99,15,90,97,86,105,74,121
+Sicilia,2020-08-31,estimate,101,102,15,95,102,88,108,77,126
+Sicilia,2020-09-01,estimate,104,105,16,98,105,91,111,80,131
+Sicilia,2020-09-02,estimate,107,109,17,101,108,95,116,82,136
+Sicilia,2020-09-03,estimate,110,112,18,106,114,97,119,83,140
+Sicilia,2020-09-04,estimate based on partial data,114,116,19,109,117,100,124,83,146
+Sicilia,2020-09-05,estimate based on partial data,117,119,21,110,120,102,128,84,153
+Sicilia,2020-09-06,estimate based on partial data,121,123,24,111,122,103,132,81,156
+Sicilia,2020-09-07,estimate based on partial data,125,127,26,110,121,104,136,82,164
+Sicilia,2020-09-08,estimate based on partial data,128,131,30,118,131,108,144,84,175
+Sicilia,2020-09-09,estimate based on partial data,132,136,34,124,139,109,149,85,187
+Sicilia,2020-09-10,estimate based on partial data,136,141,38,127,143,106,150,84,200
+Sicilia,2020-09-11,estimate based on partial data,140,146,44,115,133,104,154,80,210
+Sicilia,2020-09-12,estimate based on partial data,143,151,51,123,144,105,161,76,223
+Sicilia,2020-09-13,estimate based on partial data,148,157,59,121,143,108,171,71,237
+Sicilia,2020-09-14,estimate based on partial data,151,164,69,130,154,106,176,64,253
+Sicilia,2020-09-15,estimate based on partial data,155,171,84,126,153,104,180,54,266
+Sicilia,2020-09-16,estimate based on partial data,159,179,105,129,159,97,181,58,293
+Sicilia,2020-09-17,forecast,164,189,136,136,169,95,186,55,319
+Sicilia,2020-09-18,forecast,170,199,184,129,166,90,190,50,343
+Sicilia,2020-09-19,forecast,174,212,261,117,156,94,202,49,373
+Sicilia,2020-09-20,forecast,180,227,386,117,159,90,208,29,384
+Sicilia,2020-09-21,forecast,184,245,590,118,163,89,215,25,411
+Sicilia,2020-09-22,forecast,189,267,920,112,161,72,207,22,438
+Sicilia,2020-09-23,forecast,195,296,1456,111,162,74,218,20,470
+Sicilia,2020-09-24,forecast,199,334,2323,114,167,74,227,17,509
+Sicilia,2020-09-25,forecast,204,388,3723,113,171,72,234,5,535
+Sicilia,2020-09-26,forecast,210,464,5986,111,172,67,239,4,575
+Sicilia,2020-09-27,forecast,216,575,9641,113,176,64,246,4,620
+Sicilia,2020-09-28,forecast,223,741,15545,113,179,49,241,9,672
+Sicilia,2020-09-29,forecast,228,995,25083,112,182,48,249,1,714
+Sicilia,2020-09-30,forecast,235,1389,40490,110,183,44,255,1,772
+Toscana,2020-07-08,estimate,10,10,1,9,10,9,11,7,12
+Toscana,2020-07-09,estimate,10,10,1,9,10,9,11,8,12
+Toscana,2020-07-10,estimate,10,10,2,9,10,9,11,8,13
 Toscana,2020-07-11,estimate,10,10,2,9,10,9,11,8,13
-Toscana,2020-07-12,estimate,10,10,2,10,11,9,11,8,13
-Toscana,2020-07-13,estimate,10,11,2,10,11,9,11,8,13
-Toscana,2020-07-14,estimate,11,11,2,10,11,9,12,8,13
+Toscana,2020-07-12,estimate,10,10,2,10,10,9,11,8,13
+Toscana,2020-07-13,estimate,10,11,2,10,10,9,11,8,13
+Toscana,2020-07-14,estimate,11,11,2,10,11,9,11,8,14
 Toscana,2020-07-15,estimate,11,11,2,10,11,10,12,8,14
-Toscana,2020-07-16,estimate,11,11,2,11,12,10,12,8,14
-Toscana,2020-07-17,estimate,12,12,2,11,12,10,13,9,15
-Toscana,2020-07-18,estimate,12,12,2,11,12,11,13,9,15
-Toscana,2020-07-19,estimate,13,13,2,12,13,11,14,9,16
-Toscana,2020-07-20,estimate,13,13,2,12,13,12,15,9,16
-Toscana,2020-07-21,estimate,14,14,2,13,14,12,15,10,17
-Toscana,2020-07-22,estimate,15,15,2,14,15,13,16,11,18
-Toscana,2020-07-23,estimate,15,15,3,15,16,14,17,11,20
-Toscana,2020-07-24,estimate,16,16,3,16,17,14,17,12,20
-Toscana,2020-07-25,estimate,17,17,3,16,18,15,18,13,22
-Toscana,2020-07-26,estimate,18,19,3,17,19,16,20,14,23
-Toscana,2020-07-27,estimate,20,20,3,19,20,18,22,14,24
-Toscana,2020-07-28,estimate,21,21,3,19,21,18,22,16,26
-Toscana,2020-07-29,estimate,22,23,3,21,23,20,24,17,28
-Toscana,2020-07-30,estimate,24,24,4,23,24,21,26,18,30
-Toscana,2020-07-31,estimate,26,26,4,25,27,23,28,20,32
-Toscana,2020-08-01,estimate,28,28,4,27,29,24,29,22,35
-Toscana,2020-08-02,estimate,30,30,4,30,32,26,32,23,37
-Toscana,2020-08-03,estimate,33,33,5,31,34,29,35,25,40
-Toscana,2020-08-04,estimate,35,36,5,33,35,31,38,28,43
-Toscana,2020-08-05,estimate,38,39,5,36,38,35,42,30,47
-Toscana,2020-08-06,estimate,41,42,6,39,42,37,44,33,51
-Toscana,2020-08-07,estimate,45,45,6,41,44,40,48,35,55
-Toscana,2020-08-08,estimate,49,49,7,45,48,43,52,39,60
-Toscana,2020-08-09,estimate,53,53,7,49,52,47,56,42,65
-Toscana,2020-08-10,estimate,57,58,8,55,59,51,61,46,71
-Toscana,2020-08-11,estimate,62,62,8,59,63,56,67,48,75
-Toscana,2020-08-12,estimate,67,68,9,65,69,60,71,53,82
-Toscana,2020-08-13,estimate,72,73,10,66,70,66,78,58,89
-Toscana,2020-08-14,estimate,78,78,11,71,76,71,84,61,96
-Toscana,2020-08-15,estimate,83,84,12,81,86,76,90,65,103
-Toscana,2020-08-16,estimate,89,90,13,87,93,81,96,71,112
-Toscana,2020-08-17,estimate,95,96,14,90,96,86,102,75,119
-Toscana,2020-08-18,estimate,101,102,14,93,100,89,108,79,126
-Toscana,2020-08-19,estimate,107,108,15,102,109,95,115,83,132
-Toscana,2020-08-20,estimate,112,114,16,109,117,100,121,87,139
-Toscana,2020-08-21,estimate,118,119,17,114,121,103,125,93,148
-Toscana,2020-08-22,estimate,122,124,18,117,125,112,135,96,153
-Toscana,2020-08-23,estimate,127,129,18,121,129,115,139,98,157
-Toscana,2020-08-24,estimate,131,133,19,123,132,116,140,104,163
-Toscana,2020-08-25,estimate,135,137,19,126,135,117,141,107,167
-Toscana,2020-08-26,estimate,138,140,19,129,138,121,146,112,173
-Toscana,2020-08-27,estimate,141,142,19,130,138,126,150,111,172
-Toscana,2020-08-28,estimate,143,144,19,137,146,128,152,115,175
-Toscana,2020-08-29,estimate,144,146,19,138,147,128,153,117,177
-Toscana,2020-08-30,estimate,145,146,19,138,147,133,157,117,178
-Toscana,2020-08-31,estimate,146,147,19,140,149,133,158,116,177
-Toscana,2020-09-01,estimate,145,147,20,136,144,131,156,114,178
-Toscana,2020-09-02,estimate,145,146,21,136,146,131,158,115,182
-Toscana,2020-09-03,estimate based on partial data,144,146,23,137,148,130,160,110,183
-Toscana,2020-09-04,estimate based on partial data,144,145,25,135,147,127,159,108,188
-Toscana,2020-09-05,estimate based on partial data,142,145,28,132,145,123,160,101,189
-Toscana,2020-09-06,estimate based on partial data,141,144,31,129,143,121,162,93,192
-Toscana,2020-09-07,estimate based on partial data,140,143,35,125,142,117,162,89,199
-Toscana,2020-09-08,estimate based on partial data,139,143,39,122,140,112,161,81,202
-Toscana,2020-09-09,estimate based on partial data,137,142,43,120,139,109,165,71,206
-Toscana,2020-09-10,estimate based on partial data,136,142,48,113,135,95,156,63,211
-Toscana,2020-09-11,estimate based on partial data,136,142,54,110,134,91,157,62,225
-Toscana,2020-09-12,estimate based on partial data,135,143,60,108,133,91,162,55,234
-Toscana,2020-09-13,estimate based on partial data,133,144,67,102,129,76,153,42,238
-Toscana,2020-09-14,estimate based on partial data,132,145,75,99,128,76,159,35,248
-Toscana,2020-09-15,estimate based on partial data,131,147,86,93,124,64,152,29,260
-Toscana,2020-09-16,forecast,130,150,98,88,120,60,151,24,270
-Toscana,2020-09-17,forecast,129,153,113,81,114,59,155,22,285
-Toscana,2020-09-18,forecast,127,156,133,84,119,59,158,12,291
-Toscana,2020-09-19,forecast,127,160,159,80,117,55,158,11,306
-Toscana,2020-09-20,forecast,126,164,195,77,114,39,145,9,321
-Toscana,2020-09-21,forecast,125,170,244,73,112,37,146,8,339
-Toscana,2020-09-22,forecast,124,176,312,70,111,26,138,7,353
-Toscana,2020-09-23,forecast,123,183,404,50,91,17,129,3,370
-Toscana,2020-09-24,forecast,122,192,531,48,90,17,131,3,389
-Toscana,2020-09-25,forecast,121,202,704,45,87,15,129,2,409
-Toscana,2020-09-26,forecast,120,215,939,42,85,12,126,2,432
-Toscana,2020-09-27,forecast,119,231,1260,10,51,10,125,1,454
-Toscana,2020-09-28,forecast,119,250,1697,9,49,8,123,1,476
-Toscana,2020-09-29,forecast,117,273,2290,8,47,4,119,1,502
-Trentino-Alto Adige,2020-07-07,estimate,5,6,3,4,5,3,7,2,10
-Trentino-Alto Adige,2020-07-08,estimate,5,6,3,4,5,3,7,2,10
-Trentino-Alto Adige,2020-07-09,estimate,5,6,3,4,5,3,7,2,10
-Trentino-Alto Adige,2020-07-10,estimate,5,6,3,4,5,4,6,2,10
-Trentino-Alto Adige,2020-07-11,estimate,5,6,3,4,5,4,6,2,9
-Trentino-Alto Adige,2020-07-12,estimate,5,6,3,4,5,4,6,2,9
-Trentino-Alto Adige,2020-07-13,estimate,5,6,3,4,5,3,6,2,10
-Trentino-Alto Adige,2020-07-14,estimate,5,6,3,4,5,4,6,2,10
-Trentino-Alto Adige,2020-07-15,estimate,6,6,3,4,5,4,6,2,10
-Trentino-Alto Adige,2020-07-16,estimate,6,6,3,4,5,4,6,3,10
-Trentino-Alto Adige,2020-07-17,estimate,6,6,3,4,5,4,7,3,10
+Toscana,2020-07-16,estimate,11,11,2,10,11,10,12,8,14
+Toscana,2020-07-17,estimate,12,12,2,10,11,10,12,9,15
+Toscana,2020-07-18,estimate,12,12,2,11,12,10,13,9,15
+Toscana,2020-07-19,estimate,12,13,2,12,13,11,13,9,16
+Toscana,2020-07-20,estimate,13,13,2,12,13,11,14,10,17
+Toscana,2020-07-21,estimate,14,14,2,12,13,12,15,10,18
+Toscana,2020-07-22,estimate,14,15,2,13,14,13,16,11,18
+Toscana,2020-07-23,estimate,15,15,2,14,15,13,17,12,19
+Toscana,2020-07-24,estimate,16,16,3,15,16,14,18,12,21
+Toscana,2020-07-25,estimate,17,17,3,16,17,15,19,13,21
+Toscana,2020-07-26,estimate,18,18,3,17,18,16,20,14,23
+Toscana,2020-07-27,estimate,19,20,3,18,20,17,21,15,24
+Toscana,2020-07-28,estimate,21,21,3,19,21,19,23,16,26
+Toscana,2020-07-29,estimate,22,23,3,20,22,20,24,17,27
+Toscana,2020-07-30,estimate,24,24,3,23,25,21,26,18,30
+Toscana,2020-07-31,estimate,26,26,4,25,26,23,27,20,32
+Toscana,2020-08-01,estimate,28,28,4,26,28,25,30,22,34
+Toscana,2020-08-02,estimate,30,30,4,28,30,27,32,24,37
+Toscana,2020-08-03,estimate,32,33,4,30,32,29,35,25,40
+Toscana,2020-08-04,estimate,35,36,5,33,35,32,38,29,44
+Toscana,2020-08-05,estimate,38,39,5,37,39,34,41,30,47
+Toscana,2020-08-06,estimate,42,42,5,41,43,37,44,33,51
+Toscana,2020-08-07,estimate,45,46,6,44,47,40,47,36,54
+Toscana,2020-08-08,estimate,49,49,6,47,50,44,53,39,59
+Toscana,2020-08-09,estimate,53,54,7,52,55,48,56,43,65
+Toscana,2020-08-10,estimate,58,58,7,56,59,51,61,46,69
+Toscana,2020-08-11,estimate,62,63,8,59,63,55,66,50,76
+Toscana,2020-08-12,estimate,67,68,9,66,70,61,72,53,81
+Toscana,2020-08-13,estimate,73,73,9,71,75,66,78,58,88
+Toscana,2020-08-14,estimate,78,79,10,74,79,71,84,64,96
+Toscana,2020-08-15,estimate,84,85,11,78,83,77,91,68,103
+Toscana,2020-08-16,estimate,90,91,12,84,90,83,98,72,110
+Toscana,2020-08-17,estimate,96,97,13,90,96,87,104,76,116
+Toscana,2020-08-18,estimate,102,103,14,95,102,92,110,81,124
+Toscana,2020-08-19,estimate,108,109,14,99,106,97,116,86,132
+Toscana,2020-08-20,estimate,114,115,15,108,116,102,123,90,139
+Toscana,2020-08-21,estimate,119,121,16,113,121,107,128,95,146
+Toscana,2020-08-22,estimate,124,126,17,114,123,110,133,99,153
+Toscana,2020-08-23,estimate,129,130,18,118,126,118,141,102,159
+Toscana,2020-08-24,estimate,133,134,18,123,132,122,145,105,164
+Toscana,2020-08-25,estimate,137,138,19,127,137,122,146,110,168
+Toscana,2020-08-26,estimate,139,141,19,132,141,123,148,109,169
+Toscana,2020-08-27,estimate,142,143,19,142,151,127,151,113,173
+Toscana,2020-08-28,estimate,143,144,19,140,149,127,151,113,173
+Toscana,2020-08-29,estimate,144,145,19,142,151,128,152,115,174
+Toscana,2020-08-30,estimate,144,146,19,144,153,130,153,114,174
+Toscana,2020-08-31,estimate,144,145,19,142,151,129,152,115,175
+Toscana,2020-09-01,estimate,143,145,19,140,149,129,152,112,172
+Toscana,2020-09-02,estimate,142,143,19,139,148,127,151,113,173
+Toscana,2020-09-03,estimate,140,142,20,133,141,126,151,111,173
+Toscana,2020-09-04,estimate based on partial data,138,140,21,130,139,123,149,106,172
+Toscana,2020-09-05,estimate based on partial data,135,138,23,129,138,117,145,104,176
+Toscana,2020-09-06,estimate based on partial data,133,136,25,127,138,112,142,99,179
+Toscana,2020-09-07,estimate based on partial data,131,135,28,123,136,107,141,91,180
+Toscana,2020-09-08,estimate based on partial data,129,133,31,116,129,104,142,80,180
+Toscana,2020-09-09,estimate based on partial data,127,131,35,113,127,99,142,74,185
+Toscana,2020-09-10,estimate based on partial data,125,130,39,110,126,95,142,66,190
+Toscana,2020-09-11,estimate based on partial data,123,129,43,103,122,93,145,60,199
+Toscana,2020-09-12,estimate based on partial data,121,128,48,95,116,84,142,57,209
+Toscana,2020-09-13,estimate based on partial data,119,127,54,90,112,74,135,41,208
+Toscana,2020-09-14,estimate based on partial data,117,127,60,84,109,65,131,37,215
+Toscana,2020-09-15,estimate based on partial data,114,128,67,80,106,63,134,32,224
+Toscana,2020-09-16,estimate based on partial data,113,129,75,78,106,54,129,27,235
+Toscana,2020-09-17,forecast,111,130,84,64,93,51,130,19,241
+Toscana,2020-09-18,forecast,109,132,93,61,90,45,127,15,248
+Toscana,2020-09-19,forecast,107,134,104,58,87,41,127,12,256
+Toscana,2020-09-20,forecast,106,136,117,54,85,39,126,8,263
+Toscana,2020-09-21,forecast,104,139,131,46,78,25,114,7,273
+Toscana,2020-09-22,forecast,102,142,148,43,75,24,114,5,284
+Toscana,2020-09-23,forecast,101,146,168,41,73,20,111,2,293
+Toscana,2020-09-24,forecast,100,151,192,27,60,20,111,2,305
+Toscana,2020-09-25,forecast,98,156,220,24,56,13,105,2,315
+Toscana,2020-09-26,forecast,96,162,254,23,54,12,104,1,330
+Toscana,2020-09-27,forecast,95,168,294,21,52,9,100,1,347
+Toscana,2020-09-28,forecast,93,176,341,11,41,6,96,1,365
+Toscana,2020-09-29,forecast,91,185,399,10,39,4,94,1,381
+Toscana,2020-09-30,forecast,90,195,467,8,36,1,90,0,394
+Trentino-Alto Adige,2020-07-08,estimate,6,6,2,5,5,4,7,2,9
+Trentino-Alto Adige,2020-07-09,estimate,6,6,2,4,5,4,7,2,9
+Trentino-Alto Adige,2020-07-10,estimate,6,6,2,4,5,4,6,2,9
+Trentino-Alto Adige,2020-07-11,estimate,6,6,2,4,5,4,7,2,9
+Trentino-Alto Adige,2020-07-12,estimate,6,6,2,4,5,4,7,2,9
+Trentino-Alto Adige,2020-07-13,estimate,6,6,2,4,5,4,7,2,9
+Trentino-Alto Adige,2020-07-14,estimate,6,6,2,5,6,4,7,2,9
+Trentino-Alto Adige,2020-07-15,estimate,6,6,2,4,5,4,7,3,10
+Trentino-Alto Adige,2020-07-16,estimate,6,6,2,4,5,4,7,3,10
+Trentino-Alto Adige,2020-07-17,estimate,6,6,3,5,5,4,7,3,10
 Trentino-Alto Adige,2020-07-18,estimate,6,6,3,4,5,4,7,3,10
 Trentino-Alto Adige,2020-07-19,estimate,6,7,3,5,6,4,7,3,10
-Trentino-Alto Adige,2020-07-20,estimate,6,7,3,5,6,4,7,3,10
-Trentino-Alto Adige,2020-07-21,estimate,6,7,3,5,6,4,7,3,11
-Trentino-Alto Adige,2020-07-22,estimate,6,7,3,5,6,4,7,3,11
-Trentino-Alto Adige,2020-07-23,estimate,6,7,3,5,6,4,7,3,11
-Trentino-Alto Adige,2020-07-24,estimate,6,7,3,5,6,4,7,3,11
-Trentino-Alto Adige,2020-07-25,estimate,6,7,3,5,6,4,7,3,11
-Trentino-Alto Adige,2020-07-26,estimate,7,7,3,5,6,5,7,3,11
-Trentino-Alto Adige,2020-07-27,estimate,7,7,3,5,6,5,8,3,11
-Trentino-Alto Adige,2020-07-28,estimate,7,7,3,6,7,4,7,3,11
-Trentino-Alto Adige,2020-07-29,estimate,7,7,3,5,6,4,7,3,11
-Trentino-Alto Adige,2020-07-30,estimate,7,7,3,5,6,4,7,3,11
-Trentino-Alto Adige,2020-07-31,estimate,7,7,3,5,7,4,7,3,12
-Trentino-Alto Adige,2020-08-01,estimate,7,8,3,5,7,4,7,3,12
-Trentino-Alto Adige,2020-08-02,estimate,7,8,3,5,7,4,8,3,12
-Trentino-Alto Adige,2020-08-03,estimate,7,8,3,5,7,4,8,3,12
-Trentino-Alto Adige,2020-08-04,estimate,7,8,3,6,7,4,8,3,12
-Trentino-Alto Adige,2020-08-05,estimate,7,8,4,6,7,5,8,3,13
-Trentino-Alto Adige,2020-08-06,estimate,7,8,4,5,6,5,8,3,13
-Trentino-Alto Adige,2020-08-07,estimate,8,8,4,5,7,5,9,3,14
-Trentino-Alto Adige,2020-08-08,estimate,8,9,4,6,7,5,9,3,14
-Trentino-Alto Adige,2020-08-09,estimate,8,9,4,6,7,5,9,3,15
-Trentino-Alto Adige,2020-08-10,estimate,8,9,4,7,8,5,10,3,15
-Trentino-Alto Adige,2020-08-11,estimate,9,10,4,7,8,6,10,4,16
-Trentino-Alto Adige,2020-08-12,estimate,9,10,5,7,9,6,11,4,16
-Trentino-Alto Adige,2020-08-13,estimate,10,11,5,6,8,6,11,4,17
-Trentino-Alto Adige,2020-08-14,estimate,10,11,5,7,9,7,12,4,18
-Trentino-Alto Adige,2020-08-15,estimate,11,12,5,8,10,8,13,5,19
-Trentino-Alto Adige,2020-08-16,estimate,11,12,6,8,10,8,13,5,20
-Trentino-Alto Adige,2020-08-17,estimate,12,13,6,10,12,8,14,6,21
-Trentino-Alto Adige,2020-08-18,estimate,13,14,6,10,12,8,14,6,22
-Trentino-Alto Adige,2020-08-19,estimate,14,15,7,11,14,9,15,6,23
-Trentino-Alto Adige,2020-08-20,estimate,14,16,7,12,14,9,16,7,25
-Trentino-Alto Adige,2020-08-21,estimate,15,17,8,12,15,10,17,7,27
-Trentino-Alto Adige,2020-08-22,estimate,16,18,9,12,15,10,18,8,28
-Trentino-Alto Adige,2020-08-23,estimate,18,20,9,14,17,11,20,8,30
-Trentino-Alto Adige,2020-08-24,estimate,19,21,9,15,18,13,21,9,33
-Trentino-Alto Adige,2020-08-25,estimate,20,22,10,15,18,13,23,9,35
-Trentino-Alto Adige,2020-08-26,estimate,21,24,10,18,21,15,25,10,37
-Trentino-Alto Adige,2020-08-27,estimate,23,25,11,18,22,15,26,11,40
-Trentino-Alto Adige,2020-08-28,estimate,24,27,12,19,23,15,27,12,43
-Trentino-Alto Adige,2020-08-29,estimate,26,29,12,19,24,16,28,12,45
-Trentino-Alto Adige,2020-08-30,estimate,27,30,13,21,25,18,31,12,48
-Trentino-Alto Adige,2020-08-31,estimate,29,32,14,22,27,19,33,14,53
-Trentino-Alto Adige,2020-09-01,estimate,31,35,15,23,28,19,34,14,55
-Trentino-Alto Adige,2020-09-02,estimate,33,37,17,23,29,20,36,14,59
-Trentino-Alto Adige,2020-09-03,estimate based on partial data,35,39,18,23,30,22,39,16,64
-Trentino-Alto Adige,2020-09-04,estimate based on partial data,37,42,20,24,31,22,41,15,68
-Trentino-Alto Adige,2020-09-05,estimate based on partial data,39,45,23,25,33,25,46,17,74
-Trentino-Alto Adige,2020-09-06,estimate based on partial data,42,48,26,28,36,25,48,15,79
-Trentino-Alto Adige,2020-09-07,estimate based on partial data,44,52,30,29,37,23,49,14,86
-Trentino-Alto Adige,2020-09-08,estimate based on partial data,47,56,36,29,39,24,52,15,95
-Trentino-Alto Adige,2020-09-09,estimate based on partial data,49,61,45,32,44,24,55,14,108
-Trentino-Alto Adige,2020-09-10,estimate based on partial data,52,67,59,29,42,21,56,13,122
-Trentino-Alto Adige,2020-09-11,estimate based on partial data,56,75,86,26,40,22,62,11,137
-Trentino-Alto Adige,2020-09-12,estimate based on partial data,59,85,143,27,43,21,65,7,155
-Trentino-Alto Adige,2020-09-13,estimate based on partial data,63,100,282,27,44,20,70,5,179
-Trentino-Alto Adige,2020-09-14,estimate based on partial data,68,123,633,27,45,19,75,1,207
-Trentino-Alto Adige,2020-09-15,estimate based on partial data,72,163,1561,28,49,17,80,0,243
-Trentino-Alto Adige,2020-09-16,forecast,75,216,2952,21,43,16,85,0,272
-Trentino-Alto Adige,2020-09-17,forecast,77,272,4669,22,44,16,88,1,295
-Trentino-Alto Adige,2020-09-18,forecast,80,356,7393,19,43,16,91,0,317
-Trentino-Alto Adige,2020-09-19,forecast,82,481,11713,20,44,14,94,0,344
-Trentino-Alto Adige,2020-09-20,forecast,84,671,18567,19,45,13,96,0,376
-Trentino-Alto Adige,2020-09-21,forecast,87,965,29438,19,46,4,90,0,408
-Trentino-Alto Adige,2020-09-22,forecast,89,1420,46684,19,47,0,89,0,440
-Trentino-Alto Adige,2020-09-23,forecast,93,2132,74044,19,48,1,94,0,479
-Trentino-Alto Adige,2020-09-24,forecast,95,3250,117454,18,48,0,95,0,521
-Trentino-Alto Adige,2020-09-25,forecast,99,5013,186337,16,47,3,102,0,577
-Trentino-Alto Adige,2020-09-26,forecast,101,7804,295651,14,47,0,101,0,629
-Trentino-Alto Adige,2020-09-27,forecast,103,12231,469156,14,48,0,103,0,687
-Trentino-Alto Adige,2020-09-28,forecast,106,19270,744589,4,38,0,106,0,748
-Trentino-Alto Adige,2020-09-29,forecast,109,30483,1181915,3,38,0,109,0,831
+Trentino-Alto Adige,2020-07-20,estimate,6,7,3,5,6,5,7,3,10
+Trentino-Alto Adige,2020-07-21,estimate,6,7,3,5,6,5,7,3,10
+Trentino-Alto Adige,2020-07-22,estimate,6,7,3,5,6,5,7,3,11
+Trentino-Alto Adige,2020-07-23,estimate,7,7,3,5,6,5,7,3,11
+Trentino-Alto Adige,2020-07-24,estimate,7,7,3,5,6,5,8,3,11
+Trentino-Alto Adige,2020-07-25,estimate,7,7,3,5,6,5,8,3,11
+Trentino-Alto Adige,2020-07-26,estimate,7,7,3,5,6,5,8,3,11
+Trentino-Alto Adige,2020-07-27,estimate,7,7,3,6,7,5,8,3,11
+Trentino-Alto Adige,2020-07-28,estimate,7,8,3,6,7,5,8,3,12
+Trentino-Alto Adige,2020-07-29,estimate,7,8,3,6,7,5,8,4,12
+Trentino-Alto Adige,2020-07-30,estimate,7,8,3,5,7,5,8,3,12
+Trentino-Alto Adige,2020-07-31,estimate,7,8,3,5,7,5,8,3,12
+Trentino-Alto Adige,2020-08-01,estimate,7,8,3,5,7,5,8,3,12
+Trentino-Alto Adige,2020-08-02,estimate,8,8,3,6,7,5,8,3,13
+Trentino-Alto Adige,2020-08-03,estimate,8,8,3,6,7,5,8,3,13
+Trentino-Alto Adige,2020-08-04,estimate,8,8,3,6,7,5,9,3,13
+Trentino-Alto Adige,2020-08-05,estimate,8,9,3,6,7,6,10,3,13
+Trentino-Alto Adige,2020-08-06,estimate,8,9,4,6,7,6,10,3,14
+Trentino-Alto Adige,2020-08-07,estimate,8,9,4,6,8,6,10,3,14
+Trentino-Alto Adige,2020-08-08,estimate,9,9,4,6,8,6,10,3,15
+Trentino-Alto Adige,2020-08-09,estimate,9,9,4,6,8,6,10,4,15
+Trentino-Alto Adige,2020-08-10,estimate,9,10,4,8,9,6,10,4,15
+Trentino-Alto Adige,2020-08-11,estimate,10,10,4,9,10,6,11,4,16
+Trentino-Alto Adige,2020-08-12,estimate,10,11,4,9,11,7,11,5,17
+Trentino-Alto Adige,2020-08-13,estimate,10,11,4,9,11,7,11,5,17
+Trentino-Alto Adige,2020-08-14,estimate,11,11,4,9,11,7,12,5,18
+Trentino-Alto Adige,2020-08-15,estimate,11,12,5,10,12,7,12,5,19
+Trentino-Alto Adige,2020-08-16,estimate,12,13,5,9,11,8,13,6,20
+Trentino-Alto Adige,2020-08-17,estimate,12,13,5,10,12,9,14,6,20
+Trentino-Alto Adige,2020-08-18,estimate,13,14,5,11,13,9,15,6,22
+Trentino-Alto Adige,2020-08-19,estimate,14,15,6,11,14,9,15,7,23
+Trentino-Alto Adige,2020-08-20,estimate,15,16,6,12,14,10,17,7,24
+Trentino-Alto Adige,2020-08-21,estimate,16,17,6,13,15,11,17,8,26
+Trentino-Alto Adige,2020-08-22,estimate,16,18,7,14,17,12,19,8,27
+Trentino-Alto Adige,2020-08-23,estimate,17,19,7,15,18,13,20,9,29
+Trentino-Alto Adige,2020-08-24,estimate,19,20,8,16,18,13,21,9,30
+Trentino-Alto Adige,2020-08-25,estimate,20,21,8,16,19,14,22,10,32
+Trentino-Alto Adige,2020-08-26,estimate,21,22,9,17,20,15,23,10,33
+Trentino-Alto Adige,2020-08-27,estimate,22,24,9,17,21,16,25,11,36
+Trentino-Alto Adige,2020-08-28,estimate,23,25,10,18,22,17,27,11,37
+Trentino-Alto Adige,2020-08-29,estimate,24,27,10,21,24,17,28,12,40
+Trentino-Alto Adige,2020-08-30,estimate,26,28,11,22,26,18,29,13,43
+Trentino-Alto Adige,2020-08-31,estimate,27,30,11,23,27,20,32,14,46
+Trentino-Alto Adige,2020-09-01,estimate,29,31,12,23,28,21,33,14,48
+Trentino-Alto Adige,2020-09-02,estimate,31,33,13,23,28,21,35,15,51
+Trentino-Alto Adige,2020-09-03,estimate,33,35,14,24,29,23,38,16,56
+Trentino-Alto Adige,2020-09-04,estimate based on partial data,34,37,16,25,31,24,40,14,58
+Trentino-Alto Adige,2020-09-05,estimate based on partial data,36,39,17,26,32,25,43,16,63
+Trentino-Alto Adige,2020-09-06,estimate based on partial data,38,42,19,27,33,22,42,16,67
+Trentino-Alto Adige,2020-09-07,estimate based on partial data,39,44,21,31,39,23,44,15,72
+Trentino-Alto Adige,2020-09-08,estimate based on partial data,41,47,24,31,40,23,46,15,79
+Trentino-Alto Adige,2020-09-09,estimate based on partial data,43,50,28,26,35,25,50,14,86
+Trentino-Alto Adige,2020-09-10,estimate based on partial data,45,53,33,27,37,24,51,14,95
+Trentino-Alto Adige,2020-09-11,estimate based on partial data,47,57,39,30,41,21,51,12,104
+Trentino-Alto Adige,2020-09-12,estimate based on partial data,49,62,46,30,41,21,55,11,115
+Trentino-Alto Adige,2020-09-13,estimate based on partial data,51,67,56,35,48,17,55,11,128
+Trentino-Alto Adige,2020-09-14,estimate based on partial data,54,73,69,35,49,18,59,8,142
+Trentino-Alto Adige,2020-09-15,estimate based on partial data,57,81,87,29,44,17,63,6,159
+Trentino-Alto Adige,2020-09-16,estimate based on partial data,60,90,111,30,47,17,67,4,179
+Trentino-Alto Adige,2020-09-17,forecast,62,98,134,32,49,12,66,3,196
+Trentino-Alto Adige,2020-09-18,forecast,64,104,153,33,51,12,68,1,209
+Trentino-Alto Adige,2020-09-19,forecast,66,111,175,33,52,17,75,0,223
+Trentino-Alto Adige,2020-09-20,forecast,67,118,202,27,46,10,71,0,238
+Trentino-Alto Adige,2020-09-21,forecast,68,127,234,27,47,9,73,1,257
+Trentino-Alto Adige,2020-09-22,forecast,70,136,274,27,48,11,77,0,275
+Trentino-Alto Adige,2020-09-23,forecast,71,147,321,28,49,10,78,0,291
+Trentino-Alto Adige,2020-09-24,forecast,73,160,379,27,50,9,80,0,307
+Trentino-Alto Adige,2020-09-25,forecast,75,174,452,26,49,8,81,0,325
+Trentino-Alto Adige,2020-09-26,forecast,77,190,542,28,52,4,79,0,351
+Trentino-Alto Adige,2020-09-27,forecast,78,208,655,28,53,4,81,0,372
+Trentino-Alto Adige,2020-09-28,forecast,80,230,797,27,53,0,80,0,394
+Trentino-Alto Adige,2020-09-29,forecast,82,255,979,27,54,1,83,0,414
+Trentino-Alto Adige,2020-09-30,forecast,84,284,1211,26,54,0,84,0,443
 Umbria,2020-07-08,estimate,1,1,0,1,1,1,1,1,2
 Umbria,2020-07-09,estimate,1,1,0,1,1,1,1,1,2
 Umbria,2020-07-10,estimate,1,1,0,1,1,1,1,1,2
 Umbria,2020-07-11,estimate,1,1,0,1,1,1,1,1,2
-Umbria,2020-07-12,estimate,1,1,0,1,1,1,2,1,2
+Umbria,2020-07-12,estimate,1,1,0,1,1,1,1,1,2
 Umbria,2020-07-13,estimate,1,1,0,1,1,1,2,1,2
 Umbria,2020-07-14,estimate,1,1,0,1,1,1,2,1,2
-Umbria,2020-07-15,estimate,1,2,0,1,1,1,2,1,2
+Umbria,2020-07-15,estimate,1,1,0,1,1,1,2,1,2
 Umbria,2020-07-16,estimate,2,2,0,1,2,1,2,1,2
-Umbria,2020-07-17,estimate,2,2,0,2,2,1,2,1,2
-Umbria,2020-07-18,estimate,2,2,0,2,2,1,2,1,2
+Umbria,2020-07-17,estimate,2,2,0,1,2,1,2,1,2
+Umbria,2020-07-18,estimate,2,2,0,2,2,1,2,1,3
 Umbria,2020-07-19,estimate,2,2,0,2,2,1,2,1,3
 Umbria,2020-07-20,estimate,2,2,1,2,2,2,2,1,3
 Umbria,2020-07-21,estimate,2,2,1,2,2,2,2,1,3
 Umbria,2020-07-22,estimate,2,2,1,2,2,2,3,1,3
-Umbria,2020-07-23,estimate,2,3,1,2,2,2,3,1,3
+Umbria,2020-07-23,estimate,2,2,1,2,3,2,3,1,3
 Umbria,2020-07-24,estimate,3,3,1,2,3,2,3,2,4
 Umbria,2020-07-25,estimate,3,3,1,3,3,2,3,2,4
-Umbria,2020-07-26,estimate,3,3,1,3,3,3,4,2,4
-Umbria,2020-07-27,estimate,4,4,1,3,3,3,4,2,5
-Umbria,2020-07-28,estimate,4,4,1,3,4,3,4,3,5
-Umbria,2020-07-29,estimate,4,4,1,4,4,4,5,3,6
+Umbria,2020-07-26,estimate,3,3,1,3,3,2,3,2,4
+Umbria,2020-07-27,estimate,3,3,1,3,4,3,4,2,5
+Umbria,2020-07-28,estimate,4,4,1,4,4,3,4,3,5
+Umbria,2020-07-29,estimate,4,4,1,4,4,3,5,3,6
 Umbria,2020-07-30,estimate,5,5,1,4,5,4,5,3,6
 Umbria,2020-07-31,estimate,5,5,1,5,5,4,6,4,7
 Umbria,2020-08-01,estimate,6,6,1,5,6,5,6,4,8
-Umbria,2020-08-02,estimate,6,7,1,6,6,5,7,5,9
-Umbria,2020-08-03,estimate,7,7,1,6,7,6,8,5,9
+Umbria,2020-08-02,estimate,6,6,1,6,7,5,7,4,8
+Umbria,2020-08-03,estimate,7,7,1,7,7,6,8,5,9
 Umbria,2020-08-04,estimate,8,8,1,7,8,7,9,6,10
-Umbria,2020-08-05,estimate,9,9,2,8,9,8,10,7,12
+Umbria,2020-08-05,estimate,9,9,2,8,9,8,10,6,11
 Umbria,2020-08-06,estimate,10,10,2,9,10,8,11,7,13
 Umbria,2020-08-07,estimate,11,11,2,10,11,9,12,8,14
-Umbria,2020-08-08,estimate,12,12,2,11,12,11,13,9,16
-Umbria,2020-08-09,estimate,13,13,2,12,13,11,14,10,17
-Umbria,2020-08-10,estimate,14,15,3,13,14,13,16,11,19
+Umbria,2020-08-08,estimate,12,12,2,11,12,10,13,8,15
+Umbria,2020-08-09,estimate,13,13,2,12,13,11,14,9,17
+Umbria,2020-08-10,estimate,14,15,3,13,14,12,16,11,18
 Umbria,2020-08-11,estimate,16,16,3,15,16,13,17,12,20
-Umbria,2020-08-12,estimate,17,17,3,17,18,14,18,13,22
-Umbria,2020-08-13,estimate,19,19,3,18,20,16,20,13,23
-Umbria,2020-08-14,estimate,20,20,3,19,20,17,21,15,25
-Umbria,2020-08-15,estimate,21,22,4,20,22,19,23,16,28
-Umbria,2020-08-16,estimate,23,23,4,21,23,20,24,17,29
-Umbria,2020-08-17,estimate,24,24,4,22,24,21,26,18,31
-Umbria,2020-08-18,estimate,25,26,4,24,26,22,27,19,32
-Umbria,2020-08-19,estimate,27,27,4,26,28,24,30,20,34
-Umbria,2020-08-20,estimate,28,28,5,26,28,25,31,21,35
-Umbria,2020-08-21,estimate,29,29,5,27,29,25,31,22,36
-Umbria,2020-08-22,estimate,29,30,5,28,30,26,32,21,37
-Umbria,2020-08-23,estimate,30,31,5,28,30,27,33,22,38
-Umbria,2020-08-24,estimate,31,31,5,30,32,27,33,23,39
-Umbria,2020-08-25,estimate,31,32,5,31,33,27,33,23,40
-Umbria,2020-08-26,estimate,32,32,5,30,33,28,35,24,41
-Umbria,2020-08-27,estimate,32,33,5,30,33,28,34,25,41
-Umbria,2020-08-28,estimate,32,33,5,31,34,28,35,24,41
-Umbria,2020-08-29,estimate,33,33,6,31,34,29,36,25,42
-Umbria,2020-08-30,estimate,33,33,6,32,34,29,36,24,41
-Umbria,2020-08-31,estimate,33,33,6,33,35,28,36,24,42
-Umbria,2020-09-01,estimate,33,34,6,31,34,29,37,24,43
-Umbria,2020-09-02,estimate,33,34,6,30,32,29,36,24,43
-Umbria,2020-09-03,estimate based on partial data,33,34,7,29,32,29,37,24,44
-Umbria,2020-09-04,estimate based on partial data,33,34,7,30,33,29,37,23,45
-Umbria,2020-09-05,estimate based on partial data,34,35,8,31,35,27,36,23,46
-Umbria,2020-09-06,estimate based on partial data,34,35,8,31,35,28,38,22,48
-Umbria,2020-09-07,estimate based on partial data,34,35,9,29,33,27,38,22,50
-Umbria,2020-09-08,estimate based on partial data,35,36,10,28,33,25,38,20,52
-Umbria,2020-09-09,estimate based on partial data,35,37,12,30,35,26,40,19,56
-Umbria,2020-09-10,estimate based on partial data,35,37,13,29,34,25,41,17,58
-Umbria,2020-09-11,estimate based on partial data,36,38,15,28,35,24,41,16,62
-Umbria,2020-09-12,estimate based on partial data,36,40,18,27,34,24,43,12,64
-Umbria,2020-09-13,estimate based on partial data,37,41,22,26,33,23,45,10,68
-Umbria,2020-09-14,estimate based on partial data,38,43,27,26,34,21,45,9,74
-Umbria,2020-09-15,estimate based on partial data,38,45,34,24,32,20,46,8,81
-Umbria,2020-09-16,forecast,39,48,44,23,32,17,45,6,86
-Umbria,2020-09-17,forecast,39,51,58,21,31,16,46,3,90
-Umbria,2020-09-18,forecast,40,55,79,20,31,15,48,2,98
-Umbria,2020-09-19,forecast,40,59,109,19,31,11,45,3,108
-Umbria,2020-09-20,forecast,41,65,153,18,30,9,45,1,116
-Umbria,2020-09-21,forecast,41,72,218,18,30,9,46,2,126
-Umbria,2020-09-22,forecast,41,82,313,17,30,4,42,1,137
-Umbria,2020-09-23,forecast,42,94,452,16,29,3,42,1,148
-Umbria,2020-09-24,forecast,42,110,657,15,29,3,43,1,160
-Umbria,2020-09-25,forecast,43,131,958,14,28,3,44,0,171
-Umbria,2020-09-26,forecast,43,160,1401,14,29,2,45,0,184
-Umbria,2020-09-27,forecast,44,200,2053,12,27,2,45,0,197
-Umbria,2020-09-28,forecast,45,255,3014,2,17,2,46,0,214
-Umbria,2020-09-29,forecast,45,332,4429,2,16,2,47,0,233
+Umbria,2020-08-12,estimate,17,17,3,16,17,15,19,13,22
+Umbria,2020-08-13,estimate,19,19,3,17,19,16,20,14,24
+Umbria,2020-08-14,estimate,20,20,3,19,20,18,22,15,26
+Umbria,2020-08-15,estimate,22,22,3,20,22,19,23,16,27
+Umbria,2020-08-16,estimate,23,23,4,21,23,20,25,17,29
+Umbria,2020-08-17,estimate,24,25,4,23,25,21,26,18,31
+Umbria,2020-08-18,estimate,26,26,4,23,25,22,27,19,32
+Umbria,2020-08-19,estimate,27,27,4,24,26,23,29,20,34
+Umbria,2020-08-20,estimate,28,28,4,26,28,24,30,21,35
+Umbria,2020-08-21,estimate,29,29,5,27,29,25,31,21,36
+Umbria,2020-08-22,estimate,29,30,5,28,30,26,32,23,38
+Umbria,2020-08-23,estimate,30,31,5,27,30,26,32,23,38
+Umbria,2020-08-24,estimate,31,31,5,28,31,27,33,23,39
+Umbria,2020-08-25,estimate,31,32,5,29,31,28,34,23,40
+Umbria,2020-08-26,estimate,32,32,5,29,32,27,34,24,41
+Umbria,2020-08-27,estimate,32,33,5,30,33,29,35,23,40
+Umbria,2020-08-28,estimate,32,33,5,31,33,29,35,24,41
+Umbria,2020-08-29,estimate,32,33,5,32,34,29,35,24,41
+Umbria,2020-08-30,estimate,33,33,5,29,31,29,36,24,41
+Umbria,2020-08-31,estimate,33,33,5,31,34,29,36,24,41
+Umbria,2020-09-01,estimate,33,33,6,32,34,28,35,24,42
+Umbria,2020-09-02,estimate,32,33,6,31,33,28,35,24,42
+Umbria,2020-09-03,estimate,32,33,6,30,32,28,35,24,42
+Umbria,2020-09-04,estimate based on partial data,32,33,6,29,32,29,36,23,43
+Umbria,2020-09-05,estimate based on partial data,32,33,6,30,33,27,35,22,42
+Umbria,2020-09-06,estimate based on partial data,32,33,7,27,31,26,35,22,44
+Umbria,2020-09-07,estimate based on partial data,32,33,8,28,31,25,35,21,46
+Umbria,2020-09-08,estimate based on partial data,32,33,9,29,33,26,37,20,47
+Umbria,2020-09-09,estimate based on partial data,32,33,10,28,32,24,37,19,49
+Umbria,2020-09-10,estimate based on partial data,32,34,11,29,34,23,37,16,50
+Umbria,2020-09-11,estimate based on partial data,32,34,12,27,32,23,38,14,52
+Umbria,2020-09-12,estimate based on partial data,32,35,14,25,31,21,38,13,56
+Umbria,2020-09-13,estimate based on partial data,32,35,16,23,30,17,36,13,61
+Umbria,2020-09-14,estimate based on partial data,33,36,18,21,29,16,37,9,63
+Umbria,2020-09-15,estimate based on partial data,33,37,21,22,29,14,37,6,65
+Umbria,2020-09-16,estimate based on partial data,33,39,25,18,26,13,37,6,71
+Umbria,2020-09-17,forecast,33,40,30,17,26,11,36,4,76
+Umbria,2020-09-18,forecast,33,42,35,14,23,9,36,4,82
+Umbria,2020-09-19,forecast,33,44,41,14,24,9,37,3,88
+Umbria,2020-09-20,forecast,33,46,49,13,22,8,37,2,94
+Umbria,2020-09-21,forecast,33,49,59,12,21,7,37,2,101
+Umbria,2020-09-22,forecast,33,52,72,11,21,7,38,2,108
+Umbria,2020-09-23,forecast,33,56,89,9,19,6,37,1,116
+Umbria,2020-09-24,forecast,33,60,112,7,17,1,33,0,125
+Umbria,2020-09-25,forecast,33,65,141,7,17,1,34,0,133
+Umbria,2020-09-26,forecast,33,71,180,6,16,1,34,0,142
+Umbria,2020-09-27,forecast,33,78,231,5,15,1,33,0,153
+Umbria,2020-09-28,forecast,33,87,300,4,14,1,33,1,166
+Umbria,2020-09-29,forecast,33,97,391,4,14,0,33,0,177
+Umbria,2020-09-30,forecast,33,109,514,3,13,0,33,0,190
 Valle d'Aosta,2020-07-08,estimate,0,0,0,0,0,0,1,0,1
 Valle d'Aosta,2020-07-09,estimate,0,0,0,0,1,0,1,0,1
 Valle d'Aosta,2020-07-10,estimate,0,0,0,0,1,0,1,0,1
 Valle d'Aosta,2020-07-11,estimate,0,0,0,0,1,0,1,0,1
 Valle d'Aosta,2020-07-12,estimate,1,0,0,0,1,0,1,0,1
-Valle d'Aosta,2020-07-13,estimate,1,1,0,1,1,0,1,0,1
+Valle d'Aosta,2020-07-13,estimate,1,1,0,0,1,0,1,0,1
 Valle d'Aosta,2020-07-14,estimate,1,1,0,1,1,0,1,0,1
 Valle d'Aosta,2020-07-15,estimate,1,1,0,1,1,0,1,0,1
 Valle d'Aosta,2020-07-16,estimate,1,1,0,1,1,0,1,0,1
-Valle d'Aosta,2020-07-17,estimate,1,1,0,1,1,0,1,0,1
+Valle d'Aosta,2020-07-17,estimate,1,1,0,1,1,1,1,0,1
 Valle d'Aosta,2020-07-18,estimate,1,1,0,1,1,1,1,0,1
 Valle d'Aosta,2020-07-19,estimate,1,1,0,1,1,1,1,0,1
 Valle d'Aosta,2020-07-20,estimate,1,1,0,1,1,1,1,0,1
 Valle d'Aosta,2020-07-21,estimate,1,1,0,1,1,1,1,0,1
 Valle d'Aosta,2020-07-22,estimate,1,1,0,1,1,1,1,0,1
 Valle d'Aosta,2020-07-23,estimate,1,1,0,1,1,1,1,0,1
-Valle d'Aosta,2020-07-24,estimate,1,1,0,1,1,1,1,0,2
-Valle d'Aosta,2020-07-25,estimate,1,1,0,1,1,1,1,0,2
+Valle d'Aosta,2020-07-24,estimate,1,1,1,1,1,1,1,0,2
+Valle d'Aosta,2020-07-25,estimate,1,1,1,1,1,1,1,0,2
 Valle d'Aosta,2020-07-26,estimate,1,1,1,1,1,1,1,0,2
-Valle d'Aosta,2020-07-27,estimate,1,1,1,1,1,1,1,0,2
-Valle d'Aosta,2020-07-28,estimate,1,1,1,1,1,1,1,0,2
+Valle d'Aosta,2020-07-27,estimate,1,1,1,1,1,1,1,1,2
+Valle d'Aosta,2020-07-28,estimate,1,1,1,1,1,1,1,1,2
 Valle d'Aosta,2020-07-29,estimate,1,1,1,1,1,1,1,1,2
 Valle d'Aosta,2020-07-30,estimate,1,1,1,1,1,1,1,1,2
 Valle d'Aosta,2020-07-31,estimate,1,1,1,1,1,1,1,1,2
 Valle d'Aosta,2020-08-01,estimate,1,1,1,1,1,1,1,1,2
 Valle d'Aosta,2020-08-02,estimate,1,1,1,1,1,1,1,1,2
-Valle d'Aosta,2020-08-03,estimate,1,1,1,1,1,1,1,1,2
+Valle d'Aosta,2020-08-03,estimate,1,1,1,1,1,1,2,1,2
 Valle d'Aosta,2020-08-04,estimate,1,1,1,1,1,1,2,1,2
 Valle d'Aosta,2020-08-05,estimate,1,1,1,1,1,1,2,1,2
-Valle d'Aosta,2020-08-06,estimate,1,1,1,1,1,1,2,1,2
+Valle d'Aosta,2020-08-06,estimate,1,2,1,1,1,1,2,1,2
 Valle d'Aosta,2020-08-07,estimate,1,2,1,1,1,1,2,1,3
-Valle d'Aosta,2020-08-08,estimate,1,2,1,1,1,1,2,1,3
+Valle d'Aosta,2020-08-08,estimate,1,2,1,1,2,1,2,1,2
 Valle d'Aosta,2020-08-09,estimate,2,2,1,1,2,1,2,1,3
 Valle d'Aosta,2020-08-10,estimate,2,2,1,1,2,1,2,1,3
 Valle d'Aosta,2020-08-11,estimate,2,2,1,1,2,1,2,1,3
-Valle d'Aosta,2020-08-12,estimate,2,2,1,1,2,1,2,0,3
-Valle d'Aosta,2020-08-13,estimate,2,2,1,2,2,1,2,1,3
-Valle d'Aosta,2020-08-14,estimate,2,2,1,1,2,1,2,1,3
+Valle d'Aosta,2020-08-12,estimate,2,2,1,1,2,1,2,1,3
+Valle d'Aosta,2020-08-13,estimate,2,2,1,1,2,1,2,1,3
+Valle d'Aosta,2020-08-14,estimate,2,2,1,2,2,1,2,1,3
 Valle d'Aosta,2020-08-15,estimate,2,2,1,2,2,1,2,1,3
-Valle d'Aosta,2020-08-16,estimate,2,2,1,2,2,1,2,1,3
-Valle d'Aosta,2020-08-17,estimate,2,2,1,2,2,1,2,1,4
-Valle d'Aosta,2020-08-18,estimate,2,2,1,2,2,2,2,1,4
+Valle d'Aosta,2020-08-16,estimate,2,2,1,2,2,2,2,1,3
+Valle d'Aosta,2020-08-17,estimate,2,2,1,2,2,2,2,1,4
+Valle d'Aosta,2020-08-18,estimate,2,2,1,2,2,2,3,1,4
 Valle d'Aosta,2020-08-19,estimate,2,2,1,2,2,2,3,1,4
 Valle d'Aosta,2020-08-20,estimate,2,3,1,2,2,2,3,1,4
 Valle d'Aosta,2020-08-21,estimate,2,3,1,2,2,2,3,1,4
 Valle d'Aosta,2020-08-22,estimate,3,3,1,2,3,2,3,1,4
-Valle d'Aosta,2020-08-23,estimate,3,3,1,2,2,2,3,1,5
+Valle d'Aosta,2020-08-23,estimate,3,3,1,2,3,2,3,1,5
 Valle d'Aosta,2020-08-24,estimate,3,3,1,2,3,2,3,1,5
 Valle d'Aosta,2020-08-25,estimate,3,3,2,2,3,2,3,1,5
-Valle d'Aosta,2020-08-26,estimate,3,3,2,2,3,2,3,1,5
-Valle d'Aosta,2020-08-27,estimate,3,4,2,2,3,2,3,1,6
-Valle d'Aosta,2020-08-28,estimate,3,4,2,2,3,2,4,1,6
+Valle d'Aosta,2020-08-26,estimate,3,3,2,2,3,2,3,2,5
+Valle d'Aosta,2020-08-27,estimate,3,3,2,3,3,2,3,1,5
+Valle d'Aosta,2020-08-28,estimate,3,4,2,3,3,2,3,1,6
 Valle d'Aosta,2020-08-29,estimate,3,4,2,3,3,2,4,1,6
-Valle d'Aosta,2020-08-30,estimate,3,4,2,3,4,2,4,1,6
-Valle d'Aosta,2020-08-31,estimate,4,4,2,3,4,2,4,1,7
-Valle d'Aosta,2020-09-01,estimate,4,4,2,3,4,2,4,1,7
-Valle d'Aosta,2020-09-02,estimate,4,4,2,3,4,2,4,1,7
-Valle d'Aosta,2020-09-03,estimate based on partial data,4,4,3,3,4,2,4,1,7
-Valle d'Aosta,2020-09-04,estimate based on partial data,4,4,3,2,3,2,4,1,7
-Valle d'Aosta,2020-09-05,estimate based on partial data,4,5,3,3,4,2,5,1,8
-Valle d'Aosta,2020-09-06,estimate based on partial data,4,5,3,3,4,2,5,1,8
-Valle d'Aosta,2020-09-07,estimate based on partial data,4,5,4,3,4,2,5,1,9
-Valle d'Aosta,2020-09-08,estimate based on partial data,4,5,5,3,4,2,5,1,9
-Valle d'Aosta,2020-09-09,estimate based on partial data,4,5,5,3,4,2,5,0,10
-Valle d'Aosta,2020-09-10,estimate based on partial data,5,6,7,3,4,2,6,0,10
-Valle d'Aosta,2020-09-11,estimate based on partial data,5,6,8,3,4,2,6,0,11
-Valle d'Aosta,2020-09-12,estimate based on partial data,5,7,11,3,4,2,6,0,12
-Valle d'Aosta,2020-09-13,estimate based on partial data,5,7,14,3,4,2,6,0,13
-Valle d'Aosta,2020-09-14,estimate based on partial data,5,8,20,3,4,2,7,0,14
-Valle d'Aosta,2020-09-15,estimate based on partial data,5,9,28,3,4,2,7,0,15
-Valle d'Aosta,2020-09-16,forecast,6,10,40,3,5,2,7,0,16
-Valle d'Aosta,2020-09-17,forecast,6,12,59,3,5,1,6,0,18
-Valle d'Aosta,2020-09-18,forecast,6,14,89,3,5,0,6,0,20
-Valle d'Aosta,2020-09-19,forecast,6,18,139,3,5,0,6,0,21
-Valle d'Aosta,2020-09-20,forecast,6,24,226,3,5,0,6,0,23
-Valle d'Aosta,2020-09-21,forecast,6,35,385,3,5,0,6,0,25
-Valle d'Aosta,2020-09-22,forecast,7,52,678,0,2,0,7,0,27
-Valle d'Aosta,2020-09-23,forecast,7,83,1230,0,2,0,7,0,29
-Valle d'Aosta,2020-09-24,forecast,7,138,2281,0,2,0,7,0,32
-Valle d'Aosta,2020-09-25,forecast,7,240,4294,0,2,0,7,0,35
-Valle d'Aosta,2020-09-26,forecast,7,430,8175,0,2,0,7,0,38
-Valle d'Aosta,2020-09-27,forecast,8,789,15701,0,2,0,8,0,42
-Valle d'Aosta,2020-09-28,forecast,8,1474,30379,0,2,0,8,0,46
-Valle d'Aosta,2020-09-29,forecast,8,2796,59182,0,2,0,8,0,51
-Veneto,2020-07-07,estimate,28,28,3,26,28,26,30,23,34
-Veneto,2020-07-08,estimate,30,31,4,28,30,27,32,25,37
-Veneto,2020-07-09,estimate,33,33,4,31,33,29,34,27,39
-Veneto,2020-07-10,estimate,35,36,4,33,35,32,38,29,43
-Veneto,2020-07-11,estimate,38,39,5,36,38,35,41,31,46
-Veneto,2020-07-12,estimate,41,42,5,38,40,37,43,34,50
-Veneto,2020-07-13,estimate,44,45,5,42,45,39,46,36,53
-Veneto,2020-07-14,estimate,47,47,6,44,47,41,49,38,56
-Veneto,2020-07-15,estimate,50,50,6,47,49,46,53,40,60
-Veneto,2020-07-16,estimate,52,53,6,50,53,48,56,43,63
-Veneto,2020-07-17,estimate,55,56,7,52,55,50,59,45,66
-Veneto,2020-07-18,estimate,58,59,7,55,58,53,61,48,69
-Veneto,2020-07-19,estimate,61,61,7,57,61,55,64,50,72
-Veneto,2020-07-20,estimate,63,64,7,62,65,57,66,53,76
-Veneto,2020-07-21,estimate,66,66,7,64,67,59,69,55,78
-Veneto,2020-07-22,estimate,68,69,8,66,69,63,73,57,81
-Veneto,2020-07-23,estimate,71,71,8,68,72,65,75,58,82
-Veneto,2020-07-24,estimate,73,74,8,71,75,68,78,61,86
-Veneto,2020-07-25,estimate,75,76,8,73,76,70,81,62,88
-Veneto,2020-07-26,estimate,78,78,9,76,80,72,83,64,91
-Veneto,2020-07-27,estimate,81,81,9,77,82,75,86,66,95
-Veneto,2020-07-28,estimate,83,83,9,83,87,76,89,67,97
-Veneto,2020-07-29,estimate,86,86,10,83,88,79,92,69,101
-Veneto,2020-07-30,estimate,89,89,10,87,92,82,96,72,105
-Veneto,2020-07-31,estimate,92,92,11,91,96,85,99,75,109
-Veneto,2020-08-01,estimate,96,96,11,94,99,87,102,77,113
-Veneto,2020-08-02,estimate,100,100,12,98,104,90,106,81,118
-Veneto,2020-08-03,estimate,104,104,12,103,108,95,111,86,125
-Veneto,2020-08-04,estimate,108,108,13,106,112,99,115,90,130
-Veneto,2020-08-05,estimate,112,112,13,109,115,102,119,94,136
-Veneto,2020-08-06,estimate,117,117,13,113,119,107,124,97,140
-Veneto,2020-08-07,estimate,122,123,14,118,124,113,130,103,146
-Veneto,2020-08-08,estimate,128,128,14,128,135,117,134,106,151
-Veneto,2020-08-09,estimate,133,134,15,131,137,123,142,111,158
-Veneto,2020-08-10,estimate,139,140,15,133,140,126,145,115,164
-Veneto,2020-08-11,estimate,144,146,16,136,143,131,151,121,172
-Veneto,2020-08-12,estimate,150,152,16,144,151,136,157,125,178
-Veneto,2020-08-13,estimate,157,158,17,153,161,142,164,132,188
-Veneto,2020-08-14,estimate,163,164,18,158,166,149,172,136,194
-Veneto,2020-08-15,estimate,168,170,19,157,166,153,177,138,198
-Veneto,2020-08-16,estimate,173,175,20,164,173,155,181,141,206
-Veneto,2020-08-17,estimate,178,181,21,168,178,161,188,148,215
-Veneto,2020-08-18,estimate,182,185,22,173,182,165,193,149,218
-Veneto,2020-08-19,estimate,187,190,23,174,184,168,197,153,225
-Veneto,2020-08-20,estimate,190,193,23,178,188,171,201,153,227
-Veneto,2020-08-21,estimate,193,196,24,183,194,173,202,156,232
-Veneto,2020-08-22,estimate,196,199,24,185,196,176,205,161,238
-Veneto,2020-08-23,estimate,198,201,24,182,192,180,209,161,238
-Veneto,2020-08-24,estimate,200,202,24,187,197,181,211,164,239
-Veneto,2020-08-25,estimate,201,203,24,195,206,182,211,164,238
-Veneto,2020-08-26,estimate,201,204,24,198,208,184,214,163,236
-Veneto,2020-08-27,estimate,202,203,24,196,207,185,214,166,238
-Veneto,2020-08-28,estimate,201,203,23,197,207,186,215,166,238
-Veneto,2020-08-29,estimate,200,202,23,194,204,186,215,165,237
-Veneto,2020-08-30,estimate,199,201,23,194,204,184,214,163,235
-Veneto,2020-08-31,estimate,198,199,23,195,206,176,206,158,234
-Veneto,2020-09-01,estimate,196,198,24,191,202,178,208,163,240
-Veneto,2020-09-02,estimate,194,196,25,189,200,175,207,158,237
-Veneto,2020-09-03,estimate based on partial data,192,195,26,184,196,171,205,154,239
-Veneto,2020-09-04,estimate based on partial data,191,193,28,179,192,168,205,147,237
-Veneto,2020-09-05,estimate based on partial data,189,191,31,182,196,170,209,140,240
-Veneto,2020-09-06,estimate based on partial data,187,190,34,176,192,163,205,135,245
-Veneto,2020-09-07,estimate based on partial data,186,188,37,165,183,158,205,126,245
-Veneto,2020-09-08,estimate based on partial data,185,187,41,159,179,149,201,121,252
-Veneto,2020-09-09,estimate based on partial data,183,186,45,161,183,141,199,113,256
-Veneto,2020-09-10,estimate based on partial data,180,185,50,155,178,144,207,100,256
-Veneto,2020-09-11,estimate based on partial data,179,184,55,147,173,139,209,94,265
-Veneto,2020-09-12,estimate based on partial data,178,184,60,149,177,133,209,88,274
-Veneto,2020-09-13,estimate based on partial data,177,184,67,145,175,132,214,82,283
-Veneto,2020-09-14,estimate based on partial data,176,184,75,155,188,126,214,72,290
-Veneto,2020-09-15,estimate based on partial data,176,185,86,156,191,120,214,67,303
-Veneto,2020-09-16,forecast,174,187,97,154,191,116,216,51,304
-Veneto,2020-09-17,forecast,173,188,112,149,188,111,217,47,315
-Veneto,2020-09-18,forecast,172,190,130,144,185,105,216,43,328
-Veneto,2020-09-19,forecast,171,193,153,143,187,98,215,29,329
-Veneto,2020-09-20,forecast,169,196,184,141,186,93,214,22,335
-Veneto,2020-09-21,forecast,168,199,223,139,187,82,209,17,340
-Veneto,2020-09-22,forecast,167,204,274,92,142,80,210,16,352
-Veneto,2020-09-23,forecast,166,209,341,81,132,49,184,5,357
-Veneto,2020-09-24,forecast,165,216,428,78,129,45,183,4,369
-Veneto,2020-09-25,forecast,165,223,542,70,122,44,186,5,384
-Veneto,2020-09-26,forecast,163,232,690,57,110,32,175,3,393
-Veneto,2020-09-27,forecast,162,243,883,54,107,29,175,2,404
-Veneto,2020-09-28,forecast,161,257,1136,53,107,26,173,2,417
-Veneto,2020-09-29,forecast,160,273,1464,46,100,26,175,2,431
+Valle d'Aosta,2020-08-30,estimate,3,4,2,3,3,2,4,1,6
+Valle d'Aosta,2020-08-31,estimate,3,4,2,3,3,2,4,1,6
+Valle d'Aosta,2020-09-01,estimate,3,4,2,3,3,2,4,1,6
+Valle d'Aosta,2020-09-02,estimate,3,4,2,3,3,2,4,1,6
+Valle d'Aosta,2020-09-03,estimate,4,4,3,3,4,2,4,1,6
+Valle d'Aosta,2020-09-04,estimate based on partial data,4,4,3,3,4,2,4,1,7
+Valle d'Aosta,2020-09-05,estimate based on partial data,4,4,3,3,3,2,4,1,7
+Valle d'Aosta,2020-09-06,estimate based on partial data,4,4,4,3,3,2,4,1,7
+Valle d'Aosta,2020-09-07,estimate based on partial data,4,4,4,3,4,2,5,1,8
+Valle d'Aosta,2020-09-08,estimate based on partial data,4,5,4,3,4,2,5,0,8
+Valle d'Aosta,2020-09-09,estimate based on partial data,4,5,5,3,4,2,5,0,8
+Valle d'Aosta,2020-09-10,estimate based on partial data,4,5,5,3,4,2,5,0,9
+Valle d'Aosta,2020-09-11,estimate based on partial data,4,5,5,3,4,2,5,0,9
+Valle d'Aosta,2020-09-12,estimate based on partial data,4,5,6,3,4,2,5,0,10
+Valle d'Aosta,2020-09-13,estimate based on partial data,4,6,7,3,4,2,5,0,11
+Valle d'Aosta,2020-09-14,estimate based on partial data,5,6,8,3,4,1,6,0,12
+Valle d'Aosta,2020-09-15,estimate based on partial data,5,7,10,3,5,1,6,0,13
+Valle d'Aosta,2020-09-16,estimate based on partial data,5,8,16,3,5,1,5,0,14
+Valle d'Aosta,2020-09-17,forecast,5,9,28,3,5,0,5,0,15
+Valle d'Aosta,2020-09-18,forecast,5,11,53,3,5,0,5,0,16
+Valle d'Aosta,2020-09-19,forecast,5,14,108,3,5,0,5,0,18
+Valle d'Aosta,2020-09-20,forecast,5,20,225,0,2,0,5,0,19
+Valle d'Aosta,2020-09-21,forecast,6,31,476,0,2,0,6,0,20
+Valle d'Aosta,2020-09-22,forecast,6,54,1020,0,2,0,6,0,23
+Valle d'Aosta,2020-09-23,forecast,6,103,2202,0,2,0,6,0,24
+Valle d'Aosta,2020-09-24,forecast,6,205,4790,0,2,0,6,0,27
+Valle d'Aosta,2020-09-25,forecast,6,423,10481,0,2,0,6,0,29
+Valle d'Aosta,2020-09-26,forecast,6,894,23060,0,2,0,6,0,31
+Valle d'Aosta,2020-09-27,forecast,7,1922,50973,0,2,0,7,0,33
+Valle d'Aosta,2020-09-28,forecast,7,4174,113148,0,2,0,7,0,36
+Valle d'Aosta,2020-09-29,forecast,7,9136,252104,0,2,0,7,0,38
+Valle d'Aosta,2020-09-30,forecast,7,20112,563602,0,2,0,7,0,41
+Veneto,2020-07-08,estimate,30,31,4,30,32,27,32,25,37
+Veneto,2020-07-09,estimate,33,33,4,31,33,29,35,27,40
+Veneto,2020-07-10,estimate,36,36,4,35,37,33,38,30,44
+Veneto,2020-07-11,estimate,38,39,5,37,40,35,41,30,45
+Veneto,2020-07-12,estimate,41,42,5,38,41,36,43,34,50
+Veneto,2020-07-13,estimate,44,44,5,42,44,40,47,36,53
+Veneto,2020-07-14,estimate,47,47,6,44,47,42,49,37,56
+Veneto,2020-07-15,estimate,50,50,6,47,50,45,53,41,60
+Veneto,2020-07-16,estimate,52,53,6,50,53,47,55,42,62
+Veneto,2020-07-17,estimate,55,56,7,53,56,49,58,45,66
+Veneto,2020-07-18,estimate,58,58,7,55,58,52,61,47,68
+Veneto,2020-07-19,estimate,60,61,7,57,60,56,65,49,72
+Veneto,2020-07-20,estimate,63,64,7,60,64,56,66,52,75
+Veneto,2020-07-21,estimate,65,66,7,63,66,58,68,54,77
+Veneto,2020-07-22,estimate,68,69,8,66,70,62,72,56,81
+Veneto,2020-07-23,estimate,71,71,8,69,73,65,75,59,84
+Veneto,2020-07-24,estimate,73,73,8,72,75,66,76,61,87
+Veneto,2020-07-25,estimate,76,76,8,74,78,68,79,62,89
+Veneto,2020-07-26,estimate,78,78,9,77,81,72,83,65,93
+Veneto,2020-07-27,estimate,81,81,9,79,84,74,86,66,95
+Veneto,2020-07-28,estimate,84,84,9,81,86,76,88,70,99
+Veneto,2020-07-29,estimate,86,86,10,84,89,80,93,71,102
+Veneto,2020-07-30,estimate,89,90,10,86,91,83,97,74,107
+Veneto,2020-07-31,estimate,93,93,11,91,96,88,102,77,111
+Veneto,2020-08-01,estimate,96,96,11,94,99,91,106,78,113
+Veneto,2020-08-02,estimate,100,100,11,97,103,93,108,81,117
+Veneto,2020-08-03,estimate,104,104,12,101,107,95,111,84,122
+Veneto,2020-08-04,estimate,108,108,12,107,113,99,115,89,127
+Veneto,2020-08-05,estimate,113,113,13,110,116,102,119,93,133
+Veneto,2020-08-06,estimate,118,118,13,113,119,109,127,97,138
+Veneto,2020-08-07,estimate,122,123,13,118,124,113,130,102,144
+Veneto,2020-08-08,estimate,128,128,14,121,128,118,136,106,150
+Veneto,2020-08-09,estimate,133,134,14,128,134,124,142,112,157
+Veneto,2020-08-10,estimate,139,140,15,135,142,129,148,116,163
+Veneto,2020-08-11,estimate,145,146,16,138,145,133,153,122,170
+Veneto,2020-08-12,estimate,151,152,16,147,155,141,161,126,177
+Veneto,2020-08-13,estimate,157,158,17,157,164,145,166,130,184
+Veneto,2020-08-14,estimate,163,164,18,163,172,149,172,134,191
+Veneto,2020-08-15,estimate,168,170,19,156,165,155,179,142,202
+Veneto,2020-08-16,estimate,173,175,20,161,170,161,186,143,206
+Veneto,2020-08-17,estimate,178,180,21,166,175,166,192,145,211
+Veneto,2020-08-18,estimate,183,185,21,171,181,169,196,151,218
+Veneto,2020-08-19,estimate,187,189,22,176,186,173,202,154,222
+Veneto,2020-08-20,estimate,191,193,23,178,189,176,205,158,228
+Veneto,2020-08-21,estimate,194,196,23,186,197,178,208,160,231
+Veneto,2020-08-22,estimate,196,198,23,190,201,182,211,162,234
+Veneto,2020-08-23,estimate,199,200,23,191,201,183,212,161,234
+Veneto,2020-08-24,estimate,200,202,23,189,199,186,215,162,235
+Veneto,2020-08-25,estimate,201,203,23,189,200,185,215,164,238
+Veneto,2020-08-26,estimate,202,204,23,195,205,186,215,167,240
+Veneto,2020-08-27,estimate,203,204,23,193,203,190,219,164,237
+Veneto,2020-08-28,estimate,203,204,23,194,204,188,217,168,242
+Veneto,2020-08-29,estimate,203,204,23,198,209,185,214,167,241
+Veneto,2020-08-30,estimate,203,203,23,199,210,186,215,168,243
+Veneto,2020-08-31,estimate,202,203,23,197,208,187,217,163,238
+Veneto,2020-09-01,estimate,202,202,24,194,205,185,217,163,240
+Veneto,2020-09-02,estimate,200,202,25,189,201,184,216,164,243
+Veneto,2020-09-03,estimate,200,201,26,188,200,181,215,161,244
+Veneto,2020-09-04,estimate based on partial data,199,201,27,186,199,178,213,159,246
+Veneto,2020-09-05,estimate based on partial data,198,200,29,186,200,179,218,156,249
+Veneto,2020-09-06,estimate based on partial data,198,200,31,190,205,174,216,149,250
+Veneto,2020-09-07,estimate based on partial data,198,200,34,190,206,171,216,144,253
+Veneto,2020-09-08,estimate based on partial data,198,200,37,187,205,168,216,140,259
+Veneto,2020-09-09,estimate based on partial data,197,200,41,185,205,165,217,134,266
+Veneto,2020-09-10,estimate based on partial data,197,201,45,185,206,168,224,126,271
+Veneto,2020-09-11,estimate based on partial data,198,202,49,189,212,161,223,128,288
+Veneto,2020-09-12,estimate based on partial data,198,203,55,189,214,152,220,116,294
+Veneto,2020-09-13,estimate based on partial data,198,205,61,187,214,152,226,110,307
+Veneto,2020-09-14,estimate based on partial data,199,207,69,187,216,151,232,101,318
+Veneto,2020-09-15,estimate based on partial data,200,209,77,178,210,149,237,92,327
+Veneto,2020-09-16,estimate based on partial data,200,212,89,171,206,139,234,83,339
+Veneto,2020-09-17,forecast,200,216,101,163,200,134,236,70,344
+Veneto,2020-09-18,forecast,200,220,116,163,202,132,241,64,358
+Veneto,2020-09-19,forecast,200,224,134,160,202,127,243,60,375
+Veneto,2020-09-20,forecast,200,229,158,157,201,120,243,53,387
+Veneto,2020-09-21,forecast,200,235,188,155,201,99,228,49,405
+Veneto,2020-09-22,forecast,201,241,230,153,202,95,230,45,423
+Veneto,2020-09-23,forecast,202,249,286,115,166,93,233,40,440
+Veneto,2020-09-24,forecast,201,258,363,110,163,84,230,37,461
+Veneto,2020-09-25,forecast,203,268,470,109,164,81,232,34,485
+Veneto,2020-09-26,forecast,202,281,618,118,175,86,242,24,499
+Veneto,2020-09-27,forecast,203,296,824,116,173,81,243,14,515
+Veneto,2020-09-28,forecast,204,313,1110,114,172,78,246,26,553
+Veneto,2020-09-29,forecast,203,335,1508,111,171,80,252,11,565
+Veneto,2020-09-30,forecast,204,362,2059,108,169,65,243,5,583
