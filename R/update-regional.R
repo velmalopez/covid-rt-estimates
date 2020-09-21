@@ -91,19 +91,25 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
                            generation_time = location$generation_time,
                            delays = list(location$incubation_period, location$reporting_delay),
                            non_zero_points = 14, horizon = 14,
-                           burn_in = 14, samples = 2000,
+                           burn_in = 14, samples = 4000,
                            warmup = 500, fixed_future_rt = TRUE, cores = no_cores,
                            chains = ifelse(no_cores <= 2, 2, no_cores),
                            target_folder = location$target_folder,
-                           summary_dir = location$summary_dir,
-                           region_scale = location$region_scale,
-                           return_estimates = FALSE,
-                           verbose = FALSE,
-                           all_regions_summary = "Region" %in% class(location),
-                           return_timings = TRUE,
+                           return_estimates = FALSE, summary = FALSE,
+                           verbose = FALSE, return_timings = TRUE,
                            max_execution_time = max_execution_time)
     futile.logger::flog.debug("resetting future plan to sequential")
     future::plan("sequential")
+    
+    futile.logger::flog.trace("generating summary data")
+    regional_summary(
+      reported_cases = cases, 
+      results_dir = location$target_folder, 
+      summary_dir =  location$summary_dir, 
+      region_scale = location$region_scale,
+      all_regions =  "Region" %in% class(location),
+      return_summary = FALSE
+    )
   } else {
     out <- list()
   }
