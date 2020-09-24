@@ -87,17 +87,27 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
     no_cores <- setup_future(length(unique(cases$region)))
     # Run Rt estimation -------------------------------------------------------
     futile.logger::flog.trace("calling regional_epinow")
-    out <- regional_epinow(reported_cases = cases,
-                           generation_time = location$generation_time,
-                           delays = list(location$incubation_period, location$reporting_delay),
-                           non_zero_points = 14, horizon = 14,
-                           burn_in = 14, samples = 4000,
-                           warmup = 500, fixed_future_rt = TRUE, cores = no_cores,
-                           chains = ifelse(no_cores <= 2, 2, no_cores),
-                           target_folder = location$target_folder,
-                           return_estimates = FALSE, summary = FALSE,
-                           verbose = FALSE, return_timings = TRUE,
-                           max_execution_time = max_execution_time)
+    out <- tryCatch(withCallingHandlers(regional_epinow(reported_cases = cases,
+                                                        generation_time = location$generation_time,
+                                                        delays = list(location$incubation_period, location$reporting_delay),
+                                                        non_zero_points = 14, horizon = 14,
+                                                        burn_in = 14, samples = 4000,
+                                                        warmup = 500, fixed_future_rt = TRUE, cores = no_cores,
+                                                        chains = ifelse(no_cores <= 2, 2, no_cores),
+                                                        target_folder = location$target_folder,
+                                                        return_estimates = FALSE, summary = FALSE,
+                                                        verbose = FALSE, return_timings = TRUE,
+                                                         max_execution_time = max_execution_time),
+                               warning = function(w) {
+                                 futile.logger::flog.warn(w)
+                                 rlang::cnd_muffle(w)
+                               },
+                               error = function(e) {
+                                 futile.logger::flog.error(capture.output(rlang::trace_back()))
+                               }),
+           error = function(e) {
+             futile.logger::flog.error(e)
+           })
     futile.logger::flog.debug("resetting future plan to sequential")
     future::plan("sequential")
     
