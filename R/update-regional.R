@@ -17,7 +17,7 @@ source(here::here("R", "utils.R"))
 #' @param excludes Dataframe containing regions to exclude
 #' @param includes Dataframe containing the only regions to include
 #' @param max_execution_time Integer specifying the timeout in seconds
-update_regional <- function(location, excludes, includes, force, max_execution_time) {
+update_regional <- function(location, excludes, includes, force, max_execution_time, refresh) {
 
   futile.logger::flog.info("Processing dataset for %s", location$name)
 
@@ -85,6 +85,13 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
   if (cases[, .N] > 0 && (force || check_for_update(cases, last_run = here::here("last-update", paste0(location$name, ".rds"))))) {
     # Set up cores -----------------------------------------------------
     no_cores <- setup_future(length(unique(cases$region)))
+    
+    if (refresh) {
+      if (dir.exists(location$target_folder)) {
+        futile.logger::flog.trace("removing estimates in order to refresh")
+        unlink(location$target_folder, recursive = TRUE)
+      }
+    }
     # Run Rt estimation -------------------------------------------------------
     futile.logger::flog.trace("calling regional_epinow")
     out <- regional_epinow(reported_cases = cases,
