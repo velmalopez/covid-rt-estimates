@@ -11,6 +11,9 @@ library(lubridate, quietly = TRUE) # pull in lubridate for the date handling in 
 source(here::here("R", "dataset-list.R"))
 # get the onward script
 source(here::here("R", "update-regional.R"))
+
+safe_update <- purrr::safely(update_regional)
+
 # load utils
 source(here::here("R", "utils.R"))
 
@@ -64,25 +67,26 @@ rru_process_locations <- function(datasets, args, excludes, includes) {
     }
     if (location$stable || (exists("unstable", args) && args$unstable == TRUE)) {
       start <- Sys.time()
-      outcome[[location$name]] <- tryCatch(withCallingHandlers({
-                                                                 update_regional(location,
+      # tryCatch(withCallingHandlers({
+      outcome[[location$name]] <-
+                                                                 safe_update(location,
                                                                                  excludes[region == location$name],
                                                                                  includes[region == location$name],
                                                                                  args$force,
                                                                                  args$timeout,
-                                                                                 refresh =  args$refresh)
-                                                               },
-                                                               warning = function(w) {
-                                                                 futile.logger::flog.warn("%s: %s - %s", location$name, w$mesage, toString(w$call))
-                                                                 rlang::cnd_muffle(w)
-                                                               },
-                                                               error = function(e) {
-                                                                 futile.logger::flog.error(capture.output(rlang::trace_back()))
-                                                               }),
-                                           error = function(e) {
-                                             futile.logger::flog.error("%s: %s - %s", location$name, e$message, toString(e$call))
-                                           }
-      )
+                                                                                 refresh =  args$refresh)[[1]]
+      #                                                          },
+      #                                                          warning = function(w) {
+      #                                                            futile.logger::flog.warn("%s: %s - %s", location$name, w$mesage, toString(w$call))
+      #                                                            rlang::cnd_muffle(w)
+      #                                                          },
+      #                                                          error = function(e) {
+      #                                                            futile.logger::flog.error(capture.output(rlang::trace_back()))
+      #                                                          }),
+      #                                      error = function(e) {
+      #                                        futile.logger::flog.error("%s: %s - %s", location$name, e$message, toString(e$call))
+      #                                      }
+      # )
       outcome[[location$name]]$start <- start
     }else {
       futile.logger::flog.debug("skipping location %s as unstable", location$name)
@@ -195,15 +199,17 @@ rru_log_outcome <- function(outcome) {
 if (sys.nframe() == 0) {
   args <- rru_cli_interface()
   setup_log_from_args(args)
-  tryCatch(withCallingHandlers(run_regional_updates(datasets = datasets, args = args),
-                               warning = function(w) {
-                                 futile.logger::flog.warn(w)
-                                 rlang::cnd_muffle(w)
-                               },
-                               error = function(e) {
-                                 futile.logger::flog.error(capture.output(rlang::trace_back()))
-                               }),
-           error = function(e) {
-             futile.logger::flog.error(e)
-           })
+  # tryCatch(withCallingHandlers(
+    run_regional_updates(datasets = datasets, args = args)
+    # ,
+    #                            warning = function(w) {
+    #                              futile.logger::flog.warn(w)
+    #                              rlang::cnd_muffle(w)
+    #                            },
+    #                            error = function(e) {
+    #                              futile.logger::flog.error(capture.output(rlang::trace_back()))
+    #                            }),
+    #        error = function(e) {
+    #          futile.logger::flog.error(e)
+    #        })
 }
