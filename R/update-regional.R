@@ -56,7 +56,7 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
 
   if (typeof(location$case_modifier) == "closure") {
     futile.logger::flog.trace("Modifying data")
-    cases <- location$case_modifier(cases)
+    futile.logger::ftry(cases <- location$case_modifier(cases))
   }
 
   # Rename columns -------------------------------------------------------------
@@ -121,6 +121,7 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
     )
   } else {
     out <- list()
+    futile.logger::flog.debug("no data to process")
   }
   if (cases[, .N] == 0) {
     futile.logger::flog.warning("no cases left for region so not processing!")
