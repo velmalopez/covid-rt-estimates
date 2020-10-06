@@ -60,6 +60,7 @@ Region <- R6Class("Region",
                                                       dataset_folder_name = "cases") {
                                   self$name <- name
                                   self$covid_regional_data_identifier <- covid_regional_data_identifier
+                                  self$data_args <- data_args
                                   self$case_modifier <- case_modifier
                                   self$generation_time <- generation_time
                                   self$incubation_period <- incubation_period
