@@ -152,11 +152,11 @@ collate_estimates <- function(name, target = "rt"){
   
   # Check a collated file exists
   if(!dir.exists(here::here("subnational", name, "collated", target))){
-    dir.create(here::here("subnational", name, "collated", target))
+    dir.create(here::here("subnational", name, "collated", target), recursive = TRUE)
   }
   
   # Save back to main UK folder
-  data.table::fwrite(df, here::here("subnational", name, "collated", target, paste0(Sys.Date(), ".csv")))
+  data.table::fwrite(df, here::here("subnational", name, "collated", target, paste0('summary_',Sys.Date(), ".csv")))
   return(invisible(NULL))
 
 }
