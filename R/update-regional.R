@@ -44,8 +44,11 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
       location$covid_regional_data_identifier <- location$name
     }
     futile.logger::flog.info("Getting regional data")
-    cases <- data.table::setDT(covidregionaldata::get_regional_data(country = location$covid_regional_data_identifier,
-                                                                    localise_regions = FALSE))
+
+    cases <- do.call(covidregionaldata::get_regional_data, c(list(country = location$covid_regional_data_identifier,
+                                                                  localise_regions = FALSE),
+                                                             location$data_args))
+    cases <- data.table::setDT(cases)
   }else if ("SuperRegion" %in% class(location)) {
     futile.logger::flog.info("Getting national data", location$name)
     cases <- data.table::setDT(covidregionaldata::get_national_data(source = location$covid_national_data_identifier))
