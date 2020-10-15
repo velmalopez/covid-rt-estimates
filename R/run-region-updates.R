@@ -164,7 +164,7 @@ rru_log_outcome <- function(outcome) {
     }
 
     status_row <-
-      status[status$dataset == dataset_name]
+      status[status$dataset == dataset_name,]
 
     # calculate dataset status
     dataset_completed <- FALSE
