@@ -11,7 +11,8 @@ datasets <- c(
              case_modifier = function(cases) {
                cases <- add_uk(cases)
                return(cases)},
-             data_args = list(nhsregions = TRUE)),
+             data_args = list(nhsregions = TRUE),
+             truncation = 5),
   Region$new(name = "united-kingdom-deaths",
              covid_regional_data_identifier = "UK",
              folder_name = "united-kingdom",
