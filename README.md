@@ -66,6 +66,8 @@ docker tag docker.pkg.github.com/epiforecasts/covid-rt-estimates/covidrtestimate
 5. Update the estimates (see `docker logs covidrtestimates` for runtime information).
 
 ```bash
+# This command uses the code that ships with in the docker image. You can use
+# your own version by mounting it in the container
 sudo docker run -d --user rstudio --name covidrtestimates covidrtestimates /bin/bash bin/update-estimates.sh
 ```
 
