@@ -77,7 +77,7 @@ check_for_existing_id <- function(dataset_name) {
     for (metadata in full_dataset$metadataBlocks$citation$fields$value) {
       if (is.data.frame(metadata) &&
         "keywordValue" %in% names(metadata) &&
-        metadata$keywordValue$value == dataset_name) {
+        dataset_name %in% metadata$keywordValue$value ) {
         existing <- full_dataset
         break
       }
