@@ -358,7 +358,7 @@ get_dataset_description_list <- function(publication_meta) {
 }
 
 get_software_list <- function(desc_file) {
-  epinow2_version <- tryCatch(packageVersion("EpiNow2"), error = function(c) { NA })
+  epinow2_version <- tryCatch(toString(packageVersion("EpiNow2")), error = function(c) { NA })
   return(
     list(
       typeName = "software",
