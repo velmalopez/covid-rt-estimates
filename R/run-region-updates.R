@@ -27,21 +27,6 @@ source(here::here("data/runtime", "config.R"))
 # load utils
 source(here::here("R", "publish.R"))
 
-#================ Main trigger ================#
-# only executes if this is the root of the application, making it source the file in Rstudio and
-# extend / modify it for custom dataset processing. Search "python __main__" for a lot of info about
-# why this is helpful in python (the same concepts are true in R but it's less written about)
-#
-# This does minimal functionality - it only configures bits that are core to the functioning
-# of the code, not actually processing data
-# - triggers the cli interface
-# - configures logging
-# - Puts a top level log catch around the main function
-if (sys.nframe() == 0) {
-  args <- rru_cli_interface()
-  setup_log_from_args(args)
-  futile.logger::ftry(run_regional_updates(datasets = datasets, args = args))
-}
 
 #=============== Main Functions ====================#
 
@@ -373,8 +358,16 @@ loadStatusFile <- function(filename) {
   return(status)
 }
 
-# only execute if this is the root, passing in datasets from dataset-list.R and the args from the cli interface
-# this bit handles the outer logging wrapping and top level error handling
+#================ Main trigger ================#
+# only executes if this is the root of the application, making it source the file in Rstudio and
+# extend / modify it for custom dataset processing. Search "python __main__" for a lot of info about
+# why this is helpful in python (the same concepts are true in R but it's less written about)
+#
+# This does minimal functionality - it only configures bits that are core to the functioning
+# of the code, not actually processing data
+# - triggers the cli interface
+# - configures logging
+# - Puts a top level log catch around the main function
 if (sys.nframe() == 0) {
   args <- rru_cli_interface()
   setup_log_from_args(args)
