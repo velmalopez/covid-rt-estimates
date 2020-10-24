@@ -63,6 +63,7 @@ publish_data <- function(dataset, files = TRUE, production_date = NA) {
         }
       }
       futile.logger::flog.info("%s: publishing", dataset$name)
+      Sys.sleep(30) # sleep for 30 seconds to give dataverse a chance to catch up on the files...
       try(futile.logger::ftry(publish_dataset(dataset_id, minor = FALSE)), silent = TRUE)
     }else {
       futile.logger::flog.debug("Dataverse not enabled, no attempt to publish")
