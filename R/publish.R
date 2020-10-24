@@ -20,8 +20,15 @@ publish_data <- function(dataset, files = TRUE, production_date = NA) {
           for (file in dir(dataset$summary_dir)) {
             file_full_path <- paste0(dataset$summary_dir, "/", file)
             if (length(existing_files) > 0) {
-              existing_file_ids <- unique(existing_files[existing_files$filename == file | existing_files$originalFileName == file, "id"])
-              existing_file_id <- existing_file_ids[!is.na(existing_file_ids)]
+              existing_file_ids <- unique(existing_files[existing_files$filename == file | existing_files$originalFileName == file, c("id","md5")])
+              existing_file_id <- existing_file_ids[!is.na(existing_file_ids)][[1]]
+              existing_file_checksum <-  existing_file_ids[!is.na(existing_file_ids)][[2]]
+              if(length(existing_file_checksum) > 0){
+                if(existing_file_checksum == tools::md5sum(file_full_path)){
+                  futile.logger::flog.debug("file is unchanged, don't re-upload %s", file_full_path)
+                  next
+                }
+              }
             }else {
               existing_file_id <- list()
             }
