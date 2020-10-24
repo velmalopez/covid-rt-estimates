@@ -19,6 +19,7 @@ publish_data <- function(dataset, files = TRUE, production_date = NA) {
           existing_files <- full_dataset$files
           for (file in dir(dataset$summary_dir)) {
             file_full_path <- paste0(dataset$summary_dir, "/", file)
+            existing_file_id <- list()
             if (length(existing_files) > 0) {
               # if there are files to look at filter on either filename or original filename == the file, selecting just the ID and MD5 checksum cols
               existing_file_ids <- unique(existing_files[existing_files$filename == file | existing_files$originalFileName == file, c("id", "md5")])
@@ -37,8 +38,6 @@ publish_data <- function(dataset, files = TRUE, production_date = NA) {
                   }
                 }
               }
-            }else {
-              existing_file_id <- list()
             }
             if (length(existing_file_id) > 0) {
               # allow silent failures - it rejects non-changing updates.
