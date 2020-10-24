@@ -19,12 +19,16 @@ publish_data <- function(dataset, files = TRUE, production_date = NA) {
           existing_files <- full_dataset$files
           for (file in dir(dataset$summary_dir)) {
             file_full_path <- paste0(dataset$summary_dir, "/", file)
-            existing_file_ids <- unique(existing_files[existing_files$filename == file | existing_files$originalFileName == file, "id"])
-            existing_file_id <- existing_file_ids[!is.na(existing_file_ids)]
+            if (length(existing_files) > 0) {
+              existing_file_ids <- unique(existing_files[existing_files$filename == file | existing_files$originalFileName == file, "id"])
+              existing_file_id <- existing_file_ids[!is.na(existing_file_ids)]
+            }else {
+              existing_file_id <- list()
+            }
             if (length(existing_file_id) > 0) {
               # allow silent failures - it rejects non-changing updates.
               futile.logger::flog.trace("replacing file %s", file_full_path)
-              try(update_dataset_file(file = file_full_path, dataset = dataset_id, id = existing_file_id), silent = TRUE)
+              try(futile.logger::ftry(update_dataset_file(file = file_full_path, dataset = dataset_id, id = existing_file_id)), silent = TRUE)
             }else {
               futile.logger::flog.trace("uploading file %s", file_full_path)
               try(futile.logger::ftry(add_dataset_file(file = file_full_path, dataset = dataset_id)), silent = TRUE)
@@ -77,7 +81,7 @@ check_for_existing_id <- function(dataset_name) {
     for (metadata in full_dataset$metadataBlocks$citation$fields$value) {
       if (is.data.frame(metadata) &&
         "keywordValue" %in% names(metadata) &&
-        dataset_name %in% metadata$keywordValue$value ) {
+        dataset_name %in% metadata$keywordValue$value) {
         existing <- full_dataset
         break
       }
