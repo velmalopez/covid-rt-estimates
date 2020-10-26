@@ -8,7 +8,7 @@ source(here::here("R", "entities.R"))
 datasets <- c(
   Region$new(name = "united-kingdom", # leaving this as the default UK for historic purposes
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for the United Kingdom Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for the United Kingdom Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in the United Kingdom. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                breakdown = "region",
                country = "United Kingdom"),
@@ -20,7 +20,7 @@ datasets <- c(
              truncation = 5),
   Region$new(name = "united-kingdom-deaths",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for the United Kingdom Based on Deaths",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for the United Kingdom Based on Deaths",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in the United Kingdom. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                breakdown = "region",
                country = "United Kingdom"),
@@ -35,7 +35,7 @@ datasets <- c(
              data_args = list(nhsregions = TRUE)),
   Region$new(name = "united-kingdom-admissions",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for the United Kingdom Based on Hospital Admissions",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for the United Kingdom Based on Hospital Admissions",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in the United Kingdom. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "region",
                 country = "United Kingdom"),
@@ -48,7 +48,7 @@ datasets <- c(
              data_args = list(nhsregions = TRUE)),
   Region$new(name = "united-states",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for the United States of America Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for the United States of America Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in the United States of America. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "state",
                 country = "United States"),
@@ -56,7 +56,7 @@ datasets <- c(
              region_scale = "State"),
   SuperRegion$new(name = "regional-cases",
                   publication_metadata = PublicationMetadata$new(
-                    title = "Continent Summary R Rate Based on Reported Cases",
+                    title = "Continent Summary Reproduction Number (R) Based on Reported Cases",
                     description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "continent"),
                   region_scale = "Region",
@@ -71,7 +71,7 @@ datasets <- c(
                   }),
   SuperRegion$new(name = "regional-deaths",
                   publication_metadata = PublicationMetadata$new(
-                    title = "Continent Summary R Rate Based on Reported Deaths",
+                    title = "Continent Summary Reproduction Number (R) Based on Reported Deaths",
                     description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "continent"),
                   region_scale = "Region",
@@ -88,7 +88,7 @@ datasets <- c(
                   }),
   SuperRegion$new(name = "cases",
                   publication_metadata = PublicationMetadata$new(
-                    title = "National R Rate Based on Reported Cases",
+                    title = "National Reproduction Number (R) Based on Reported Cases",
                     description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "country"),
                   case_modifier = function(cases) {
@@ -96,7 +96,7 @@ datasets <- c(
                   }),
   SuperRegion$new(name = "deaths",
                   publication_metadata = PublicationMetadata$new(
-                    title = "National R Rate Estimates Based on Reported Deaths",
+                    title = "National Reproduction Number (R) Estimates Based on Reported Deaths",
                     description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "country"),
                   case_modifier = function(deaths) {
@@ -106,7 +106,7 @@ datasets <- c(
                   }),
   Region$new(name = "afghanistan",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for Afghanistan Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Afghanistan Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Afghanistan. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "region",
                 country = "Afghanistan"),
@@ -117,49 +117,49 @@ datasets <- c(
              stable = FALSE),
   Region$new(name = "belgium",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for Belgium Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Belgium Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Belgium. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "region",
                 country = "Belgium")),
   Region$new(name = "brazil",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for Brazil Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Brazil Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Brazil. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "state",
                 country = "Brazil")),
   Region$new(name = "canada",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for Canada Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Canada Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Canada. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "state",
                 country = "Canada")),
   Region$new(name = "colombia",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for Colombia Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Colombia Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Colombia. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "region",
                 country = "Colombia")),
   Region$new(name = "germany",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for Germany Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Germany Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Germany. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "state",
                 country = "Germany")),
   Region$new(name = "india",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for India Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for India Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in India. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "state",
                 country = "India")),
   Region$new(name = "italy",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for Italy Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Italy Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Italy. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "state",
                 country = "Italy")),
   Region$new(name = "russia",
              publication_metadata = PublicationMetadata$new(
-               title = "National and Subnational Estimates of the Covid 19 R Rate for Russia Based on Test Results",
+               title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Russia Based on Test Results",
                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in the Russian Federation. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                 breakdown = "state",
                 country = "Russian Federation"))
