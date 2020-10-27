@@ -132,7 +132,7 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
       strptime(
         strsplit(
           system(
-            paste0('for f in ', location$target_folder, '/*/latest/summary.rds; do git log -n 1 --pretty=format:"%ad" --date=iso -- "$f"; done'),
+            paste0('for f in ', location$target_folder, '/*/latest/summary.rds; do git log -n 1 --pretty=format:"%ad" --date=iso -- "$f" 2>/dev/null; done'),
             intern = TRUE),
           '\\+\\d\\d\\d\\d',
           perl = TRUE
