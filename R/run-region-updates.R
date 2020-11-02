@@ -280,10 +280,10 @@ rru_cli_interface <- function(args_string = NA) {
     make_option(c("-r", "--refresh"), action = "store_true", default = FALSE, help = "Should estimates be fully refreshed."),
     make_option(c("-s", "--suppress"), action = "store_true", default = FALSE, help = "Suppress publication of results")
   )
-  if (is.na(args_string)) {
-    args <- parse_args(OptionParser(option_list = option_list))
+  if (is.character(args_string)) {
+    args <- optparse::parse_args(optparse::OptionParser(option_list = option_list), args = args_string)
   }else {
-    args <- parse_args(OptionParser(option_list = option_list), args = args_string)
+    args <- optparse::parse_args(optparse::OptionParser(option_list = option_list))
   }
   return(args)
 }
