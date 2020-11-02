@@ -9,7 +9,7 @@ Summarised estimates as csv's can be found in the `**/summary` folders. National
 
 All regions have Rt estimates based on case counts. In some regions, we also separately estimate Rt using counts of hospital admissions or deaths. The differences between each of these estimates might suggest uneven or changing transmission by age and/or severity in the general population. For more on the influence and different uses of data source on Rt, see [here](https://github.com/epiforecasts/rt-comparison-uk-public).
 
-## latest results
+## Latest results
 Estimates are generated using [`{EpiNow2}`](https://epiforecasts.io/EpiNow2/) and presented on [epiforecasts.io/covid](https://epiforecasts.io/covid) (which also outlines the method used). If using these estimates please consider citing our associated [paper](https://wellcomeopenresearch.org/articles/5-112). All the datasets are published on [Harvard Dataverse](https://dataverse.harvard.edu/dataverse/covid-rt) providing a citable source for a particular version of a data set. For the technically inclined this provides a [full API](https://guides.dataverse.org/en/latest/api/dataaccess.html) to allow interacting with datasets or pulling the latest version of a particular file.
 
 
