@@ -5,7 +5,6 @@
 publish_data <- function(dataset, files = TRUE, production_date = NA) {
   futile.logger::flog.trace("publish_data function")
   if (exists("DATAVERSE_SERVER") && exists("DATAVERSE_KEY")) {
-    file_count <- ifelse(files, 0, 1) # guarantee publication if no files
     Sys.setenv("DATAVERSE_SERVER" = DATAVERSE_SERVER)
     Sys.setenv("DATAVERSE_KEY" = DATAVERSE_KEY)
     if (require(dataverse)) {
@@ -56,11 +55,9 @@ publish_data <- function(dataset, files = TRUE, production_date = NA) {
               futile.logger::flog.trace("replacing file %s", file_full_path)
               # try(futile.logger::ftry(dataverse::update_dataset_file(file = file_full_path, dataset = dataset_id, id = existing_file_id)), silent = TRUE)
               try(futile.logger::ftry(curl_update_file(file = file_full_path, dataset = dataset_id, id = existing_file_id)), silent = TRUE)
-              file_count <- file_count + 1
             }else {
               futile.logger::flog.trace("uploading file %s", file_full_path)
               try(futile.logger::ftry(dataverse::add_dataset_file(file = file_full_path, dataset = dataset_id)), silent = TRUE)
-              file_count <- file_count + 1
             }
           }
         }
@@ -74,18 +71,12 @@ publish_data <- function(dataset, files = TRUE, production_date = NA) {
           for (file in dir(dataset$summary_dir, pattern = ".*\\..*")) {
             futile.logger::flog.trace("submitting file %s", paste0(dataset$summary_dir, "/", file))
             try(futile.logger::ftry(dataverse::add_dataset_file(paste0(dataset$summary_dir, "/", file), dataset_id)), silent = TRUE)
-            file_count <- file_count + 1
           }
         }
       }
       futile.logger::flog.info("%s: publishing", dataset$name)
       Sys.sleep(30) # sleep for 30 seconds to give dataverse a chance to catch up on the files...
-      # throw away draft as no file changes so shouldn't publish as this will change the production date...
-      if (file_count > 0) {
-        try(futile.logger::ftry(dataverse::publish_dataset(dataset_id, minor = FALSE)), silent = TRUE)
-      } else {
-        try(futile.logger::ftry(dataverse::delete_dataset(dataset_id)), silent = TRUE)
-      }
+      try(futile.logger::ftry(dataverse::publish_dataset(dataset_id, minor = FALSE)), silent = TRUE)
     }else {
       futile.logger::flog.debug("Dataverse not enabled, no attempt to publish")
     }
