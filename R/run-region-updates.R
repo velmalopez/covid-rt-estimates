@@ -96,12 +96,13 @@ rru_process_locations <- function(datasets, args, excludes, includes) {
                             refresh = args$refresh)
         },
           warning = function(w) {
-            futile.logger::flog.warn("%s: %s", location$name, w)
+            futile.logger::flog.warn(w)
             futile.logger::flog.debug(capture.output(rlang::trace_back()))
             rlang::cnd_muffle(w)
           },
           error = function(e) {
             futile.logger::flog.error(capture.output(rlang::trace_back()))
+            futile.logger::flog.error(e)
           }
         )
       )
