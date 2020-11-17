@@ -102,6 +102,7 @@ rru_process_locations <- function(datasets, args, excludes, includes) {
           },
           error = function(e) {
             futile.logger::flog.error(capture.output(rlang::trace_back()))
+            futile.logger::flog.error(e)
           }
         )
       )
