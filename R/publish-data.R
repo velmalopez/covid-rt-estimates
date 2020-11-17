@@ -7,8 +7,8 @@ publish_data <- function(dataset, files = TRUE, production_date = NA) {
   if (exists("DATAVERSE_SERVER") && exists("DATAVERSE_KEY")) {
     Sys.setenv("DATAVERSE_SERVER" = DATAVERSE_SERVER)
     Sys.setenv("DATAVERSE_KEY" = DATAVERSE_KEY)
-    if (require(dataverse)) {
-      library(desc) # this is used to get the author data from the DESCRIPTION file
+    if (require(dataverse, quietly = TRUE)) {
+      library(desc, quietly = TRUE) # this is used to get the author data from the DESCRIPTION file
       futile.logger::flog.debug("search for dataset")
       full_dataset <- check_for_existing_id(dataset$name)
       if (is.list(full_dataset)) {
