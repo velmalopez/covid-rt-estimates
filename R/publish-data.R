@@ -404,6 +404,7 @@ get_dataset_description_list <- function(publication_meta) {
 get_software_list <- function(desc_file) {
   futile.logger::flog.trace("get_software_list function")
   epinow2_version <- tryCatch(toString(packageVersion("EpiNow2")), error = function(c) { NA })
+  git_build_version <- suppressMessages(tryCatch(system("git rev-parse HEAD", intern = TRUE), error = function(c) { NA }, warning = function(w) { NA }))
   return(
     list(
       typeName = "software",
@@ -421,7 +422,7 @@ get_software_list <- function(desc_file) {
             typeName = "softwareVersion",
             multiple = FALSE,
             typeClass = "primitive",
-            value = paste0(desc_file$get_version(), ":", system("git rev-parse HEAD", intern = TRUE))
+            value = paste0(desc_file$get_version(), ":", git_build_version)
           )
         ),
         list(
