@@ -63,7 +63,7 @@ run_regional_updates <- function(datasets, derivatives, args) {
   }
 
   # analysis of outcome
-  futile.logger::flog.trace("analise results")
+  futile.logger::flog.trace("analyse results")
   rru_log_outcome(outcome)
 
   # process derivatives
