@@ -126,7 +126,7 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
                       stan_args = list(warmup = 500, cores = no_cores,
                                        chains = ifelse(no_cores <= 4, 4, no_cores)),
                       fixed_future_rt = TRUE, target_folder = location$target_folder,
-                      return_estimates = FALSE, summary = TRUE,
+                      return_estimates = FALSE, summary = FALSE,
                       return_timings = TRUE, future = TRUE,
                       max_execution_time = max_execution_time
       )
