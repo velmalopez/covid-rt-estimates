@@ -7,7 +7,7 @@ if (!exists("COLLATED_DERIVATIVES", mode = "function")) source(here::here("R/lis
 if (!exists("collate_derivative", mode = "function")) source(here::here("R", "collate-derivative.R"))
 
 
-run_collate_derivatives <- function(derivatives, args){
+run_collate_derivative <- function(derivatives, args){
   #validate
   if(args$derivative %in_ci% names(derivatives)){
     #run
@@ -39,7 +39,7 @@ if (sys.nframe() == 0) {
   args <- rru_cli_interface()
   setup_log_from_args(args)
   futile.logger::ftry(
-    run_collate_derivatives(
+    run_collate_derivative(
       derivatives = COLLATED_DERIVATIVES,
       args = args
     )
