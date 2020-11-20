@@ -121,28 +121,36 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
     out <- futile.logger::ftry(
       regional_epinow(reported_cases = cases,
                       generation_time = location$generation_time,
-                      delays = list(location$incubation_period, location$reporting_delay),
-                      non_zero_points = 14, horizon = 14, burn_in = 14, samples = 4000,
-                      stan_args = list(warmup = 500, cores = no_cores,
-                                       chains = ifelse(no_cores <= 4, 4, no_cores)),
-                      fixed_future_rt = TRUE, target_folder = location$target_folder,
-                      return_estimates = FALSE, summary = FALSE,
-                      return_timings = TRUE, future = TRUE,
-                      max_execution_time = max_execution_time
-      )
+                      delays = delay_opts(location$incubation_period, location$reporting_delay),
+                      stan = stan_opts(samples = 4000, warmup = 400, cores = no_cores,
+                                       chains = 4, control = list(adapt_delta = 0.95),
+                                       future = TRUE, max_execution_time = max_execution_time),
+                      target_folder = location$target_folder,
+                      output = c("plots", "latest"),
+                      non_zero_points = 14, horizon = 14, logs = NULL)
     )
     futile.logger::flog.debug("resetting future plan to sequential")
     future::plan("sequential")
 
     futile.logger::flog.trace("generating summary data")
-    futile.logger::ftry(regional_summary(
+    try(futile.logger::ftry(regional_summary(
       reported_cases = cases,
       results_dir = location$target_folder,
       summary_dir = location$summary_dir,
       region_scale = location$region_scale,
       all_regions = "Region" %in% class(location),
-      return_summary = FALSE
-    ))
+      return_output = FALSE
+    )), silent = TRUE)
+    out <- list()
+    futile.logger::flog.trace("reading runtimes.csv")
+    timings <- data.table::fread(paste0(location$target_folder, "/runtimes.csv"))
+    if (is.null(timings) | nrow(timings) == 0) {
+      futile.logger::flog.error("no timings read")
+      stop("timings required but missing")
+    }
+    out <- as.list(timings$time)
+    futile.logger::flog.trace("naming output")
+    names(out) <- timings$region
   }
   if (!(exists("out") && is.list(out))) {
     out <- list()
@@ -151,6 +159,7 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
     futile.logger::flog.warning("no cases left for region so not processing!")
   }
   # add some stats
+  futile.logger::flog.debug("add stats to output")
   out$max_data_date <- max(cases$date, na.rm = TRUE)
   out$oldest_results <- tryCatch(
     min(
