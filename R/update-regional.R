@@ -143,7 +143,8 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
       all_regions = "Region" %in% class(location),
       return_summary = FALSE
     ))
-  } else {
+  }
+  if (!(exists("out") && is.list(out))) {
     out <- list()
   }
   if (cases[, .N] == 0) {
