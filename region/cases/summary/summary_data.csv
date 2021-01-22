@@ -1,9 +1,11 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Americas,179721 (100135 -- 312368),179721,190037,67700,100135,142554,165227,195444,226624,312368,New confirmed cases by infection date,Likely decreasing,0.94
-Europe,129258 (88793 -- 184281),129258,131757,29214,88793,111957,122689,136399,149294,184281,New confirmed cases by infection date,Decreasing,0.97
-Africa,32895 (20863 -- 42839),32895,32460,6632,20863,27877,31110,34511,37250,42839,New confirmed cases by infection date,Stable,0.41
-Oceania,74 (35 -- 158),74,83,41,35,56,67,83,99,158,New confirmed cases by infection date,Likely decreasing,0.65
-Africa,1 (0.87 -- 1.1),1,1,0.07,0.87,0.96,1,1,1.1,1.1,Effective reproduction no.,Stable,0.41
-Oceania,0.96 (0.75 -- 1.2),0.96,0.96,0.14,0.75,0.89,0.93,0.98,1,1.2,Effective reproduction no.,Likely decreasing,0.65
-Europe,0.82 (0.68 -- 0.97),0.82,0.82,0.091,0.68,0.77,0.8,0.85,0.88,0.97,Effective reproduction no.,Decreasing,0.97
-Americas,0.77 (0.55 -- 1),0.77,0.77,0.14,0.55,0.68,0.73,0.8,0.86,1,Effective reproduction no.,Likely decreasing,0.94
+Global,366885 (249436 -- 519908),366885,374028,86658,249436,314896,346238,388127,425433,519908,New confirmed cases by infection date,Decreasing,0.98
+Americas,182707 (101656 -- 314949),182707,191490,66748,101656,144472,168746,196983,228376,314949,New confirmed cases by infection date,Likely decreasing,0.94
+Europe,130735 (88534 -- 184659),130735,132325,28987,88534,112410,123935,137140,149161,184659,New confirmed cases by infection date,Decreasing,0.97
+Africa,31888 (14507 -- 42295),31888,30805,8078,14507,25916,29813,33770,36701,42295,New confirmed cases by infection date,Stable,0.47
+Oceania,73 (36 -- 157),73,82,42,36,56,66,81,97,157,New confirmed cases by infection date,Likely decreasing,0.67
+Africa,1 (0.8 -- 1.1),1,0.98,0.088,0.8,0.94,0.98,1,1.1,1.1,Effective reproduction no.,Stable,0.47
+Oceania,0.95 (0.76 -- 1.2),0.95,0.96,0.13,0.76,0.89,0.93,0.98,1,1.2,Effective reproduction no.,Likely decreasing,0.67
+Europe,0.83 (0.68 -- 0.98),0.83,0.83,0.09,0.68,0.77,0.81,0.85,0.88,0.98,Effective reproduction no.,Decreasing,0.97
+Global,0.79 (0.64 -- 0.95),0.79,0.79,0.1,0.64,0.72,0.76,0.81,0.85,0.95,Effective reproduction no.,Decreasing,0.98
+Americas,0.77 (0.56 -- 1),0.77,0.78,0.14,0.56,0.68,0.74,0.81,0.86,1,Effective reproduction no.,Likely decreasing,0.94
