@@ -6,7 +6,8 @@ if (!exists("publish_data", mode = "function")) source(here::here("R", "publish-
 
 #' collate_derivative
 #' @param derivative `CollatedDerivative` object to calculate
-collate_derivative <- function(derivative) {
+#' @param publish Bool attempt publishing?
+collate_derivative <- function(derivative, publish=TRUE) {
   datasets <- DATASETS[names(DATASETS) %in_ci% lapply(derivative$locations, function(dsl) { dsl$dataset })]
   for (target in derivative$targets) {
     futile.logger::flog.debug("process target file %s", target)
@@ -24,7 +25,9 @@ collate_derivative <- function(derivative) {
   }
 
   futile.logger::flog.info("publishing derivative %s", derivative$name)
-  publish_data(derivative)
+  if(publish){
+    publish_data(derivative)
+  }
 }
 
 #' cd_prime_sources
