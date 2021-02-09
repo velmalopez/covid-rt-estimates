@@ -1,3 +1,5 @@
+# covidrtestimates 0.2.1 - 09-02-2021
+* Update delay from onset to case report in the UK.
 # covidrtestimates 0.2.0 - 09-09-2020
 * Runtime management
 * Improved logging
