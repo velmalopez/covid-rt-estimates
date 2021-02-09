@@ -16,6 +16,7 @@ DATASETS <- list(
                                   breakdown = "region",
                                   country = "United Kingdom"),
                                 covid_regional_data_identifier = "UK",
+                                reporting_delay = readRDS(here::here("data", "uk_onset_to_case.rds")),
                                 case_modifier = function(cases) {
                                   cases <- add_uk(cases)
                                   return(cases) },
@@ -58,6 +59,7 @@ DATASETS <- list(
                                       country = "United Kingdom"),
                                       cases_subregion_source = "region_level_2",
                                       covid_regional_data_identifier = "UK",
+                                      reporting_delay = readRDS(here::here("data", "uk_onset_to_case.rds")),
                                       data_args = list(include_level_2_regions = TRUE),
                                       truncation = 4),
   "united-kingdom-local-deaths" = Region$new(name = "united-kingdom-local-deaths",
