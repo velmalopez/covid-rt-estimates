@@ -11,4 +11,3 @@ sudo cp ./azcopy_linux_amd64_*/azcopy /usr/bin/
 
 #Clean up
 rm -r -f downloadazcopy-v10-linux
-
