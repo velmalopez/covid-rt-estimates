@@ -31,7 +31,7 @@ CollatedDerivative <- R6::R6Class(
       locations,
       publication_metadata,
       incremental = FALSE,
-      targets = list('rt'),
+      targets = list('rt', 'growth_rate', 'cases_by_infection', 'cases_by_report', 'reported_cases'),
       output_category = "subnational",
       output_folder = NA,
       region_scale = "Region"
