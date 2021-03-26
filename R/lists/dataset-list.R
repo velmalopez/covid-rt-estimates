@@ -49,6 +49,15 @@ DATASETS <- list(
                                            dataset_folder_name = "admissions",
                                            case_modifier = function(admissions) {
                                              admissions <- admissions[, cases_new := hosp_new_blend]
+                                             england <- data.table::copy(admissions)[region_level_1 == "England"]
+                                             scotland <- admissions[region_level_1 == "Scotland",
+                                                                    .SD[date <= (max(date) - 4)], by = "region_level_1"]
+                                             wales <- admissions[region_level_1 == "Wales",
+                                                                 .SD[date <= (max(date) - 2)], by = "region_level_1"]
+                                             ni <- admissions[region_level_1 == "Northern Ireland",
+                                                              .SD[date <= (max(date) - 2)], by = "region_level_1"]
+                                             admissions <- data.table::rbindlist(list(england, scotland, wales, ni), 
+                                                                                 use.names = TRUE)
                                              return(admissions) },
                                            data_args = list(nhsregions = TRUE)),
   "united-kingdom-local" = Region$new(name = "united-kingdom-local",
