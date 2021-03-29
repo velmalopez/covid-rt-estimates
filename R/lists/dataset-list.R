@@ -55,6 +55,7 @@ DATASETS <- list(
                                              ni <- admissions[region_level_1 == "Northern Ireland"][date <= (max(date) - 2)]
                                              admissions <- data.table::rbindlist(list(england, scotland, wales, ni), 
                                                                                  use.names = TRUE)
+                                             admissions <- add_uk(admissions)
                                              return(admissions) },
                                            data_args = list(nhsregions = TRUE)),
   "united-kingdom-local" = Region$new(name = "united-kingdom-local",
