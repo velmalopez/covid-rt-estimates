@@ -1,41 +1,41 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Lombardia,562 (344 -- 948),562,593,202,344,455,520,604,690,948,New confirmed cases by infection date,Likely decreasing,0.9
-Campania,280 (151 -- 479),280,292,102,151,221,258,303,345,479,New confirmed cases by infection date,Decreasing,0.99
-Sicilia,257 (167 -- 390),257,266,71,167,216,241,275,306,390,New confirmed cases by infection date,Decreasing,0.98
-Toscana,244 (171 -- 323),244,245,46,171,213,232,255,276,323,New confirmed cases by infection date,Decreasing,1
-Piemonte,240 (142 -- 404),240,253,83,142,195,223,260,297,404,New confirmed cases by infection date,Decreasing,0.96
-Emilia-Romagna,203 (128 -- 321),203,211,60,128,168,189,217,244,321,New confirmed cases by infection date,Decreasing,0.98
-Lazio,202 (133 -- 290),202,205,48,133,171,190,214,235,290,New confirmed cases by infection date,Decreasing,1
-Puglia,168 (102 -- 272),168,175,53,102,138,156,179,203,272,New confirmed cases by infection date,Decreasing,0.99
-Veneto,125 (61 -- 249),125,137,70,61,94,112,140,165,249,New confirmed cases by infection date,Decreasing,0.96
-Trentino-Alto Adige,92 (16 -- 437),92,164,573,16,51,74,113,160,437,New confirmed cases by infection date,Likely decreasing,0.63
-Calabria,91 (52 -- 146),91,94,29,52,74,84,98,112,146,New confirmed cases by infection date,Decreasing,0.99
-Marche,89 (48 -- 159),89,94,34,48,70,82,97,113,159,New confirmed cases by infection date,Likely decreasing,0.94
-Umbria,56 (45 -- 65),56,56,6,45,53,55,57,60,65,New confirmed cases by infection date,Decreasing,1
-Abruzzo,51 (27 -- 77),51,51,15,27,41,47,55,61,77,New confirmed cases by infection date,Decreasing,0.99
-Basilicata,49 (27 -- 90),49,53,21,27,39,45,53,62,90,New confirmed cases by infection date,Likely decreasing,0.88
-Liguria,40 (24 -- 61),40,41,11,24,33,38,43,48,61,New confirmed cases by infection date,Decreasing,0.99
-Sardegna,22 (10 -- 54),22,26,15,10,16,19,25,31,54,New confirmed cases by infection date,Likely decreasing,0.91
-Friuli Venezia Giulia,16 (5 -- 43),16,19,13,5,11,14,18,24,43,New confirmed cases by infection date,Likely decreasing,0.92
-Valle d'Aosta,9 (2 -- 23),9,10,7,2,5,7,10,13,23,New confirmed cases by infection date,Likely decreasing,0.89
-Molise,3 (1 -- 10),3,4,3,1,2,3,4,5,10,New confirmed cases by infection date,Decreasing,0.98
-Umbria,0.93 (0.88 -- 0.96),0.93,0.93,0.028,0.88,0.92,0.93,0.94,0.94,0.96,Effective reproduction no.,Decreasing,1
-Trentino-Alto Adige,0.92 (0.43 -- 1.7),0.92,0.98,0.46,0.43,0.75,0.87,0.98,1.1,1.7,Effective reproduction no.,Likely decreasing,0.63
-Basilicata,0.85 (0.69 -- 1.1),0.85,0.86,0.12,0.69,0.79,0.83,0.88,0.93,1.1,Effective reproduction no.,Likely decreasing,0.88
-Abruzzo,0.84 (0.68 -- 0.94),0.84,0.83,0.081,0.68,0.79,0.82,0.86,0.89,0.94,Effective reproduction no.,Decreasing,0.99
-Lombardia,0.84 (0.67 -- 1.1),0.84,0.85,0.13,0.67,0.77,0.81,0.86,0.92,1.1,Effective reproduction no.,Likely decreasing,0.9
-Marche,0.81 (0.61 -- 1),0.81,0.81,0.12,0.61,0.73,0.78,0.84,0.89,1,Effective reproduction no.,Likely decreasing,0.94
-Toscana,0.81 (0.69 -- 0.9),0.81,0.8,0.063,0.69,0.77,0.79,0.82,0.85,0.9,Effective reproduction no.,Decreasing,1
-Sicilia,0.8 (0.65 -- 0.95),0.8,0.8,0.093,0.65,0.74,0.78,0.82,0.86,0.95,Effective reproduction no.,Decreasing,0.98
-Piemonte,0.78 (0.61 -- 0.99),0.78,0.79,0.12,0.61,0.71,0.76,0.81,0.86,0.99,Effective reproduction no.,Decreasing,0.96
-Valle d'Aosta,0.78 (0.48 -- 1.1),0.78,0.78,0.19,0.48,0.66,0.74,0.82,0.89,1.1,Effective reproduction no.,Likely decreasing,0.89
-Calabria,0.76 (0.61 -- 0.92),0.76,0.76,0.096,0.61,0.7,0.74,0.78,0.82,0.92,Effective reproduction no.,Decreasing,0.99
-Emilia-Romagna,0.76 (0.61 -- 0.95),0.76,0.77,0.11,0.61,0.7,0.74,0.79,0.83,0.95,Effective reproduction no.,Decreasing,0.98
-Liguria,0.76 (0.61 -- 0.88),0.76,0.75,0.083,0.61,0.7,0.74,0.77,0.8,0.88,Effective reproduction no.,Decreasing,0.99
-Sardegna,0.75 (0.53 -- 1.1),0.75,0.77,0.17,0.53,0.66,0.71,0.79,0.86,1.1,Effective reproduction no.,Likely decreasing,0.91
-Molise,0.71 (0.45 -- 0.94),0.71,0.71,0.16,0.45,0.61,0.67,0.75,0.81,0.94,Effective reproduction no.,Decreasing,0.98
-Puglia,0.71 (0.58 -- 0.88),0.71,0.72,0.096,0.58,0.66,0.69,0.73,0.77,0.88,Effective reproduction no.,Decreasing,0.99
-Veneto,0.71 (0.51 -- 0.97),0.71,0.72,0.15,0.51,0.63,0.68,0.75,0.8,0.97,Effective reproduction no.,Decreasing,0.96
-Friuli Venezia Giulia,0.7 (0.45 -- 1.1),0.7,0.72,0.19,0.45,0.6,0.66,0.74,0.82,1.1,Effective reproduction no.,Likely decreasing,0.92
-Lazio,0.69 (0.57 -- 0.82),0.69,0.69,0.079,0.57,0.64,0.67,0.71,0.74,0.82,Effective reproduction no.,Decreasing,1
-Campania,0.66 (0.47 -- 0.86),0.66,0.66,0.12,0.47,0.59,0.63,0.69,0.74,0.86,Effective reproduction no.,Decreasing,0.99
+Lombardia,518 (321 -- 864),518,546,176,321,426,481,560,630,864,New confirmed cases by infection date,Likely decreasing,0.92
+Toscana,270 (198 -- 349),270,271,46,198,240,259,282,300,349,New confirmed cases by infection date,Decreasing,0.99
+Emilia-Romagna,240 (154 -- 404),240,255,79,154,201,226,259,294,404,New confirmed cases by infection date,Likely decreasing,0.9
+Campania,234 (126 -- 381),234,241,79,126,184,214,254,288,381,New confirmed cases by infection date,Decreasing,1
+Sicilia,230 (149 -- 353),230,238,63,149,196,217,245,274,353,New confirmed cases by infection date,Decreasing,0.99
+Lazio,227 (153 -- 322),227,231,53,153,195,214,240,261,322,New confirmed cases by infection date,Decreasing,0.99
+Piemonte,202 (118 -- 349),202,213,72,118,164,186,219,250,349,New confirmed cases by infection date,Decreasing,0.97
+Puglia,144 (86 -- 230),144,150,45,86,118,134,155,175,230,New confirmed cases by infection date,Decreasing,0.99
+Veneto,121 (65 -- 226),121,130,52,65,94,110,133,154,226,New confirmed cases by infection date,Decreasing,0.96
+Calabria,104 (63 -- 171),104,109,34,63,86,97,113,128,171,New confirmed cases by infection date,Decreasing,0.97
+Marche,101 (57 -- 182),101,108,40,57,81,93,111,126,182,New confirmed cases by infection date,Likely decreasing,0.88
+Trentino-Alto Adige,87 (14 -- 424),87,148,310,14,48,72,107,152,424,New confirmed cases by infection date,Likely decreasing,0.64
+Umbria,52 (30 -- 62),52,50,9,30,45,50,53,56,62,New confirmed cases by infection date,Decreasing,1
+Abruzzo,43 (22 -- 70),43,44,14,22,33,39,47,53,70,New confirmed cases by infection date,Decreasing,0.99
+Liguria,42 (26 -- 63),42,43,11,26,35,39,45,49,63,New confirmed cases by infection date,Decreasing,0.99
+Basilicata,40 (21 -- 73),40,43,16,21,31,36,44,51,73,New confirmed cases by infection date,Likely decreasing,0.94
+Sardegna,20 (8 -- 48),20,23,14,8,14,17,22,28,48,New confirmed cases by infection date,Likely decreasing,0.91
+Friuli Venezia Giulia,13 (4 -- 36),13,16,10,4,8,11,15,19,36,New confirmed cases by infection date,Likely decreasing,0.94
+Valle d'Aosta,9 (3 -- 23),9,10,7,3,6,8,10,13,23,New confirmed cases by infection date,Likely decreasing,0.88
+Molise,2 (0 -- 8),2,3,2,0,1,2,3,4,8,New confirmed cases by infection date,Decreasing,0.98
+Umbria,0.93 (0.78 -- 0.95),0.93,0.91,0.056,0.78,0.9,0.92,0.93,0.94,0.95,Effective reproduction no.,Decreasing,1
+Trentino-Alto Adige,0.92 (0.43 -- 1.7),0.92,0.97,0.44,0.43,0.74,0.86,0.97,1.1,1.7,Effective reproduction no.,Likely decreasing,0.64
+Marche,0.85 (0.66 -- 1.1),0.85,0.86,0.13,0.66,0.77,0.82,0.88,0.93,1.1,Effective reproduction no.,Likely decreasing,0.88
+Toscana,0.84 (0.74 -- 0.94),0.84,0.84,0.06,0.74,0.81,0.83,0.86,0.88,0.94,Effective reproduction no.,Decreasing,0.99
+Emilia-Romagna,0.83 (0.67 -- 1.1),0.83,0.85,0.12,0.67,0.76,0.8,0.86,0.91,1.1,Effective reproduction no.,Likely decreasing,0.9
+Lombardia,0.83 (0.66 -- 1),0.83,0.83,0.12,0.66,0.76,0.8,0.85,0.9,1,Effective reproduction no.,Likely decreasing,0.92
+Abruzzo,0.82 (0.65 -- 0.93),0.82,0.81,0.089,0.65,0.76,0.8,0.84,0.87,0.93,Effective reproduction no.,Decreasing,0.99
+Basilicata,0.82 (0.65 -- 1),0.82,0.82,0.11,0.65,0.75,0.79,0.85,0.89,1,Effective reproduction no.,Likely decreasing,0.94
+Calabria,0.81 (0.66 -- 0.98),0.81,0.81,0.098,0.66,0.75,0.79,0.83,0.87,0.98,Effective reproduction no.,Decreasing,0.97
+Valle d'Aosta,0.79 (0.53 -- 1.1),0.79,0.8,0.18,0.53,0.69,0.75,0.83,0.9,1.1,Effective reproduction no.,Likely decreasing,0.88
+Liguria,0.78 (0.65 -- 0.91),0.78,0.78,0.081,0.65,0.73,0.76,0.79,0.82,0.91,Effective reproduction no.,Decreasing,0.99
+Sicilia,0.78 (0.64 -- 0.94),0.78,0.78,0.089,0.64,0.73,0.76,0.8,0.84,0.94,Effective reproduction no.,Decreasing,0.99
+Piemonte,0.75 (0.58 -- 0.96),0.75,0.76,0.12,0.58,0.68,0.72,0.78,0.83,0.96,Effective reproduction no.,Decreasing,0.97
+Lazio,0.74 (0.62 -- 0.88),0.74,0.75,0.082,0.62,0.7,0.72,0.76,0.8,0.88,Effective reproduction no.,Decreasing,0.99
+Sardegna,0.74 (0.53 -- 1.1),0.74,0.76,0.17,0.53,0.65,0.71,0.78,0.85,1.1,Effective reproduction no.,Likely decreasing,0.91
+Veneto,0.73 (0.55 -- 0.97),0.73,0.74,0.13,0.55,0.65,0.7,0.76,0.81,0.97,Effective reproduction no.,Decreasing,0.96
+Puglia,0.7 (0.56 -- 0.87),0.7,0.7,0.095,0.56,0.64,0.67,0.72,0.76,0.87,Effective reproduction no.,Decreasing,0.99
+Friuli Venezia Giulia,0.67 (0.41 -- 1),0.67,0.69,0.19,0.41,0.56,0.63,0.72,0.79,1,Effective reproduction no.,Likely decreasing,0.94
+Molise,0.66 (0.41 -- 0.93),0.66,0.67,0.16,0.41,0.56,0.63,0.7,0.77,0.93,Effective reproduction no.,Decreasing,0.98
+Campania,0.64 (0.46 -- 0.81),0.64,0.64,0.11,0.46,0.56,0.61,0.66,0.71,0.81,Effective reproduction no.,Decreasing,1
