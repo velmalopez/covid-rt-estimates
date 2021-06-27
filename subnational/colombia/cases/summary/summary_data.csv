@@ -1,67 +1,67 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Bogota,8873 (5087 -- 15459),8873,9414,3332,5087,7173,8210,9592,11043,15459,New confirmed cases by infection date,Likely decreasing,0.62
-Antioquia,5564 (3437 -- 9609),5564,5950,2053,3437,4548,5149,6014,6963,9609,New confirmed cases by infection date,Likely increasing,0.13
-Valle Del Cauca,2915 (1747 -- 4894),2915,3073,1071,1747,2378,2705,3124,3551,4894,New confirmed cases by infection date,Likely increasing,0.18
-Cundinamarca,1480 (748 -- 2763),1480,1578,640,748,1143,1337,1619,1906,2763,New confirmed cases by infection date,Likely decreasing,0.76
-Santander,1276 (662 -- 2264),1276,1347,512,662,987,1162,1397,1620,2264,New confirmed cases by infection date,Likely decreasing,0.88
-Meta,912 (394 -- 1719),912,965,447,394,663,812,1007,1185,1719,New confirmed cases by infection date,Likely increasing,0.32
-Risaralda,775 (424 -- 1532),775,854,372,424,605,705,852,1012,1532,New confirmed cases by infection date,Likely increasing,0.16
-Boyaca,740 (407 -- 1333),740,789,302,407,582,674,806,933,1333,New confirmed cases by infection date,Stable,0.55
-Bolivar,702 (327 -- 1397),702,767,355,327,532,632,784,938,1397,New confirmed cases by infection date,Likely decreasing,0.76
-Cordoba,666 (479 -- 980),666,689,170,479,588,636,696,751,980,New confirmed cases by infection date,Likely increasing,0.086
-Tolima,645 (330 -- 1093),645,669,246,330,512,596,694,790,1093,New confirmed cases by infection date,Likely increasing,0.25
-Caldas,624 (267 -- 1461),624,713,409,267,450,552,701,864,1461,New confirmed cases by infection date,Stable,0.51
-Norte De Santander,589 (310 -- 928),589,602,211,310,456,540,642,720,928,New confirmed cases by infection date,Likely increasing,0.3
-Huila,585 (275 -- 976),585,601,225,275,455,541,627,713,976,New confirmed cases by infection date,Likely increasing,0.26
-Sucre,522 (342 -- 700),522,524,114,342,455,497,546,591,700,New confirmed cases by infection date,Likely increasing,0.15
-Narino,429 (195 -- 958),429,488,288,195,314,381,479,583,958,New confirmed cases by infection date,Stable,0.53
-Atlantico,338 (201 -- 551),338,353,111,201,276,315,366,414,551,New confirmed cases by infection date,Likely decreasing,0.86
-Cauca,324 (182 -- 585),324,346,131,182,266,300,349,399,585,New confirmed cases by infection date,Likely increasing,0.19
-Casanare,322 (181 -- 539),322,336,119,181,258,295,345,390,539,New confirmed cases by infection date,Stable,0.44
-Cesar,305 (173 -- 536),305,323,112,173,246,280,332,382,536,New confirmed cases by infection date,Likely decreasing,0.76
-Magdalena,303 (196 -- 509),303,322,106,196,254,282,324,365,509,New confirmed cases by infection date,Stable,0.55
-Quindio,188 (117 -- 324),188,200,68,117,156,174,203,230,324,New confirmed cases by infection date,Likely increasing,0.33
-Arauca,122 (43 -- 279),122,137,84,43,85,107,139,169,279,New confirmed cases by infection date,Likely increasing,0.34
-Caqueta,110 (56 -- 215),110,122,69,56,88,102,120,143,215,New confirmed cases by infection date,Likely increasing,0.13
-La Guajira,63 (23 -- 156),63,73,46,23,43,55,72,90,156,New confirmed cases by infection date,Likely decreasing,0.77
-Putumayo,63 (23 -- 172),63,76,53,23,42,54,73,95,172,New confirmed cases by infection date,Stable,0.42
-Choco,55 (19 -- 142),55,65,45,19,37,48,63,81,142,New confirmed cases by infection date,Likely decreasing,0.78
-Vichada,34 (4 -- 126),34,46,52,4,17,27,41,56,126,New confirmed cases by infection date,Stable,0.43
-Guaviare,32 (6 -- 139),32,48,71,6,17,25,40,56,139,New confirmed cases by infection date,Likely decreasing,0.68
-Guainia,15 (2 -- 74),15,31,156,2,8,12,19,27,74,New confirmed cases by infection date,Stable,0.48
-"San Andres, Providencia Y Santa Catalina",7 (1 -- 26),7,9,10,1,4,5,8,11,26,New confirmed cases by infection date,Likely decreasing,0.89
-Vaupes,2 (0 -- 12),2,4,10,0,1,2,3,4,12,New confirmed cases by infection date,Likely decreasing,0.81
-Antioquia,1.2 (0.93 -- 1.5),1.2,1.2,0.17,0.93,1.1,1.1,1.2,1.3,1.5,Effective reproduction no.,Likely increasing,0.13
-Arauca,1.1 (0.76 -- 1.3),1.1,1,0.17,0.76,0.96,1,1.1,1.1,1.3,Effective reproduction no.,Likely increasing,0.34
-Caqueta,1.1 (0.92 -- 1.3),1.1,1.1,0.13,0.92,1.1,1.1,1.1,1.2,1.3,Effective reproduction no.,Likely increasing,0.13
-Cauca,1.1 (0.9 -- 1.3),1.1,1.1,0.12,0.9,1,1.1,1.1,1.1,1.3,Effective reproduction no.,Likely increasing,0.19
-Huila,1.1 (0.83 -- 1.3),1.1,1.1,0.13,0.83,0.99,1.1,1.1,1.1,1.3,Effective reproduction no.,Likely increasing,0.26
-Meta,1.1 (0.78 -- 1.3),1.1,1.1,0.17,0.78,0.97,1,1.1,1.2,1.3,Effective reproduction no.,Likely increasing,0.32
-Norte De Santander,1.1 (0.86 -- 1.2),1.1,1,0.11,0.86,0.98,1,1.1,1.1,1.2,Effective reproduction no.,Likely increasing,0.3
-Risaralda,1.1 (0.91 -- 1.5),1.1,1.2,0.18,0.91,1,1.1,1.2,1.3,1.5,Effective reproduction no.,Likely increasing,0.16
-Sucre,1.1 (0.94 -- 1.1),1.1,1,0.063,0.94,1,1,1.1,1.1,1.1,Effective reproduction no.,Likely increasing,0.15
-Tolima,1.1 (0.85 -- 1.3),1.1,1.1,0.13,0.85,1,1.1,1.1,1.1,1.3,Effective reproduction no.,Likely increasing,0.25
-Valle Del Cauca,1.1 (0.91 -- 1.4),1.1,1.1,0.14,0.91,1,1.1,1.1,1.2,1.4,Effective reproduction no.,Likely increasing,0.18
-Caldas,1 (0.69 -- 1.4),1,1,0.22,0.69,0.88,0.95,1,1.1,1.4,Effective reproduction no.,Stable,0.51
-Casanare,1 (0.85 -- 1.2),1,1,0.11,0.85,0.95,0.99,1,1.1,1.2,Effective reproduction no.,Stable,0.44
-Cordoba,1 (0.98 -- 1.1),1,1.1,0.052,0.98,1,1,1.1,1.1,1.1,Effective reproduction no.,Likely increasing,0.086
-Guainia,1 (0.53 -- 1.7),1,1.1,0.47,0.53,0.84,0.96,1.1,1.2,1.7,Effective reproduction no.,Stable,0.48
-Putumayo,1 (0.72 -- 1.5),1,1.1,0.23,0.72,0.91,0.99,1.1,1.2,1.5,Effective reproduction no.,Stable,0.42
-Quindio,1 (0.89 -- 1.2),1,1,0.099,0.89,0.98,1,1.1,1.1,1.2,Effective reproduction no.,Likely increasing,0.33
-Vichada,1 (0.52 -- 1.4),1,1,0.27,0.52,0.86,0.98,1.1,1.2,1.4,Effective reproduction no.,Stable,0.43
-Magdalena,0.99 (0.88 -- 1.2),0.99,1,0.089,0.88,0.95,0.98,1,1,1.2,Effective reproduction no.,Stable,0.55
-Narino,0.99 (0.74 -- 1.3),0.99,1,0.2,0.74,0.89,0.95,1,1.1,1.3,Effective reproduction no.,Stable,0.53
-Boyaca,0.98 (0.78 -- 1.2),0.98,0.99,0.14,0.78,0.9,0.95,1,1.1,1.2,Effective reproduction no.,Stable,0.55
-Bogota,0.96 (0.77 -- 1.2),0.96,0.97,0.14,0.77,0.88,0.93,0.99,1.1,1.2,Effective reproduction no.,Likely decreasing,0.62
-Cesar,0.94 (0.79 -- 1.1),0.94,0.94,0.094,0.79,0.88,0.92,0.96,1,1.1,Effective reproduction no.,Likely decreasing,0.76
-Cundinamarca,0.91 (0.69 -- 1.1),0.91,0.91,0.14,0.69,0.82,0.88,0.94,0.99,1.1,Effective reproduction no.,Likely decreasing,0.76
-Bolivar,0.9 (0.67 -- 1.1),0.9,0.91,0.15,0.67,0.81,0.87,0.94,0.99,1.1,Effective reproduction no.,Likely decreasing,0.76
-Atlantico,0.88 (0.71 -- 1.1),0.88,0.89,0.11,0.71,0.81,0.86,0.91,0.95,1.1,Effective reproduction no.,Likely decreasing,0.86
-Choco,0.88 (0.61 -- 1.2),0.88,0.89,0.18,0.61,0.78,0.84,0.92,0.98,1.2,Effective reproduction no.,Likely decreasing,0.78
-La Guajira,0.87 (0.6 -- 1.2),0.87,0.89,0.19,0.6,0.77,0.83,0.92,0.99,1.2,Effective reproduction no.,Likely decreasing,0.77
-Guaviare,0.86 (0.43 -- 1.4),0.86,0.89,0.32,0.43,0.69,0.8,0.94,1.1,1.4,Effective reproduction no.,Likely decreasing,0.68
-Santander,0.84 (0.62 -- 1.1),0.84,0.84,0.14,0.62,0.75,0.8,0.87,0.93,1.1,Effective reproduction no.,Likely decreasing,0.88
-Vaupes,0.83 (0.48 -- 1.2),0.83,0.84,0.25,0.48,0.7,0.78,0.88,0.96,1.2,Effective reproduction no.,Likely decreasing,0.81
-Amazonas,0.75 (0.4 -- 1),0.75,0.74,0.2,0.4,0.62,0.71,0.8,0.86,1,Effective reproduction no.,Likely decreasing,0.94
-"San Andres, Providencia Y Santa Catalina",0.74 (0.45 -- 1.2),0.74,0.76,0.23,0.45,0.62,0.69,0.78,0.86,1.2,Effective reproduction no.,Likely decreasing,0.89
-Amazonas,0 (0 -- 1),0,0,0,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.94
+Bogota,10365 (6235 -- 18322),10365,11109,3984,6235,8376,9633,11259,12939,18322,New confirmed cases by infection date,Stable,0.47
+Antioquia,4765 (2862 -- 7802),4765,4986,1544,2862,3919,4415,5115,5835,7802,New confirmed cases by infection date,Likely increasing,0.31
+Valle Del Cauca,3616 (2217 -- 6507),3616,3921,1497,2217,2988,3370,3894,4510,6507,New confirmed cases by infection date,Likely increasing,0.099
+Santander,1815 (1037 -- 3457),1815,1988,864,1037,1450,1677,1976,2295,3457,New confirmed cases by infection date,Likely decreasing,0.6
+Cundinamarca,1697 (917 -- 3181),1697,1827,756,917,1329,1547,1849,2156,3181,New confirmed cases by infection date,Likely decreasing,0.62
+Atlantico,846 (501 -- 1812),846,960,462,501,676,773,935,1102,1812,New confirmed cases by infection date,Likely increasing,0.1
+Bolivar,739 (372 -- 1457),739,801,356,372,557,668,811,956,1457,New confirmed cases by infection date,Likely decreasing,0.72
+Meta,721 (295 -- 1430),721,778,380,295,508,633,813,987,1430,New confirmed cases by infection date,Stable,0.47
+Cordoba,720 (532 -- 1104),720,759,194,532,642,691,757,828,1104,New confirmed cases by infection date,Likely increasing,0.055
+Tolima,705 (392 -- 983),705,699,191,392,581,662,742,801,983,New confirmed cases by infection date,Likely increasing,0.15
+Boyaca,670 (366 -- 1203),670,714,279,366,529,613,729,841,1203,New confirmed cases by infection date,Likely decreasing,0.63
+Norte De Santander,623 (309 -- 937),623,628,218,309,490,572,673,751,937,New confirmed cases by infection date,Likely increasing,0.24
+Sucre,567 (399 -- 789),567,582,147,399,501,542,594,638,789,New confirmed cases by infection date,Likely increasing,0.11
+Caldas,555 (248 -- 1240),555,629,353,248,405,496,624,756,1240,New confirmed cases by infection date,Stable,0.58
+Huila,545 (226 -- 804),545,529,184,226,394,494,588,653,804,New confirmed cases by infection date,Likely increasing,0.32
+Risaralda,510 (248 -- 1000),510,552,247,248,384,458,564,670,1000,New confirmed cases by infection date,Stable,0.49
+Narino,455 (208 -- 1132),455,546,422,208,335,407,515,635,1132,New confirmed cases by infection date,Stable,0.48
+Cauca,424 (260 -- 804),424,467,197,260,350,394,458,531,804,New confirmed cases by infection date,Likely increasing,0.09
+Cesar,349 (205 -- 621),349,372,132,205,284,323,377,435,621,New confirmed cases by infection date,Likely decreasing,0.65
+Casanare,337 (197 -- 574),337,356,124,197,277,314,364,412,574,New confirmed cases by infection date,Likely increasing,0.38
+Magdalena,297 (194 -- 496),297,316,97,194,253,279,320,360,496,New confirmed cases by infection date,Stable,0.56
+Quindio,243 (150 -- 442),243,264,104,150,200,225,263,304,442,New confirmed cases by infection date,Likely increasing,0.16
+Arauca,120 (45 -- 271),120,134,81,45,84,105,135,162,271,New confirmed cases by infection date,Likely increasing,0.37
+Caqueta,112 (56 -- 205),112,119,50,56,89,103,121,139,205,New confirmed cases by infection date,Likely increasing,0.14
+La Guajira,69 (28 -- 169),69,80,49,28,48,59,79,99,169,New confirmed cases by infection date,Likely decreasing,0.7
+Putumayo,63 (23 -- 171),63,76,54,23,42,54,73,93,171,New confirmed cases by infection date,Stable,0.44
+Choco,56 (20 -- 160),56,70,54,20,38,49,66,83,160,New confirmed cases by infection date,Likely decreasing,0.73
+Guaviare,27 (5 -- 124),27,42,54,5,15,22,34,50,124,New confirmed cases by infection date,Likely decreasing,0.71
+Vichada,16 (1 -- 81),16,28,72,1,6,11,22,35,81,New confirmed cases by infection date,Likely decreasing,0.64
+"San Andres, Providencia Y Santa Catalina",7 (2 -- 35),7,12,20,2,4,6,9,13,35,New confirmed cases by infection date,Likely decreasing,0.8
+Guainia,4 (0 -- 26),4,8,18,0,2,3,6,10,26,New confirmed cases by infection date,Likely decreasing,0.78
+Atlantico,1.2 (0.96 -- 1.6),1.2,1.2,0.22,0.96,1.1,1.1,1.2,1.3,1.6,Effective reproduction no.,Likely increasing,0.1
+Antioquia,1.1 (0.84 -- 1.3),1.1,1.1,0.15,0.84,0.98,1,1.1,1.2,1.3,Effective reproduction no.,Likely increasing,0.31
+Caqueta,1.1 (0.91 -- 1.3),1.1,1.1,0.11,0.91,1,1.1,1.1,1.2,1.3,Effective reproduction no.,Likely increasing,0.14
+Cauca,1.1 (0.97 -- 1.4),1.1,1.1,0.14,0.97,1.1,1.1,1.1,1.2,1.4,Effective reproduction no.,Likely increasing,0.09
+Huila,1.1 (0.79 -- 1.2),1.1,1,0.12,0.79,0.96,1,1.1,1.1,1.2,Effective reproduction no.,Likely increasing,0.32
+Norte De Santander,1.1 (0.84 -- 1.2),1.1,1.1,0.11,0.84,1,1,1.1,1.1,1.2,Effective reproduction no.,Likely increasing,0.24
+Quindio,1.1 (0.94 -- 1.3),1.1,1.1,0.11,0.94,1,1.1,1.1,1.1,1.3,Effective reproduction no.,Likely increasing,0.16
+Sucre,1.1 (0.97 -- 1.2),1.1,1.1,0.079,0.97,1,1.1,1.1,1.1,1.2,Effective reproduction no.,Likely increasing,0.11
+Tolima,1.1 (0.92 -- 1.2),1.1,1.1,0.092,0.92,1,1.1,1.1,1.1,1.2,Effective reproduction no.,Likely increasing,0.15
+Valle Del Cauca,1.1 (0.96 -- 1.4),1.1,1.2,0.15,0.96,1.1,1.1,1.2,1.2,1.4,Effective reproduction no.,Likely increasing,0.099
+Amazonas,1 (0 -- 2),1,1,1,0,0,0,1,1,2,New confirmed cases by infection date,Likely decreasing,0.87
+Arauca,1 (0.77 -- 1.3),1,1,0.17,0.77,0.95,1,1.1,1.1,1.3,Effective reproduction no.,Likely increasing,0.37
+Bogota,1 (0.82 -- 1.3),1,1,0.15,0.82,0.93,0.98,1,1.1,1.3,Effective reproduction no.,Stable,0.47
+Casanare,1 (0.87 -- 1.2),1,1,0.12,0.87,0.97,1,1,1.1,1.2,Effective reproduction no.,Likely increasing,0.38
+Cordoba,1 (1 -- 1.2),1,1.1,0.052,1,1,1,1.1,1.1,1.2,Effective reproduction no.,Likely increasing,0.055
+Meta,1 (0.72 -- 1.3),1,1,0.17,0.72,0.89,0.97,1.1,1.1,1.3,Effective reproduction no.,Stable,0.47
+Narino,1 (0.74 -- 1.4),1,1,0.23,0.74,0.9,0.96,1.1,1.1,1.4,Effective reproduction no.,Stable,0.48
+Putumayo,1 (0.69 -- 1.5),1,1,0.24,0.69,0.89,0.98,1.1,1.2,1.5,Effective reproduction no.,Stable,0.44
+Risaralda,1 (0.74 -- 1.3),1,1,0.17,0.74,0.9,0.96,1,1.1,1.3,Effective reproduction no.,Stable,0.49
+Vaupes,1 (0 -- 5),1,1,3,0,0,0,1,2,5,New confirmed cases by infection date,Likely decreasing,0.91
+Magdalena,0.99 (0.88 -- 1.1),0.99,1,0.085,0.88,0.95,0.98,1,1,1.1,Effective reproduction no.,Stable,0.56
+Cesar,0.97 (0.83 -- 1.1),0.97,0.98,0.095,0.83,0.92,0.95,0.99,1,1.1,Effective reproduction no.,Likely decreasing,0.65
+Santander,0.97 (0.75 -- 1.3),0.97,0.99,0.17,0.75,0.88,0.93,1,1.1,1.3,Effective reproduction no.,Likely decreasing,0.6
+Boyaca,0.96 (0.77 -- 1.2),0.96,0.97,0.13,0.77,0.88,0.93,0.99,1,1.2,Effective reproduction no.,Likely decreasing,0.63
+Caldas,0.96 (0.68 -- 1.3),0.96,0.98,0.2,0.68,0.85,0.92,1,1.1,1.3,Effective reproduction no.,Stable,0.58
+Cundinamarca,0.96 (0.76 -- 1.2),0.96,0.97,0.15,0.76,0.88,0.93,0.99,1,1.2,Effective reproduction no.,Likely decreasing,0.62
+Bolivar,0.93 (0.71 -- 1.2),0.93,0.94,0.15,0.71,0.84,0.9,0.96,1,1.2,Effective reproduction no.,Likely decreasing,0.72
+La Guajira,0.91 (0.66 -- 1.2),0.91,0.93,0.18,0.66,0.81,0.87,0.95,1,1.2,Effective reproduction no.,Likely decreasing,0.7
+Choco,0.9 (0.63 -- 1.3),0.9,0.92,0.2,0.63,0.8,0.86,0.94,1,1.3,Effective reproduction no.,Likely decreasing,0.73
+Vichada,0.89 (0.36 -- 1.3),0.89,0.88,0.33,0.36,0.67,0.81,0.97,1.1,1.3,Effective reproduction no.,Likely decreasing,0.64
+Amazonas,0.88 (0.66 -- 1.2),0.88,0.89,0.17,0.66,0.8,0.85,0.9,0.93,1.2,Effective reproduction no.,Likely decreasing,0.87
+Guaviare,0.84 (0.4 -- 1.4),0.84,0.87,0.32,0.4,0.66,0.77,0.91,1,1.4,Effective reproduction no.,Likely decreasing,0.71
+Guainia,0.8 (0.27 -- 1.3),0.8,0.79,0.34,0.27,0.56,0.72,0.87,0.98,1.3,Effective reproduction no.,Likely decreasing,0.78
+"San Andres, Providencia Y Santa Catalina",0.8 (0.51 -- 1.3),0.8,0.84,0.28,0.51,0.67,0.75,0.85,0.95,1.3,Effective reproduction no.,Likely decreasing,0.8
+Vaupes,0.72 (0.34 -- 1.1),0.72,0.72,0.23,0.34,0.58,0.67,0.78,0.86,1.1,Effective reproduction no.,Likely decreasing,0.91
