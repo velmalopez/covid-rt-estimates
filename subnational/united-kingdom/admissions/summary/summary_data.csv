@@ -1,25 +1,25 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-England,758 (529 -- 1103),758,778,180,529,653,712,798,877,1103,New confirmed cases by infection date,Increasing,0.004
-United Kingdom,723 (517 -- 1062),723,747,170,517,629,687,764,838,1062,New confirmed cases by infection date,Increasing,0.0095
-North West,153 (92 -- 266),153,163,58,92,123,140,166,189,266,New confirmed cases by infection date,Increasing,0.037
-North East and Yorkshire,150 (104 -- 225),150,155,39,104,130,142,159,174,225,New confirmed cases by infection date,Increasing,0.0012
-Midlands,129 (92 -- 195),129,134,32,92,112,122,136,151,195,New confirmed cases by infection date,Increasing,0.001
-Scotland,87 (58 -- 133),87,91,23,58,75,82,93,104,133,New confirmed cases by infection date,Increasing,0.027
-London,65 (46 -- 107),65,69,20,46,56,61,69,77,107,New confirmed cases by infection date,Increasing,0.011
-South East,65 (34 -- 124),65,71,30,34,50,59,72,85,124,New confirmed cases by infection date,Increasing,0.047
-South West,32 (14 -- 61),32,34,15,14,24,28,35,41,61,New confirmed cases by infection date,Likely increasing,0.24
-East of England,25 (13 -- 63),25,30,18,13,19,23,28,35,63,New confirmed cases by infection date,Likely increasing,0.096
-Northern Ireland,9 (2 -- 23),9,10,6,2,6,8,10,13,23,New confirmed cases by infection date,Likely increasing,0.25
-Wales,5 (2 -- 12),5,5,3,2,3,4,5,7,12,New confirmed cases by infection date,Stable,0.56
-England,1.4 (1.2 -- 1.6),1.4,1.4,0.15,1.2,1.3,1.3,1.4,1.5,1.6,Effective reproduction no.,Increasing,0.004
-Midlands,1.3 (1.2 -- 1.5),1.3,1.3,0.11,1.2,1.2,1.3,1.3,1.4,1.5,Effective reproduction no.,Increasing,0.001
-North East and Yorkshire,1.3 (1.1 -- 1.5),1.3,1.3,0.11,1.1,1.2,1.3,1.3,1.4,1.5,Effective reproduction no.,Increasing,0.0012
-North West,1.3 (1 -- 1.7),1.3,1.3,0.2,1,1.2,1.2,1.3,1.4,1.7,Effective reproduction no.,Increasing,0.037
-South East,1.3 (1 -- 1.7),1.3,1.4,0.23,1,1.2,1.3,1.4,1.5,1.7,Effective reproduction no.,Increasing,0.047
-United Kingdom,1.3 (1.1 -- 1.6),1.3,1.3,0.14,1.1,1.2,1.3,1.3,1.4,1.6,Effective reproduction no.,Increasing,0.0095
-East of England,1.2 (0.95 -- 1.7),1.2,1.3,0.26,0.95,1.1,1.2,1.3,1.4,1.7,Effective reproduction no.,Likely increasing,0.096
-London,1.2 (1 -- 1.4),1.2,1.2,0.13,1,1.1,1.2,1.2,1.2,1.4,Effective reproduction no.,Increasing,0.011
-Northern Ireland,1.2 (0.72 -- 1.6),1.2,1.2,0.26,0.72,1,1.1,1.2,1.3,1.6,Effective reproduction no.,Likely increasing,0.25
-Scotland,1.2 (1 -- 1.4),1.2,1.2,0.12,1,1.1,1.2,1.2,1.3,1.4,Effective reproduction no.,Increasing,0.027
-South West,1.1 (0.81 -- 1.4),1.1,1.1,0.19,0.81,1,1.1,1.2,1.2,1.4,Effective reproduction no.,Likely increasing,0.24
-Wales,0.97 (0.72 -- 1.3),0.97,0.99,0.2,0.72,0.87,0.93,1,1.1,1.3,Effective reproduction no.,Stable,0.56
+United Kingdom,882 (616 -- 1279),882,903,201,616,763,836,927,1017,1279,New confirmed cases by infection date,Increasing,0.0062
+England,816 (572 -- 1150),816,834,180,572,713,776,860,940,1150,New confirmed cases by infection date,Increasing,0.012
+North East and Yorkshire,172 (120 -- 267),172,179,46,120,148,162,183,202,267,New confirmed cases by infection date,Increasing,0.001
+North West,171 (105 -- 288),171,181,58,105,141,159,186,210,288,New confirmed cases by infection date,Increasing,0.034
+Midlands,160 (115 -- 237),160,167,39,115,140,152,169,187,237,New confirmed cases by infection date,Increasing,0
+Scotland,100 (67 -- 152),100,103,26,67,85,94,106,116,152,New confirmed cases by infection date,Increasing,0.018
+South East,75 (40 -- 136),75,80,31,40,59,68,82,94,136,New confirmed cases by infection date,Increasing,0.036
+London,67 (49 -- 101),67,70,17,49,58,63,70,78,101,New confirmed cases by infection date,Increasing,0.012
+South West,33 (16 -- 61),33,35,15,16,25,30,37,43,61,New confirmed cases by infection date,Likely increasing,0.23
+East of England,27 (15 -- 63),27,31,17,15,21,24,30,37,63,New confirmed cases by infection date,Likely increasing,0.074
+Northern Ireland,8 (2 -- 22),8,10,6,2,5,7,10,13,22,New confirmed cases by infection date,Likely increasing,0.3
+Wales,5 (2 -- 14),5,6,4,2,3,4,6,7,14,New confirmed cases by infection date,Stable,0.52
+Midlands,1.4 (1.2 -- 1.6),1.4,1.4,0.12,1.2,1.3,1.3,1.4,1.4,1.6,Effective reproduction no.,Increasing,0
+South East,1.4 (1 -- 1.7),1.4,1.4,0.21,1,1.2,1.3,1.4,1.5,1.7,Effective reproduction no.,Increasing,0.036
+United Kingdom,1.4 (1.1 -- 1.6),1.4,1.4,0.15,1.1,1.3,1.3,1.4,1.5,1.6,Effective reproduction no.,Increasing,0.0062
+England,1.3 (1.1 -- 1.6),1.3,1.4,0.15,1.1,1.3,1.3,1.4,1.4,1.6,Effective reproduction no.,Increasing,0.012
+North East and Yorkshire,1.3 (1.2 -- 1.5),1.3,1.3,0.12,1.2,1.3,1.3,1.3,1.4,1.5,Effective reproduction no.,Increasing,0.001
+North West,1.3 (1 -- 1.7),1.3,1.3,0.19,1,1.2,1.3,1.3,1.4,1.7,Effective reproduction no.,Increasing,0.034
+East of England,1.2 (0.97 -- 1.7),1.2,1.3,0.24,0.97,1.1,1.2,1.3,1.4,1.7,Effective reproduction no.,Likely increasing,0.074
+London,1.2 (1 -- 1.4),1.2,1.2,0.1,1,1.1,1.1,1.2,1.2,1.4,Effective reproduction no.,Increasing,0.012
+Scotland,1.2 (1.1 -- 1.4),1.2,1.2,0.12,1.1,1.2,1.2,1.3,1.3,1.4,Effective reproduction no.,Increasing,0.018
+Northern Ireland,1.1 (0.66 -- 1.6),1.1,1.1,0.27,0.66,0.95,1.1,1.2,1.3,1.6,Effective reproduction no.,Likely increasing,0.3
+South West,1.1 (0.84 -- 1.4),1.1,1.1,0.18,0.84,1,1.1,1.2,1.2,1.4,Effective reproduction no.,Likely increasing,0.23
+Wales,0.99 (0.75 -- 1.4),0.99,1,0.21,0.75,0.89,0.95,1,1.1,1.4,Effective reproduction no.,Stable,0.52
