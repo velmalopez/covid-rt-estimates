@@ -1,25 +1,25 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-England,71191 (50188 -- 118707),71191,76440,22663,50188,61306,67096,75666,86189,118707,New confirmed cases by infection date,Increasing,0.0038
-United Kingdom,61891 (42443 -- 99940),61891,65292,18782,42443,52683,58187,66004,73764,99940,New confirmed cases by infection date,Increasing,0.033
-South East,15157 (8534 -- 30451),15157,16756,7278,8534,11863,13853,16670,19714,30451,New confirmed cases by infection date,Increasing,0.00075
-Midlands,15120 (10180 -- 25858),15120,16211,5186,10180,12676,14151,16248,18543,25858,New confirmed cases by infection date,Increasing,0.0025
-London,13330 (7460 -- 27772),13330,14941,6662,7460,10350,12021,14803,17810,27772,New confirmed cases by infection date,Increasing,0.0055
-North East and Yorkshire,11726 (8510 -- 17229),11726,12156,2738,8510,10268,11132,12358,13609,17229,New confirmed cases by infection date,Likely increasing,0.079
-South West,9478 (5708 -- 17170),9478,10221,3698,5708,7692,8771,10313,11898,17170,New confirmed cases by infection date,Increasing,0.0042
-North West,8549 (6098 -- 13822),8549,9115,2634,6098,7421,8105,9102,10162,13822,New confirmed cases by infection date,Increasing,0.038
-East of England,6849 (5083 -- 9800),6849,7092,1698,5083,6081,6539,7150,7738,9800,New confirmed cases by infection date,Increasing,0.0018
-Northern Ireland,1826 (1178 -- 3917),1826,2105,1006,1178,1496,1682,2001,2366,3917,New confirmed cases by infection date,Increasing,0.0015
-Scotland,1349 (732 -- 2487),1349,1448,578,732,1060,1229,1475,1721,2487,New confirmed cases by infection date,Likely decreasing,0.83
-Wales,1256 (901 -- 1833),1256,1296,299,901,1097,1194,1323,1437,1833,New confirmed cases by infection date,Likely increasing,0.091
-South East,1.7 (1.3 -- 2.3),1.7,1.7,0.35,1.3,1.5,1.6,1.7,1.9,2.3,Effective reproduction no.,Increasing,0.00075
-London,1.6 (1.2 -- 2.3),1.6,1.6,0.35,1.2,1.4,1.5,1.7,1.8,2.3,Effective reproduction no.,Increasing,0.0055
-South West,1.5 (1.2 -- 2),1.5,1.5,0.26,1.2,1.4,1.4,1.6,1.7,2,Effective reproduction no.,Increasing,0.0042
-Midlands,1.4 (1.1 -- 1.8),1.4,1.4,0.21,1.1,1.3,1.3,1.4,1.5,1.8,Effective reproduction no.,Increasing,0.0025
-Northern Ireland,1.4 (1.2 -- 2),1.4,1.5,0.3,1.2,1.3,1.3,1.4,1.6,2,Effective reproduction no.,Increasing,0.0015
-East of England,1.3 (1.2 -- 1.5),1.3,1.3,0.13,1.2,1.2,1.3,1.3,1.4,1.5,Effective reproduction no.,Increasing,0.0018
-England,1.3 (1.1 -- 1.7),1.3,1.3,0.18,1.1,1.2,1.3,1.3,1.4,1.7,Effective reproduction no.,Increasing,0.0038
-North West,1.2 (1 -- 1.5),1.2,1.2,0.16,1,1.1,1.1,1.2,1.3,1.5,Effective reproduction no.,Increasing,0.038
-United Kingdom,1.2 (1 -- 1.6),1.2,1.3,0.17,1,1.1,1.2,1.3,1.3,1.6,Effective reproduction no.,Increasing,0.033
-North East and Yorkshire,1.1 (0.98 -- 1.4),1.1,1.2,0.13,0.98,1.1,1.1,1.2,1.2,1.4,Effective reproduction no.,Likely increasing,0.079
-Wales,1.1 (0.97 -- 1.3),1.1,1.1,0.12,0.97,1.1,1.1,1.2,1.2,1.3,Effective reproduction no.,Likely increasing,0.091
-Scotland,0.82 (0.56 -- 1.2),0.82,0.83,0.19,0.56,0.71,0.77,0.86,0.94,1.2,Effective reproduction no.,Likely decreasing,0.83
+United Kingdom,13874 (4450 -- 37656),13874,16783,10535,4450,8570,11691,16709,23281,37656,New confirmed cases by infection date,Decreasing,0.99
+England,6651 (2228 -- 18330),6651,7965,5130,2228,4256,5622,7887,10383,18330,New confirmed cases by infection date,Decreasing,1
+Northern Ireland,2174 (1451 -- 3501),2174,2273,682,1451,1708,1942,2388,2716,3501,New confirmed cases by infection date,Likely increasing,0.27
+East of England,2007 (757 -- 3554),2007,2076,847,757,1488,1815,2227,2610,3554,New confirmed cases by infection date,Decreasing,0.97
+London,1565 (487 -- 4139),1565,1853,1147,487,1012,1327,1864,2462,4139,New confirmed cases by infection date,Decreasing,0.99
+North East and Yorkshire,1544 (584 -- 3171),1544,1668,817,584,1047,1339,1766,2154,3171,New confirmed cases by infection date,Decreasing,1
+North West,1237 (418 -- 3009),1237,1404,803,418,797,1047,1430,1829,3009,New confirmed cases by infection date,Decreasing,1
+Midlands,975 (273 -- 2838),975,1179,814,273,609,819,1149,1514,2838,New confirmed cases by infection date,Decreasing,1
+Scotland,734 (384 -- 1340),734,785,309,384,569,669,808,944,1340,New confirmed cases by infection date,Likely decreasing,0.94
+South West,477 (123 -- 1391),477,585,427,123,278,387,586,779,1391,New confirmed cases by infection date,Decreasing,1
+Wales,467 (253 -- 704),467,471,136,253,378,432,499,558,704,New confirmed cases by infection date,Decreasing,0.99
+South East,428 (113 -- 1241),428,525,375,113,265,362,517,684,1241,New confirmed cases by infection date,Decreasing,1
+Northern Ireland,1.2 (0.96 -- 1.4),1.2,1.2,0.16,0.96,1,1.1,1.2,1.3,1.4,Effective reproduction no.,Likely increasing,0.27
+Wales,0.77 (0.54 -- 0.94),0.77,0.76,0.12,0.54,0.69,0.74,0.79,0.84,0.94,Effective reproduction no.,Decreasing,0.99
+East of England,0.75 (0.43 -- 0.97),0.75,0.73,0.16,0.43,0.64,0.71,0.79,0.85,0.97,Effective reproduction no.,Decreasing,0.97
+Scotland,0.71 (0.47 -- 1),0.71,0.72,0.17,0.47,0.6,0.67,0.75,0.82,1,Effective reproduction no.,Likely decreasing,0.94
+United Kingdom,0.54 (0.25 -- 0.93),0.54,0.57,0.21,0.25,0.4,0.49,0.61,0.73,0.93,Effective reproduction no.,Decreasing,0.99
+London,0.53 (0.24 -- 0.89),0.53,0.55,0.2,0.24,0.4,0.48,0.59,0.69,0.89,Effective reproduction no.,Decreasing,0.99
+North West,0.48 (0.23 -- 0.78),0.48,0.49,0.17,0.23,0.36,0.43,0.52,0.6,0.78,Effective reproduction no.,Decreasing,1
+North East and Yorkshire,0.46 (0.24 -- 0.69),0.46,0.47,0.14,0.24,0.36,0.43,0.5,0.57,0.69,Effective reproduction no.,Decreasing,1
+England,0.4 (0.19 -- 0.72),0.4,0.42,0.16,0.19,0.3,0.36,0.45,0.53,0.72,Effective reproduction no.,Decreasing,1
+Midlands,0.35 (0.14 -- 0.66),0.35,0.36,0.16,0.14,0.25,0.31,0.39,0.46,0.66,Effective reproduction no.,Decreasing,1
+South West,0.33 (0.12 -- 0.63),0.33,0.35,0.16,0.12,0.23,0.29,0.37,0.45,0.63,Effective reproduction no.,Decreasing,1
+South East,0.25 (0.086 -- 0.51),0.25,0.27,0.13,0.086,0.17,0.22,0.28,0.35,0.51,Effective reproduction no.,Decreasing,1
