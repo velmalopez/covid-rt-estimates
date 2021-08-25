@@ -1,183 +1,185 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Essex,5 (1 -- 19),5,8,36,1,3,4,6,8,19,New confirmed cases by infection date,Likely increasing,0.15
-Derbyshire,4 (0 -- 18),4,11,235,0,2,3,5,7,18,New confirmed cases by infection date,Likely increasing,0.21
-Rotherham,4 (0 -- 39),4,12,41,0,1,2,5,9,39,New confirmed cases by infection date,Likely increasing,0.18
-Devon,3 (0 -- 38),3,19,238,0,1,2,4,8,38,New confirmed cases by infection date,Likely increasing,0.31
-Sheffield,3 (0 -- 20),3,6,17,0,1,2,4,6,20,New confirmed cases by infection date,Likely increasing,0.23
-"Armagh City, Banbridge and Craigavon",2 (0 -- 166),2,89,804,0,0,1,4,10,166,New confirmed cases by infection date,Likely increasing,0.3
-Birmingham,2 (0 -- 16),2,8,88,0,1,2,3,5,16,New confirmed cases by infection date,Likely increasing,0.39
-East Riding of Yorkshire,2 (0 -- 18),2,7,59,0,0,1,3,5,18,New confirmed cases by infection date,Stable,0.4
-Hertfordshire,2 (0 -- 11),2,4,14,0,0,1,3,5,11,New confirmed cases by infection date,Likely increasing,0.38
-Kent,2 (0 -- 13),2,15,346,0,0,1,2,4,13,New confirmed cases by infection date,Stable,0.41
-Nottinghamshire,2 (0 -- 11),2,4,17,0,1,2,3,4,11,New confirmed cases by infection date,Likely increasing,0.19
-Shropshire,2 (0 -- 30),2,13,107,0,0,1,2,5,30,New confirmed cases by infection date,Likely increasing,0.3
-Surrey,2 (0 -- 15),2,5,46,0,1,1,3,4,15,New confirmed cases by infection date,Likely increasing,0.24
-West Sussex,2 (0 -- 16),2,6,30,0,1,2,3,4,16,New confirmed cases by infection date,Likely increasing,0.26
-Rotherham,1.3 (0.65 -- 2),1.3,1.3,0.42,0.65,1.1,1.2,1.3,1.5,2,Effective reproduction no.,Likely increasing,0.18
-"Armagh City, Banbridge and Craigavon",1.2 (0.33 -- 3.3),1.2,1.4,1.1,0.33,0.93,1.1,1.3,1.6,3.3,Effective reproduction no.,Likely increasing,0.3
-Derbyshire,1.2 (0.71 -- 1.6),1.2,1.2,0.34,0.71,1,1.1,1.2,1.3,1.6,Effective reproduction no.,Likely increasing,0.21
-Devon,1.2 (0.41 -- 2.1),1.2,1.2,0.64,0.41,0.92,1.1,1.3,1.4,2.1,Effective reproduction no.,Likely increasing,0.31
-Essex,1.2 (0.83 -- 1.5),1.2,1.2,0.26,0.83,1.1,1.1,1.2,1.3,1.5,Effective reproduction no.,Likely increasing,0.15
-Norfolk,1.2 (0.61 -- 2),1.2,1.3,0.76,0.61,1,1.1,1.2,1.3,2,Effective reproduction no.,Likely increasing,0.24
-Sheffield,1.2 (0.56 -- 1.6),1.2,1.1,0.32,0.56,1,1.1,1.2,1.3,1.6,Effective reproduction no.,Likely increasing,0.23
-Shropshire,1.2 (0.31 -- 2.1),1.2,1.2,0.58,0.31,0.92,1.1,1.3,1.4,2.1,Effective reproduction no.,Likely increasing,0.3
-West Sussex,1.2 (0.6 -- 1.8),1.2,1.2,0.4,0.6,0.99,1.1,1.2,1.3,1.8,Effective reproduction no.,Likely increasing,0.26
-Birmingham,1.1 (0.64 -- 1.6),1.1,1.1,0.36,0.64,0.91,1,1.1,1.2,1.6,Effective reproduction no.,Likely increasing,0.39
-"Bristol, City of",1.1 (0.65 -- 2.5),1.1,1.3,0.78,0.65,0.97,1.1,1.2,1.3,2.5,Effective reproduction no.,Likely increasing,0.28
-Calderdale,1.1 (0.63 -- 1.6),1.1,1.1,0.31,0.63,1,1.1,1.2,1.2,1.6,Effective reproduction no.,Likely increasing,0.26
-Coventry,1.1 (0.41 -- 2.8),1.1,1.3,0.99,0.41,0.89,1,1.2,1.4,2.8,Effective reproduction no.,Likely increasing,0.36
-Doncaster,1.1 (0.42 -- 1.6),1.1,1,0.38,0.42,0.84,1,1.1,1.2,1.6,Effective reproduction no.,Stable,0.4
-Ealing,1.1 (0.62 -- 1.9),1.1,1.2,0.47,0.62,1,1.1,1.2,1.3,1.9,Effective reproduction no.,Likely increasing,0.25
-East Riding of Yorkshire,1.1 (0.33 -- 1.7),1.1,1.1,0.44,0.33,0.8,1,1.2,1.3,1.7,Effective reproduction no.,Stable,0.4
-Fife,1.1 (0.38 -- 2),1.1,1.1,0.62,0.38,0.84,1,1.2,1.3,2,Effective reproduction no.,Likely increasing,0.38
-Hackney and City of London,1.1 (0.53 -- 2.4),1.1,1.3,0.79,0.53,0.96,1.1,1.2,1.3,2.4,Effective reproduction no.,Likely increasing,0.29
-Hampshire,1.1 (0.44 -- 1.8),1.1,1.1,0.5,0.44,0.81,0.99,1.1,1.2,1.8,Effective reproduction no.,Stable,0.41
-Hertfordshire,1.1 (0.43 -- 1.4),1.1,1,0.36,0.43,0.86,1,1.2,1.2,1.4,Effective reproduction no.,Likely increasing,0.38
-Kent,1.1 (0.56 -- 1.6),1.1,1.1,0.45,0.56,0.88,0.99,1.1,1.2,1.6,Effective reproduction no.,Stable,0.41
-Kirklees,1.1 (0.34 -- 1.6),1.1,1,0.42,0.34,0.83,0.99,1.1,1.2,1.6,Effective reproduction no.,Stable,0.41
-Knowsley,1.1 (0.56 -- 1.4),1.1,1,0.32,0.56,0.91,1,1.1,1.2,1.4,Effective reproduction no.,Likely increasing,0.36
-Leicester,1.1 (0.75 -- 1.7),1.1,1.2,0.36,0.75,1,1.1,1.1,1.2,1.7,Effective reproduction no.,Likely increasing,0.24
-Leicestershire,1.1 (0.63 -- 1.6),1.1,1.1,0.3,0.63,1,1.1,1.2,1.2,1.6,Effective reproduction no.,Likely increasing,0.25
-Lewisham,1.1 (0.37 -- 1.7),1.1,1.1,0.46,0.37,0.91,1,1.1,1.2,1.7,Effective reproduction no.,Likely increasing,0.34
-Luton,1.1 (0.56 -- 1.7),1.1,1.1,0.39,0.56,0.94,1,1.1,1.2,1.7,Effective reproduction no.,Likely increasing,0.34
-Newham,1.1 (0.46 -- 2.1),1.1,1.2,0.7,0.46,0.95,1.1,1.2,1.3,2.1,Effective reproduction no.,Likely increasing,0.3
-Northumberland,1.1 (0.46 -- 1.7),1.1,1.1,0.48,0.46,0.9,1.1,1.2,1.3,1.7,Effective reproduction no.,Likely increasing,0.34
-Nottinghamshire,1.1 (0.8 -- 1.5),1.1,1.1,0.24,0.8,1,1.1,1.2,1.2,1.5,Effective reproduction no.,Likely increasing,0.19
-Oldham,1.1 (0.43 -- 1.6),1.1,1,0.49,0.43,0.82,0.97,1.1,1.2,1.6,Effective reproduction no.,Stable,0.44
-Somerset,1.1 (0.15 -- 2.9),1.1,1.2,1,0.15,0.76,1,1.2,1.4,2.9,Effective reproduction no.,Likely increasing,0.39
-St. Helens,1.1 (0.35 -- 2.9),1.1,1.2,0.76,0.35,0.86,1,1.1,1.3,2.9,Effective reproduction no.,Likely increasing,0.39
-Surrey,1.1 (0.66 -- 1.6),1.1,1.1,0.32,0.66,1,1.1,1.2,1.3,1.6,Effective reproduction no.,Likely increasing,0.24
-Walsall,1.1 (0.59 -- 1.7),1.1,1.1,0.37,0.59,0.99,1.1,1.2,1.3,1.7,Effective reproduction no.,Likely increasing,0.26
-Warwickshire,1.1 (0.69 -- 1.6),1.1,1.1,0.32,0.69,1,1.1,1.2,1.2,1.6,Effective reproduction no.,Likely increasing,0.22
-Wolverhampton,1.1 (0.3 -- 1.7),1.1,1.1,0.56,0.3,0.79,0.98,1.1,1.2,1.7,Effective reproduction no.,Stable,0.42
-Worcestershire,1.1 (0.35 -- 1.6),1.1,1.1,0.4,0.35,0.87,1,1.2,1.3,1.6,Effective reproduction no.,Likely increasing,0.36
-Bradford,1 (0.54 -- 1.3),1,0.97,0.24,0.54,0.86,0.96,1,1.1,1.3,Effective reproduction no.,Stable,0.49
-Brent,1 (0 -- 15),1,8,121,0,0,0,1,3,15,New confirmed cases by infection date,Stable,0.47
-Brent,1 (0.14 -- 1.8),1,1,0.62,0.14,0.62,0.9,1.1,1.3,1.8,Effective reproduction no.,Stable,0.47
-"Bristol, City of",1 (0 -- 39),1,36,323,0,0,0,1,2,39,New confirmed cases by infection date,Likely increasing,0.28
-Bury,1 (0.73 -- 1.3),1,1,0.19,0.73,0.98,1,1.1,1.1,1.3,Effective reproduction no.,Likely increasing,0.3
-Calderdale,1 (0 -- 6),1,2,13,0,0,0,1,1,6,New confirmed cases by infection date,Likely increasing,0.26
-City of Edinburgh,1 (0.35 -- 2.2),1,1.1,0.71,0.35,0.77,0.93,1.1,1.2,2.2,Effective reproduction no.,Stable,0.49
-Croydon,1 (0.36 -- 1.4),1,0.98,0.37,0.36,0.81,0.96,1.1,1.1,1.4,Effective reproduction no.,Stable,0.45
-Ealing,1 (0 -- 18),1,9,87,0,0,1,2,3,18,New confirmed cases by infection date,Likely increasing,0.25
-Fife,1 (0 -- 13),1,7,63,0,0,0,1,2,13,New confirmed cases by infection date,Likely increasing,0.38
-Hackney and City of London,1 (0 -- 24),1,25,291,0,0,0,1,2,24,New confirmed cases by infection date,Likely increasing,0.29
-Hampshire,1 (0 -- 10),1,11,451,0,0,0,1,3,10,New confirmed cases by infection date,Stable,0.41
-Kirklees,1 (0 -- 7),1,2,15,0,0,0,1,2,7,New confirmed cases by infection date,Stable,0.41
-Leicestershire,1 (0 -- 10),1,3,11,0,0,1,2,3,10,New confirmed cases by infection date,Likely increasing,0.25
-Lincolnshire,1 (0 -- 16),1,5,40,0,0,0,2,4,16,New confirmed cases by infection date,Stable,0.49
-Lincolnshire,1 (0.24 -- 1.8),1,1,0.5,0.24,0.69,0.89,1.1,1.3,1.8,Effective reproduction no.,Stable,0.49
-Liverpool,1 (0 -- 10),1,4,36,0,0,0,1,2,10,New confirmed cases by infection date,Stable,0.53
-Newcastle upon Tyne,1 (0.49 -- 1.5),1,1,0.35,0.49,0.84,0.97,1.1,1.1,1.5,Effective reproduction no.,Stable,0.45
-Newham,1 (0 -- 16),1,14,249,0,0,0,1,2,16,New confirmed cases by infection date,Likely increasing,0.3
-Norfolk,1 (0 -- 19),1,8,47,0,0,1,2,3,19,New confirmed cases by infection date,Likely increasing,0.24
-North Yorkshire,1 (0.33 -- 1.6),1,1,0.48,0.33,0.78,0.93,1,1.1,1.6,Effective reproduction no.,Stable,0.5
-Northumberland,1 (0 -- 9),1,5,50,0,0,0,1,2,9,New confirmed cases by infection date,Likely increasing,0.34
-Oldham,1 (0 -- 12),1,7,106,0,0,0,2,3,12,New confirmed cases by infection date,Stable,0.44
-Redbridge,1 (0.34 -- 1.4),1,0.96,0.36,0.34,0.81,0.95,1.1,1.1,1.4,Effective reproduction no.,Stable,0.48
-Rochdale,1 (0.55 -- 1.4),1,1,0.32,0.55,0.89,1,1.1,1.1,1.4,Effective reproduction no.,Stable,0.41
-Sandwell,1 (0.4 -- 1.4),1,0.98,0.36,0.4,0.82,0.96,1.1,1.1,1.4,Effective reproduction no.,Stable,0.45
-Solihull,1 (0.24 -- 1.6),1,1,0.45,0.24,0.8,0.98,1.1,1.2,1.6,Effective reproduction no.,Stable,0.43
-Somerset,1 (0 -- 44),1,32,405,0,0,0,1,3,44,New confirmed cases by infection date,Likely increasing,0.39
-Stockport,1 (0.44 -- 1.4),1,0.99,0.35,0.44,0.84,0.97,1.1,1.1,1.4,Effective reproduction no.,Stable,0.45
-Walsall,1 (0 -- 11),1,3,19,0,0,0,1,2,11,New confirmed cases by infection date,Likely increasing,0.26
-Warwickshire,1 (0 -- 6),1,3,97,0,0,0,1,1,6,New confirmed cases by infection date,Likely increasing,0.22
-Wolverhampton,1 (0 -- 11),1,7,84,0,0,0,1,2,11,New confirmed cases by infection date,Stable,0.42
-Worcestershire,1 (0 -- 13),1,4,18,0,0,1,2,3,13,New confirmed cases by infection date,Likely increasing,0.36
-Barnet,0.99 (0.16 -- 1.9),0.99,1,0.61,0.16,0.67,0.89,1.1,1.2,1.9,Effective reproduction no.,Stable,0.51
-Dudley,0.99 (0.16 -- 1.4),0.99,0.92,0.46,0.16,0.68,0.9,1.1,1.1,1.4,Effective reproduction no.,Stable,0.51
-Salford,0.99 (0.34 -- 1.5),0.99,0.95,0.37,0.34,0.74,0.9,1.1,1.1,1.5,Effective reproduction no.,Stable,0.51
-Bolton,0.98 (0.59 -- 1.3),0.98,0.99,0.39,0.59,0.88,0.95,1,1.1,1.3,Effective reproduction no.,Stable,0.56
-Harrow,0.98 (0.095 -- 1.7),0.98,0.94,0.68,0.095,0.52,0.82,1.1,1.2,1.7,Effective reproduction no.,Stable,0.51
-Liverpool,0.98 (0.5 -- 1.7),0.98,1,0.41,0.5,0.79,0.92,1,1.2,1.7,Effective reproduction no.,Stable,0.53
-Manchester,0.98 (0.58 -- 1.5),0.98,1,0.32,0.58,0.83,0.93,1,1.1,1.5,Effective reproduction no.,Stable,0.55
-Wigan,0.98 (0.47 -- 1.3),0.98,0.95,0.29,0.47,0.81,0.93,1,1.1,1.3,Effective reproduction no.,Stable,0.54
-Wirral,0.97 (0.25 -- 1.9),0.97,0.98,0.55,0.25,0.64,0.85,1.1,1.2,1.9,Effective reproduction no.,Stable,0.53
-Oxfordshire,0.96 (0.29 -- 1.5),0.96,0.94,0.46,0.29,0.74,0.9,1,1.1,1.5,Effective reproduction no.,Stable,0.57
-Stoke-on-Trent,0.94 (0.17 -- 2),0.94,1,0.7,0.17,0.67,0.86,1,1.1,2,Effective reproduction no.,Stable,0.58
-Derry City and Strabane,0.93 (0.046 -- 2.2),0.93,0.99,0.88,0.046,0.49,0.78,1,1.2,2.2,Effective reproduction no.,Stable,0.56
-Perth and Kinross,0.93 (0.28 -- 2.6),0.93,1.1,0.92,0.28,0.67,0.84,1,1.2,2.6,Effective reproduction no.,Stable,0.58
-Barnsley,0.88 (0.29 -- 1.7),0.88,0.92,0.51,0.29,0.62,0.79,0.97,1.1,1.7,Effective reproduction no.,Likely decreasing,0.63
-Cornwall and Isles of Scilly,0.88 (0.18 -- 1.7),0.88,0.9,0.56,0.18,0.59,0.77,0.97,1.1,1.7,Effective reproduction no.,Likely decreasing,0.63
-North Lanarkshire,0.87 (0.21 -- 1.4),0.87,0.85,0.46,0.21,0.59,0.76,0.96,1.1,1.4,Effective reproduction no.,Likely decreasing,0.64
-Sefton,0.87 (0.15 -- 2.7),0.87,1,0.97,0.15,0.55,0.74,0.98,1.2,2.7,Effective reproduction no.,Likely decreasing,0.62
-Lancashire,0.86 (0.45 -- 1.3),0.86,0.87,0.26,0.45,0.72,0.81,0.91,1,1.3,Effective reproduction no.,Likely decreasing,0.74
-Belfast,0.85 (0.1 -- 1.9),0.85,0.9,0.64,0.1,0.47,0.71,0.98,1.2,1.9,Effective reproduction no.,Likely decreasing,0.61
-North East Lincolnshire,0.84 (0.04 -- 2.4),0.84,0.95,0.94,0.04,0.41,0.67,0.98,1.1,2.4,Effective reproduction no.,Likely decreasing,0.62
-South Lanarkshire,0.84 (0.11 -- 1.6),0.84,0.86,0.61,0.11,0.52,0.73,0.95,1.1,1.6,Effective reproduction no.,Likely decreasing,0.66
-Staffordshire,0.82 (0.24 -- 1.6),0.82,0.85,0.45,0.24,0.56,0.72,0.91,1.1,1.6,Effective reproduction no.,Likely decreasing,0.69
-East Sussex,0.81 (0.052 -- 1.7),0.81,0.83,0.71,0.052,0.39,0.65,0.93,1.1,1.7,Effective reproduction no.,Likely decreasing,0.66
-Wakefield,0.8 (0.19 -- 1.7),0.8,0.86,0.56,0.19,0.53,0.7,0.91,1.1,1.7,Effective reproduction no.,Likely decreasing,0.67
-Suffolk,0.77 (0.043 -- 2.4),0.77,0.94,0.92,0.043,0.35,0.62,0.96,1.2,2.4,Effective reproduction no.,Likely decreasing,0.63
-Blackburn with Darwen,0.75 (0.15 -- 1.4),0.75,0.76,0.42,0.15,0.51,0.67,0.83,0.93,1.4,Effective reproduction no.,Likely decreasing,0.83
-Tameside,0.73 (0.088 -- 1.3),0.73,0.74,0.45,0.088,0.43,0.62,0.84,1,1.3,Effective reproduction no.,Likely decreasing,0.74
-Glasgow City,0.72 (0.17 -- 1.3),0.72,0.73,0.41,0.17,0.47,0.62,0.81,0.95,1.3,Effective reproduction no.,Likely decreasing,0.8
-Redcar and Cleveland,0.62 (0.015 -- 1.6),0.62,0.71,0.68,0.015,0.27,0.49,0.76,0.99,1.6,Effective reproduction no.,Likely decreasing,0.75
-Nottingham,0.58 (0.063 -- 1.6),0.58,0.68,0.61,0.063,0.28,0.45,0.69,0.92,1.6,Effective reproduction no.,Likely decreasing,0.8
-County Durham,0.57 (0.066 -- 2.1),0.57,0.77,0.87,0.066,0.3,0.47,0.7,0.95,2.1,Effective reproduction no.,Likely decreasing,0.77
-Gateshead,0.56 (0.068 -- 1.5),0.56,0.64,0.57,0.068,0.31,0.45,0.65,0.82,1.5,Effective reproduction no.,Likely decreasing,0.85
-Dundee City,0.55 (0.019 -- 1.6),0.55,0.65,0.68,0.019,0.22,0.41,0.7,0.91,1.6,Effective reproduction no.,Likely decreasing,0.82
-Cumbria,0.53 (0.025 -- 1.5),0.53,0.64,0.64,0.025,0.26,0.43,0.64,0.85,1.5,Effective reproduction no.,Likely decreasing,0.83
-Cheshire East,0.52 (0.029 -- 1.5),0.52,0.64,0.68,0.029,0.23,0.4,0.65,0.88,1.5,Effective reproduction no.,Likely decreasing,0.81
-South Tyneside,0.5 (0.02 -- 2.2),0.5,0.73,0.87,0.02,0.2,0.37,0.67,0.92,2.2,Effective reproduction no.,Likely decreasing,0.78
-Trafford,0.49 (0.047 -- 1.6),0.49,0.65,0.79,0.047,0.24,0.39,0.6,0.82,1.6,Effective reproduction no.,Likely decreasing,0.84
-Sunderland,0.41 (0.031 -- 1.7),0.41,0.58,0.68,0.031,0.18,0.31,0.52,0.73,1.7,Effective reproduction no.,Likely decreasing,0.86
-Leeds,0.36 (0.018 -- 1.5),0.36,0.53,0.64,0.018,0.14,0.26,0.47,0.69,1.5,Effective reproduction no.,Likely decreasing,0.87
-Northamptonshire,0.34 (0.0073 -- 1.6),0.34,0.54,0.72,0.0073,0.1,0.23,0.47,0.72,1.6,Effective reproduction no.,Likely decreasing,0.85
-Barnet,0 (0 -- 7),0,2,22,0,0,0,0,1,7,New confirmed cases by infection date,Stable,0.51
-Barnsley,0 (0 -- 6),0,7,238,0,0,0,0,1,6,New confirmed cases by infection date,Likely decreasing,0.63
-Belfast,0 (0 -- 19),0,7,67,0,0,0,1,3,19,New confirmed cases by infection date,Likely decreasing,0.61
-Blackburn with Darwen,0 (0 -- 0),0,0,3,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.83
-Bolton,0 (0 -- 2),0,7,376,0,0,0,0,0,2,New confirmed cases by infection date,Stable,0.56
-Bradford,0 (0 -- 3),0,1,1,0,0,0,1,1,3,New confirmed cases by infection date,Stable,0.49
-Bury,0 (0 -- 3),0,1,2,0,0,0,0,1,3,New confirmed cases by infection date,Likely increasing,0.3
-Cheshire East,0 (0 -- 1),0,1,23,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.81
-City of Edinburgh,0 (0 -- 14),0,10,111,0,0,0,0,1,14,New confirmed cases by infection date,Stable,0.49
-Cornwall and Isles of Scilly,0 (0 -- 4),0,2,36,0,0,0,0,0,4,New confirmed cases by infection date,Likely decreasing,0.63
-County Durham,0 (0 -- 5),0,3,40,0,0,0,0,0,5,New confirmed cases by infection date,Likely decreasing,0.77
-Coventry,0 (0 -- 43),0,31,338,0,0,0,1,2,43,New confirmed cases by infection date,Likely increasing,0.36
-Croydon,0 (0 -- 4),0,1,5,0,0,0,1,1,4,New confirmed cases by infection date,Stable,0.45
-Cumbria,0 (0 -- 1),0,2,50,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.83
-Derry City and Strabane,0 (0 -- 15),0,14,214,0,0,0,0,1,15,New confirmed cases by infection date,Stable,0.56
-Doncaster,0 (0 -- 5),0,1,10,0,0,0,0,1,5,New confirmed cases by infection date,Stable,0.4
-Dudley,0 (0 -- 3),0,1,3,0,0,0,0,1,3,New confirmed cases by infection date,Stable,0.51
-Dundee City,0 (0 -- 1),0,4,149,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.82
-East Sussex,0 (0 -- 2),0,3,69,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.66
-Gateshead,0 (0 -- 1),0,0,4,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.85
-Glasgow City,0 (0 -- 3),0,1,28,0,0,0,0,0,3,New confirmed cases by infection date,Likely decreasing,0.8
-Harrow,0 (0 -- 8),0,2,14,0,0,0,1,2,8,New confirmed cases by infection date,Stable,0.51
-Knowsley,0 (0 -- 4),0,2,17,0,0,0,0,1,4,New confirmed cases by infection date,Likely increasing,0.36
-Lancashire,0 (0 -- 4),0,1,2,0,0,0,1,1,4,New confirmed cases by infection date,Likely decreasing,0.74
-Leeds,0 (0 -- 2),0,1,36,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.87
-Leicester,0 (0 -- 8),0,4,47,0,0,0,1,1,8,New confirmed cases by infection date,Likely increasing,0.24
-Lewisham,0 (0 -- 7),0,5,44,0,0,0,1,1,7,New confirmed cases by infection date,Likely increasing,0.34
-Luton,0 (0 -- 5),0,2,45,0,0,0,0,1,5,New confirmed cases by infection date,Likely increasing,0.34
-Manchester,0 (0 -- 5),0,3,83,0,0,0,1,1,5,New confirmed cases by infection date,Stable,0.55
-Newcastle upon Tyne,0 (0 -- 3),0,1,14,0,0,0,0,1,3,New confirmed cases by infection date,Stable,0.45
-North East Lincolnshire,0 (0 -- 7),0,7,168,0,0,0,0,0,7,New confirmed cases by infection date,Likely decreasing,0.62
-North Lanarkshire,0 (0 -- 3),0,1,13,0,0,0,0,1,3,New confirmed cases by infection date,Likely decreasing,0.64
-North Yorkshire,0 (0 -- 5),0,5,89,0,0,0,0,1,5,New confirmed cases by infection date,Stable,0.5
-Northamptonshire,0 (0 -- 1),0,1,40,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.85
-Nottingham,0 (0 -- 1),0,1,65,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.8
-Oxfordshire,0 (0 -- 2),0,2,43,0,0,0,0,0,2,New confirmed cases by infection date,Stable,0.57
-Perth and Kinross,0 (0 -- 12),0,18,274,0,0,0,0,0,12,New confirmed cases by infection date,Stable,0.58
-Redbridge,0 (0 -- 1),0,0,9,0,0,0,0,0,1,New confirmed cases by infection date,Stable,0.48
-Redcar and Cleveland,0 (0 -- 3),0,1,32,0,0,0,0,0,3,New confirmed cases by infection date,Likely decreasing,0.75
-Rochdale,0 (0 -- 3),0,2,23,0,0,0,0,1,3,New confirmed cases by infection date,Stable,0.41
-Salford,0 (0 -- 3),0,1,6,0,0,0,0,1,3,New confirmed cases by infection date,Stable,0.51
-Sandwell,0 (0 -- 4),0,1,8,0,0,0,1,1,4,New confirmed cases by infection date,Stable,0.45
-Sefton,0 (0 -- 18),0,12,134,0,0,0,0,0,18,New confirmed cases by infection date,Likely decreasing,0.62
-Solihull,0 (0 -- 7),0,2,16,0,0,0,0,1,7,New confirmed cases by infection date,Stable,0.43
-South Lanarkshire,0 (0 -- 2),0,3,70,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.66
-South Tyneside,0 (0 -- 2),0,4,93,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.78
-St. Helens,0 (0 -- 21),0,8,52,0,0,0,0,1,21,New confirmed cases by infection date,Likely increasing,0.39
-Staffordshire,0 (0 -- 6),0,1,9,0,0,0,0,1,6,New confirmed cases by infection date,Likely decreasing,0.69
-Stockport,0 (0 -- 2),0,1,4,0,0,0,0,0,2,New confirmed cases by infection date,Stable,0.45
-Stoke-on-Trent,0 (0 -- 6),0,7,131,0,0,0,0,0,6,New confirmed cases by infection date,Stable,0.58
-Suffolk,0 (0 -- 14),0,13,159,0,0,0,0,1,14,New confirmed cases by infection date,Likely decreasing,0.63
-Sunderland,0 (0 -- 1),0,2,47,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.86
-Tameside,0 (0 -- 1),0,0,8,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.74
-Trafford,0 (0 -- 0),0,0,14,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.84
-Wakefield,0 (0 -- 6),0,2,21,0,0,0,0,1,6,New confirmed cases by infection date,Likely decreasing,0.67
-Wigan,0 (0 -- 2),0,1,2,0,0,0,0,1,2,New confirmed cases by infection date,Stable,0.54
-Wirral,0 (0 -- 9),0,4,50,0,0,0,0,1,9,New confirmed cases by infection date,Stable,0.53
+Devon,5 (0 -- 66),5,29,277,0,2,3,7,13,66,New confirmed cases by infection date,Likely increasing,0.22
+Essex,5 (1 -- 19),5,8,27,1,3,4,6,8,19,New confirmed cases by infection date,Likely increasing,0.16
+Rotherham,4 (0 -- 41),4,13,82,0,1,3,5,10,41,New confirmed cases by infection date,Likely increasing,0.19
+"Armagh City, Banbridge and Craigavon",3 (0 -- 139),3,89,1174,0,0,2,4,10,139,New confirmed cases by infection date,Likely increasing,0.29
+Birmingham,2 (0 -- 22),2,9,66,0,1,2,3,5,22,New confirmed cases by infection date,Likely increasing,0.39
+Derbyshire,2 (0 -- 12),2,6,41,0,1,2,3,5,12,New confirmed cases by infection date,Likely increasing,0.33
+Hampshire,2 (0 -- 18),2,9,107,0,1,1,3,4,18,New confirmed cases by infection date,Likely increasing,0.27
+Nottinghamshire,2 (0 -- 8),2,3,6,0,1,1,2,3,8,New confirmed cases by infection date,Likely increasing,0.25
+Sheffield,2 (0 -- 15),2,6,76,0,1,2,3,5,15,New confirmed cases by infection date,Likely increasing,0.29
+Surrey,2 (0 -- 12),2,4,10,0,1,2,3,4,12,New confirmed cases by infection date,Likely increasing,0.22
+West Sussex,2 (0 -- 12),2,5,31,0,0,1,2,4,12,New confirmed cases by infection date,Likely increasing,0.33
+Worcestershire,2 (0 -- 14),2,5,27,0,0,1,2,4,14,New confirmed cases by infection date,Likely increasing,0.32
+Devon,1.3 (0.57 -- 2.3),1.3,1.3,0.63,0.57,1,1.2,1.3,1.5,2.3,Effective reproduction no.,Likely increasing,0.22
+Rotherham,1.3 (0.61 -- 1.9),1.3,1.3,0.44,0.61,1.1,1.2,1.3,1.5,1.9,Effective reproduction no.,Likely increasing,0.19
+"Armagh City, Banbridge and Craigavon",1.2 (0.32 -- 3.1),1.2,1.4,0.94,0.32,0.95,1.1,1.3,1.6,3.1,Effective reproduction no.,Likely increasing,0.29
+Essex,1.2 (0.82 -- 1.5),1.2,1.2,0.25,0.82,1.1,1.1,1.2,1.2,1.5,Effective reproduction no.,Likely increasing,0.16
+Lewisham,1.2 (0.66 -- 2),1.2,1.2,0.51,0.66,1,1.1,1.2,1.4,2,Effective reproduction no.,Likely increasing,0.2
+Norfolk,1.2 (0.67 -- 1.8),1.2,1.2,0.44,0.67,1,1.1,1.2,1.3,1.8,Effective reproduction no.,Likely increasing,0.22
+Birmingham,1.1 (0.65 -- 1.7),1.1,1.1,0.38,0.65,0.91,1,1.1,1.2,1.7,Effective reproduction no.,Likely increasing,0.39
+Brent,1.1 (0.15 -- 1.7),1.1,0.99,0.53,0.15,0.65,0.91,1.1,1.3,1.7,Effective reproduction no.,Stable,0.47
+"Bristol, City of",1.1 (0.55 -- 3),1.1,1.2,0.75,0.55,0.89,1,1.1,1.3,3,Effective reproduction no.,Likely increasing,0.38
+Calderdale,1.1 (0.6 -- 1.5),1.1,1.1,0.31,0.6,0.97,1.1,1.1,1.2,1.5,Effective reproduction no.,Likely increasing,0.29
+Croydon,1.1 (0.48 -- 1.4),1.1,1,0.31,0.48,0.88,1,1.1,1.2,1.4,Effective reproduction no.,Stable,0.4
+Derbyshire,1.1 (0.57 -- 1.5),1.1,1.1,0.36,0.57,0.92,1.1,1.2,1.2,1.5,Effective reproduction no.,Likely increasing,0.33
+Doncaster,1.1 (0.48 -- 1.5),1.1,1,0.33,0.48,0.88,1,1.1,1.2,1.5,Effective reproduction no.,Likely increasing,0.38
+Ealing,1.1 (0.53 -- 1.7),1.1,1.1,0.42,0.53,0.95,1.1,1.1,1.2,1.7,Effective reproduction no.,Likely increasing,0.3
+Fife,1.1 (0.39 -- 1.9),1.1,1.1,0.57,0.39,0.84,1,1.2,1.3,1.9,Effective reproduction no.,Likely increasing,0.37
+Hackney and City of London,1.1 (0.41 -- 2),1.1,1.1,0.61,0.41,0.87,1,1.1,1.2,2,Effective reproduction no.,Likely increasing,0.37
+Hampshire,1.1 (0.64 -- 1.8),1.1,1.2,0.51,0.64,0.98,1.1,1.2,1.3,1.8,Effective reproduction no.,Likely increasing,0.27
+Knowsley,1.1 (0.6 -- 1.5),1.1,1.1,0.31,0.6,0.97,1.1,1.1,1.2,1.5,Effective reproduction no.,Likely increasing,0.29
+Leicester,1.1 (0.73 -- 1.6),1.1,1.1,0.32,0.73,0.98,1,1.1,1.2,1.6,Effective reproduction no.,Likely increasing,0.28
+Leicestershire,1.1 (0.49 -- 1.5),1.1,1.1,0.32,0.49,0.94,1.1,1.1,1.2,1.5,Effective reproduction no.,Likely increasing,0.31
+Luton,1.1 (0.59 -- 2),1.1,1.2,0.54,0.59,0.99,1.1,1.2,1.3,2,Effective reproduction no.,Likely increasing,0.26
+Newham,1.1 (0.38 -- 1.9),1.1,1.1,0.55,0.38,0.88,1,1.2,1.3,1.9,Effective reproduction no.,Likely increasing,0.34
+Northumberland,1.1 (0.6 -- 1.7),1.1,1.1,0.41,0.6,0.98,1.1,1.2,1.3,1.7,Effective reproduction no.,Likely increasing,0.27
+Nottinghamshire,1.1 (0.77 -- 1.4),1.1,1.1,0.23,0.77,1,1.1,1.1,1.2,1.4,Effective reproduction no.,Likely increasing,0.25
+Salford,1.1 (0.53 -- 1.6),1.1,1.1,0.35,0.53,0.91,1,1.1,1.2,1.6,Effective reproduction no.,Likely increasing,0.36
+Sandwell,1.1 (0.53 -- 1.4),1.1,1,0.34,0.53,0.91,1,1.1,1.2,1.4,Effective reproduction no.,Likely increasing,0.37
+Sheffield,1.1 (0.55 -- 1.5),1.1,1.1,0.31,0.55,0.96,1.1,1.2,1.2,1.5,Effective reproduction no.,Likely increasing,0.29
+Shropshire,1.1 (0.25 -- 1.9),1.1,1.1,0.57,0.25,0.85,1.1,1.2,1.3,1.9,Effective reproduction no.,Likely increasing,0.35
+Somerset,1.1 (0.13 -- 2.6),1.1,1.1,0.88,0.13,0.7,0.95,1.2,1.3,2.6,Effective reproduction no.,Stable,0.44
+Surrey,1.1 (0.69 -- 1.5),1.1,1.1,0.27,0.69,1,1.1,1.2,1.2,1.5,Effective reproduction no.,Likely increasing,0.22
+Walsall,1.1 (0.46 -- 1.6),1.1,1.1,0.35,0.46,0.93,1.1,1.1,1.2,1.6,Effective reproduction no.,Likely increasing,0.31
+Warwickshire,1.1 (0.71 -- 1.5),1.1,1.1,0.29,0.71,1,1.1,1.2,1.2,1.5,Effective reproduction no.,Likely increasing,0.22
+West Sussex,1.1 (0.56 -- 1.7),1.1,1.1,0.38,0.56,0.93,1.1,1.2,1.2,1.7,Effective reproduction no.,Likely increasing,0.33
+Worcestershire,1.1 (0.53 -- 1.6),1.1,1.1,0.37,0.53,0.92,1.1,1.2,1.3,1.6,Effective reproduction no.,Likely increasing,0.32
+Barnet,1 (0.23 -- 2),1,1.1,0.7,0.23,0.76,0.95,1.1,1.2,2,Effective reproduction no.,Stable,0.45
+Bradford,1 (0.58 -- 1.3),1,0.98,0.25,0.58,0.87,0.96,1,1.1,1.3,Effective reproduction no.,Stable,0.49
+Brent,1 (0 -- 17),1,7,157,0,0,0,2,3,17,New confirmed cases by infection date,Stable,0.47
+Bury,1 (0.7 -- 1.4),1,1.1,0.23,0.7,0.97,1,1.1,1.1,1.4,Effective reproduction no.,Likely increasing,0.33
+Coventry,1 (0.3 -- 2.2),1,1.1,0.72,0.3,0.83,0.97,1.1,1.3,2.2,Effective reproduction no.,Stable,0.44
+Derry City and Strabane,1 (0.074 -- 2.2),1,1,0.74,0.074,0.6,0.87,1.1,1.3,2.2,Effective reproduction no.,Stable,0.5
+Dudley,1 (0.27 -- 1.4),1,0.94,0.38,0.27,0.72,0.92,1.1,1.1,1.4,Effective reproduction no.,Stable,0.49
+Ealing,1 (0 -- 12),1,7,148,0,0,1,1,2,12,New confirmed cases by infection date,Likely increasing,0.3
+East Riding of Yorkshire,1 (0 -- 17),1,5,18,0,0,1,2,4,17,New confirmed cases by infection date,Stable,0.46
+East Riding of Yorkshire,1 (0.26 -- 1.6),1,1,0.5,0.26,0.73,0.93,1.1,1.2,1.6,Effective reproduction no.,Stable,0.46
+Fife,1 (0 -- 13),1,8,88,0,0,0,1,2,13,New confirmed cases by infection date,Likely increasing,0.37
+Hertfordshire,1 (0 -- 10),1,3,4,0,0,1,2,4,10,New confirmed cases by infection date,Stable,0.47
+Hertfordshire,1 (0.36 -- 1.4),1,0.96,0.32,0.36,0.77,0.94,1.1,1.2,1.4,Effective reproduction no.,Stable,0.47
+Kent,1 (0 -- 10),1,4,30,0,0,0,2,3,10,New confirmed cases by infection date,Stable,0.49
+Kent,1 (0.47 -- 1.5),1,1,0.37,0.47,0.81,0.94,1.1,1.2,1.5,Effective reproduction no.,Stable,0.49
+Lancashire,1 (0 -- 5),1,2,6,0,0,0,1,2,5,New confirmed cases by infection date,Likely decreasing,0.69
+Leicestershire,1 (0 -- 7),1,2,18,0,0,1,1,2,7,New confirmed cases by infection date,Likely increasing,0.31
+Lewisham,1 (0 -- 22),1,17,334,0,0,1,2,4,22,New confirmed cases by infection date,Likely increasing,0.2
+Lincolnshire,1 (0 -- 17),1,5,35,0,0,1,2,4,17,New confirmed cases by infection date,Stable,0.48
+Lincolnshire,1 (0.32 -- 1.7),1,1,0.54,0.32,0.73,0.92,1.1,1.2,1.7,Effective reproduction no.,Stable,0.48
+Liverpool,1 (0 -- 8),1,4,51,0,0,1,1,2,8,New confirmed cases by infection date,Stable,0.45
+Liverpool,1 (0.46 -- 1.6),1,1,0.41,0.46,0.86,0.97,1.1,1.1,1.6,Effective reproduction no.,Stable,0.45
+Newcastle upon Tyne,1 (0.47 -- 1.5),1,1,0.36,0.47,0.81,0.95,1.1,1.1,1.5,Effective reproduction no.,Stable,0.48
+Norfolk,1 (0 -- 13),1,11,203,0,0,1,2,3,13,New confirmed cases by infection date,Likely increasing,0.22
+North Yorkshire,1 (0.38 -- 1.7),1,1,0.48,0.38,0.83,0.96,1.1,1.1,1.7,Effective reproduction no.,Stable,0.47
+Northumberland,1 (0 -- 10),1,7,171,0,0,1,2,3,10,New confirmed cases by infection date,Likely increasing,0.27
+Redbridge,1 (0.34 -- 1.4),1,0.96,0.45,0.34,0.78,0.93,1,1.1,1.4,Effective reproduction no.,Stable,0.5
+Rochdale,1 (0.58 -- 1.5),1,1,0.31,0.58,0.89,1,1.1,1.1,1.5,Effective reproduction no.,Stable,0.4
+Sandwell,1 (0 -- 4),1,2,19,0,0,0,1,1,4,New confirmed cases by infection date,Likely increasing,0.37
+Sefton,1 (0.31 -- 3.1),1,1.2,1,0.31,0.7,0.9,1.1,1.3,3.1,Effective reproduction no.,Stable,0.5
+Shropshire,1 (0 -- 20),1,7,63,0,0,0,2,3,20,New confirmed cases by infection date,Likely increasing,0.35
+Solihull,1 (0.15 -- 1.6),1,0.94,0.49,0.15,0.65,0.9,1.1,1.2,1.6,Effective reproduction no.,Stable,0.5
+Somerset,1 (0 -- 28),1,15,125,0,0,0,1,3,28,New confirmed cases by infection date,Stable,0.44
+St. Helens,1 (0.25 -- 1.8),1,1,0.58,0.25,0.75,0.94,1.1,1.2,1.8,Effective reproduction no.,Stable,0.47
+Stockport,1 (0.41 -- 1.5),1,1,0.34,0.41,0.89,1,1.1,1.1,1.5,Effective reproduction no.,Stable,0.4
+Walsall,1 (0 -- 7),1,2,9,0,0,0,1,2,7,New confirmed cases by infection date,Likely increasing,0.31
+Warwickshire,1 (0 -- 6),1,2,9,0,0,0,1,2,6,New confirmed cases by infection date,Likely increasing,0.22
+Wolverhampton,1 (0.2 -- 1.8),1,1,0.5,0.2,0.72,0.93,1.1,1.2,1.8,Effective reproduction no.,Stable,0.46
+County Durham,0.98 (0.24 -- 3.9),0.98,1.3,1.3,0.24,0.63,0.84,1.1,1.5,3.9,Effective reproduction no.,Stable,0.52
+Stockton-on-Tees,0.98 (0.096 -- 2.4),0.98,1.1,0.84,0.096,0.58,0.86,1.1,1.3,2.4,Effective reproduction no.,Stable,0.52
+Bolton,0.97 (0.53 -- 1.3),0.97,0.96,0.32,0.53,0.86,0.94,1,1,1.3,Effective reproduction no.,Likely decreasing,0.6
+Oldham,0.97 (0.29 -- 1.5),0.97,0.95,0.46,0.29,0.7,0.87,1.1,1.2,1.5,Effective reproduction no.,Stable,0.54
+City of Edinburgh,0.96 (0.32 -- 2),0.96,1,0.72,0.32,0.71,0.86,1,1.2,2,Effective reproduction no.,Stable,0.56
+Cornwall and Isles of Scilly,0.95 (0.31 -- 1.9),0.95,0.99,0.59,0.31,0.69,0.85,1,1.1,1.9,Effective reproduction no.,Stable,0.56
+East Sussex,0.95 (0.15 -- 2.2),0.95,1,0.78,0.15,0.6,0.83,1,1.2,2.2,Effective reproduction no.,Stable,0.55
+South Lanarkshire,0.95 (0.23 -- 1.7),0.95,0.97,0.68,0.23,0.68,0.86,1,1.1,1.7,Effective reproduction no.,Stable,0.57
+Wigan,0.95 (0.41 -- 1.3),0.95,0.92,0.32,0.41,0.76,0.89,1,1.1,1.3,Effective reproduction no.,Likely decreasing,0.6
+Kirklees,0.94 (0.25 -- 1.6),0.94,0.9,0.49,0.25,0.51,0.79,1.1,1.2,1.6,Effective reproduction no.,Stable,0.55
+Manchester,0.93 (0.53 -- 1.4),0.93,0.95,0.31,0.53,0.79,0.88,0.98,1.1,1.4,Effective reproduction no.,Likely decreasing,0.64
+Oxfordshire,0.93 (0.26 -- 1.5),0.93,0.91,0.46,0.26,0.68,0.85,0.99,1.1,1.5,Effective reproduction no.,Likely decreasing,0.62
+Wirral,0.91 (0.19 -- 1.6),0.91,0.92,0.56,0.19,0.6,0.8,1,1.1,1.6,Effective reproduction no.,Stable,0.59
+Lancashire,0.9 (0.5 -- 1.4),0.9,0.91,0.29,0.5,0.75,0.85,0.95,1,1.4,Effective reproduction no.,Likely decreasing,0.69
+North Lanarkshire,0.89 (0.21 -- 1.5),0.89,0.88,0.46,0.21,0.6,0.78,0.98,1.1,1.5,Effective reproduction no.,Likely decreasing,0.62
+Stoke-on-Trent,0.89 (0.12 -- 1.8),0.89,0.93,0.73,0.12,0.59,0.79,0.97,1.1,1.8,Effective reproduction no.,Likely decreasing,0.64
+Perth and Kinross,0.88 (0.22 -- 2.2),0.88,1,0.79,0.22,0.61,0.78,0.97,1.1,2.2,Effective reproduction no.,Likely decreasing,0.63
+Harrow,0.84 (0.049 -- 1.7),0.84,0.85,0.65,0.049,0.37,0.66,1,1.2,1.7,Effective reproduction no.,Stable,0.59
+Barnsley,0.83 (0.23 -- 1.6),0.83,0.87,0.52,0.23,0.57,0.73,0.93,1.1,1.6,Effective reproduction no.,Likely decreasing,0.69
+Belfast,0.82 (0.11 -- 1.8),0.82,0.89,0.64,0.11,0.47,0.69,0.95,1.2,1.8,Effective reproduction no.,Likely decreasing,0.64
+Wakefield,0.82 (0.2 -- 1.7),0.82,0.88,0.53,0.2,0.56,0.72,0.93,1.1,1.7,Effective reproduction no.,Likely decreasing,0.67
+Staffordshire,0.78 (0.25 -- 1.6),0.78,0.84,0.5,0.25,0.55,0.69,0.87,1,1.6,Effective reproduction no.,Likely decreasing,0.72
+North East Lincolnshire,0.75 (0.032 -- 2.3),0.75,0.87,0.92,0.032,0.32,0.57,0.91,1.1,2.3,Effective reproduction no.,Likely decreasing,0.67
+Blackburn with Darwen,0.74 (0.16 -- 1.3),0.74,0.74,0.45,0.16,0.5,0.65,0.81,0.92,1.3,Effective reproduction no.,Likely decreasing,0.85
+Cumbria,0.74 (0.14 -- 1.7),0.74,0.81,0.58,0.14,0.48,0.64,0.84,1,1.7,Effective reproduction no.,Likely decreasing,0.75
+Glasgow City,0.7 (0.15 -- 1.4),0.7,0.75,0.54,0.15,0.44,0.6,0.79,0.95,1.4,Effective reproduction no.,Likely decreasing,0.8
+Suffolk,0.66 (0.026 -- 2.4),0.66,0.84,0.92,0.026,0.27,0.5,0.82,1.1,2.4,Effective reproduction no.,Likely decreasing,0.7
+Tameside,0.66 (0.068 -- 1.4),0.66,0.7,0.5,0.068,0.35,0.53,0.79,0.98,1.4,Effective reproduction no.,Likely decreasing,0.76
+Redcar and Cleveland,0.59 (0.035 -- 1.6),0.59,0.7,0.69,0.035,0.27,0.46,0.72,0.96,1.6,Effective reproduction no.,Likely decreasing,0.77
+Gateshead,0.51 (0.069 -- 1.5),0.51,0.62,0.57,0.069,0.28,0.42,0.61,0.81,1.5,Effective reproduction no.,Likely decreasing,0.85
+Nottingham,0.51 (0.038 -- 1.6),0.51,0.64,0.64,0.038,0.24,0.4,0.64,0.86,1.6,Effective reproduction no.,Likely decreasing,0.83
+Sunderland,0.49 (0.047 -- 1.9),0.49,0.7,0.89,0.047,0.24,0.39,0.6,0.84,1.9,Effective reproduction no.,Likely decreasing,0.83
+Cheshire East,0.48 (0.021 -- 1.6),0.48,0.61,0.62,0.021,0.19,0.36,0.6,0.85,1.6,Effective reproduction no.,Likely decreasing,0.82
+Trafford,0.46 (0.032 -- 1.5),0.46,0.59,0.66,0.032,0.22,0.36,0.58,0.77,1.5,Effective reproduction no.,Likely decreasing,0.86
+South Tyneside,0.45 (0.017 -- 2.1),0.45,0.7,0.97,0.017,0.17,0.33,0.59,0.88,2.1,Effective reproduction no.,Likely decreasing,0.8
+Dundee City,0.44 (0.011 -- 1.6),0.44,0.64,0.87,0.011,0.16,0.33,0.6,0.84,1.6,Effective reproduction no.,Likely decreasing,0.84
+Leeds,0.33 (0.012 -- 1.7),0.33,0.53,0.77,0.012,0.12,0.24,0.44,0.65,1.7,Effective reproduction no.,Likely decreasing,0.88
+Northamptonshire,0.3 (0.0043 -- 1.5),0.3,0.49,0.63,0.0043,0.085,0.2,0.41,0.67,1.5,Effective reproduction no.,Likely decreasing,0.87
+Barnet,0 (0 -- 8),0,5,61,0,0,0,0,1,8,New confirmed cases by infection date,Stable,0.45
+Barnsley,0 (0 -- 5),0,2,44,0,0,0,0,0,5,New confirmed cases by infection date,Likely decreasing,0.69
+Belfast,0 (0 -- 17),0,6,57,0,0,0,1,3,17,New confirmed cases by infection date,Likely decreasing,0.64
+Blackburn with Darwen,0 (0 -- 0),0,0,1,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.85
+Bolton,0 (0 -- 1),0,1,11,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.6
+Bradford,0 (0 -- 3),0,1,3,0,0,0,1,1,3,New confirmed cases by infection date,Stable,0.49
+"Bristol, City of",0 (0 -- 40),0,17,230,0,0,0,0,1,40,New confirmed cases by infection date,Likely increasing,0.38
+Bury,0 (0 -- 3),0,1,5,0,0,0,0,1,3,New confirmed cases by infection date,Likely increasing,0.33
+Calderdale,0 (0 -- 4),0,1,9,0,0,0,1,1,4,New confirmed cases by infection date,Likely increasing,0.29
+Cheshire East,0 (0 -- 1),0,0,4,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.82
+City of Edinburgh,0 (0 -- 7),0,9,124,0,0,0,0,1,7,New confirmed cases by infection date,Stable,0.56
+Cornwall and Isles of Scilly,0 (0 -- 6),0,7,164,0,0,0,0,1,6,New confirmed cases by infection date,Stable,0.56
+County Durham,0 (0 -- 192),0,103,954,0,0,0,1,4,192,New confirmed cases by infection date,Stable,0.52
+Coventry,0 (0 -- 13),0,12,137,0,0,0,0,1,13,New confirmed cases by infection date,Stable,0.44
+Croydon,0 (0 -- 4),0,1,3,0,0,0,1,1,4,New confirmed cases by infection date,Stable,0.4
+Cumbria,0 (0 -- 3),0,3,82,0,0,0,0,0,3,New confirmed cases by infection date,Likely decreasing,0.75
+Derry City and Strabane,0 (0 -- 15),0,7,62,0,0,0,0,1,15,New confirmed cases by infection date,Stable,0.5
+Doncaster,0 (0 -- 4),0,1,4,0,0,0,1,1,4,New confirmed cases by infection date,Likely increasing,0.38
+Dudley,0 (0 -- 3),0,1,7,0,0,0,0,1,3,New confirmed cases by infection date,Stable,0.49
+Dundee City,0 (0 -- 0),0,1,35,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.84
+East Sussex,0 (0 -- 6),0,5,89,0,0,0,0,0,6,New confirmed cases by infection date,Stable,0.55
+Gateshead,0 (0 -- 0),0,0,5,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.85
+Glasgow City,0 (0 -- 3),0,8,303,0,0,0,0,0,3,New confirmed cases by infection date,Likely decreasing,0.8
+Hackney and City of London,0 (0 -- 11),0,9,259,0,0,0,1,1,11,New confirmed cases by infection date,Likely increasing,0.37
+Harrow,0 (0 -- 5),0,2,20,0,0,0,0,1,5,New confirmed cases by infection date,Stable,0.59
+Kirklees,0 (0 -- 7),0,3,50,0,0,0,1,2,7,New confirmed cases by infection date,Stable,0.55
+Knowsley,0 (0 -- 5),0,2,14,0,0,0,1,1,5,New confirmed cases by infection date,Likely increasing,0.29
+Leeds,0 (0 -- 1),0,1,27,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.88
+Leicester,0 (0 -- 6),0,2,12,0,0,0,1,1,6,New confirmed cases by infection date,Likely increasing,0.28
+Luton,0 (0 -- 12),0,6,93,0,0,0,0,1,12,New confirmed cases by infection date,Likely increasing,0.26
+Manchester,0 (0 -- 3),0,1,9,0,0,0,0,1,3,New confirmed cases by infection date,Likely decreasing,0.64
+Newcastle upon Tyne,0 (0 -- 3),0,1,14,0,0,0,0,1,3,New confirmed cases by infection date,Stable,0.48
+Newham,0 (0 -- 11),0,8,138,0,0,0,1,2,11,New confirmed cases by infection date,Likely increasing,0.34
+North East Lincolnshire,0 (0 -- 5),0,18,398,0,0,0,0,0,5,New confirmed cases by infection date,Likely decreasing,0.67
+North Lanarkshire,0 (0 -- 4),0,2,27,0,0,0,0,1,4,New confirmed cases by infection date,Likely decreasing,0.62
+North Yorkshire,0 (0 -- 6),0,4,65,0,0,0,0,1,6,New confirmed cases by infection date,Stable,0.47
+Northamptonshire,0 (0 -- 0),0,0,15,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.87
+Nottingham,0 (0 -- 1),0,0,30,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.83
+Oldham,0 (0 -- 7),0,3,24,0,0,0,1,2,7,New confirmed cases by infection date,Stable,0.54
+Oxfordshire,0 (0 -- 2),0,1,16,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.62
+Perth and Kinross,0 (0 -- 4),0,8,136,0,0,0,0,0,4,New confirmed cases by infection date,Likely decreasing,0.63
+Redbridge,0 (0 -- 1),0,0,17,0,0,0,0,0,1,New confirmed cases by infection date,Stable,0.5
+Redcar and Cleveland,0 (0 -- 2),0,1,18,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.77
+Rochdale,0 (0 -- 4),0,1,7,0,0,0,0,1,4,New confirmed cases by infection date,Stable,0.4
+Salford,0 (0 -- 5),0,2,8,0,0,0,1,1,5,New confirmed cases by infection date,Likely increasing,0.36
+Sefton,0 (0 -- 58),0,34,408,0,0,0,0,1,58,New confirmed cases by infection date,Stable,0.5
+Solihull,0 (0 -- 5),0,1,12,0,0,0,0,1,5,New confirmed cases by infection date,Stable,0.5
+South Lanarkshire,0 (0 -- 4),0,5,83,0,0,0,0,0,4,New confirmed cases by infection date,Stable,0.57
+South Tyneside,0 (0 -- 1),0,4,63,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.8
+St. Helens,0 (0 -- 6),0,5,78,0,0,0,0,1,6,New confirmed cases by infection date,Stable,0.47
+Staffordshire,0 (0 -- 5),0,2,17,0,0,0,0,1,5,New confirmed cases by infection date,Likely decreasing,0.72
+Stockport,0 (0 -- 3),0,1,5,0,0,0,0,1,3,New confirmed cases by infection date,Stable,0.4
+Stockton-on-Tees,0 (0 -- 28),0,25,514,0,0,0,1,2,28,New confirmed cases by infection date,Stable,0.52
+Stoke-on-Trent,0 (0 -- 3),0,4,77,0,0,0,0,0,3,New confirmed cases by infection date,Likely decreasing,0.64
+Suffolk,0 (0 -- 8),0,10,162,0,0,0,0,0,8,New confirmed cases by infection date,Likely decreasing,0.7
+Sunderland,0 (0 -- 3),0,6,164,0,0,0,0,0,3,New confirmed cases by infection date,Likely decreasing,0.83
+Tameside,0 (0 -- 1),0,0,4,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.76
+Trafford,0 (0 -- 0),0,0,3,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.86
+Wakefield,0 (0 -- 6),0,2,20,0,0,0,0,1,6,New confirmed cases by infection date,Likely decreasing,0.67
+Wigan,0 (0 -- 2),0,1,60,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.6
+Wirral,0 (0 -- 5),0,2,22,0,0,0,0,1,5,New confirmed cases by infection date,Stable,0.59
+Wolverhampton,0 (0 -- 8),0,3,27,0,0,0,1,2,8,New confirmed cases by infection date,Stable,0.46
