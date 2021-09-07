@@ -8,6 +8,7 @@ import rpy2.robjects as robjects
 from rpy2.robjects import pandas2ri
 from rpy2.robjects.conversion import localconverter
 import pandas as pd
+import pyreadr
 
 
 # Install packages
@@ -81,17 +82,21 @@ def update_regional(datasets, region):
     #cases = clean_regional_data(cases, 3, 12)
 
     # Extracting parameters for EpiNow
-    gtime = datasets[0]["generation_time"][0]
+    #gtime = datasets[0]["generation_time"][0]
     iperiod = datasets[0]["incubation_period"][0]
     rdelay = datasets[0]["reporting_delay"][0]
     target = datasets[0]["target_folder"][0]
     epinow_opts = datasets[0]["regional_epinow_opts"][0]
 
+    gtime = pyreadr.read_r('../data/generation_time.rds')
+
+    print(gtime)
+
     # Calling EpiNow
-    out = epinow2.regional_epinow(reported_cases = rdf,
-                                    generation_time = gtime,
-                                    delays = epinow2.delay_opts(iperiod, rdelay),
-                                    target_folder = target)
+    #out = epinow2.regional_epinow(reported_cases = rdf,
+    #                                generation_time = gtime,
+    #                                delays = epinow2.delay_opts(iperiod, rdelay),
+    #                                target_folder = target)
 
 
 
