@@ -58,30 +58,32 @@ def update_regional(datasets, region):
     # rename columns
     print(cases)
     cases = dtable.setnames(cases, datasets[0]["cases_subregion_source"][0], "region", skip_absent=True)
-     
-    ##print(cases)
+
+    #print(cases)
 
     with localconverter(robjects.default_converter + pandas2ri.converter):
         df = robjects.conversion.rpy2py(cases)
 
     #print(type(df))
-    print(cases)
+    print(df.columns)
+    df=df.rename(columns = {'region_level_1':'region'})
+    print(df.columns)
     # Extracting information from datasets is a bit traicky
     #print(datasets[0]["target_folder"][0])
 
 
-     
+
 
     #cases = clean_regional_data(cases, 3, 12)
-    
-    # Calling EpiNow 
-    #out = epinow2.regional_epinow(cases) 
-    
-     
+
+    # Calling EpiNow
+    #out = epinow2.regional_epinow(cases)
+
+
 
 
     return datasets
-    
+
 
 def rru_process_locations(datasets, region):
 
@@ -89,15 +91,15 @@ def rru_process_locations(datasets, region):
     outcome = update_regional(datasets, region)
 
     return outcome
- 
+
 
 def run_regional_updates(datasets, derivatives, region):
     print("run region updates")
     if(len(region) == 0):
         sys.exit('region list is empty')
 
-    dataset = rru_filter_datasets(datasets,region)    
-    outcome = rru_process_locations(datasets, region)    
+    dataset = rru_filter_datasets(datasets,region)
+    outcome = rru_process_locations(datasets, region)
 
 def main():
     print("main")
@@ -123,17 +125,3 @@ def main():
 
 if __name__ == "__main__":
         main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
