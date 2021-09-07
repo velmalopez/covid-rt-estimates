@@ -83,10 +83,10 @@ def update_regional(datasets, region):
 
     # Extracting parameters for EpiNow
     #gtime = datasets[0]["generation_time"][0]
-    iperiod = datasets[0]["incubation_period"][0]
-    rdelay = datasets[0]["reporting_delay"][0]
+    #iperiod = datasets[0]["incubation_period"][0]
+    #rdelay = datasets[0]["reporting_delay"][0]
     target = datasets[0]["target_folder"][0]
-    epinow_opts = datasets[0]["regional_epinow_opts"][0]
+    #epinow_opts = datasets[0]["regional_epinow_opts"][0]
 
     #gtime = pyreadr.read_r('data', '../data/generation_time.rds')
     readRDS = robjects.r['readRDS']
@@ -98,10 +98,10 @@ def update_regional(datasets, region):
     #print(type(gendf))
 
     # Calling EpiNow
-    #out = epinow2.regional_epinow(reported_cases = rdf,
-    #                                generation_time = gtime,
-    #                                delays = epinow2.delay_opts(iperiod, rdelay),
-    #                                target_folder = target)
+    out = epinow2.regional_epinow(reported_cases = rdf,
+                                    generation_time = gtime,
+                                    delays = epinow2.delay_opts(iperiod, rdelay),
+                                    target_folder = target)
 
 
 
