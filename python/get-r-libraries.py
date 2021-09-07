@@ -90,7 +90,7 @@ def update_regional(datasets, region):
     # Calling EpiNow
     out = epinow2.regional_epinow(reported_cases = rdf,
                                     generation_time = gtime,
-                                    #delays = epinow2.delay_opts(iperiod, rdelay),
+                                    delays = epinow2.delay_opts(iperiod, rdelay),
                                     target_folder = target)
 
 
