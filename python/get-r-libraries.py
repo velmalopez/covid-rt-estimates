@@ -74,8 +74,8 @@ def update_regional(datasets, region):
     #print(datasets[0]["target_folder"][0])
 
     # coverting pandas dataframe back to rpy object
-    with localconverter(ro.default_converter + pandas2ri.converter):
-        r_from_pd_df = ro.conversion.py2rpy(df)
+    with localconverter(robjects.default_converter + pandas2ri.converter):
+        r_from_pd_df = robjects.conversion.py2rpy(df)
     print(r_from_pd_df)
     print(type(r_from_pd_df))
     #cases = clean_regional_data(cases, 3, 12)
