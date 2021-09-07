@@ -76,12 +76,15 @@ def update_regional(datasets, region):
     # coverting pandas dataframe back to rpy object
     with localconverter(robjects.default_converter + pandas2ri.converter):
         rdf = robjects.conversion.py2rpy(df)
-    print(rdf)
+    #print(rdf)
     print(type(rdf))
     #cases = clean_regional_data(cases, 3, 12)
 
+    # Extracting parameters for EpiNow
+    generation_time = datasets[0]["generation_time"][0]
+    print(generation_time)
     # Calling EpiNow
-    out = epinow2.regional_epinow(rdf)
+    #out = epinow2.regional_epinow(rdf)
 
 
 
