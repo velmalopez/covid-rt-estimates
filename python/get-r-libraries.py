@@ -68,7 +68,7 @@ def update_regional(datasets, region):
     print(df.columns)
     df=df.rename(columns = {datasets[0]["cases_subregion_source"][0]:'region'})
     print(df.columns)
-    #print(datasets[0]["cases_subregion_source"][0])
+    print(type(datasets[0]["cases_subregion_source"][0]))
     # Extracting information from datasets is a bit traicky
     #print(datasets[0]["target_folder"][0])
 
