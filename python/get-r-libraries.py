@@ -93,7 +93,7 @@ def update_regional(datasets, region):
     gendf = readRDS('../data/generation_time.rds', "data")
     #gtime = pandas2ri.rpy2py_dataframe(gendf)
 
-    print(gendf)
+    print(type(gendf))
 
     # Calling EpiNow
     #out = epinow2.regional_epinow(reported_cases = rdf,
