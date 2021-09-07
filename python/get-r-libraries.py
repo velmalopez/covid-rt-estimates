@@ -66,7 +66,7 @@ def update_regional(datasets, region):
 
     #print(type(df))
     print(df.columns)
-    df=df.rename(columns = {datasets[0]["cases_subregion_source"][0]:'region'})
+    df=df.rename(columns = {'region_level_1':'region'})
     print(df.columns)
     print(type(datasets[0]["cases_subregion_source"][0]))
     # Extracting information from datasets is a bit traicky
@@ -78,7 +78,7 @@ def update_regional(datasets, region):
     #cases = clean_regional_data(cases, 3, 12)
 
     # Calling EpiNow
-    #out = epinow2.regional_epinow(cases)
+    out = epinow2.regional_epinow(df)
 
 
 
