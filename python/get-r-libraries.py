@@ -8,7 +8,7 @@ import rpy2.robjects as robjects
 from rpy2.robjects import pandas2ri
 from rpy2.robjects.conversion import localconverter
 import pandas as pd
-import pandas.rpy.common as com
+
 
 # Install packages
 #packnames = ('data.table', 'lubridate', 'future', 'optparse', 'covidregionaldata', 'EpiNow2')
@@ -74,9 +74,10 @@ def update_regional(datasets, region):
     #print(datasets[0]["target_folder"][0])
 
     # coverting pandas dataframe back to rpy object
-    r_dataframe = com.convert_to_r_dataframe(df)
-    print(r_dataframe)
-
+    with localconverter(ro.default_converter + pandas2ri.converter):
+        r_from_pd_df = ro.conversion.py2rpy(df)
+    print(r_from_pd_df)
+    print(type(r_from_pd_df))
     #cases = clean_regional_data(cases, 3, 12)
 
     # Calling EpiNow
