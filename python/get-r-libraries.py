@@ -101,6 +101,7 @@ def update_regional(datasets, region):
     out = epinow2.regional_epinow(reported_cases = rdf,
                                     generation_time = gtime,
                                     delays = epinow2.delay_opts(iperiod, rdelay),
+                                    summary_args = [max_plot = 2],
                                     target_folder = target)
 
 
