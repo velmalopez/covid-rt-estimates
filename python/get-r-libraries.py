@@ -88,7 +88,10 @@ def update_regional(datasets, region):
     target = datasets[0]["target_folder"][0]
     epinow_opts = datasets[0]["regional_epinow_opts"][0]
 
-    gtime = pyreadr.read_r('data', '../data/generation_time.rds')
+    #gtime = pyreadr.read_r('data', '../data/generation_time.rds')
+    readRDS = robjects.r['readRDS']
+    gendf = readRDS('../data/generation_time.rds')
+    gtime = pandas2ri.ri2py(gendf)
 
     print(gtime)
 
