@@ -91,7 +91,7 @@ def update_regional(datasets, region):
     #gtime = pyreadr.read_r('data', '../data/generation_time.rds')
     readRDS = robjects.r['readRDS']
     gendf = readRDS('../data/generation_time.rds')
-    gtime = pandas2ri.ri2py(gendf)
+    gtime = pandas2ri.rpy2py_dataframe(gendf)
 
     print(gtime)
 
