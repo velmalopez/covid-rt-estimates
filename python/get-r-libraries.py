@@ -82,9 +82,13 @@ def update_regional(datasets, region):
 
     # Extracting parameters for EpiNow
     generation_time = datasets[0]["generation_time"][0]
-    print(generation_time)
+    incubation_period = datasets[0]["incubation_period"][0]
+    reporting_delay = datasets[0]["reporting_delay"][0]
+    target_folder = datasets[0]["target_folder"][0]
+
+
     # Calling EpiNow
-    #out = epinow2.regional_epinow(rdf)
+    out = epinow2.regional_epinow(reported_cases = rdf, silent = True)
 
 
 
