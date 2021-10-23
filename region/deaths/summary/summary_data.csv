@@ -1,13 +1,13 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Global,6247 (4863 -- 8833),6247,6477,1318,4863,5615,5988,6502,7038,8833,New confirmed cases by infection date,Stable,0.58
-Europe,3509 (3103 -- 4031),3509,3532,298,3103,3342,3445,3583,3700,4031,New confirmed cases by infection date,Increasing,0.0048
-Americas,2186 (1389 -- 3906),2186,2361,941,1389,1827,2050,2346,2645,3906,New confirmed cases by infection date,Likely decreasing,0.69
-Asia,907 (617 -- 1321),907,930,227,617,781,857,956,1045,1321,New confirmed cases by infection date,Likely decreasing,0.9
-Africa,121 (68 -- 205),121,128,48,68,98,112,130,148,205,New confirmed cases by infection date,Likely decreasing,0.94
-Oceania,26 (6 -- 50),26,27,18,6,17,23,29,35,50,New confirmed cases by infection date,Likely decreasing,0.63
-Europe,1.1 (1 -- 1.1),1.1,1.1,0.026,1,1.1,1.1,1.1,1.1,1.1,Effective reproduction no.,Increasing,0.0048
-Global,0.99 (0.93 -- 1.1),0.99,1,0.05,0.93,0.97,0.98,1,1,1.1,Effective reproduction no.,Stable,0.58
-Americas,0.97 (0.87 -- 1.1),0.97,0.98,0.087,0.87,0.93,0.96,0.99,1,1.1,Effective reproduction no.,Likely decreasing,0.69
-Oceania,0.97 (0.7 -- 1.1),0.97,0.94,0.13,0.7,0.89,0.95,0.99,1,1.1,Effective reproduction no.,Likely decreasing,0.63
-Asia,0.92 (0.82 -- 1),0.92,0.93,0.066,0.82,0.89,0.91,0.94,0.96,1,Effective reproduction no.,Likely decreasing,0.9
-Africa,0.89 (0.78 -- 1),0.89,0.89,0.076,0.78,0.85,0.87,0.9,0.93,1,Effective reproduction no.,Likely decreasing,0.94
+Global,6512 (5061 -- 9430),6512,6818,1560,5061,5852,6247,6827,7435,9430,New confirmed cases by infection date,Stable,0.51
+Europe,3622 (3184 -- 4152),3622,3643,305,3184,3441,3553,3695,3822,4152,New confirmed cases by infection date,Increasing,0.0042
+Americas,2263 (1464 -- 3989),2263,2438,900,1464,1908,2128,2419,2720,3989,New confirmed cases by infection date,Likely decreasing,0.65
+Asia,1026 (703 -- 1570),1026,1066,282,703,883,967,1084,1198,1570,New confirmed cases by infection date,Likely decreasing,0.78
+Africa,109 (58 -- 185),109,115,41,58,88,101,118,135,185,New confirmed cases by infection date,Decreasing,0.95
+Oceania,24 (6 -- 48),24,26,14,6,16,21,28,33,48,New confirmed cases by infection date,Likely decreasing,0.67
+Europe,1.1 (1 -- 1.1),1.1,1.1,0.026,1,1.1,1.1,1.1,1.1,1.1,Effective reproduction no.,Increasing,0.0042
+Global,1 (0.94 -- 1.1),1,1,0.053,0.94,0.98,0.99,1,1,1.1,Effective reproduction no.,Stable,0.51
+Americas,0.98 (0.88 -- 1.1),0.98,0.99,0.083,0.88,0.94,0.96,0.99,1,1.1,Effective reproduction no.,Likely decreasing,0.65
+Oceania,0.96 (0.7 -- 1.1),0.96,0.94,0.13,0.7,0.88,0.94,0.99,1,1.1,Effective reproduction no.,Likely decreasing,0.67
+Asia,0.95 (0.85 -- 1.1),0.95,0.96,0.071,0.85,0.91,0.94,0.97,0.99,1.1,Effective reproduction no.,Likely decreasing,0.78
+Africa,0.88 (0.76 -- 1),0.88,0.88,0.075,0.76,0.84,0.87,0.89,0.92,1,Effective reproduction no.,Decreasing,0.95
