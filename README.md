@@ -1,6 +1,8 @@
 
 # National and subnational estimates of the time-varying reproduction number for Covid-19
 
+**We are not currently updating estimates due to an issue with our backend infrastructure. We hope to resolve this in the next few weeks.**
+
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Status](https://img.shields.io/badge/Status-csv-yellow.svg)](https://github.com/epiforecasts/covid-rt-estimates/blob/master/status.csv) [![Website epiforecasts.io/covid](https://img.shields.io/website-up-down-green-red/https/epiforecasts.io/covid/)](https://epiforecasts.io/covid/) 
 
 This repository contains estimates of the time-varying reproduction number for every country in the world listed in the ECDC Covid-19 data source and subnational estimates for 9 countries. 
