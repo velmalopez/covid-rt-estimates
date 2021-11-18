@@ -1,9 +1,9 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Flanders,3800 (1414 -- 8424),3800,4196,2229,1414,2593,3329,4248,5277,8424,New confirmed cases by infection date,Likely decreasing,0.84
-Wallonia,1309 (428 -- 3298),1309,1516,899,428,854,1112,1533,1978,3298,New confirmed cases by infection date,Likely decreasing,0.87
-Brussels,568 (365 -- 860),568,584,154,365,477,532,602,670,860,New confirmed cases by infection date,Likely decreasing,0.78
-Unknown,82 (43 -- 118),82,81,23,43,64,75,88,97,118,New confirmed cases by infection date,Stable,0.5
-Unknown,1 (0.81 -- 1.1),1,0.98,0.091,0.81,0.94,0.98,1,1,1.1,Effective reproduction no.,Stable,0.5
-Brussels,0.92 (0.76 -- 1.1),0.92,0.93,0.1,0.76,0.86,0.9,0.95,0.99,1.1,Effective reproduction no.,Likely decreasing,0.78
-Flanders,0.84 (0.56 -- 1.1),0.84,0.84,0.16,0.56,0.73,0.8,0.88,0.95,1.1,Effective reproduction no.,Likely decreasing,0.84
-Wallonia,0.81 (0.51 -- 1.1),0.81,0.8,0.17,0.51,0.69,0.76,0.85,0.92,1.1,Effective reproduction no.,Likely decreasing,0.87
+Flanders,4335 (1672 -- 9601),4335,4858,2537,1672,3117,3816,4967,6160,9601,New confirmed cases by infection date,Likely decreasing,0.8
+Wallonia,2622 (1502 -- 4448),2622,2763,938,1502,2112,2423,2840,3236,4448,New confirmed cases by infection date,Likely decreasing,0.61
+Brussels,618 (398 -- 911),618,635,166,398,526,582,659,729,911,New confirmed cases by infection date,Likely decreasing,0.72
+Unknown,111 (80 -- 147),111,112,20,80,99,106,116,125,147,New confirmed cases by infection date,Likely increasing,0.15
+Unknown,1.1 (0.95 -- 1.1),1.1,1.1,0.059,0.95,1,1,1.1,1.1,1.1,Effective reproduction no.,Likely increasing,0.15
+Wallonia,0.97 (0.78 -- 1.2),0.97,0.98,0.13,0.78,0.89,0.94,1,1.1,1.2,Effective reproduction no.,Likely decreasing,0.61
+Brussels,0.95 (0.77 -- 1.1),0.95,0.95,0.11,0.77,0.88,0.92,0.97,1,1.1,Effective reproduction no.,Likely decreasing,0.72
+Flanders,0.87 (0.59 -- 1.1),0.87,0.87,0.16,0.59,0.77,0.83,0.91,0.98,1.1,Effective reproduction no.,Likely decreasing,0.8
