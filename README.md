@@ -20,8 +20,8 @@ To confirm the latest version check the production date in the metadata tab on t
 |---------|-----------|---------------------|
 regional-cases | :heavy_check_mark: | https://github.com/epiforecasts/covid-rt-estimates/tree/master/region/cases/summary |
 regional-deaths | :heavy_check_mark: | https://github.com/epiforecasts/covid-rt-estimates/tree/master/region/deaths/summary |
-cases | :heavy_check_mark: | https://github.com/epiforecasts/covid-rt-estimates/tree/master/national/cases/cases/summary |
-deaths | :heavy_check_mark: | https://github.com/epiforecasts/covid-rt-estimates/tree/master/national/deaths/cases/summary |
+cases | :heavy_check_mark: | https://github.com/epiforecasts/covid-rt-estimates/tree/master/national/cases/summary |
+deaths | :heavy_check_mark: | https://github.com/epiforecasts/covid-rt-estimates/tree/master/national/deaths/summary |
 belgium | :heavy_check_mark: | https://github.com/epiforecasts/covid-rt-estimates/tree/master/subnational/belgium/cases/summary |
 brazil | :heavy_check_mark: | https://github.com/epiforecasts/covid-rt-estimates/tree/master/subnational/brazil/cases/summary |
 canada | :heavy_check_mark: | https://github.com/epiforecasts/covid-rt-estimates/tree/master/subnational/canada/cases/summary |
