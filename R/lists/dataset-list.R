@@ -208,9 +208,30 @@ DATASETS <- list(
                          description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in South Africa. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                          breakdown = "state",
                          country = "South Africa"),
+                         covid_regional_data_identifier = "South Africa",
                          case_modifier = function(cases) {
                                   cases <- cases[!is.na(level_1_region)]
                                   return(cases) }),
+  "south-africa-deaths" = Region$new(name = "south-africa-deaths",
+                              publication_metadata = PublicationMetadata$new(
+                                title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for South Africa Based on Deaths",
+                                description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in South Africa.",
+                                breakdown = "state",
+                                country = "South Africa"),
+                              covid_regional_data_identifier = "South Africa",
+                              folder_name = "south-africa",
+                              dataset_folder_name = "deaths",
+                              reporting_delay = readRDS(here::here("data", "cocin_onset_to_death_delay.rds")),
+                              case_modifier = function(deaths) {
+                                deaths <- deaths[, cases_new := deaths_new]
+                                return(deaths) }),
+   "vietnam" = Region$new(name = "vietnam",
+                        publication_metadata = PublicationMetadata$new(
+                         title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Viet Nam Based on Test Results",
+                         description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Viet Nam. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
+                         breakdown = "region",
+                         country = "Viet Nam"),
+                         covid_regional_data_identifier = "Vietnam"),
   "test" = Region$new(name = "test",
                       covid_regional_data_identifier = "belgium",
                       cases_subregion_source = "region",
