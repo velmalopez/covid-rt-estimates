@@ -30,13 +30,16 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
     location$incubation_period <- readRDS(here::here("data", "incubation_period.rds")) #suggest moving into list def
   }
   if (!is.list(location$reporting_delay)) {
-    if (location$name %in% c("deaths", "regional-deaths")) {
+    if (grepl("deaths$", location$name)) {
       futile.logger::flog.trace("loading onset_to_death_delay.rds")
       location$reporting_delay <- readRDS(here::here("data", "onset_to_death_delay.rds")) #suggest moving into list def
     }
-    else {
+    else if (grepl("admissions$", location$name)) {
       futile.logger::flog.trace("loading onset_to_admission_delay.rds")
       location$reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds")) #suggest moving into list def
+    } else {
+      futile.logger::flog.trace("loading uk_onset_to_case.rds")
+      location$reporting_delay <- readRDS(here::here("data", "uk_onset_to_case.rds")) #suggest moving into list def
     }
   }
 
