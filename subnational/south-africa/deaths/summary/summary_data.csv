@@ -1,19 +1,19 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Western Cape,179 (8 -- 5932),179,1308,4760,8,45,107,287,726,5932,New confirmed cases by infection date,Increasing,0.027
-North-West,116 (3 -- 13561),116,6712,57074,3,26,66,207,614,13561,New confirmed cases by infection date,Likely increasing,0.12
-Western Cape,2.3 (1.1 -- 5.6),2.3,2.7,1.5,1.1,1.7,2,2.6,3.2,5.6,Effective reproduction no.,Increasing,0.027
-North-West,1.7 (0.76 -- 4.1),1.7,2,1.2,0.76,1.2,1.5,1.9,2.3,4.1,Effective reproduction no.,Likely increasing,0.12
-Gauteng,1 (0 -- 12),1,4,16,0,1,1,2,3,12,New confirmed cases by infection date,Likely decreasing,0.69
-Northern Cape,1 (0 -- 10),1,6,74,0,0,1,1,2,10,New confirmed cases by infection date,Likely decreasing,0.75
-Gauteng,0.93 (0.79 -- 1.4),0.93,0.98,0.21,0.79,0.88,0.9,0.96,1,1.4,Effective reproduction no.,Likely decreasing,0.69
-Limpopo,0.91 (0.42 -- 1.2),0.91,0.87,0.24,0.42,0.77,0.87,0.93,0.98,1.2,Effective reproduction no.,Likely decreasing,0.8
-Northern Cape,0.91 (0.31 -- 1.3),0.91,0.88,0.39,0.31,0.71,0.86,0.95,1,1.3,Effective reproduction no.,Likely decreasing,0.75
-Eastern Cape,0.89 (0.61 -- 1.3),0.89,0.92,0.23,0.61,0.79,0.85,0.93,1,1.3,Effective reproduction no.,Likely decreasing,0.72
-Free State,0.85 (0.57 -- 1.1),0.85,0.84,0.17,0.57,0.75,0.81,0.87,0.91,1.1,Effective reproduction no.,Likely decreasing,0.91
-Mpumalanga,0.79 (0.32 -- 1.1),0.79,0.76,0.26,0.32,0.64,0.74,0.83,0.87,1.1,Effective reproduction no.,Likely decreasing,0.92
-Kwazulu-Natal,0.78 (0.58 -- 1),0.78,0.79,0.15,0.58,0.73,0.77,0.79,0.83,1,Effective reproduction no.,Likely decreasing,0.94
-Eastern Cape,0 (0 -- 5),0,1,3,0,0,0,1,1,5,New confirmed cases by infection date,Likely decreasing,0.72
-Free State,0 (0 -- 2),0,1,1,0,0,0,1,1,2,New confirmed cases by infection date,Likely decreasing,0.91
-Kwazulu-Natal,0 (0 -- 0),0,0,0,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.94
-Limpopo,0 (0 -- 4),0,1,5,0,0,0,0,1,4,New confirmed cases by infection date,Likely decreasing,0.8
-Mpumalanga,0 (0 -- 0),0,0,1,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.92
+North-West,57 (1 -- 4004),57,6254,194436,1,13,34,103,282,4004,New confirmed cases by infection date,Likely increasing,0.18
+Western Cape,41 (3 -- 1100),41,404,2453,3,13,26,66,153,1100,New confirmed cases by infection date,Likely increasing,0.076
+Gauteng,4 (1 -- 1086),4,173,614,1,2,3,7,23,1086,New confirmed cases by infection date,Likely increasing,0.39
+Eastern Cape,2 (0 -- 25),2,7,19,0,1,2,3,6,25,New confirmed cases by infection date,Likely increasing,0.37
+Western Cape,1.7 (0.93 -- 3.7),1.7,1.9,0.96,0.93,1.3,1.5,1.9,2.2,3.7,Effective reproduction no.,Likely increasing,0.076
+North-West,1.5 (0.67 -- 3.3),1.5,1.7,0.91,0.67,1.1,1.3,1.6,2,3.3,Effective reproduction no.,Likely increasing,0.18
+Eastern Cape,1.1 (0.73 -- 1.8),1.1,1.1,0.35,0.73,0.93,1,1.1,1.3,1.8,Effective reproduction no.,Likely increasing,0.37
+Gauteng,1.1 (0.84 -- 4),1.1,1.6,1.1,0.84,0.94,1,1.2,1.5,4,Effective reproduction no.,Likely increasing,0.39
+Northern Cape,1 (0 -- 7),1,8,237,0,0,0,1,2,7,New confirmed cases by infection date,Likely decreasing,0.78
+Limpopo,0.89 (0.36 -- 1.1),0.89,0.84,0.25,0.36,0.74,0.84,0.92,0.96,1.1,Effective reproduction no.,Likely decreasing,0.83
+Northern Cape,0.88 (0.26 -- 1.3),0.88,0.84,0.39,0.26,0.65,0.81,0.93,0.98,1.3,Effective reproduction no.,Likely decreasing,0.78
+Free State,0.86 (0.61 -- 1.1),0.86,0.85,0.16,0.61,0.77,0.83,0.88,0.92,1.1,Effective reproduction no.,Likely decreasing,0.9
+Mpumalanga,0.78 (0.32 -- 1.1),0.78,0.75,0.24,0.32,0.63,0.73,0.81,0.86,1.1,Effective reproduction no.,Likely decreasing,0.93
+Kwazulu-Natal,0.77 (0.53 -- 0.97),0.77,0.77,0.15,0.53,0.72,0.76,0.79,0.82,0.97,Effective reproduction no.,Decreasing,0.96
+Free State,0 (0 -- 3),0,1,2,0,0,0,1,1,3,New confirmed cases by infection date,Likely decreasing,0.9
+Kwazulu-Natal,0 (0 -- 0),0,0,0,0,0,0,0,0,0,New confirmed cases by infection date,Decreasing,0.96
+Limpopo,0 (0 -- 3),0,1,5,0,0,0,0,1,3,New confirmed cases by infection date,Likely decreasing,0.83
+Mpumalanga,0 (0 -- 0),0,0,0,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.93
