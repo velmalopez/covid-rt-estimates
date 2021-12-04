@@ -1,19 +1,19 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Gauteng,9096 (2404 -- 28251),9096,11491,8885,2404,5422,7559,11077,14823,28251,New confirmed cases by infection date,Likely increasing,0.24
-Western Cape,993 (250 -- 3339),993,1310,1157,250,579,830,1202,1648,3339,New confirmed cases by infection date,Likely increasing,0.14
-Kwazulu-Natal,639 (262 -- 1629),639,756,471,262,446,559,735,934,1629,New confirmed cases by infection date,Increasing,0.036
-Mpumalanga,633 (197 -- 1862),633,776,572,197,408,536,738,970,1862,New confirmed cases by infection date,Likely increasing,0.054
-Limpopo,502 (113 -- 1804),502,665,594,113,282,405,617,847,1804,New confirmed cases by infection date,Likely increasing,0.15
-North-West,485 (64 -- 2343),485,758,870,64,216,363,634,985,2343,New confirmed cases by infection date,Likely increasing,0.38
-Free State,169 (62 -- 468),169,206,150,62,114,146,197,252,468,New confirmed cases by infection date,Likely increasing,0.13
-Eastern Cape,110 (46 -- 274),110,130,81,46,77,96,127,161,274,New confirmed cases by infection date,Likely increasing,0.096
-Northern Cape,37 (11 -- 89),37,42,26,11,24,32,42,53,89,New confirmed cases by infection date,Stable,0.53
-Mpumalanga,1.6 (0.98 -- 2.2),1.6,1.6,0.37,0.98,1.3,1.5,1.7,1.8,2.2,Effective reproduction no.,Likely increasing,0.054
-Kwazulu-Natal,1.5 (1 -- 2),1.5,1.5,0.3,1,1.3,1.4,1.5,1.7,2,Effective reproduction no.,Increasing,0.036
-Limpopo,1.4 (0.75 -- 2.2),1.4,1.5,0.44,0.75,1.1,1.3,1.5,1.7,2.2,Effective reproduction no.,Likely increasing,0.15
-Western Cape,1.4 (0.77 -- 2),1.4,1.4,0.39,0.77,1.1,1.3,1.5,1.7,2,Effective reproduction no.,Likely increasing,0.14
-Eastern Cape,1.3 (0.92 -- 1.8),1.3,1.3,0.26,0.92,1.2,1.2,1.4,1.5,1.8,Effective reproduction no.,Likely increasing,0.096
-Gauteng,1.3 (0.67 -- 2),1.3,1.3,0.39,0.67,1,1.2,1.4,1.6,2,Effective reproduction no.,Likely increasing,0.24
-Free State,1.2 (0.86 -- 1.7),1.2,1.3,0.25,0.86,1.1,1.2,1.3,1.4,1.7,Effective reproduction no.,Likely increasing,0.13
-North-West,1.1 (0.45 -- 1.9),1.1,1.2,0.46,0.45,0.81,1,1.3,1.5,1.9,Effective reproduction no.,Likely increasing,0.38
-Northern Cape,0.99 (0.58 -- 1.3),0.99,0.97,0.22,0.58,0.83,0.93,1,1.1,1.3,Effective reproduction no.,Stable,0.53
+Gauteng,16683 (5687 -- 42592),16683,19429,12287,5687,11085,14340,19359,24398,42592,New confirmed cases by infection date,Likely increasing,0.098
+Kwazulu-Natal,1612 (687 -- 4073),1612,1900,1203,687,1137,1417,1832,2317,4073,New confirmed cases by infection date,Increasing,0.0055
+Western Cape,1496 (418 -- 4533),1496,1863,1460,418,941,1267,1770,2330,4533,New confirmed cases by infection date,Likely increasing,0.11
+Mpumalanga,1284 (460 -- 3691),1284,1602,1210,460,876,1110,1502,1959,3691,New confirmed cases by infection date,Increasing,0.024
+North-West,1037 (218 -- 3767),1037,1397,1354,218,561,825,1279,1785,3767,New confirmed cases by infection date,Likely increasing,0.2
+Limpopo,835 (211 -- 2819),835,1096,1036,211,483,683,1002,1349,2819,New confirmed cases by infection date,Likely increasing,0.1
+Eastern Cape,412 (181 -- 987),412,479,296,181,293,361,470,581,987,New confirmed cases by infection date,Increasing,0.0025
+Free State,354 (142 -- 990),354,437,333,142,240,308,406,529,990,New confirmed cases by infection date,Increasing,0.041
+Northern Cape,67 (30 -- 144),67,74,37,30,49,60,75,91,144,New confirmed cases by infection date,Likely increasing,0.21
+Eastern Cape,1.7 (1.3 -- 2.3),1.7,1.8,0.33,1.3,1.5,1.6,1.8,1.9,2.3,Effective reproduction no.,Increasing,0.0025
+Kwazulu-Natal,1.7 (1.3 -- 2.4),1.7,1.8,0.34,1.3,1.5,1.7,1.8,2,2.4,Effective reproduction no.,Increasing,0.0055
+Mpumalanga,1.7 (1.2 -- 2.4),1.7,1.8,0.39,1.2,1.5,1.7,1.8,2,2.4,Effective reproduction no.,Increasing,0.024
+Limpopo,1.5 (0.86 -- 2.3),1.5,1.6,0.45,0.86,1.2,1.4,1.6,1.8,2.3,Effective reproduction no.,Likely increasing,0.1
+Western Cape,1.5 (0.85 -- 2.1),1.5,1.5,0.37,0.85,1.2,1.4,1.5,1.7,2.1,Effective reproduction no.,Likely increasing,0.11
+Free State,1.4 (1 -- 1.9),1.4,1.4,0.28,1,1.3,1.4,1.5,1.6,1.9,Effective reproduction no.,Increasing,0.041
+Gauteng,1.4 (0.88 -- 2.1),1.4,1.5,0.37,0.88,1.2,1.4,1.5,1.7,2.1,Effective reproduction no.,Likely increasing,0.098
+North-West,1.4 (0.67 -- 2.1),1.4,1.4,0.42,0.67,1.1,1.3,1.5,1.6,2.1,Effective reproduction no.,Likely increasing,0.2
+Northern Cape,1.1 (0.84 -- 1.4),1.1,1.1,0.18,0.84,1,1.1,1.2,1.2,1.4,Effective reproduction no.,Likely increasing,0.21
