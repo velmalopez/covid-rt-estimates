@@ -1,9 +1,9 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Flanders,5399 (1436 -- 12319),5399,5959,3482,1436,3430,4574,6240,7880,12319,New confirmed cases by infection date,Likely decreasing,0.92
-Wallonia,3231 (1336 -- 5884),3231,3394,1417,1336,2432,2911,3573,4222,5884,New confirmed cases by infection date,Likely decreasing,0.69
-Brussels,923 (498 -- 1510),923,949,310,498,722,844,1005,1142,1510,New confirmed cases by infection date,Likely decreasing,0.82
-Unknown,176 (120 -- 226),176,175,33,120,155,168,184,197,226,New confirmed cases by infection date,Likely increasing,0.21
-Unknown,1.1 (0.92 -- 1.1),1.1,1,0.069,0.92,1,1,1.1,1.1,1.1,Effective reproduction no.,Likely increasing,0.21
-Wallonia,0.94 (0.65 -- 1.1),0.94,0.92,0.14,0.65,0.85,0.91,0.97,1,1.1,Effective reproduction no.,Likely decreasing,0.69
-Brussels,0.88 (0.63 -- 1.1),0.88,0.87,0.14,0.63,0.78,0.84,0.91,0.97,1.1,Effective reproduction no.,Likely decreasing,0.82
-Flanders,0.78 (0.42 -- 1),0.78,0.76,0.19,0.42,0.64,0.72,0.82,0.9,1,Effective reproduction no.,Likely decreasing,0.92
+Flanders,4169 (917 -- 10267),4169,4682,3047,917,2394,3393,4879,6297,10267,New confirmed cases by infection date,Decreasing,0.95
+Wallonia,3593 (1925 -- 6041),3593,3738,1281,1925,2834,3287,3902,4485,6041,New confirmed cases by infection date,Likely decreasing,0.72
+Brussels,1054 (408 -- 1629),1054,1040,365,408,794,965,1142,1285,1629,New confirmed cases by infection date,Stable,0.56
+Unknown,174 (116 -- 228),174,173,34,116,152,166,182,196,228,New confirmed cases by infection date,Likely increasing,0.24
+Unknown,1 (0.9 -- 1.1),1,1,0.072,0.9,1,1,1.1,1.1,1.1,Effective reproduction no.,Likely increasing,0.24
+Brussels,0.99 (0.67 -- 1.1),0.99,0.95,0.14,0.67,0.89,0.96,1,1,1.1,Effective reproduction no.,Stable,0.56
+Wallonia,0.92 (0.69 -- 1.1),0.92,0.92,0.14,0.69,0.83,0.89,0.96,1,1.1,Effective reproduction no.,Likely decreasing,0.72
+Flanders,0.71 (0.33 -- 0.99),0.71,0.69,0.2,0.33,0.55,0.65,0.76,0.84,0.99,Effective reproduction no.,Decreasing,0.95
