@@ -48,7 +48,7 @@ DATASETS <- list(
                                            folder_name = "united-kingdom",
                                            dataset_folder_name = "admissions",
                                            case_modifier = function(admissions) {
-                                             admissions <- admissions[, cases_new := hosp_new_blend]
+                                             admissions <- admissions[, cases_new := hosp_new]
                                              admissions <- add_uk(admissions)
                                              admissions <- admissions[!is.na(cases_new)]
                                              return(admissions) 
