@@ -1,9 +1,9 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Flanders,2366 (1173 -- 5324),2366,2708,1464,1173,1771,2113,2634,3245,5324,New confirmed cases by infection date,Likely decreasing,0.73
-Wallonia,1394 (774 -- 2720),1394,1537,703,774,1099,1280,1528,1784,2720,New confirmed cases by infection date,Likely decreasing,0.85
-Brussels,946 (587 -- 1614),946,1004,347,587,773,874,1016,1153,1614,New confirmed cases by infection date,Likely decreasing,0.63
-Unknown,464 (276 -- 806),464,495,173,276,373,428,505,582,806,New confirmed cases by infection date,Increasing,0.024
-Unknown,1.3 (1.1 -- 1.7),1.3,1.4,0.19,1.1,1.2,1.3,1.4,1.5,1.7,Effective reproduction no.,Increasing,0.024
-Brussels,0.97 (0.82 -- 1.2),0.97,0.98,0.11,0.82,0.91,0.95,0.99,1,1.2,Effective reproduction no.,Likely decreasing,0.63
-Flanders,0.89 (0.66 -- 1.2),0.89,0.91,0.18,0.66,0.79,0.85,0.93,1,1.2,Effective reproduction no.,Likely decreasing,0.73
-Wallonia,0.87 (0.7 -- 1.1),0.87,0.88,0.13,0.7,0.8,0.84,0.9,0.95,1.1,Effective reproduction no.,Likely decreasing,0.85
+Flanders,3310 (1593 -- 8275),3310,3894,2382,1593,2395,2931,3741,4625,8275,New confirmed cases by infection date,Stable,0.56
+Wallonia,1822 (1006 -- 3768),1822,2028,935,1006,1443,1662,2006,2361,3768,New confirmed cases by infection date,Likely decreasing,0.72
+Brussels,1203 (752 -- 2263),1203,1313,505,752,993,1122,1295,1496,2263,New confirmed cases by infection date,Stable,0.45
+Unknown,451 (263 -- 772),451,474,162,263,362,415,488,554,772,New confirmed cases by infection date,Increasing,0.046
+Unknown,1.3 (1 -- 1.6),1.3,1.3,0.18,1,1.2,1.2,1.3,1.4,1.6,Effective reproduction no.,Increasing,0.046
+Brussels,1 (0.85 -- 1.3),1,1,0.13,0.85,0.95,0.99,1,1.1,1.3,Effective reproduction no.,Stable,0.45
+Flanders,0.97 (0.72 -- 1.4),0.97,1,0.21,0.72,0.86,0.93,1,1.1,1.4,Effective reproduction no.,Stable,0.56
+Wallonia,0.93 (0.76 -- 1.2),0.93,0.95,0.14,0.76,0.85,0.9,0.96,1,1.2,Effective reproduction no.,Likely decreasing,0.72
