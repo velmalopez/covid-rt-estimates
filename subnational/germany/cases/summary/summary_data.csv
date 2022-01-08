@@ -1,33 +1,33 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Nordrhein-Westfalen,12154 (7694 -- 21178),12154,13053,4523,7694,10057,11284,13144,15120,21178,New confirmed cases by infection date,Increasing,0.02
-Bayern,9325 (5649 -- 16929),9325,10021,3664,5649,7508,8595,10135,11668,16929,New confirmed cases by infection date,Increasing,0.013
-Baden-Württemberg,6730 (4048 -- 12506),6730,7299,2718,4048,5432,6192,7356,8537,12506,New confirmed cases by infection date,Increasing,0.049
-Hessen,5616 (3586 -- 9537),5616,5971,1927,3586,4625,5224,6040,6915,9537,New confirmed cases by infection date,Increasing,0.0055
-Schleswig-Holstein,4600 (2180 -- 8499),4600,4858,1962,2180,3521,4153,5061,5941,8499,New confirmed cases by infection date,Likely increasing,0.07
-Niedersachsen,4288 (2774 -- 6887),4288,4503,1327,2774,3554,4000,4624,5197,6887,New confirmed cases by infection date,Increasing,0.012
-Berlin,3393 (2168 -- 5589),3393,3576,1093,2168,2794,3167,3630,4119,5589,New confirmed cases by infection date,Likely increasing,0.064
-Rheinland-Pfalz,3281 (1760 -- 6643),3281,3612,1587,1760,2517,2943,3637,4306,6643,New confirmed cases by infection date,Increasing,0.007
-Bremen,2312 (1300 -- 4664),2312,2562,1127,1300,1810,2113,2534,3017,4664,New confirmed cases by infection date,Increasing,0.00025
-Brandenburg,1991 (1148 -- 4275),1991,2273,1211,1148,1541,1801,2198,2609,4275,New confirmed cases by infection date,Likely increasing,0.14
-Hamburg,1808 (1357 -- 2559),1808,1872,405,1357,1608,1729,1897,2059,2559,New confirmed cases by infection date,Increasing,0.02
-Mecklenburg-Vorpommern,1482 (829 -- 3392),1482,1720,884,829,1134,1333,1661,2054,3392,New confirmed cases by infection date,Increasing,0.019
-Sachsen,1464 (869 -- 2700),1464,1586,594,869,1177,1350,1604,1864,2700,New confirmed cases by infection date,Likely decreasing,0.65
-Saarland,1019 (542 -- 2041),1019,1132,526,542,787,920,1134,1357,2041,New confirmed cases by infection date,Increasing,0.021
-Thüringen,825 (513 -- 1638),825,911,364,513,673,761,900,1045,1638,New confirmed cases by infection date,Likely decreasing,0.74
-Sachsen-Anhalt,822 (485 -- 1523),822,891,339,485,654,753,899,1043,1523,New confirmed cases by infection date,Stable,0.48
-Bremen,1.6 (1.3 -- 2.1),1.6,1.7,0.25,1.3,1.5,1.6,1.7,1.8,2.1,Effective reproduction no.,Increasing,0.00025
-Rheinland-Pfalz,1.5 (1.1 -- 2),1.5,1.5,0.26,1.1,1.3,1.4,1.6,1.7,2,Effective reproduction no.,Increasing,0.007
-Saarland,1.5 (1.1 -- 2),1.5,1.5,0.28,1.1,1.3,1.4,1.5,1.7,2,Effective reproduction no.,Increasing,0.021
-Bayern,1.4 (1.1 -- 1.8),1.4,1.4,0.22,1.1,1.3,1.3,1.4,1.5,1.8,Effective reproduction no.,Increasing,0.013
-Hessen,1.4 (1.1 -- 1.7),1.4,1.4,0.19,1.1,1.3,1.3,1.4,1.5,1.7,Effective reproduction no.,Increasing,0.0055
-Schleswig-Holstein,1.4 (0.94 -- 1.8),1.4,1.4,0.28,0.94,1.2,1.4,1.5,1.6,1.8,Effective reproduction no.,Likely increasing,0.07
-Mecklenburg-Vorpommern,1.3 (1 -- 1.9),1.3,1.4,0.27,1,1.2,1.3,1.4,1.5,1.9,Effective reproduction no.,Increasing,0.019
-Niedersachsen,1.3 (1.1 -- 1.6),1.3,1.3,0.16,1.1,1.2,1.3,1.3,1.4,1.6,Effective reproduction no.,Increasing,0.012
-Nordrhein-Westfalen,1.3 (1.1 -- 1.6),1.3,1.3,0.18,1.1,1.2,1.2,1.3,1.4,1.6,Effective reproduction no.,Increasing,0.02
-Baden-Württemberg,1.2 (1 -- 1.6),1.2,1.3,0.19,1,1.1,1.2,1.3,1.4,1.6,Effective reproduction no.,Increasing,0.049
-Berlin,1.2 (0.99 -- 1.4),1.2,1.2,0.13,0.99,1.1,1.1,1.2,1.2,1.4,Effective reproduction no.,Likely increasing,0.064
-Brandenburg,1.2 (0.93 -- 1.7),1.2,1.2,0.24,0.93,1.1,1.1,1.2,1.3,1.7,Effective reproduction no.,Likely increasing,0.14
-Hamburg,1.1 (1 -- 1.3),1.1,1.2,0.092,1,1.1,1.1,1.2,1.2,1.3,Effective reproduction no.,Increasing,0.02
-Sachsen-Anhalt,1 (0.8 -- 1.3),1,1,0.17,0.8,0.92,0.98,1.1,1.1,1.3,Effective reproduction no.,Stable,0.48
-Sachsen,0.95 (0.76 -- 1.2),0.95,0.96,0.15,0.76,0.86,0.91,0.98,1,1.2,Effective reproduction no.,Likely decreasing,0.65
-Thüringen,0.91 (0.75 -- 1.2),0.91,0.93,0.15,0.75,0.83,0.88,0.94,1,1.2,Effective reproduction no.,Likely decreasing,0.74
+Nordrhein-Westfalen,14503 (8735 -- 25334),14503,15500,5509,8735,11826,13401,15751,17975,25334,New confirmed cases by infection date,Increasing,0.021
+Bayern,8017 (4899 -- 13627),8017,8466,2800,4899,6497,7414,8647,9901,13627,New confirmed cases by infection date,Likely increasing,0.05
+Niedersachsen,5874 (3780 -- 9690),5874,6181,1866,3780,4882,5488,6286,7125,9690,New confirmed cases by infection date,Increasing,0.0025
+Hessen,5795 (3632 -- 9519),5795,6077,1926,3632,4779,5381,6186,6987,9519,New confirmed cases by infection date,Increasing,0.0098
+Schleswig-Holstein,4969 (2212 -- 9338),4969,5274,2191,2212,3786,4451,5511,6453,9338,New confirmed cases by infection date,Likely increasing,0.09
+Baden-Württemberg,4916 (3083 -- 8364),4916,5224,1720,3083,4031,4558,5306,6043,8364,New confirmed cases by infection date,Likely increasing,0.21
+Berlin,4843 (3026 -- 8499),4843,5194,1857,3026,3959,4487,5242,5990,8499,New confirmed cases by infection date,Increasing,0.014
+Rheinland-Pfalz,3710 (2012 -- 7501),3710,4121,1787,2012,2877,3389,4125,4947,7501,New confirmed cases by infection date,Increasing,0.0068
+Bremen,2481 (1418 -- 4640),2481,2691,1084,1418,1970,2266,2721,3161,4640,New confirmed cases by infection date,Increasing,5e-04
+Hamburg,2068 (1544 -- 3043),2068,2151,479,1544,1830,1972,2175,2377,3043,New confirmed cases by infection date,Increasing,0.0098
+Brandenburg,2024 (1214 -- 4082),2024,2269,1016,1214,1609,1846,2236,2648,4082,New confirmed cases by infection date,Likely increasing,0.13
+Mecklenburg-Vorpommern,1591 (914 -- 3265),1591,1771,799,914,1232,1443,1763,2092,3265,New confirmed cases by infection date,Increasing,0.016
+Sachsen,1344 (806 -- 2404),1344,1444,530,806,1082,1237,1464,1692,2404,New confirmed cases by infection date,Likely decreasing,0.72
+Saarland,1129 (607 -- 2205),1129,1232,527,607,873,1022,1244,1469,2205,New confirmed cases by infection date,Increasing,0.016
+Thüringen,766 (478 -- 1381),766,828,301,478,624,710,831,960,1381,New confirmed cases by infection date,Likely decreasing,0.79
+Sachsen-Anhalt,573 (347 -- 1009),573,610,217,347,460,528,623,709,1009,New confirmed cases by infection date,Likely decreasing,0.81
+Bremen,1.6 (1.3 -- 2),1.6,1.6,0.22,1.3,1.4,1.5,1.6,1.7,2,Effective reproduction no.,Increasing,5e-04
+Rheinland-Pfalz,1.5 (1.2 -- 2),1.5,1.5,0.26,1.2,1.3,1.4,1.6,1.7,2,Effective reproduction no.,Increasing,0.0068
+Saarland,1.5 (1.1 -- 2),1.5,1.5,0.26,1.1,1.3,1.4,1.5,1.7,2,Effective reproduction no.,Increasing,0.016
+Hessen,1.4 (1.1 -- 1.7),1.4,1.4,0.18,1.1,1.2,1.3,1.4,1.5,1.7,Effective reproduction no.,Increasing,0.0098
+Niedersachsen,1.4 (1.2 -- 1.7),1.4,1.4,0.17,1.2,1.3,1.4,1.4,1.5,1.7,Effective reproduction no.,Increasing,0.0025
+Schleswig-Holstein,1.4 (0.89 -- 1.8),1.4,1.4,0.28,0.89,1.2,1.3,1.5,1.6,1.8,Effective reproduction no.,Likely increasing,0.09
+Bayern,1.3 (1 -- 1.6),1.3,1.3,0.19,1,1.2,1.2,1.3,1.4,1.6,Effective reproduction no.,Likely increasing,0.05
+Berlin,1.3 (1.1 -- 1.5),1.3,1.3,0.15,1.1,1.2,1.2,1.3,1.4,1.5,Effective reproduction no.,Increasing,0.014
+Mecklenburg-Vorpommern,1.3 (1.1 -- 1.8),1.3,1.4,0.24,1.1,1.2,1.3,1.4,1.5,1.8,Effective reproduction no.,Increasing,0.016
+Nordrhein-Westfalen,1.3 (1.1 -- 1.7),1.3,1.3,0.19,1.1,1.2,1.3,1.4,1.4,1.7,Effective reproduction no.,Increasing,0.021
+Brandenburg,1.2 (0.95 -- 1.6),1.2,1.2,0.2,0.95,1.1,1.1,1.2,1.3,1.6,Effective reproduction no.,Likely increasing,0.13
+Hamburg,1.2 (1.1 -- 1.4),1.2,1.2,0.097,1.1,1.1,1.2,1.2,1.2,1.4,Effective reproduction no.,Increasing,0.0098
+Baden-Württemberg,1.1 (0.9 -- 1.4),1.1,1.1,0.15,0.9,1,1.1,1.1,1.2,1.4,Effective reproduction no.,Likely increasing,0.21
+Sachsen,0.92 (0.75 -- 1.2),0.92,0.94,0.13,0.75,0.84,0.89,0.95,1,1.2,Effective reproduction no.,Likely decreasing,0.72
+Sachsen-Anhalt,0.89 (0.71 -- 1.1),0.89,0.9,0.13,0.71,0.81,0.86,0.92,0.97,1.1,Effective reproduction no.,Likely decreasing,0.81
+Thüringen,0.89 (0.74 -- 1.2),0.89,0.91,0.13,0.74,0.82,0.87,0.92,0.98,1.2,Effective reproduction no.,Likely decreasing,0.79
