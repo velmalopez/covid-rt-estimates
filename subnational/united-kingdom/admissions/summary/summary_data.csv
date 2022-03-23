@@ -1,11 +1,11 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-England,2725 (1905 -- 4058),2725,2819,673,1905,2353,2578,2876,3179,4058,New confirmed cases by infection date,Likely increasing,0.086
-United Kingdom,2291 (1591 -- 3246),2291,2340,513,1591,1987,2172,2420,2645,3246,New confirmed cases by infection date,Likely increasing,0.31
-Scotland,203 (130 -- 305),203,208,54,130,171,190,216,240,305,New confirmed cases by infection date,Stable,0.42
-Wales,50 (25 -- 99),50,54,24,25,38,45,55,65,99,New confirmed cases by infection date,Likely increasing,0.14
-Northern Ireland,6 (2 -- 14),6,6,3,2,4,5,7,8,14,New confirmed cases by infection date,Decreasing,1
-England,1.2 (0.97 -- 1.5),1.2,1.2,0.16,0.97,1.1,1.1,1.2,1.3,1.5,Effective reproduction no.,Likely increasing,0.086
-Wales,1.2 (0.89 -- 1.6),1.2,1.2,0.23,0.89,1.1,1.2,1.3,1.4,1.6,Effective reproduction no.,Likely increasing,0.14
-United Kingdom,1.1 (0.85 -- 1.3),1.1,1.1,0.14,0.85,0.98,1,1.1,1.2,1.3,Effective reproduction no.,Likely increasing,0.31
-Scotland,1 (0.81 -- 1.2),1,1,0.13,0.81,0.94,0.99,1.1,1.1,1.2,Effective reproduction no.,Stable,0.42
-Northern Ireland,0.53 (0.29 -- 0.8),0.53,0.54,0.15,0.29,0.43,0.49,0.57,0.64,0.8,Effective reproduction no.,Decreasing,1
+England,2391 (1655 -- 3402),2391,2444,540,1655,2064,2269,2529,2768,3402,New confirmed cases by infection date,Likely increasing,0.23
+United Kingdom,2128 (1488 -- 3010),2128,2171,469,1488,1851,2019,2243,2429,3010,New confirmed cases by infection date,Stable,0.5
+Scotland,158 (97 -- 244),158,163,45,97,131,148,169,190,244,New confirmed cases by infection date,Likely decreasing,0.78
+Wales,32 (14 -- 63),32,35,15,14,24,29,36,43,63,New confirmed cases by infection date,Stable,0.47
+Northern Ireland,7 (2 -- 15),7,7,4,2,4,6,8,10,15,New confirmed cases by infection date,Decreasing,0.99
+England,1.1 (0.89 -- 1.3),1.1,1.1,0.14,0.89,1,1.1,1.1,1.2,1.3,Effective reproduction no.,Likely increasing,0.23
+United Kingdom,1 (0.81 -- 1.2),1,1,0.13,0.81,0.92,0.97,1,1.1,1.2,Effective reproduction no.,Stable,0.5
+Wales,1 (0.69 -- 1.3),1,1,0.2,0.69,0.89,0.97,1.1,1.1,1.3,Effective reproduction no.,Stable,0.47
+Scotland,0.91 (0.69 -- 1.1),0.91,0.9,0.13,0.69,0.82,0.87,0.94,0.99,1.1,Effective reproduction no.,Likely decreasing,0.78
+Northern Ireland,0.56 (0.32 -- 0.82),0.56,0.56,0.15,0.32,0.45,0.52,0.6,0.66,0.82,Effective reproduction no.,Decreasing,0.99
