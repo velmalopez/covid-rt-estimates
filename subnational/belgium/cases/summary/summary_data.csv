@@ -1,9 +1,9 @@
 region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
-Flanders,2375 (675 -- 6784),2375,2939,2185,675,1454,1981,2899,3808,6784,New confirmed cases by infection date,Decreasing,0.95
-Wallonia,1094 (459 -- 2497),1094,1242,700,459,764,961,1246,1534,2497,New confirmed cases by infection date,Likely decreasing,0.68
-Brussels,350 (174 -- 658),350,374,156,174,266,316,385,457,658,New confirmed cases by infection date,Likely decreasing,0.87
-Unknown,22 (9 -- 47),22,24,12,9,16,19,26,31,47,New confirmed cases by infection date,Decreasing,0.99
-Wallonia,0.89 (0.55 -- 1.3),0.89,0.91,0.25,0.55,0.73,0.83,0.95,1.1,1.3,Effective reproduction no.,Likely decreasing,0.68
-Brussels,0.8 (0.53 -- 1.1),0.8,0.81,0.18,0.53,0.69,0.75,0.84,0.92,1.1,Effective reproduction no.,Likely decreasing,0.87
-Flanders,0.61 (0.3 -- 1),0.61,0.63,0.21,0.3,0.47,0.56,0.67,0.76,1,Effective reproduction no.,Decreasing,0.95
-Unknown,0.6 (0.36 -- 0.86),0.6,0.61,0.15,0.36,0.5,0.56,0.65,0.71,0.86,Effective reproduction no.,Decreasing,0.99
+Flanders,1979 (486 -- 5704),1979,2411,1779,486,1208,1654,2359,3123,5704,New confirmed cases by infection date,Decreasing,0.98
+Wallonia,459 (124 -- 1335),459,558,412,124,280,390,542,716,1335,New confirmed cases by infection date,Likely decreasing,0.94
+Brussels,393 (197 -- 737),393,420,170,197,304,359,429,506,737,New confirmed cases by infection date,Likely decreasing,0.83
+Unknown,55 (29 -- 98),55,58,21,29,43,50,60,70,98,New confirmed cases by infection date,Likely decreasing,0.84
+Unknown,0.85 (0.61 -- 1.1),0.85,0.85,0.15,0.61,0.75,0.81,0.88,0.95,1.1,Effective reproduction no.,Likely decreasing,0.84
+Brussels,0.83 (0.57 -- 1.2),0.83,0.84,0.18,0.57,0.72,0.79,0.87,0.95,1.2,Effective reproduction no.,Likely decreasing,0.83
+Wallonia,0.66 (0.32 -- 1),0.66,0.67,0.22,0.32,0.52,0.61,0.71,0.8,1,Effective reproduction no.,Likely decreasing,0.94
+Flanders,0.57 (0.26 -- 0.93),0.57,0.58,0.21,0.26,0.44,0.52,0.62,0.7,0.93,Effective reproduction no.,Decreasing,0.98
